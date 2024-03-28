@@ -1,0 +1,245 @@
+:root {
+  --md-primary-fg-color: #3c129e;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 1px;
+  border-left-width: 4px;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh; /* Высота вьюпорта */
+  border: none;
+}
+
+#custom-page-style .md-grid {
+  max-width: none;
+}
+
+
+.red {
+    color:rgb(209, 6, 6);
+}
+
+.gold {
+    color:gold;
+} 
+
+.green {
+  color: #13c422;
+}
+
+.purple {
+  color:#7140e2;
+}
+
+.pink {
+  color:#eba8a8;
+}
+
+code {
+  color: white;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Это - разделение полосочками страничками в левом меню*/
+.md-nav__item.md-nav__item--section.md-nav__item--nested {
+    border-top: 1px solid #353535;
+}
+
+/* Это - разделение полосочками между верхними табами*/
+.md-tabs__item{
+  border-right: 1px solid #526de7;
+}
+
+/* Это - делает цвет жёлтым с золотым обрамлением*/
+.gold-outline {
+    color:gold;
+    border: solid;
+    border-color: #e7b24e;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.big-button {
+  width: 100%;
+}
+
+.margin-center {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+.bigger-text {
+  font-size: 1rem;
+}
+
+.spoiler {
+  background-color: #000000;
+  color: #000000;
+  border: 1px #000; /* Dotted border */
+  border-radius: 5px;
+}
+
+.spoiler:hover, .spoiler:focus {
+  background: transparent;
+  color: inherit;
+}
+
+
+@media (max-width: 768px) {
+  .margin-center {
+    margin-left: 20px; /* Smaller margin for mobile */
+    margin-right: 20px;
+  }
+
+  .bigger-text {
+    font-size: 0.9rem; /* Slightly smaller font size for mobile */
+  }
+
+  .shadow {
+    text-shadow: none; /* Removing shadow for better readability */
+  }
+}
+
+.md-typeset h1 {
+  color: #8758f3; 
+  font-weight: bold;
+}
+
+.md-typeset h2 {
+  color: #966cf8; 
+  font-weight: bold;
+}
+
+.shadow {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-shadow {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #000000);
+}
+
+@keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+
+.neon {
+    animation: lights 5s 750ms linear infinite;
+}
+
+@keyframes sinusoidalWave {
+  0%, 100% {
+      transform: translate(0, 0);
+  }
+  25% {
+      transform: translate(10px, -10px); /* Moves right and up */
+  }
+  50% {
+      transform: translate(20px, 0); /* Moves further right */
+  }
+  75% {
+      transform: translate(10px, 10px); /* Moves right and down */
+  }
+}
+
+.moving {
+  display: inline-block;
+  animation: sinusoidalWave 2s infinite linear;
+}
+
+@keyframes waveAnimation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-5px); /* Change the value for different wave height */
+  }
+}
+
+.wave {
+  display: inline-block;
+  animation: waveAnimation 2s infinite ease-in-out;
+}
+
+@keyframes rainbowAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.rainbow {
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent; /* Hide the original text color */
+  background-size: 200% auto;
+  animation: rainbowAnimation 5s linear infinite;
+}
+
+
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-animation {
+  animation: rotate-animation 2s infinite linear;
+}
