@@ -31,10 +31,14 @@
 
 - Песок
 
+- Стекло
+
 ## Крафт
 
 - 9 блоков одного типа
 
 ![comp](../../assets/crafts/compressed_cobblestone.png){ width=400 }
 
-![comp](../../assets/crafts/compressed_deepslate.png){ width=400 }
+ИЛИ
+
+- 1 скомпресированный булыжник/1 скомпресированный песок/1 скомпресированный колотый глубинный сланец в печку
