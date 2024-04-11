@@ -266,5 +266,3 @@ icon: material/tooltip-check
     -    __To be continued...__
     
     </div>
-
-Тест 5!!!!!!! СУКААААААА
