@@ -5,8 +5,6 @@
         ![kotomat](../../assets/items/items/kotomat.png){ width=150 }
     </figure>
     ***
-    **Название:** Котомат
-    ***
     **Тип:** Предмет
     ***
     **Получение:**

@@ -7,8 +7,6 @@
         ![kplus3](../../assets/items/usable/kplusplusplus.png){ width=150 }
     </figure>
     ***
-    **Название:** Котик+(++) на `n` дней
-    ***
     **Тип:** Применяемое
     ***
     **Получение:**

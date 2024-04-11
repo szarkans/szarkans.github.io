@@ -5,8 +5,6 @@
         ![cattrack](../../assets/items/block/gycha.png){ width=150 }
     </figure>
     ***
-    **Название:** БЛОК ГЫЧИ
-    ***
     **Тип:** Блок
     ***
     **Получение:**

@@ -5,8 +5,6 @@
         ![cattrack](../../assets/items/block/reinforced_deepslate.png){ width=150 }
     </figure>
     ***
-    **Название:** Укреплённый глубинный сланец
-    ***
     **Тип:** Блок
     ***
     **Получение:**

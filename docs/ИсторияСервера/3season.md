@@ -468,7 +468,7 @@
 
 ***
 
-3 сезон закончился где-то между 20 и 28 января, точно не уверен. Карта мира сохранена на компьютере админа.
+3 сезон закончился где-то между 20 и 28 января, точно не уверен. 
 
 ### Топ игроков по онлайну за весь сезон
 
@@ -494,7 +494,9 @@
 
 ***
 
-## Альбом 3 сезона
+## Данные
 
-[:simple-vk: Ссылка](https://vk.com/album-210306238_284869427){ .md-button }
+[:simple-vk: Альбом 3 сезона](https://vk.com/album-210306238_284869427){ .md-button .md-button--primary }
+
+[ :material-arrow-right-top: torrent-файл карты 3 сезона ](https://drive.google.com/file/d/1O9mM_4viufF9Yc--3A_C9O2ZurznZ7_r/view?usp=sharing){ .md-button .md-button--primary }
 

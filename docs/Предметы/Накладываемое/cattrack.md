@@ -5,8 +5,6 @@
         ![cattrack](../../assets/items/consumable/cattrack.png){ width=150 }
     </figure>
     ***
-    **Название:** Модуль CatTrack
-    ***
     **Тип:** Накладываемое
     ***
     **Получение:**

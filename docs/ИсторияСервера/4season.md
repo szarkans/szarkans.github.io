@@ -142,6 +142,8 @@
 
 Сезон кончился 3 мая 2023 года. Карта мира сохранена на компьютере админа.
 
-### Альбом сезона
+## Данные
 
-[ :simple-vk: Ссылка](https://vk.com/album-210306238_291063222){.md-button}
+[ :simple-vk: Альбом 4 сезона](https://vk.com/album-210306238_291063222){ .md-button .md-button--primary }
+
+[ :material-arrow-right-top: torrent-файл карты 4 сезона ](https://drive.google.com/file/d/1xngvnDyLbnfCyUn_LqTrscxPvTpAgbzr/view?usp=sharing){ .md-button }

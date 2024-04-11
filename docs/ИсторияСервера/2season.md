@@ -107,5 +107,5 @@
 
 ## Альбом 2 сезона
 
-[:simple-vk: Ссылка](https://vk.com/album-210306238_283207236){ .md-button }
+[:simple-vk: Ссылка](https://vk.com/album-210306238_283207236){ .md-button .md-button--primary }
 

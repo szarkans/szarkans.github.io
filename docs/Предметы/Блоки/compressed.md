@@ -5,8 +5,6 @@
         ![cattrack](../../assets/items/block/enchanted_cobblestone.png){ width=150 }
     </figure>
     ***
-    **Название:** Скомпресированный <блок>
-    ***
     **Тип:** Блок
     ***
     **Получение:**

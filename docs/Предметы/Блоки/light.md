@@ -5,8 +5,6 @@
         ![cattrack](../../assets/items/block/light.png){ width=150 }
     </figure>
     ***
-    **Название:** Блок света
-    ***
     **Тип:** Блок
     ***
     **Получение:**
