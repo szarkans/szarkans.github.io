@@ -197,7 +197,7 @@
 
 ![netherhub](../assets/server_history/season3/netherhub.png)
 
-# 8 августа
+## 8 августа
 
 - Был проведён аукцион вещей забаненных игроков [https://vk.com/wall-210306238_1112](https://vk.com/wall-210306238_1112)
 
@@ -498,5 +498,5 @@
 
 [:simple-vk: Альбом 3 сезона](https://vk.com/album-210306238_284869427){ .md-button .md-button--primary }
 
-[ :material-arrow-right-top: torrent-файл карты 3 сезона ](https://drive.google.com/file/d/1O9mM_4viufF9Yc--3A_C9O2ZurznZ7_r/view?usp=sharing){ .md-button .md-button--primary }
+[ :material-arrow-right-top: torrent-файл карты 3 сезона ](../assets/files/catcraft-map-season3.torrent){ .md-button .md-button--primary }
 

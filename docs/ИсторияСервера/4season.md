@@ -146,4 +146,4 @@
 
 [ :simple-vk: Альбом 4 сезона](https://vk.com/album-210306238_291063222){ .md-button .md-button--primary }
 
-[ :material-arrow-right-top: torrent-файл карты 4 сезона ](https://drive.google.com/file/d/1xngvnDyLbnfCyUn_LqTrscxPvTpAgbzr/view?usp=sharing){ .md-button }
+[ :material-arrow-right-top: torrent-файл карты 4 сезона ](../assets/files/catcraft-map-season4.torrent){ .md-button }

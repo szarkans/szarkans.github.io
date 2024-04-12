@@ -1079,4 +1079,4 @@ CatcraftFM завершил работу - хостинг не справлял�
 
 ## Данные
 
-[ :material-arrow-right-top: torrent-файл карты 5 сезона ](https://drive.google.com/file/d/1AqO2ogIo6cnMt5TXaEvGCIPNXiny2flX/view?usp=sharing){ .md-button }
+[ :material-arrow-right-top: torrent-файл карты 5 сезона ](../assets/files/catcraft-map-season5.torrent){ .md-button }
