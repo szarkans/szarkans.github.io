@@ -298,3 +298,16 @@ img {
   max-width: 90%; /* Provides some margin around the image */
   transition: transform 0.3s ease;
 }
+
+@keyframes heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1); /* Default size */
+  }
+  20%, 60% {
+    transform: scale(1.15); /* Scaled up to 115% */
+  }
+}
+.heart {
+  display: inline-block; /* Ensures transform applies correctly */
+  animation: heart 1000ms infinite;
+}
