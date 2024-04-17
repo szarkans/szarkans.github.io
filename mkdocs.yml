@@ -18,8 +18,8 @@ theme:
   language: ru
   features:
     - content.tabs.link
-    - navigation.instant
-    - navigation.instant.progress
+ #   - navigation.instant
+  #  - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -75,6 +75,7 @@ extra_javascript:
   - javascripts/tablesort.js
  # - javascripts/players.js
   - javascripts/effects.js
+  - javascripts/img_expand.js
 extra: 
   consent:
     title: Одобри печеньки!
@@ -176,12 +177,13 @@ nav:
   #   - Ванильные предметы:
   #     - "items/vanilla/templates.md"
   #     - "items/vanilla/totem.md"
-  # - Гайды:
-  #   - guides/set_skin.md
-  #   - guides/mod_download.md
-  #   - guides/mod_errors.md
-  #   - guides/launcher.md
-  #   - guides/skins_tlauncher.md
+  - Гайды:
+    - guides/set_skin.md
+    - guides/mod_download.md
+    - guides/mod_errors.md
+    - guides/launcher.md
+    - guides/skins_tlauncher.md
+    - guides/edit_wiki.md
   - История сервера:
     - server-history/1season.md
     - server-history/2season.md

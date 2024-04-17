@@ -272,3 +272,29 @@ code {
 .rotate-animation {
   animation: rotate-animation 2s infinite linear;
 }
+
+
+img {
+  cursor: pointer;
+}
+
+/* Overlay that covers the entire screen */
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  display: none; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 1050; /* High z-index to be on top */
+}
+
+/* Style for the image inside the overlay */
+.image-overlay img {
+  max-height: 90%; /* Limits the image size to the viewport */
+  max-width: 90%; /* Provides some margin around the image */
+  transition: transform 0.3s ease;
+}
