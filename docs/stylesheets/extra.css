@@ -2,6 +2,35 @@
   --md-primary-fg-color: #3c129e;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #90030C;
+  --md-status--inprogress: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/></svg>');
+}
+
+.md-status--inprogress::after {
+  mask-image: var(--md-status--inprogress);
+  -webkit-mask-image: var(--md-status--inprogress);
+}
+
+.md-header,
+.md-tabs {
+  background-image: url('../assets/background.svg');
+  background-size: cover;
+}
+/* Image taken from https://docs.kolena.com */
+/* Картинка взята с https://docs.kolena.com */
+
+
+.md-tabs {
+  background-position-y: -48px; 
+}
+@media screen and (min-width: 1600px) {
+  .md-tabs {
+    background-position-y: -52.8px; 
+  }
+}
+@media screen and (min-width: 2000px) {
+  .md-tabs {
+    background-position-y: -57.6px; 
+  }
 }
 
 .md-typeset .admonition,
