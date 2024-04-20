@@ -1,27 +1,38 @@
 :root {
+  --md-text-font: 'Mulish', system-ui, "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+  --md-typeset-heading: 'Mulish', system-ui, sans-serif;
   --md-primary-fg-color: #3c129e;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #90030C;
   --md-status--inprogress: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/></svg>');
 }
 
-.md-status--inprogress::after {
-  mask-image: var(--md-status--inprogress);
-  -webkit-mask-image: var(--md-status--inprogress);
-}
-
-.md-header,
-.md-tabs {
+/* Добавляет свг картинку в хедер */
+.md-header, .md-tabs {
   background-image: url('../assets/background.svg');
   background-size: cover;
 }
 /* Image taken from https://docs.kolena.com */
 /* Картинка взята с https://docs.kolena.com */
 
-
+/* Делает картинку сверху во весь хедер */
 .md-tabs {
   background-position-y: -48px; 
 }
+
+/* Увеличивает размер текста в таблица */
+td {
+  font-size: 0.75rem;
+}
+
+/* Делает адмонитионы (плашки) более красивыми */
+.md-typeset .admonition, .md-typeset details {
+  border-width: 1px;
+  border-left-width: 4px;
+  font-size: .75rem;
+}
+
+/* Тут смена размеров всего для разных устройств */
 @media screen and (min-width: 1600px) {
   .md-tabs {
     background-position-y: -52.8px; 
@@ -33,281 +44,80 @@
   }
 }
 
-.md-typeset .admonition,
-.md-typeset details {
-  border-width: 1px;
-  border-left-width: 4px;
-}
-
-iframe {
-  width: 100%;
-  height: 100vh; /* Высота вьюпорта */
-  border: none;
-}
-
-#custom-page-style .md-grid {
-  max-width: none;
+@media (max-width: 768px) {
+  .margin-center {
+      margin-left: 20px; /* Smaller margin for mobile */
+      margin-right: 20px;
+  }
 }
 
 
-.red {
-    color:rgb(209, 6, 6);
+.md-status--inprogress::after {
+  mask-image: var(--md-status--inprogress);
+  -webkit-mask-image: var(--md-status--inprogress);
 }
 
-.gold {
-    color:gold;
-} 
-
-.green {
-  color: #13c422;
+::selection {
+  color: var(--grayscale-gray-99-black);
+  background-color: var(--md-primary-fg-color--light);
 }
 
-.purple {
-  color:#7140e2;
-}
-
-.pink {
-  color:#eba8a8;
-}
-
-code {
-  color: white;
-  font-weight: bold;
-}
-
-.bold {
-  font-weight: bold;
+@font-face {
+  font-family: "Mulish";
+  src: url("../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 
 /* Это - разделение полосочками страничками в левом меню*/
 .md-nav__item.md-nav__item--section.md-nav__item--nested {
-    border-top: 1px solid #353535;
+  border-top: 1px solid #353535;
+}
+
+.md-nav {
+  font-size: .8rem;
+  font-weight: 450;
+}
+
+.md-tabs__link {
+  font-weight: 500;
 }
 
 /* Это - разделение полосочками между верхними табами*/
-.md-tabs__item{
-  border-right: 1px solid #526de7;
+/* .md-tabs__item{
+border-right: 1px solid #526de7;
+} */
+
+/* Изменение вообще всего текста */
+.md-typeset{
+  font-family: var(--md-text-font);
+  font-size: .9rem;
 }
 
-/* Это - делает цвет жёлтым с золотым обрамлением*/
-.gold-outline {
-    color:gold;
-    border: solid;
-    border-color: #e7b24e;
-    border-width: 2px;
-    border-radius: 5px;
-}
-
-.big-button {
-  width: 100%;
-}
-
-.margin-center {
-  margin-left: 150px;
-  margin-right: 150px;
-  text-align: center;
-}
-
-.bigger-text {
-  font-size: 1rem;
-}
-
-.spoiler {
-  background-color: #000000;
-  color: #000000;
-  border: 1px #000; /* Dotted border */
-  border-radius: 5px;
-}
-
-.spoiler:hover, .spoiler:focus {
-  background: transparent;
-  color: inherit;
-}
-
-
-@media (max-width: 768px) {
-  .margin-center {
-    margin-left: 20px; /* Smaller margin for mobile */
-    margin-right: 20px;
-  }
-
-  .bigger-text {
-    font-size: 0.9rem; /* Slightly smaller font size for mobile */
-  }
-
-  .shadow {
-    text-shadow: none; /* Removing shadow for better readability */
-  }
-}
-
+/* Изменение заголовков */
 .md-typeset h1 {
   color: #8758f3; 
-  font-weight: bold;
+  font-size: 2rem;
+  font-family: var(--md-typeset-heading);
+  font-weight: 900;
+  margin: 0 0 var(--spacing-3);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Изменение под-заголовков */
 .md-typeset h2 {
   color: #966cf8; 
-  font-weight: bold;
+  font-weight: 600;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.shadow {
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+/* Изменение под-под-заголовков */
+.md-typeset h3 {
+  color: #b698fc; 
+  font-weight: 500;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.image-shadow {
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #000000);
-}
-
-@keyframes lights {
-    0% {
-      color: hsl(230, 40%, 80%);
-      text-shadow:
-        0 0 1em hsla(320, 100%, 50%, 0.2),
-        0 0 0.125em hsla(320, 100%, 60%, 0.3),
-        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
-    }
-    
-    30% { 
-      color: hsl(230, 80%, 90%);
-      text-shadow:
-        0 0 1em hsla(320, 100%, 50%, 0.5),
-        0 0 0.125em hsla(320, 100%, 60%, 0.5),
-        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-    }
-    
-    40% { 
-      color: hsl(230, 100%, 95%);
-      text-shadow:
-        0 0 1em hsla(320, 100%, 50%, 0.5),
-        0 0 0.125em hsla(320, 100%, 90%, 0.5),
-        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
-        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
-    }
-    
-    70% {
-      color: hsl(230, 80%, 90%);
-      text-shadow:
-        0 0 1em hsla(320, 100%, 50%, 0.5),
-        0 0 0.125em hsla(320, 100%, 60%, 0.5),
-        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-    }
-    
-    100% {
-      color: hsl(230, 40%, 80%);
-      text-shadow:
-        0 0 1em hsla(320, 100%, 50%, 0.2),
-        0 0 0.125em hsla(320, 100%, 60%, 0.3),
-        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
-    }
-    
-  }
-
-.neon {
-    animation: lights 5s 750ms linear infinite;
-}
-
-@keyframes sinusoidalWave {
-  0%, 100% {
-      transform: translate(0, 0);
-  }
-  25% {
-      transform: translate(10px, -10px); /* Moves right and up */
-  }
-  50% {
-      transform: translate(20px, 0); /* Moves further right */
-  }
-  75% {
-      transform: translate(10px, 10px); /* Moves right and down */
-  }
-}
-
-.moving {
-  display: inline-block;
-  animation: sinusoidalWave 2s infinite linear;
-}
-
-@keyframes waveAnimation {
-  0%, 100% {
-      transform: translateY(0);
-  }
-  50% {
-      transform: translateY(-5px); /* Change the value for different wave height */
-  }
-}
-
-.wave {
-  display: inline-block;
-  animation: waveAnimation 2s infinite ease-in-out;
-}
-
-@keyframes rainbowAnimation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-.rainbow {
-  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
-  -webkit-background-clip: text;
-  color: transparent; /* Hide the original text color */
-  background-size: 200% auto;
-  animation: rainbowAnimation 5s linear infinite;
-}
-
-
-@keyframes rotate-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.rotate-animation {
-  animation: rotate-animation 2s infinite linear;
-}
-
-
-img {
-  cursor: pointer;
-}
-
-/* Overlay that covers the entire screen */
-.image-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
-  display: none; /* Hidden by default */
-  justify-content: center;
-  align-items: center;
-  z-index: 1050; /* High z-index to be on top */
-}
-
-/* Style for the image inside the overlay */
-.image-overlay img {
-  max-height: 90%; /* Limits the image size to the viewport */
-  max-width: 90%; /* Provides some margin around the image */
-  transition: transform 0.3s ease;
-}
-
-@keyframes heart {
-  0%, 40%, 80%, 100% {
-    transform: scale(1); /* Default size */
-  }
-  20%, 60% {
-    transform: scale(1.15); /* Scaled up to 115% */
-  }
-}
-.heart {
-  display: inline-block; /* Ensures transform applies correctly */
-  animation: heart 1000ms infinite;
+/* Изменение таблиц - делает более широкий бордер */
+.md-typeset table:not([class]) {
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--md-typeset-table-color);
 }

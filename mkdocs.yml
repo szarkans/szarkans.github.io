@@ -37,6 +37,7 @@ theme:
   favicon: assets/icon.png
   font:
     text: Inter
+    code: Fira Code
 markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
@@ -68,8 +69,10 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/my.css
 plugins:
   - search
+  - open-in-new-tab
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
@@ -125,8 +128,8 @@ nav:
       - info/rules/rules.md
       - info/rules/laws.md
     - 'Моды':
-      - info/mods/mods.md
-      - info/mods/required_mods.md
+  #    - info/mods/mods.md
+  #    - info/mods/required_mods.md
       - info/mods/cool_mods.md
   # - Геймплей:
   #   - Роллплей:
@@ -149,7 +152,7 @@ nav:
   #     - "gameplay/unique/brewery.md"
   #     - Рыбалка:
   #       - "gameplay/unique/fishing/index.md"
-  #       - Список рыб: gameplay/unique/fishing/fishing_gamelist.md
+  #       - Список рыб: gameplay/unique/fishing/fish_list.md
   #     - gameplay/unique/voicechat.md
   #   - Награды игрокам:
   #     - gameplay/rewards/list.md
@@ -161,7 +164,7 @@ nav:
   #   - Накладываемое:
   #     - "items/clickable/cattrack.md"
   #     - "items/clickable/scroll.md"
-  #   - "blocks":
+  #   - Блоки:
   #     - "items/blocks/gycha.md"
   #     - "items/blocks/compressed.md"
   #     - "items/blocks/reinforced.md"

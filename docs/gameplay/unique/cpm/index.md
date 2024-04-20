@@ -12,19 +12,19 @@ icon: material/account-edit
     **Ссылка:** [https://modrinth.com/plugin/custom-player-models/versions](https://modrinth.com/plugin/custom-player-models/versions)
 
 !!! danger ""
-    Когда скачаешь мод - нажми английскую ++g++, зайди в `Safety Settings` справа снизу и выбери <br>`Profile: Off`! Иначе ты не увидишь многие модельки игроков!
+    Когда скачаешь мод - нажми английскую ++g++, зайди в `Safety Settings` справа снизу и выбери `Profile: Off`! Иначе ты не увидишь многие модельки игроков!
 
-    ![settings1](../../../assets/cpm/settings1.png)
+    ![settings1](../../../assets/cpm/settings1.png){width=700}
 
     ***
 
-    ![settings2](../../../assets/cpm/settings2.png)
+    ![settings2](../../../assets/cpm/settings2.png){width=700}
 
 ***
 
 ## **Гайд по установке своей модели**
 
-[:material-arrow-top-right: Скачивание и установка своей модели](){ .md-button .big-button align=center }
+[:material-arrow-top-right: Скачивание и установка своей модели](){ .md-button .big-button align=center .md-button--primary }
 
 ***
 
@@ -32,8 +32,8 @@ icon: material/account-edit
 
 Вот пример модели с разными волосами и с разными лицевыми анимациями, которые можно менять прямо во время игры.
 
-![showcase1](../../../assets/cpm/showcase1.jpg)
+![showcase1](../../../assets/cpm/showcase1.jpg){width=800}
 
-![showcase2](../../../assets/cpm/showcase2.jpg)
+![showcase2](../../../assets/cpm/showcase2.jpg){width=800}
 
-![showcase3](../../../assets/cpm/showcase3.jpg)
+![showcase3](../../../assets/cpm/showcase3.jpg){width=800}

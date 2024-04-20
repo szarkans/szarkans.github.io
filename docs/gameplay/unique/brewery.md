@@ -2,24 +2,7 @@
 icon: fontawesome/solid/wine-bottle
 ---
 
-<head>
-    <!-- Yandex.RTB -->
-    <script>window.yaContextCb=window.yaContextCb||[]</script>
-    <script src="https://yandex.ru/ads/system/context.js" async></script>
-</head>
-
-<!-- Yandex.RTB R-A-5374421-1 -->
-<div id="yandex_rtb_R-A-5374421-1"></div>
-<script>
-window.yaContextCb.push(()=>{
-    Ya.Context.AdvManager.render({
-        "blockId": "R-A-5374421-1",
-        "renderTo": "yandex_rtb_R-A-5374421-1"
-    })
-})
-</script>
-
-# Пивоварня
+# Brewery
 
 На сервере есть замечательный плагин на варку алкогольных (и не очень) напитков!
 
@@ -52,7 +35,7 @@ window.yaContextCb.push(()=>{
 
 ## Как бродить напиток?
 
-Некоторые напитки требуют брожения в бочках. 
+Некоторые напитки требуют брожения в бочках.
 
 Если напиток требует брожжения в дубовой бочке, то подойдёт самая обычная, но если напиток требует акациевую или вишнёвую бочку, то тебе нужно будет построить вот такие конструкции.
 
@@ -69,7 +52,7 @@ window.yaContextCb.push(()=>{
 
 ## Список всех напитков и их рецептов
 
-[\*Ссылка на таблицу*](https://docs.google.com/spreadsheets/d/1eeP827cOQyv0Hjfr392m7XS6pfpHPupX)
+[ :material-arrow-right-top: Ссылка на таблицу ](https://docs.google.com/spreadsheets/d/1eeP827cOQyv0Hjfr392m7XS6pfpHPupX){ .md-button .md-button--primary }
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBcp8GW0HhaNDzQdxor1FMwVGUs8Mf2WFshE67-etU5aTd_977CfzjlPDzV5D9ZA/pubhtml?widget=true&amp;headers=false" width=900 height=900></iframe>
 
