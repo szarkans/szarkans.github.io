@@ -72,6 +72,10 @@ td {
   border-top: 1px solid #353535;
 }
 
+.md-typeset .grid.cards>ul>li {
+  border-radius: 0.5rem;
+}
+
 .md-nav {
   font-size: .8rem;
   font-weight: 450;
