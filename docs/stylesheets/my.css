@@ -38,6 +38,10 @@ font-weight: bold;
     color: whitesmoke;
 }
 
+.text {
+    color: #1e0b35;
+}
+
 /* Это - делает цвет жёлтым с золотым обрамлением*/
 .gold-outline {
     color:gold;

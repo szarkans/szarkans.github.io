@@ -101,7 +101,7 @@ extra:
       link: https://vk.com/catcraftmc
       name: Наш ВК
     - icon: simple/discord
-      link: https://discord.gg/Qfb6NGZkNn
+      link: https://discord.gg/23XJyDGJaH
       name: Наш Дискорд
     - icon: material/map
       link: https://vk.cc/ct7HsI
@@ -173,12 +173,16 @@ nav:
   #     - "items/vanilla/templates.md"
   #     - "items/vanilla/totem.md"
   - Гайды:
-    - guides/set_skin.md
-    - guides/mod_download.md
-    - guides/mod_errors.md
-    - guides/launcher.md
-    - guides/skins_tlauncher.md
-    - guides/edit_wiki.md
+    - Игровое:
+      - guides/set_skin.md
+      - guides/rgb_nick.md
+    - Техническое:
+      - guides/mod_download.md
+      - guides/mod_errors.md
+      - guides/skins_tlauncher.md
+    - Разное:
+      - guides/launcher.md
+      - guides/edit_wiki.md
   - История сервера:
     - server-history/1season.md
     - server-history/2season.md
