@@ -1,33 +1,43 @@
 site_name: Вики Кошкокрафта
 site_author: Всекотец
 site_url: https://wiki.catcraftmc.ru/
+
+repo_url: https://github.com/szarkans/szarkans.github.io
+repo_name: Вики КК
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   custom_dir: overrides
   palette:
     scheme: slate
     primary: indigo
-    
+  icon:
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil   
   language: ru
   features:
-    - navigation.instant
-    - navigation.instant.progress
+    - content.tabs.link
+ #   - navigation.instant
+  #  - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.tracking
-    - navigation.expand
-    - navigation.prune
-    - navigation.indexes
+   # - navigation.prune
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - navigation.footer
     - toc.follow
+    - toc.integrate
+    - content.action.edit
   logo: assets/icon.png
   favicon: assets/icon.png
   font:
-    text: Open Sans
+    text: Inter
+    code: Fira Code
 markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
@@ -38,11 +48,12 @@ markdown_extensions:
   - pymdownx.keys
   - tables
   - pymdownx.critic
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/links.md
   - toc:
-      permalink: true
-  - pymdownx.mark
-  - pymdownx.tilde
+      permalink: "#"
+      separator: "_"
   - pymdownx.tabbed:
       alternate_style: true
   - abbr
@@ -61,122 +72,120 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/my.css
+  - stylesheets/admonitions.css
 plugins:
   - search
+  - open-in-new-tab
+  - minify:
+      minify_html: true
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
  # - javascripts/players.js
   - javascripts/effects.js
+  - javascripts/img_expand.js
 extra: 
   consent:
     title: Одобри печеньки!
     description:
-      Мы используем твои куки! Без понятия что это, но везде просят
-      добавлять твоё согласие, поэтому... Одобри, блин!
+      Мы используем твои куки для просмотра аналитики нашей Вики (кто, что, где, какую страницу смотрят чаще и т.п.)
+  status:
+    new: Новое!
+    inprogress: Статья не завершена
   analytics: 
     provider: google
     property: G-X3KCR2ZW65
-    feedback:
-      title: Тебе понравилась эта страница?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: Да!
-          data: 1
-          note: >-
-            Спасибо за оценку!
-        - icon: material/emoticon-sad-outline
-          name: Нет :(
-          data: 0
-          note: >- 
-            Очень жаль :(
-            Расскажи что именно тут не так в нашем <a href="https://discord.gg/Qfb6NGZkNn" target="_blank" rel="noopener">Дискорде</a>!
   social:
     - icon: simple/vk
       link: https://vk.com/catcraftmc
       name: Наш ВК
     - icon: simple/discord
-      link: https://discord.gg/Qfb6NGZkNn
+      link: https://discord.gg/23XJyDGJaH
       name: Наш Дискорд
     - icon: material/map
       link: https://vk.cc/ct7HsI
       name: Наша Карта
 nav:
   - ' ': index.md
-  - 'Информация':
-    - Информация/admins.md
-    - Информация/dict.md
-    - Информация/faq.md
-    - Информация/donate.md
-    - Информация/guide.md
-    - Информация/map.md
-    - Информация/for_media.md
-    - Информация/roadmap.md
+  - Информация:
+    - info/admins.md
+    # - info/dict.md
+    # - info/faq.md
+    # - info/donate.md
+    # - info/guide.md
+    # - info/map.md
+    # - info/for_media.md
     - 'Правила и законы':
-      - Информация/Правила/rules.md
-      - Информация/Правила/laws.md
+      - info/rules/rules.md
+      - info/rules/laws.md
     - 'Моды':
-      - Информация/Моды/mods.md
-      - Информация/Моды/required_mods.md
-      - Информация/Моды/cool_mods.md
-  - 'Геймплей':
-    - "Роллплей":
-      - Геймплей/Роллплей/goverment.md
-      - Геймплей/Роллплей/police.md
-    - "Уникальные фишки":
-      - Геймплей/УникальныеФишки/qol.md
-      - Геймплей/УникальныеФишки/resourcepack.md
-      - Геймплей/УникальныеФишки/npc.md
-      - Геймплей/УникальныеФишки/villager_rebalance.md
-      - Геймплей/УникальныеФишки/datapacks.md
-      - Геймплей/УникальныеФишки/artmap.md
-      - Геймплей/УникальныеФишки/clans.md
-      - Геймплей/УникальныеФишки/armorstand.md
-      - Геймплей/УникальныеФишки/wandering_trader.md
-      - Геймплей/УникальныеФишки/prefixes.md
-      - "Кастомные модели персонажа":
-        - Геймплей/УникальныеФишки/cpm/index.md
-        - Геймплей/УникальныеФишки/cpm/cpm_guide.md
-      - "Геймплей/УникальныеФишки/brewery.md"
-      - "Рыбалка":
-        - Геймплей/УникальныеФишки/рыбалка/index.md
-        - Геймплей/УникальныеФишки/рыбалка/fishing_gamelist.md
-      - Геймплей/УникальныеФишки/voicechat.md
-      
-    - "Награды игрокам":
-      - Геймплей/Награды/list.md
-      - Геймплей/Награды/catpass.md
-    - "Команды":
-      - Геймплей/Команды/ingame.md
-      - Геймплей/Команды/discord.md
-  - "Предметы":
-    - "Накладываемое":
-      - "Предметы/Накладываемое/cattrack.md"
-      - "Предметы/Накладываемое/scroll.md"
-    - "Блоки":
-      - "Предметы/Блоки/gycha.md"
-      - "Предметы/Блоки/compressed.md"
-      - "Предметы/Блоки/reinforced.md"
-      - "Предметы/Блоки/light.md"
-      - "Предметы/Блоки/invis_frame.md"
-    - "Применяемое":
-      - "Предметы/Применяемое/kplus.md"
-    - "Предметы":
-      - "Предметы/Предметы/templates.md"
-      - "Предметы/Предметы/gh.md"
-      - "Предметы/Предметы/totem.md"
-      - "Предметы/Предметы/plushie.md"
-      - "Предметы/Предметы/kotomat.md"
-      - "Предметы/Предметы/holy_books.md"
-  - "Гайды":
-    - Гайды/set_skin.md
-    - Гайды/mod_download.md
-    - Гайды/mod_errors.md
-    - Гайды/launcher.md
-    - Гайды/skins_tlauncher.md
-  - "История сервера":
-    - ИсторияСервера/1season.md
-    - ИсторияСервера/2season.md
-    - ИсторияСервера/3season.md
-    - ИсторияСервера/4season.md
-    - ИсторияСервера/5season.md
+      - info/mods/mods.md
+      - info/mods/required_mods.md
+      - info/mods/cool_mods.md
+  # - Геймплей:
+  #   - Роллплей:
+  #     - gameplay/roleplay/goverment.md
+  #     - gameplay/roleplay/police.md
+  #   - Уникальные фишки:
+  #     - gameplay/unique/qol.md
+  #     - gameplay/unique/resourcepack.md
+  #     - gameplay/unique/npc.md
+  #     - gameplay/unique/villager_rebalance.md
+  #     - gameplay/unique/datapacks.md
+  #     - gameplay/unique/artmap.md
+  #     - gameplay/unique/clans.md
+  #     - gameplay/unique/armorstand.md
+  #     - gameplay/unique/wandering_trader.md
+  #     - gameplay/unique/prefixes.md
+  #     - Кастомные модели персонажа:
+  #       - gameplay/unique/cpm/index.md
+  #       - gameplay/unique/cpm/cpm_guide.md
+  #     - "gameplay/unique/brewery.md"
+  #     - Рыбалка:
+  #       - "gameplay/unique/fishing/index.md"
+  #       - Список рыб: gameplay/unique/fishing/fish_list.md
+  #     - gameplay/unique/voicechat.md
+  #   - Награды игрокам:
+  #     - gameplay/rewards/list.md
+  #     - gameplay/rewards/catpass.md
+  #   - Команды:
+  #     - gameplay/commands/ingame.md
+  #     - gameplay/commands/discord.md
+  # - Предметы:
+  #   - Накладываемое:
+  #     - "items/clickable/cattrack.md"
+  #     - "items/clickable/scroll.md"
+  #   - Блоки:
+  #     - "items/blocks/gycha.md"
+  #     - "items/blocks/compressed.md"
+  #     - "items/blocks/reinforced.md"
+  #     - "items/blocks/light.md"
+  #     - "items/blocks/invis_frame.md"
+  #   - Применяемое:
+  #     - "items/usable/kplus.md"
+  #   - Кастомные предметы:
+  #     - "items/custom_items/gh.md"
+  #     - "items/custom_items/plushie.md"
+  #     - "items/custom_items/kotomat.md"
+  #     - "items/custom_items/holy_books.md"
+  #   - Ванильные предметы:
+  #     - "items/vanilla/templates.md"
+  #     - "items/vanilla/totem.md"
+  - Гайды:
+    - Игровое:
+      - guides/set_skin.md
+      - guides/rgb_nick.md
+    - Техническое:
+      - guides/mod_download.md
+      - guides/mod_errors.md
+      - guides/skins_tlauncher.md
+    - Разное:
+      - guides/launcher.md
+      - guides/edit_wiki.md
+  - История сервера:
+    - server-history/1season.md
+    - server-history/2season.md
+    - server-history/3season.md
+    - server-history/4season.md
+    - server-history/5season.md
