@@ -6,6 +6,18 @@
     color:gold;
 } 
 
+.vk {
+   color: #0077FF;
+}
+
+.discord {
+    color: #5865F2;
+}
+
+.yt {
+    color: #EE0F0F;
+}
+
 .green {
     color: #13c422;
 }
@@ -22,6 +34,10 @@
 font-weight: bold;
 }
 
+.white {
+    color: whitesmoke;
+}
+
 /* Это - делает цвет жёлтым с золотым обрамлением*/
 .gold-outline {
     color:gold;
@@ -31,8 +47,61 @@ font-weight: bold;
     border-radius: 5px;
 }
 
+.fake-h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
 .big-button {
     width: 100%;
+}
+
+.half-button {
+    width: 50%;
+}
+
+.links .grid {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 64px;
+    gap: 64px;
+    width: 100%;
+}
+.links .grid .item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: filter 0.15s ease;
+}
+.links .grid .item .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: var(--BG_1);
+    margin-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links .grid .item .image.discord {
+    background-color: #5865f2;
+}
+.links .grid .item .image.vk {
+    background-color: #2787f5;
+}
+.links .grid .item .text p + p {
+    margin-top: 2px;
+}
+.links .grid .item:hover {
+    filter: brightness(90%);
+}
+.links .grid .item:active {
+    filter: brightness(80%);
 }
 
 .margin-center {
@@ -195,6 +264,7 @@ font-weight: bold;
 
 img {
     cursor: pointer;
+    border-radius: 0.2rem;
 }
 
 /* Overlay that covers the entire screen */

@@ -34,7 +34,7 @@
 
 - Новые патчи и обновления теперь выпускались не постами, а статьями
 
-![spawn](../assets/server_history/season3/spawn.png)
+![spawn](../assets/server_history/season3/spawn.png){width=75%}
 
 ## 1-2 июля
 
@@ -48,7 +48,7 @@
 
 Победителей не было, но зато круто провели время
 
-![hidenseek](../assets/server_history/season3/hide_and_seek.png)
+![hidenseek](../assets/server_history/season3/hide_and_seek.png){width=75%}
 
 ## 5 июля
 
@@ -84,7 +84,7 @@
 
 - Игроком Victor_Morgan был проведён ивент <https://vk.com/wall-210306238_767>
 
-![spawn_new](../assets/server_history/season3/spawn_new.png)
+![spawn_new](../assets/server_history/season3/spawn_new.png){width=75%}
 
 ## 15 июля - Гном гыча мафон: Начало
 
@@ -106,7 +106,7 @@
 
 - На открытие пришло 44 игрока и ТПС стабильно стоял на 2-3
 
-![end](../assets/server_history/season3/end.png)
+![end](../assets/server_history/season3/end.png){width=75%}
 
 ## 18 июля
 
@@ -116,7 +116,7 @@
 
 - В этот же день один другой чувак захотел по-настоящему взломать сервер <https://vk.com/wall-210306238_815>
 
-![hecker](../assets/server_history/season3/hecker.png)
+![hecker](../assets/server_history/season3/hecker.png){width=75%}
 
 ## 19 июля
 
@@ -128,7 +128,7 @@
 
 - Было построено Древо спавна 
 
-![spawn_tree](../assets/server_history/season3/spawn_tree.png)
+![spawn_tree](../assets/server_history/season3/spawn_tree.png){width=75%}
 
 - Дефолтые скины Стива и Алекс были заменены котиками. Они стоят до сих пор!
 
@@ -152,7 +152,7 @@
 
 - Была проведена свадьба ClaraBell и dimastein! Видео со свадьбы - <https://vk.com/wall-210306238_889>
 
-![wedding](../assets/server_history/season3/wedding.png)
+![wedding](../assets/server_history/season3/wedding.png){width=75%}
 
 - Началась эскалация конфликта ВСЕГО СЕРВЕРА и гномов El_Ragan'а. Причиной конфликта было ужасно токсичное поведение и монополия на элитры гномов.
 
@@ -172,7 +172,7 @@
 
     - Клан гномов, конечно же, занял весь ивент.
 
-![purge_art](../assets/server_history/season3/purge_art.png)
+![purge_art](../assets/server_history/season3/purge_art.png){width=75%}
 
 ## 30 июля - Закулисье
 
@@ -198,7 +198,7 @@
 
     - Через некоторое время после окончания строительства незерхаба KUREVO69 начал перестраивать все 4 хайперлупы в аду, перестройка заняла примерно 2 месяца, а с ресурсами ему помогал весь сервер.
 
-![netherhub](../assets/server_history/season3/netherhub.png)
+![netherhub](../assets/server_history/season3/netherhub.png){width=75%}
 
 ## 8 августа
 
@@ -216,7 +216,7 @@
 
 - Всего было 6 канидатов - Papamama, abobik152, Liberaha, Victor_morgan и Denchik. В последствии победил **Victor_Morgan**, заручившись поддержкой ФырКамска.
 
-![voting](../assets/server_history/season3/voting.png)
+![voting](../assets/server_history/season3/voting.png){width=75%}
 
 ## 21 августа - Ебенград
 
@@ -226,7 +226,7 @@
 
     - Это был угар-город в ебенях, в будущем самым большим по населению. Почему самым большим? В город принимали всех новичков через 5 минут после того, как они зашли. Хороший ход, только играть они оставались недолго.
 
-![eben](../assets/server_history/season3/eben.png)
+![eben](../assets/server_history/season3/eben.png){width=75%}
 
 ## 22-24 августа - Большая ошибка
 
@@ -254,7 +254,7 @@
 
     - В нём жил админ и его друзья: Skorohodon, Razond, imuedenuui
 
-![forcock](../assets/server_history/season3/four_cock.png)
+![forcock](../assets/server_history/season3/four_cock.png){width=75%}
 
 - 9 сентября - Новый город
 
@@ -276,7 +276,7 @@
 
 - На сервер зашёл няшечка **\_bykkake747_** - грибной папа и человек, нарисовавший для сервера половину ресурспака
 
-![bkke](../assets/server_history/season3/bkke.png)
+![bkke](../assets/server_history/season3/bkke.png){width=75%}
 
 - Объявление об расширения Энда до 15к блоков
 
@@ -300,7 +300,7 @@
 
 - Начались новые выборы президента, которые теперь работали через ВК бота. Кандидатами были CharaBell, Skorohodon, Papamama, KUREVO69 и Pumcheese. В итоге в борьбе между Pumcheese и Skorohodon выиграла Pumcheese. Роковая ошибка...
 
-![voting2](../assets/server_history/season3/voting2.png)
+![voting2](../assets/server_history/season3/voting2.png){width=75%}
 
 - Примерно в это же время игрок Skorohodon получил ОПку. Опять же - на правах друга и на высоком доверии.
 
@@ -310,7 +310,7 @@
 
 ## 21 сентября - Шутка. Или нет?...
 
-![joke](../assets/server_history/season3/joke.png)
+![joke](../assets/server_history/season3/joke.png){width=75%}
 
 ## 28 сентября - 1 октября
 
@@ -320,13 +320,13 @@
 
 - Примерно в это же время игрок Skorohodon переоборудовал "Храм смерти", построив вместо него музей сервера, где были выставлены игроки, которые внесли огромный вклад в сервер. Под каждым стендом любой игрок мог написать отзыв.
 
-![musey](../assets/server_history/season3/museum.png)
+![musey](../assets/server_history/season3/museum.png){width=75%}
 
 ## 1 октября
 
 - KUREVO69 и DENTRY спроектировали обновленный спавн, который включал здание для проведение аукционов, красивейший декор для озера, а также множество небольших домиков. Спавн был перестроен примерно за две недели игроками: KUREVO69, whiter_, Skorohodon, capybruhra, HokuPeanut и Errorka.
 
-![new_spawn](../assets/server_history/season3/new_spawn.png)
+![new_spawn](../assets/server_history/season3/new_spawn.png){width=75%}
 
 ## 2 октября 
 
@@ -346,7 +346,7 @@
 
 - Был достроен Кафедральный собор игроком **God_of_hentai** - <https://vk.com/wall-210306238_2416>
 
-![cafedra](../assets/server_history/season3/cafedral.png)
+![cafedra](../assets/server_history/season3/cafedral.png){width=75%}
 
 ## 14 октября
 
@@ -397,13 +397,13 @@
 
 - Концерт группы SunShine под предводительством Berserk72ru в городе Фыркамск
 
-![concert](../assets/server_history/season3/concert.png)
+![concert](../assets/server_history/season3/concert.png){width=75%}
 
 ## 31 октября - 3 декабря
 
 - Начались раскопки энда для строительства Энд-хаба, спроектированного KUREVO69. За месяц игрокам удалось полностью уничтожить весь основной остров. В копании принимали участие: KUREVO69, Skorohodon, lolikkiller, _LeChat_, Asp1re1337, Berserk72ru, Eufreitor и FreyrLokken.
 
-![end](../assets/server_history/season3/new_end.png)
+![end](../assets/server_history/season3/new_end.png){width=75%}
 
 ## 1-6 ноября
 
@@ -413,7 +413,7 @@
 
 - Был зарегестрирован город Воронеж, который был воплощением города …Воронеж. Жители города: SKINXED3, Serega_Suncov, EDGA5R1991, Anton_82. Они планировали провести олимпиаду, построили целый стадион, но идея так и не была окончательно реализована.
 
-![voronej](../assets/server_history/season3/voronechz.png)
+![voronej](../assets/server_history/season3/voronechz.png){width=75%}
 
 ## 13 ноября
 
@@ -441,7 +441,7 @@
 
 - Ивент "Осада замка" на карте, спизженной у El_Ragan - <https://vk.com/wall-210306238_2791>
 
-![event](../assets/server_history/season3/event.png)
+![event](../assets/server_history/season3/event.png){width=75%}
 
 ## 3 декабря
 
@@ -458,13 +458,13 @@
 
 - На спавне построили новогоднюю Ёлочку и украшения к Новому году
 
-![ngspawn](../assets/server_history/season3/new_year_spawn.png)
+![ngspawn](../assets/server_history/season3/new_year_spawn.png){width=75%}
 
 ## 20 декабря
 
 - В связи с концом сезона, на сервере была объявлена анархия, все города, спавн, хаб и базы были уничтожены меньше чем за день.
 
-![anarchy](../assets/server_history/season3/anarchy.png)
+![anarchy](../assets/server_history/season3/anarchy.png){width=75%}
 
 - Декабрь-январь 
 

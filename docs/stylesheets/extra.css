@@ -96,6 +96,27 @@ border-right: 1px solid #526de7;
   font-size: .9rem;
 }
 
+.md-typeset .md-button {
+  border-radius: 0.4rem;
+}
+
+.md-typeset .grid.cards>ol>li, .md-typeset .grid.cards>ul>li, .md-typeset .grid>.card {
+  border-radius: 0.4rem;
+}
+
+.card {
+  position: relative; /* Set .card to position relative */
+  display: block; /* Make the link a block to fill the entire card */
+}
+
+.card a {
+  display: block; /* Allows the <a> to fill the entire card */
+  height: 100%; /* Sets the height of the <a> to fill its parent */
+  width: 100%; /* Sets the width of the <a> to fill its parent */
+  text-decoration: none; /* Optional: Removes underline from links */
+  color: inherit; /* Optional: Inherits text color from parent */
+}
+
 /* Изменение заголовков */
 .md-typeset h1 {
   color: #8758f3; 

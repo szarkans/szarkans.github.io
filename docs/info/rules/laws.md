@@ -1,8 +1,7 @@
 ---
 icon: material/book
 title: Законы сервера
-hide:
-    - toc
+toc_depth: 1
 ---
 
 # Законы сервера
