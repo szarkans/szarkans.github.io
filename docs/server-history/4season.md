@@ -32,6 +32,8 @@
 
 [https://vk.com/wall-210306238_3086](https://vk.com/wall-210306238_3086)
 
+![uh](https://sun9-75.userapi.com/impg/zwaDgLdFTbHQx0bEIgV49zRnA8W6jf-NpYEaUQ/jPbLQkHcQMc.jpg?size=1366x768&quality=95&sign=3d2967c70c198dbe4bc436e107f627de&type=album){width=75% loading="lazy" decoding="async"}
+
 ## 4 февраля
 
 - Первая попытка в озвучку НПС <https://vk.com/wall-210306238_3125>
@@ -39,6 +41,8 @@
     - В последствии от этой идеи откажемся - файлы занимают ДОХУЯ места в ресурспаке
 
     - Озвучка рыбака от Skorohodon - <https://vk.com/wall-210306238_3129>
+
+    <iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239057&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
 
 ## 10 февраля
 
@@ -69,6 +73,8 @@
 - \__Jeas__ снял видео на сервере! 
 
 <https://vk.com/wall-210306238_3164>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/QEFB6-CdnWs?si=YKHfvq_EqCdO2WdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 17 февраля 
 
@@ -106,6 +112,8 @@
 
 - Объявление обновления <span class="neon">СЭКСА</span> <https://vk.com/wall-210306238_3355>
 
+![sex](https://sun9-6.userapi.com/impg/TIObCUFzwFNiSPkNjICCaPYqjpvuaOfLcidngQ/j7WctnbOkhQ.jpg?size=1106x306&quality=96&sign=ef8190709e433d977ccb1ad2ddc355ea&type=album){width=75% loading="lazy" decoding="async"}
+
 ## 18 марта
 
 - Энд был открыт. Ничего интересного не произошло <https://vk.com/wall-210306238_3392>
@@ -121,6 +129,8 @@
     - Были усложнены крафты еды
 
 <https://vk.com/wall-210306238_3421>
+
+![eat](https://sun9-21.userapi.com/impg/KxQpWvuGoWpaIJDgvDc9tDYhRTo1p1CSjyKzyw/_lL_uPDkLAA.jpg?size=1920x768&quality=96&sign=4e164a9102d640dc68a201cc4088c33b&type=album){width=75% loading="lazy" decoding="async"}
 
 ## 27 марта
 
@@ -143,6 +153,8 @@
 ## 20 апреля
 
 - Первое и последнее появление брони Вардена <https://vk.com/wall-210306238_3596>
+
+<iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239076&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
 
 ## 3 мая - конец
 

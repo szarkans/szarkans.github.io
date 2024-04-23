@@ -1,3 +1,5 @@
+/* Дизайн немножко вдохновлён сайтом https://schalker.ru :3 */
+
 .index-title {
     display: flex;
     justify-content: space-between; /* Aligns children to each side */
@@ -42,17 +44,26 @@
     margin-top: 5px; /* Space between the main description and version info */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1218px) {
     .index-title {
         flex-direction: column; /* Stacks items vertically on small screens */
         text-align: center;
+        
     }
-    .image-shadow, .title-text {
+    .text-container {
+        width: 100%; /* Ensures container uses the full width */
+        padding: 10px 20px; /* Add padding to not touch the screen edges */
+    }
+    .title-text {
         width: 100%; /* Each takes full width of the container */
         text-align: center;
+        font-size: 1.5rem !important; /* Smaller font size for mobile */
+        line-height: 1.2; /* Adjust line height for better readability */
+        margin-bottom: 10px; /* Adds space between title and description */
     }
     .image-shadow {
         order: 1; /* Puts the image on top */
+        width: 80%;
     }
     .title-text {
         order: 2; /* Puts the text below the image */
@@ -68,7 +79,7 @@
 } 
 
 .vk {
-   color: #0077FF;
+    color: #0077FF;
 }
 
 .discord {
