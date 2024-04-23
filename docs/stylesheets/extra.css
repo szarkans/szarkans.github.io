@@ -153,6 +153,14 @@ border-right: 1px solid #526de7;
   display: block; /* Make the link a block to fill the entire card */
 }
 
+@media screen and (min-width: 76.25em) {
+    [dir=ltr] .md-nav--integrated>.md-nav__list>.md-nav__item--active .md-nav--secondary {
+      border-left: 0.1rem solid var(--md-primary-fg-color);
+      margin-left: 0.5rem;
+  }
+}
+
+
 .card a {
   display: block; /* Allows the <a> to fill the entire card */
   height: 100%; /* Sets the height of the <a> to fill its parent */

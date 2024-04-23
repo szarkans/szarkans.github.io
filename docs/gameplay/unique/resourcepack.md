@@ -23,7 +23,7 @@ toc_depth: 2
 
 !!! success ""
     === "KSEPSP"
-        ### **Список всех вещей из ресурспака KSEPSP:**
+        ### Список всех вещей из ресурспака KSEPSP:
 
         [https://definitelyawhale.github.io/ksepsp_website/](https://definitelyawhale.github.io/ksepsp_website/)
 
@@ -31,7 +31,7 @@ toc_depth: 2
 
         Огнестрельное оружие, приборы, шляпы, броня, элитры!
 
-        ### **Некоторые переименования удалены:**
+        ### Некоторые переименования удалены:
 
         - Удалены напитки
 
@@ -43,7 +43,7 @@ toc_depth: 2
 
         ВК создателей ресурспака: [https://vk.com/ksepsp](https://vk.com/ksepsp)
 
-        ## **Примеры**
+        ### **Примеры**
 
         <div class="grid cards" markdown>
 
