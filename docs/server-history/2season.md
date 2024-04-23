@@ -20,7 +20,7 @@
 
 - Примерно в это же время игроки StCrouse и Liberaha получили ОПки, т.к. были игроками с большим доверием к ним и в целом помогали серверу развиваться.
 
-![spawn](../assets/server_history/season2/spawn.png){width=75%}
+![spawn](../assets/server_history/season2/spawn.png){ width=75% decoding="async" loading="lazy" }
 
 ## 18 марта
 
@@ -37,7 +37,7 @@
 ## 22 марта
 - Был запущен ивент с ещё одним мини-боссом - Иллюзионером! <https://vk.com/wall-210306238_178>
 
-    ![il](https://sun9-44.userapi.com/impg/DHZUazKXEFf7dMfWxBPtSCj-yA3k4Ksyncsmng/oqjsGP9p3Co.jpg?size=2560x1440&quality=96&sign=dea646545d199b4d1046f9d2412a768c&type=album){width=75%}
+    ![il](https://sun9-44.userapi.com/impg/DHZUazKXEFf7dMfWxBPtSCj-yA3k4Ksyncsmng/oqjsGP9p3Co.jpg?size=2560x1440&quality=96&sign=dea646545d199b4d1046f9d2412a768c&type=album){ width=75% decoding="async" loading="lazy" }
 
 - В этот же день хостинг слёг и сервер был оффлайн целый день
 
@@ -79,7 +79,7 @@
 
 - Также был отсроен Энд-хаб игроком Lofiry - очень красивый и часто использовался в рекламе сервера - <https://vk.com/wall-210306238_377>
 
-    ![gub](https://sun9-70.userapi.com/impg/mGBPoqAognOKjECOecoxSbp_jn1BCQvQ5LRHxQ/Y6d7JR5BheE.jpg?size=1920x1080&quality=96&sign=c76ebe29041e6db1af813c5a8a501274&type=album){width=75%}
+    ![gub](https://sun9-70.userapi.com/impg/mGBPoqAognOKjECOecoxSbp_jn1BCQvQ5LRHxQ/Y6d7JR5BheE.jpg?size=1920x1080&quality=96&sign=c76ebe29041e6db1af813c5a8a501274&type=album){ width=75% decoding="async" loading="lazy" }
 
 ## 3 мая
 
@@ -89,7 +89,7 @@
 
 - Как минимум у 5 игроков на тот момент была ОПка - у самых старых и заслуживающих уважения игроков
 
-![stcrouse](../assets/server_history/season2/stcrouse.png){width=75%}
+![stcrouse](../assets/server_history/season2/stcrouse.png){ width=75% decoding="async" loading="lazy" }
 
 ## 12-30 мая
 
@@ -99,7 +99,7 @@
 
 - Был построен охуенный гигант на спавне игроком God_of_hentai. Эту постройку вы тоже могли часто видеть <https://vk.com/wall-210306238_441>
 
-![gigant](../assets/server_history/season2/gigant.png){width=75%}
+![gigant](../assets/server_history/season2/gigant.png){ width=75% decoding="async" loading="lazy" }
 
 - Серверу исполнилось полгода <https://vk.com/wall-210306238_491>
 

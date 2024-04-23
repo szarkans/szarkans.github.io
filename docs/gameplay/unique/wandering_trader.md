@@ -1,6 +1,6 @@
 ---
 icon: fontawesome/solid/money-bill-wheat
-title: Странствующий торговец
+title: Торговец
 ---
 
 # Странствующий торговец

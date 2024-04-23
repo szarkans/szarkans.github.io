@@ -184,7 +184,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Объявление ивента аукциона контейнеров <https://vk.com/wall-210306238_3914>
 
-![alt text](https://sun9-62.userapi.com/impg/-WNlVClMnexQ1Pl3_XrmkTIlkW8cjBA8EV_Vuw/_Ke2dmhjN2o.jpg?size=1920x1080&quality=95&sign=16519d1368291800fe7c406c6e66e850&type=album){width=75%}
+![alt text](https://sun9-62.userapi.com/impg/-WNlVClMnexQ1Pl3_XrmkTIlkW8cjBA8EV_Vuw/_Ke2dmhjN2o.jpg?size=1920x1080&quality=95&sign=16519d1368291800fe7c406c6e66e850&type=album){ width=75% decoding="async" loading="lazy" }
 
 ## 1-2 октября
 
@@ -328,7 +328,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 - Magistr
 
-![npccc](https://media.discordapp.net/attachments/1139036637519683584/1172765088684441650/HS7Ebly.png?ex=662c889a&is=661a139a&hm=c65c1502a5541f34a443d2cf8e79cf6488ba60197aba449a2fd7279e63501e7e&=&format=webp&quality=lossless&width=1276&height=671){width=75%}
+![npccc](https://media.discordapp.net/attachments/1139036637519683584/1172765088684441650/HS7Ebly.png?ex=662c889a&is=661a139a&hm=c65c1502a5541f34a443d2cf8e79cf6488ba60197aba449a2fd7279e63501e7e&=&format=webp&quality=lossless&width=1276&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 12 ноября - Новый президент и битва гладиаторов
 
@@ -398,7 +398,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
     - Ими стали **sirok_pypok** и **Sibirius_**
 
-![wedd_invite](https://media.discordapp.net/attachments/1139036637519683584/1176912759745691708/dbkHBpK.png?ex=66292a6b&is=6616b56b&hm=1edad0f1fe3f00e9f9349c9051aeed3517a2b0b2ae892e14bf72d12d1f4134a0&=&format=webp&quality=lossless&width=1007&height=671){width=75%}
+![wedd_invite](https://media.discordapp.net/attachments/1139036637519683584/1176912759745691708/dbkHBpK.png?ex=66292a6b&is=6616b56b&hm=1edad0f1fe3f00e9f9349c9051aeed3517a2b0b2ae892e14bf72d12d1f4134a0&=&format=webp&quality=lossless&width=1007&height=671){ width=75% decoding="async" loading="lazy" }
 
 ### Техническое
 
@@ -464,7 +464,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 На свадьбе также раздавался лимитированный напиток - Кофе с мятным ликёром. Важный напиток из реальной жизни для молодожён.
 
-![wedding](https://media.discordapp.net/attachments/1139036637519683584/1178345412319514694/2023-11-26_19.png?ex=662e60ae&is=661bebae&hm=bee04830102aa691e6324b621826a930acdebbf6b066d24f78a6afa19ebcc2a9&=&format=webp&quality=lossless&width=1266&height=671){width=75%}
+![wedding](https://media.discordapp.net/attachments/1139036637519683584/1178345412319514694/2023-11-26_19.png?ex=662e60ae&is=661bebae&hm=bee04830102aa691e6324b621826a930acdebbf6b066d24f78a6afa19ebcc2a9&=&format=webp&quality=lossless&width=1266&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 29 ноября
 
@@ -492,7 +492,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
     - Были удалены, слишком яркие и огромные
 
-    ![prefixes](https://images-ext-1.discordapp.net/external/8VKCCQ1eVCWUk0vnvquO1NSvRiYnV4iFkgQPxq09CbE/%3Fsize%3D1920x1009%26quality%3D96%26sign%3D13a26c866d40c667a32e50ba0d7f17fb%26type%3Dalbum/https/sun9-65.userapi.com/impg/oRXFnghisXVdirpi9g-bJJ8sLhHK3sdIMSGLVA/PHRnxjmBiMI.jpg?format=webp&width=1276&height=671){width=75%}
+    ![prefixes](https://images-ext-1.discordapp.net/external/8VKCCQ1eVCWUk0vnvquO1NSvRiYnV4iFkgQPxq09CbE/%3Fsize%3D1920x1009%26quality%3D96%26sign%3D13a26c866d40c667a32e50ba0d7f17fb%26type%3Dalbum/https/sun9-65.userapi.com/impg/oRXFnghisXVdirpi9g-bJJ8sLhHK3sdIMSGLVA/PHRnxjmBiMI.jpg?format=webp&width=1276&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 1 декабря
 
@@ -522,7 +522,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Все начали думать, что закон был введён как раз из-за этих убийств.
 
-![rozysk](https://media.discordapp.net/attachments/1139036637519683584/1183003676726525962/1702102474044.jpg?ex=662cde07&is=661a6907&hm=2c2daa701aa0300a5b562156b3643993cd02062ce13945d4a3ecfa9135d9be35&=&format=webp&width=496&height=671){width=75%}
+![rozysk](https://media.discordapp.net/attachments/1139036637519683584/1183003676726525962/1702102474044.jpg?ex=662cde07&is=661a6907&hm=2c2daa701aa0300a5b562156b3643993cd02062ce13945d4a3ecfa9135d9be35&=&format=webp&width=496&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 9 декабря
 
@@ -586,15 +586,15 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Никто ещё не знает **насколько** эта перестройка затянется...
 
-![sadas](https://media.discordapp.net/attachments/1139036637519683584/1190721119028781096/2023-12-30_21.00.01.png?ex=662d41f5&is=661accf5&hm=e1d1021b1544142ff383e8f884baf4564171d838c5c673ae428001f87fe1e3cf&=&format=webp&quality=lossless&width=550&height=309){width=75%}
+![sadas](https://media.discordapp.net/attachments/1139036637519683584/1190721119028781096/2023-12-30_21.00.01.png?ex=662d41f5&is=661accf5&hm=e1d1021b1544142ff383e8f884baf4564171d838c5c673ae428001f87fe1e3cf&=&format=webp&quality=lossless&width=550&height=309){ width=75% decoding="async" loading="lazy" }
 
 ## 31 декабря - 1 января - Новый год!
 
 Новый год! Была опубликована статистика сервера.
 
-![statistic](../assets/server_history/season5/stats1.png){width=75%}
+![statistic](../assets/server_history/season5/stats1.png){ width=75% decoding="async" loading="lazy" }
 
-![stats2](../assets/server_history/season5/stats2.png){width=75%}
+![stats2](../assets/server_history/season5/stats2.png){ width=75% decoding="async" loading="lazy" }
 
 ## 4 января 2024 
 
@@ -664,7 +664,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 ГКСБ - всё. **MissDomix** покинула пост по собственному желанию. Временно пост занял **Skorohodon**.
 
-![rofll](../assets/server_history/season5/rofl.png){width=75%}
+![rofll](../assets/server_history/season5/rofl.png){ width=75% decoding="async" loading="lazy" }
 
 ## 28 января
 
@@ -674,7 +674,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 В этот же день был открыт **BuildBattle** от **Endermen1250**. Цель - построить статую эндермена. Автор лучшей статуи получит ферму шалкеров.
 
-![asdass](https://media.discordapp.net/attachments/1139036637519683584/1198978889930780702/4cf819f6461c8601.png?ex=662f9d1b&is=661d281b&hm=5795d4795a51535abcdd4f8c4d45559dfc6601756074406b4ade635ba15ccd2a&=&format=webp&quality=lossless&width=542&height=350){width=75%}
+![asdass](https://media.discordapp.net/attachments/1139036637519683584/1198978889930780702/4cf819f6461c8601.png?ex=662f9d1b&is=661d281b&hm=5795d4795a51535abcdd4f8c4d45559dfc6601756074406b4ade635ba15ccd2a&=&format=webp&quality=lossless&width=542&height=350){ width=75% decoding="async" loading="lazy" }
 
 ## 29-30 января
 
@@ -692,7 +692,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Парламент выбрал нового ГКСБ - им стал **Sibirius_**. В этот же день **Skorohodon** покинул свой пост Премьер-министра.
 
-![asdasda](https://media.discordapp.net/attachments/1139036637519683584/1204352482952618034/2023-08-23_20.41.02.png?ex=6630b4a7&is=661e3fa7&hm=ca317f9a808308b42171b46eeb7c01680fdd40a9cac63b57bd883481c30a5e78&=&format=webp&quality=lossless&width=1193&height=671){width=75%}
+![asdasda](https://media.discordapp.net/attachments/1139036637519683584/1204352482952618034/2023-08-23_20.41.02.png?ex=6630b4a7&is=661e3fa7&hm=ca317f9a808308b42171b46eeb7c01680fdd40a9cac63b57bd883481c30a5e78&=&format=webp&quality=lossless&width=1193&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 9 февраля
 
@@ -740,7 +740,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Он находился в здании совета.
 
-![asdasdasasdas](https://media.discordapp.net/attachments/1139036637519683584/1205770459237449798/1233.jpg?ex=662ca2bf&is=661a2dbf&hm=d7682f2933acdfa7f4b518e4e79471d150689b0502f25d1bd7eb3acf5f44fb6a&=&format=webp&width=1276&height=671){width=75%}
+![asdasdasasdas](https://media.discordapp.net/attachments/1139036637519683584/1205770459237449798/1233.jpg?ex=662ca2bf&is=661a2dbf&hm=d7682f2933acdfa7f4b518e4e79471d150689b0502f25d1bd7eb3acf5f44fb6a&=&format=webp&width=1276&height=671){ width=75% decoding="async" loading="lazy" }
 
 В этот же день репортёр **Magistr** опубликовал **эксперементальную** рубрику новостей в виде видео
 
@@ -810,7 +810,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 3. К++ на 7 дней, 100 АР - получил **Mia_Atsuna**
 
-![gladiaa](https://media.discordapp.net/attachments/1139036637519683584/1208463051289006090/jAJz3K4.png?ex=662d33eb&is=661abeeb&hm=df8e107b888638ca6c750e890101e153eef2c699d471b7747158581d0c562970&=&format=webp&quality=lossless&width=1276&height=671){width=75%}
+![gladiaa](https://media.discordapp.net/attachments/1139036637519683584/1208463051289006090/jAJz3K4.png?ex=662d33eb&is=661abeeb&hm=df8e107b888638ca6c750e890101e153eef2c699d471b7747158581d0c562970&=&format=webp&quality=lossless&width=1276&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 18 февраля
 
@@ -818,13 +818,13 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 В Арт-музее имени **CharaBell** было пополнение!
 
-![artmusei](../assets/server_history/season5/artmusei.png){width=75%}
+![artmusei](../assets/server_history/season5/artmusei.png){ width=75% decoding="async" loading="lazy" }
 
 В этот же день был выпущен выпуск новостей от **Magistr** - <https://youtu.be/uA3uRlmj_VM>
 
 В этот же день Президент объявил об открытии "РП" зоны, где любой желающий мог построить Не-АФК магазин. Этим постом он обнулил таймер своего АФК.
 
-![rpzone](../assets/server_history/season5/rpzone.png){width=75%}
+![rpzone](../assets/server_history/season5/rpzone.png){ width=75% decoding="async" loading="lazy" }
 
 ## 19 февраля - Ошибочка
 
@@ -833,7 +833,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 !!! note ""
     Доброе время суток, дорогие члены парламента, Вы все прекрасно меня знаете, а кто не знает мой никнейм MissDomix. Я хочу обжаловать свой тюремный срок в размере 90 суток. Я хочу донести Вам, что этот срок слишком большой, но Я признаю свою вину и раскаиваюсь. Если вы хотите узнать чем я займусь на воле, то я продолжу реконструкцию древнего города, также постараюсь вернуть религиозный магазин, который для меня многое значит. Мне очень не хватает моей семьи и прогулок по дождливой столице.
 
-![mistake](https://media.discordapp.net/attachments/1139036637519683584/1209125876747337758/2024-02-19_15.58.26.png?ex=662f9d39&is=661d2839&hm=e6d1784afee6c3e6e3be2bd1cb40de3f0c4afc3e972ef36ec81dbc3a6be96eda&=&format=webp&quality=lossless&width=1193&height=671){width=75%}
+![mistake](https://media.discordapp.net/attachments/1139036637519683584/1209125876747337758/2024-02-19_15.58.26.png?ex=662f9d39&is=661d2839&hm=e6d1784afee6c3e6e3be2bd1cb40de3f0c4afc3e972ef36ec81dbc3a6be96eda&=&format=webp&quality=lossless&width=1193&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 20-22 февраля - Накал страстей v.2
 
@@ -870,7 +870,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 - До 1 марта выпустить закон о бесхозных землях и продолжить строительство спавна
 
-![ult](../assets/server_history/season5/ultimatum.png){width=75%}
+![ult](../assets/server_history/season5/ultimatum.png){ width=75% decoding="async" loading="lazy" }
 
 ## 25 февраля
 
@@ -896,7 +896,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 "Вы же КСБ, вы же должны лизать жопу."
 
-![lol](https://media.discordapp.net/attachments/1139036637519683584/1211959726598783006/image-9.png?ex=6630b1f3&is=661e3cf3&hm=d1fa221fa1930807b74f3a65212960e816006bac6a5b202e1eeb361d1d6724ee&=&format=webp&quality=lossless){width=75%}
+![lol](https://media.discordapp.net/attachments/1139036637519683584/1211959726598783006/image-9.png?ex=6630b1f3&is=661e3cf3&hm=d1fa221fa1930807b74f3a65212960e816006bac6a5b202e1eeb361d1d6724ee&=&format=webp&quality=lossless){ width=75% decoding="async" loading="lazy" }
 
 ## 28 февраля
 
@@ -966,7 +966,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 - **Sibirius_** покинул пост ГКСБ. И слава богу.
 
-![loo](https://media.discordapp.net/attachments/1139036637519683584/1216664756774109185/63_20240311113008.png?ex=662f5ada&is=661ce5da&hm=05f9320f3e0ae3ab32bd502176c94e7eebc86d6e0e6bba7fd11cbc4618228d6a&=&format=webp&quality=lossless&width=665&height=671){width=75%}
+![loo](https://media.discordapp.net/attachments/1139036637519683584/1216664756774109185/63_20240311113008.png?ex=662f5ada&is=661ce5da&hm=05f9320f3e0ae3ab32bd502176c94e7eebc86d6e0e6bba7fd11cbc4618228d6a&=&format=webp&quality=lossless&width=665&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 14 марта - раскрытие Пустых
 
@@ -988,7 +988,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 В этот же день **sm1lly** выдаёт базу, объявив Столицу - зоной без трусов. Всех игроков, носящих трусы, штрафовали.
 
-![nopanties](https://media.discordapp.net/attachments/1139036637519683584/1219348995093299390/2024-03-18_21.06.03-1.png?ex=662fe43e&is=661d6f3e&hm=0f62ca82de6a1706167f762e21e166a98c7f9d3e02f25ab64c0ad0cd1ce28a3e&=&format=webp&quality=lossless&width=1193&height=671){width=75%}
+![nopanties](https://media.discordapp.net/attachments/1139036637519683584/1219348995093299390/2024-03-18_21.06.03-1.png?ex=662fe43e&is=661d6f3e&hm=0f62ca82de6a1706167f762e21e166a98c7f9d3e02f25ab64c0ad0cd1ce28a3e&=&format=webp&quality=lossless&width=1193&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 19 марта 
 
@@ -1012,7 +1012,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 25 марта театр был уже полностью построен.
 
-![teart](https://media.discordapp.net/attachments/1139036637519683584/1220059346915037234/2024-03-20_21.png?ex=66293f4f&is=6616ca4f&hm=d513375582babc69e17e9ac5196edf1ab8f772fecd537ba9821fc54cd5bf2b43&=&format=webp&quality=lossless&width=1193&height=671){width=75%}
+![teart](https://media.discordapp.net/attachments/1139036637519683584/1220059346915037234/2024-03-20_21.png?ex=66293f4f&is=6616ca4f&hm=d513375582babc69e17e9ac5196edf1ab8f772fecd537ba9821fc54cd5bf2b43&=&format=webp&quality=lossless&width=1193&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 23 марта - неполадочка
 
@@ -1028,7 +1028,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Но зато sm1lly нарисовал крутой арт со всей компанией пранкеров!
 
-![pranksters](https://media.discordapp.net/attachments/1139036637519683584/1223922811073073182/image.png?ex=662e12f1&is=661b9df1&hm=e1a4fa76fc1910ed83c7363d89311f4bc4558e54050e7009e202964f51de9e33&=&format=webp&quality=lossless&width=1440&height=519){width=75%}
+![pranksters](https://media.discordapp.net/attachments/1139036637519683584/1223922811073073182/image.png?ex=662e12f1&is=661b9df1&hm=e1a4fa76fc1910ed83c7363d89311f4bc4558e54050e7009e202964f51de9e33&=&format=webp&quality=lossless&width=1440&height=519){ width=75% decoding="async" loading="lazy" }
 
 ## 1 апреля
 
@@ -1074,7 +1074,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 За 2 дня барьер покрыл **казну** Кошкокрафта, от чего банковская система рухнула.
 
-![sadasas](https://media.discordapp.net/attachments/1139036637519683584/1224407430818041987/7BF2270CA1-F58E-45EC-9889-FA615381A5F77D.png?ex=662fd647&is=661d6147&hm=44a4a6124b89687ce7a234aa45df27f8ea9a37b1909547bf9912caf0ba2c1799&=&format=webp&quality=lossless&width=1193&height=671){width=75%}
+![sadasas](https://media.discordapp.net/attachments/1139036637519683584/1224407430818041987/7BF2270CA1-F58E-45EC-9889-FA615381A5F77D.png?ex=662fd647&is=661d6147&hm=44a4a6124b89687ce7a234aa45df27f8ea9a37b1909547bf9912caf0ba2c1799&=&format=webp&quality=lossless&width=1193&height=671){ width=75% decoding="async" loading="lazy" }
 
 ## 3-5 апреля - начало конца
 
@@ -1086,13 +1086,13 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 У него была такая возможность, ведь незадолго до поглощение барьером казной, он вынес её **подчистую**.
 
-![skorohod](https://media.discordapp.net/attachments/1139036637519683584/1225889435330023567/IMG_2502.png?ex=662c0001&is=66198b01&hm=bdaf05e8de7c26c1d239521f48730a2e576304a02875001b1bc5699fe6d95aa5&=&format=webp&quality=lossless){width=75%}
+![skorohod](https://media.discordapp.net/attachments/1139036637519683584/1225889435330023567/IMG_2502.png?ex=662c0001&is=66198b01&hm=bdaf05e8de7c26c1d239521f48730a2e576304a02875001b1bc5699fe6d95aa5&=&format=webp&quality=lossless){ width=75% decoding="async" loading="lazy" }
 
 ## 5-7 апреля
 
 Мир начал разрушаться. Чанки вокруг котиков восстанавливались в изначальный вид, порталы перестали работать, вещи пропадали. **Совет Пяти** решил сделать последнюю вещь - построить портал **на следующий сезон**. Они попросили всех игроков собраться 7 апреля в 18:00, дабы открыть его вместе с помощью **Символов Власти**.
 
-![monuments](https://media.discordapp.net/attachments/1139036637519683584/1226252124342456402/image.png?ex=662d51c9&is=661adcc9&hm=eead6db1ec87be952231341ada8e540e76c858d2e3f52f03882a708d2e19987b&=&format=webp&quality=lossless&width=1138&height=671){width=75%}
+![monuments](https://media.discordapp.net/attachments/1139036637519683584/1226252124342456402/image.png?ex=662d51c9&is=661adcc9&hm=eead6db1ec87be952231341ada8e540e76c858d2e3f52f03882a708d2e19987b&=&format=webp&quality=lossless&width=1138&height=671){ width=75% decoding="async" loading="lazy" }
 
 В назначенный срок барьер был уже впритык к монументу, Совет Пяти вставили Символы, от чего на небе открылся портал, который привёл всех котиков в стазис.
 

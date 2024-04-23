@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/people-group
+icon: octicons/people-16
 status: inprogress
 ---
 

@@ -1,30 +1,56 @@
+/* Много кода пренадлежит сайту https://anelllya.github.io/portfolio/ */
+
 :root {
-  --md-text-font: 'Mulish', system-ui, "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
-  --md-typeset-heading: 'Mulish', system-ui, sans-serif;
+  --md-text-font: "Segoe UI", system-ui, 'Roboto', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+  --md-typeset-heading: "Segoe UI", system-ui, sans-serif;
   --md-primary-fg-color: #3c129e;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #90030C;
   --md-status--inprogress: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/></svg>');
 }
 
-[data-md-color-primary=indigo] {
+.md-header--shadow {
+  box-shadow: 2px;
+}
+
+.md-header {
+  background-color: #05050580;
+  color: var(--md-default-fg-color);
+  backdrop-filter: blur(8px);
+}
+
+.md-tabs {
+  background-color: #ffffff00;
+  color: var(--md-default-fg-color);
+}
+
+.md-header__button.md-logo img {
+  height: 1.5rem;
+}
+
+/* [data-md-color-primary=indigo] {
   --md-primary-fg-color: #4727b6;
 }
+*/
 
 [data-md-color-scheme=slate] { 
   --md-default-bg-color: hsla(var(--md-hue),15%,12%,1);
+  --md-default-fg-color: #d4d4d8;
+
+  --md-code-fg-color: hsla(var(--md-hue),18%,86%,0.9);
+  --md-code-bg-color: hsla(var(--md-hue),15%,18%,1);
 }
 
-/* Добавляет свг картинку в хедер */
+/* Добавляет свг картинку в хедер 
 .md-header, .md-tabs {
-  background-image: url('../assets/background.svg'); /* Image taken from https://docs.kolena.com */
+  background-image: url('../assets/background.svg'); /* Image taken from https://docs.kolena.com
   background-size: cover;
-  
-}
+} /*
 
-/* Делает картинку сверху во весь хедер */
+/* Делает картинку сверху во весь хедер  */
+
 .md-tabs {
-  background-position-y: -48px; 
+  background-size: cover;
 }
 
 /* Увеличивает размер текста в таблица */
@@ -65,7 +91,6 @@ td {
 }
 
 ::selection {
-  color: var(--grayscale-gray-99-black);
   background-color: var(--md-primary-fg-color--light);
 }
 
@@ -74,13 +99,23 @@ td {
   src: url("../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 
-/* Это - разделение полосочками страничками в левом меню*/
-.md-nav__item.md-nav__item--section.md-nav__item--nested {
-  border-top: 1px solid #353535;
-}
-
 .md-typeset .grid.cards>ul>li {
   border-radius: 0.5rem;
+  transition: border .5s,box-shadow .5s;
+}
+
+@media screen and (max-width: 76.234375em) {
+  .md-nav--primary .md-nav__title[for=__drawer] {
+    background-color: #05050580;
+    color: var(--md-primary-bg-color);
+    font-weight: 700;
+  }
+}
+
+
+label.md-nav__link {
+  font-size: 1rem;
+  margin-left: -12px;
 }
 
 .md-nav {
@@ -99,7 +134,8 @@ border-right: 1px solid #526de7;
 
 /* Изменение вообще всего текста */
 .md-typeset{
-  font-family: var(--md-text-font);
+  font-weight: 400;
+  font-family: "Segoe UI";
   font-size: .9rem;
 }
 
@@ -109,6 +145,7 @@ border-right: 1px solid #526de7;
 
 .md-typeset .grid.cards>ol>li, .md-typeset .grid.cards>ul>li, .md-typeset .grid>.card {
   border-radius: 0.4rem;
+  border: 0.125rem solid var(--md-typeset-table-color);
 }
 
 .card {

@@ -1,5 +1,6 @@
 ---
 icon: material/account-voice
+title: Войсчат и аддоны
 ---
 
 # Войсчат и кастомные пластинки

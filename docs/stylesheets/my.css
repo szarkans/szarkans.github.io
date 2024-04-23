@@ -1,3 +1,64 @@
+.index-title {
+    display: flex;
+    justify-content: space-between; /* Aligns children to each side */
+    align-items: center; /* Vertically centers the children */
+    padding: 20px; /* Adds some padding around the container */
+    flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+}
+
+/* Styling for the image */
+.image-shadow {
+    width: 50%; /* Takes half of the container's width */
+    max-width: 600px; /* Maximum width to ensure it's not too large */
+    height: auto; /* Maintains the aspect ratio of the image */
+    order: 2; /* Puts the image on the right */
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+
+/* Styling for the header text */
+.title-text {
+    width: 100%; /* Takes half of the container's width */
+    font-size: 1.5em; /* Larger text size */
+    color: #333; /* Text color */
+    /* text-align: left; Aligns text to the left */
+    order: 1; /* Puts text on the left */
+}
+
+.text-container {
+    width: 50%;
+    order: 1;
+}
+
+.description {
+    font-size: 1.2em; /* Slightly smaller than the title */
+    color: #333;
+    margin-top: 10px; /* Adds space between the title and this paragraph */
+}
+
+.version-info {
+    font-size: 1em; /* Standard text size for info */
+    color: #666; /* Lighter color for less emphasis */
+    margin-top: 5px; /* Space between the main description and version info */
+}
+
+@media (max-width: 768px) {
+    .index-title {
+        flex-direction: column; /* Stacks items vertically on small screens */
+        text-align: center;
+    }
+    .image-shadow, .title-text {
+        width: 100%; /* Each takes full width of the container */
+        text-align: center;
+    }
+    .image-shadow {
+        order: 1; /* Puts the image on top */
+    }
+    .title-text {
+        order: 2; /* Puts the text below the image */
+    }
+}
+
 .red {
     color:rgb(209, 6, 6);
 }
@@ -36,6 +97,10 @@ font-weight: bold;
 
 .white {
     color: whitesmoke;
+}
+
+.almost-white {
+    color: rgb(221, 221, 221);
 }
 
 .text {
@@ -140,11 +205,6 @@ font-weight: bold;
 
 .shadow {
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.image-shadow {
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .glow {
@@ -268,7 +328,8 @@ font-weight: bold;
 
 img {
     cursor: pointer;
-    border-radius: 0.2rem;
+    border-radius: 0.25rem;
+    /* border: 10px solid rgba(46, 46, 46, 0.397) */
 }
 
 /* Overlay that covers the entire screen */
