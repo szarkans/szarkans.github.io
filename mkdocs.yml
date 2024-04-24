@@ -120,68 +120,68 @@ nav:
   - ' ': index.md
   - Информация:
     - info/admins.md
-    - info/dict.md
-    - info/faq.md
-    - info/donate.md
-    - info/guide.md
-    - info/map.md
-    - info/for_media.md
+    # - info/dict.md
+    # - info/faq.md
+    # - info/donate.md
+    # - info/guide.md
+    # - info/map.md
+    # - info/for_media.md
     - info/brandbook.md
     - 'Правила и законы':
       - info/rules/rules.md
       - info/rules/laws.md
     - 'Моды':
-      - info/mods/mods.md
+      # - info/mods/mods.md
       - info/mods/cool_mods.md
-  - Геймплей:
-    - Роллплей:
-      - gameplay/roleplay/goverment.md
-      - gameplay/roleplay/police.md
-    - Уникальные фишки:
-      - gameplay/unique/qol.md
-      - gameplay/unique/resourcepack.md
-      - gameplay/unique/npc.md
-      - gameplay/unique/villager_rebalance.md
-      - gameplay/unique/datapacks.md
-      - gameplay/unique/artmap.md
-      - gameplay/unique/clans.md
-      - gameplay/unique/armorstand.md
-      - gameplay/unique/wandering_trader.md
-      - gameplay/unique/prefixes.md
-      - Модели игрока:
-        - gameplay/unique/cpm/index.md
-        - gameplay/unique/cpm/cpm_guide.md
-      - "gameplay/unique/brewery.md"
-      - Рыбалка:
-        - "gameplay/unique/fishing/index.md"
-        - Список рыб: gameplay/unique/fishing/fish_list.md
-      - gameplay/unique/voicechat.md
-    - Награды игрокам:
-      - gameplay/rewards/list.md
-      - gameplay/rewards/catpass.md
-    - Команды:
-      - gameplay/commands/ingame.md
-      - gameplay/commands/discord.md
-  - Предметы:
-    - Накладываемое:
-      - "items/clickable/cattrack.md"
-      - "items/clickable/scroll.md"
-    - Блоки:
-      - "items/blocks/gycha.md"
-      - "items/blocks/compressed.md"
-      - "items/blocks/reinforced.md"
-      - "items/blocks/light.md"
-      - "items/blocks/invis_frame.md"
-    - Применяемое:
-      - "items/usable/kplus.md"
-    - Кастомные предметы:
-      - "items/custom_items/gh.md"
-      - "items/custom_items/plushie.md"
-      - "items/custom_items/kotomat.md"
-      - "items/custom_items/holy_books.md"
-    - Ванильные предметы:
-      - "items/vanilla/templates.md"
-      - "items/vanilla/totem.md"
+  # - Геймплей:
+  #   - Роллплей:
+  #     - gameplay/roleplay/goverment.md
+  #     - gameplay/roleplay/police.md
+  #   - Уникальные фишки:
+  #     - gameplay/unique/qol.md
+  #     - gameplay/unique/resourcepack.md
+  #     - gameplay/unique/npc.md
+  #     - gameplay/unique/villager_rebalance.md
+  #     - gameplay/unique/datapacks.md
+  #     - gameplay/unique/artmap.md
+  #     - gameplay/unique/clans.md
+  #     - gameplay/unique/armorstand.md
+  #     - gameplay/unique/wandering_trader.md
+  #     - gameplay/unique/prefixes.md
+  #     - Модели игрока:
+  #       - gameplay/unique/cpm/index.md
+  #       - gameplay/unique/cpm/cpm_guide.md
+  #     - "gameplay/unique/brewery.md"
+  #     - Рыбалка:
+  #       - "gameplay/unique/fishing/index.md"
+  #       - Список рыб: gameplay/unique/fishing/fish_list.md
+  #     - gameplay/unique/voicechat.md
+  #   - Награды игрокам:
+  #     - gameplay/rewards/list.md
+  #     - gameplay/rewards/catpass.md
+  #   - Команды:
+  #     - gameplay/commands/ingame.md
+  #     - gameplay/commands/discord.md
+  # - Предметы:
+  #   - Накладываемое:
+  #     - "items/clickable/cattrack.md"
+  #     - "items/clickable/scroll.md"
+  #   - Блоки:
+  #     - "items/blocks/gycha.md"
+  #     - "items/blocks/compressed.md"
+  #     - "items/blocks/reinforced.md"
+  #     - "items/blocks/light.md"
+  #     - "items/blocks/invis_frame.md"
+  #   - Применяемое:
+  #     - "items/usable/kplus.md"
+  #   - Кастомные предметы:
+  #     - "items/custom_items/gh.md"
+  #     - "items/custom_items/plushie.md"
+  #     - "items/custom_items/kotomat.md"
+  #     - "items/custom_items/holy_books.md"
+  #   - Ванильные предметы:
+  #     - "items/vanilla/templates.md"
+  #     - "items/vanilla/totem.md"
   - Гайды:
     - Игровое:
       - guides/set_skin.md
