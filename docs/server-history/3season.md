@@ -220,9 +220,9 @@
 
 ## 21 августа - Ебенград
 
-- Был основан Ебенград под предводительством LittleGirlsLover, Pumcheese, Ghekkish и _RAT_GEL_.
+- Был основан Ебенград под предводительством LittleGirlsLover, Pumcheese, Ghekkish и \_RAT_GEL\_
 
-    - Список жителей: Pumcheese Ghekkish LittleGirlsLover RAT_GEL Jeas Blackdragon261 KeniRaym LiteTuchka Poogalos Razond SM1LLYS tokasssabtw shamanishka zioninside ZureM kainet
+    - Список жителей: Pumcheese, Ghekkish, LittleGirlsLover, \_RAT_GEL\_, \_\_Jeas\_\_, Blackdragon261, KeniRaym, LiteTuchka, Poogalos, Razond, SM1LLYS, tokasssabtw, shamanishka, zioninside, ZureM и kainet.
 
     - Это был угар-город в ебенях, в будущем самым большим по населению. Почему самым большим? В город принимали всех новичков через 5 минут после того, как они зашли. Хороший ход, только играть они оставались недолго.
 
@@ -296,7 +296,7 @@
 
 - Сегодня Сережа «Szarkan» Юдин хорошо покушал и придумал крутое обновление <https://vk.com/wall-210306238_1425>
 
-## 16 сентября
+## 16-20 сентября
 
 - Начались новые выборы президента, которые теперь работали через ВК бота. Кандидатами были CharaBell, Skorohodon, Papamama, KUREVO69 и Pumcheese. В итоге в борьбе между Pumcheese и Skorohodon выиграла Pumcheese. Роковая ошибка...
 
@@ -307,10 +307,6 @@
 - Примерно в это же время началось строительство города Сипуси (англ. Sea Pussy) - большого научного центра под водой в пещере. Был достроен лишь частично, и там никто и не жил.
 
     - Стротельтсвом занимались Skorohodon, Szarkan и AKai
-
-## 21 сентября - Шутка. Или нет?...
-
-![joke](../assets/server_history/season3/joke.png){ width=75% decoding="async" loading="lazy" }
 
 ## 28 сентября - 1 октября
 
@@ -328,35 +324,27 @@
 
 ![new_spawn](../assets/server_history/season3/new_spawn.png){ width=75% decoding="async" loading="lazy" }
 
-## 2 октября 
+## 2-15 октября 
 
 - Первые и последние указы президента **Pumcheese** - <https://vk.com/wall-210306238_1657>
-
-## 4 октября
 
 - Впервые чат разделён на локальный и глобальный
 
 - Новые городские напитки, достижения и по мелочи <https://vk.com/wall-210306238_1672>
 
-## 9 октября
+- Был снят трейлер сервера игроком **gerax2302** - <https://vk.com/wall-210306238_2372> 
 
-- Был снят трейлер сервера игроком **gerax2302** - <https://vk.com/wall-210306238_2372>
-
-## 11 октября 
+- 1000 подписчиков в группе! <https://vk.com/wall-210306238_2449>
 
 - Был достроен Кафедральный собор игроком **God_of_hentai** - <https://vk.com/wall-210306238_2416>
 
 ![cafedra](../assets/server_history/season3/cafedral.png){ width=75% decoding="async" loading="lazy" }
 
-## 14 октября
-
-- 1000 подписчиков в группе! <https://vk.com/wall-210306238_2449>
-
 ## 15 октября
 
 - Совместными усилиями Szarkan, Skorohodon, gerax2302 и imuedennui создается **Декларация Кошкокрафта**, которая должна была частично регулировать игровой процесс, однако особого успеха эта идея не возымела.
 
-    - Также в этот день ***Asp1re** решает вернуться на сервер и покупает разбан, однако сталкивается с буллингом в лице Skorohodon, Asp1re чуть ли не уходит с сервера, но под угрозой лишения опки Skorohodon извинился и всё было хорошо.
+    - Также в этот день ***Asp1re** решает вернуться на сервер и покупает разбан.
 
 ## 19 октября
 

@@ -186,6 +186,16 @@ border-right: 1px solid #526de7;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.md-social__link svg {
+  max-height: 1rem;
+}
+
+@media screen and (min-width: 45em) {
+  .md-social {
+      padding: 1rem 0;
+  }
+}
+
 /* Изменение под-под-заголовков */
 .md-typeset h3 {
   color: #b698fc; 

@@ -1,5 +1,12 @@
 /* Дизайн немножко вдохновлён сайтом https://schalker.ru :3 */
 
+:root {
+    --catcraft-color: #4f2dbe;
+    --catcraft-gradient-1color: #7648e1;
+    --catcraft-gradient-2color: #4728b6;
+    --catcraft-gradient: linear-gradient(90deg, rgba(118,72,225,1) 0%, rgba(163,82,162,1) 100%, rgba(71,40,182,1) 100%);
+}
+
 .index-title {
     display: flex;
     justify-content: space-between; /* Aligns children to each side */

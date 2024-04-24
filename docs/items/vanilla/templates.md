@@ -10,13 +10,6 @@ status: new
         ![cattrack](https://mcapi.marveldc.me/item/netherite_upgrade_smithing_template?version=1.20&width=250&height=250&fuzzySearch=bool){ width=150 }
         ![cattrack](https://mcapi.marveldc.me/item/wild_armor_trim_smithing_template?version=1.20&width=250&height=250&fuzzySearch=bool){ width=150 }
     </figure>
-    ***
-    **Тип:** Предмет
-    ***
-    **Получение:**
-    
-    - Крафт
-    ***
 
 **Шаблоны** на сервере были изменены. Дублирование обычных шаблонов стало дороже, а дублирование **незеритового улучшения** - удалено.
 
