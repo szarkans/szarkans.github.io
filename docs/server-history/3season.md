@@ -490,5 +490,5 @@
 
 [:simple-vk: Альбом 3 сезона](https://vk.com/album-210306238_284869427){ .md-button .md-button--primary }
 
-[ :material-arrow-right-top: torrent-файл карты 3 сезона](../assets/files/catcraft-map-season3.torrent){ .md-button .md-button--primary }
+[ :material-download: torrent-файл карты 3 сезона](../assets/files/catcraft-map-season3.torrent){ .md-button .md-button--primary }
 

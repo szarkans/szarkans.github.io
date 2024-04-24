@@ -1116,4 +1116,4 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 ## Данные
 
-[ :material-arrow-right-top: torrent-файл карты 5 сезона ](../assets/files/catcraft-map-season5.torrent){ .md-button .md-button--primary }
+[ :material-download: torrent-файл карты 5 сезона ](../assets/files/catcraft-map-season5.torrent){ .md-button .md-button--primary }

@@ -77,6 +77,12 @@
     }
 }
 
+.\*\:transition-all>* {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
 .red {
     color:rgb(209, 6, 6);
 }
@@ -382,4 +388,169 @@ img {
 .heart {
     display: inline-block; /* Ensures transform applies correctly */
     animation: heart 1000ms infinite;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.brand-book-color-item {
+    border-radius: 10px;
+    border: 15px black;
+}
+
+.brand-book-color-gradient {
+    background-image: linear-gradient(90deg, rgba(128,79,235,1) 0%, rgba(71,39,182,1) 100%, rgba(71,40,182,1) 100%);
+}
+
+.brand-book-color-main {
+    background-color: #4f2dbe;
+}
+
+.brand-book-color-white {
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.brand-book-color-black {
+    background-color: #101114;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-around; /* Distributes space between and around content items */
+    align-items: center; /* Vertically centers the items */
+    margin: 20px;
+  }
+  .image-grid img {
+    width: 35%; /* Each image takes up roughly 30% of the grid width */
+    height: auto; /* Maintain the aspect ratio of the images */
+    border-radius: 8px; /* Optional: Adds rounded corners to your images */
+  }
+
+
+/* ======================================== */
+/* =================FAQ==================== */
+/* ======================================== */
+
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.faq-section {
+    flex: 1 1 60%; /* Takes as much width as possible on larger screens */
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.faq-dropdown {
+    margin-bottom: -1px;
+    background: transparent;
+    width: 95%;
+    border-top: 1px solid hsla(var(--md-hue),15%,18%,1);
+    border-bottom: 1px solid hsla(var(--md-hue),15%,18%,1);
+}
+
+.dropdown-btn {
+    padding: 22px;
+    padding-right: 30px; /* Increased padding to accommodate the arrow */
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    font-size: 20px;
+    position: relative; /* Required for proper positioning of the background */
+    background-image: url("data:image/svg+xml;utf8,<svg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L7 7L13 1' stroke='%2379797A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Positions the arrow to the right */
+    transition: background-color 0.2s;
+}
+
+/* .dropdown-btn {
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    text-align: left;
+    transition: background-color 0.2s;
+}  */
+
+
+.dropdown-btn:hover {
+    background-color: hsla(var(--md-hue),15%,18%,1); /* Light grey color on hover for better UI feedback */
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Smooth transition for max-height and padding */
+}
+
+.discord-box {
+    flex: 0 0 35%; /* Adjusts size on larger screens */
+    background: transparent;
+    border: 0.2rem solid hsla(var(--md-hue),15%,18%,1);
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.discord-box:hover {
+    background-color: hsla(var(--md-hue),15%,18%,1);
+}
+
+@media screen and (max-width: 1219px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .faq-section, .discord-box {
+        flex: 1 1 100%;
+    }
+    .discord-box {
+        margin-top: 20px;
+    }
+}
+
+.discord-box-top {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.discord-logo {
+    width: 60px;
+    fill:#5865f2;
+}
+
+.discord-box-link {
+    margin-left: auto;
+    width: 30px;
+    fill: var(--md-default-fg-color);
+}
+
+
+@media (max-width: 600px) {
+    .discord-logo {
+        height: 30px; /* Smaller size on smaller screens */
+    }
+    .discord-box-link {
+        width: 30px;
+    }
 }
