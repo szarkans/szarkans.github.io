@@ -77,16 +77,12 @@ extra_css:
 plugins:
   - search
   - open-in-new-tab
-  - table-reader
   - minify:
       minify_html: true
   - exclude:
       glob:
         - includes/*
         - docs/deprecated/*
-  # - snippets:
-  #     directory: "_snippets"
-  #     identifier: "snippet"
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
