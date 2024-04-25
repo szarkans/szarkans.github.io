@@ -22,19 +22,9 @@ icon: fontawesome/solid/house
     </div>
 </div>
 
-<!-- <div class="index-title">
-    <img src="../assets/logo.png" class="image-shadow" alt="Logo">
-    <div class="text-container">
-        <h1 class="title-text">
-            <span class="white">Приватная Ванилла<span class="gold">+</span> с элементами Role-play и котиками!</span>
-        </h1>
-        <p class="description almost-white">
-            <span class="gold bold">Кошкокрафт</span> - Лучший. Кошачий. Навсегда!
-        </p>
-    </div>
-</div> -->
-
 ***
+
+<br>
 
 <h1 class="shadow">Наши фишки</h1>
 
@@ -74,6 +64,7 @@ icon: fontawesome/solid/house
 
 </div>
 
+
 <div class="grid cards" markdown>
 
 - :material-gamepad-variant:{ .lg .middle .shadow } <span class="shadow">__А также...__</span>
@@ -96,8 +87,7 @@ icon: fontawesome/solid/house
 
 </div>
 
-***
-
+<br><br><br>
 
 <h1 class="shadow">Частые вопросы</h1>
 
@@ -138,7 +128,7 @@ icon: fontawesome/solid/house
         <div class="faq-dropdown">
             <button class="dropdown-btn">Почему "Кошкокрафт"? Няняня?</button>
             <div class="dropdown-content">
-                <p>У этого названия есть <a href="../server-history/1season.md">целая история</a>!</p>
+                <p>У этого названия есть <a href="server-history/1season">целая история</a>!</p>
             </div>
         </div>
     </div>
@@ -177,6 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
+<br><br><br>
 
 <h1 class="shadow">Все ещё не уверен?</h1>
 
