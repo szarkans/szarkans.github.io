@@ -6,7 +6,7 @@ hide:
   - footer
   - path
   - feedback
-  - content.action.edit
+  - actions
 icon: fontawesome/solid/house
 ---
 

@@ -24,13 +24,13 @@
       {# Checks if the page metadata contains the toc_depth setting. If yes, it doesn't generate toc below the given
       value #}
       {% for toc_item in toc_item.children %}
-      {% if page.meta.toc_depth %}
-      {% if toc_item.level <= page.meta.toc_depth %}
-      {% include "partials/toc-item.html" %}
-      {% endif %}
-      {% else %}
-      {% include "partials/toc-item.html" %}
-      {% endif%}
+        {% if page.meta.toc_depth %}
+          {% if toc_item.level <= page.meta.toc_depth %}
+            {% include "partials/toc-item.html" %}
+          {% endif %}
+        {% else %}
+          {% include "partials/toc-item.html" %}
+        {% endif%}
       {% endfor %}
     </ul>
   </nav>
