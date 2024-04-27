@@ -45,7 +45,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-star:{ .lg .middle } <span class="shadow">__CharaBell, Натал*и*я__</span>
+-   :material-star:{ .lg .middle } <span class="shadow">__CharaBell, Натал<u>и</u>я__</span>
 
     ![CharaBell](https://cravatar.eu/avatar/CharaBell/600.png){ align=right width="150" }
 
