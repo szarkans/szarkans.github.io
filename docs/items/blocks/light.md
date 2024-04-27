@@ -1,3 +1,7 @@
+---
+toc_depth: 1
+---
+
 # Блок света
 
 !!! tip inline end "Блок"

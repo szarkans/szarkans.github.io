@@ -9,7 +9,9 @@
 
 2. Регистрируешься на [GitHub](https://github.com)
 
-3. Создаёшь `gist`, вставляешь туда скопированный текст ![gist](../../../assets/cpm/guide/gist.png){ width=450 }
+3. Создаёшь `gist`, вставляешь туда скопированный текст
+
+    ![gist](../../../assets/cpm/guide/gist.png){ width=450 }
 
 4. Копируешь ссылку на этот `gist`
 

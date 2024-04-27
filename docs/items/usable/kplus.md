@@ -1,3 +1,7 @@
+---
+toc_depth: 1
+---
+
 # Котик+
 
 !!! tip inline end "Предмет"

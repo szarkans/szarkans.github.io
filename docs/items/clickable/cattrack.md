@@ -1,8 +1,12 @@
+---
+toc_depth: 1
+---
+
 # Модуль CatTrack
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![cattrack](../../assets/items/consumable/cattrack.png){ width=150 }
+        ![cattrack](../../assets/items/consumable/cattrack.png){ width=150 loading="lazy" decoding="async" }
     </figure>
     ***
     **Тип:** Накладываемое

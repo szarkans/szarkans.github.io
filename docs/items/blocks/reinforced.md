@@ -1,3 +1,7 @@
+---
+toc_depth: 1
+---
+
 # Укреплённый глубинный сланец
 
 !!! tip inline end "Предмет"
@@ -23,4 +27,4 @@
 
 - 1 древний обломок
 
-![comp](../../assets/crafts/reinforced_deepslate.png){ width=400 }
+![comp](../../assets/crafts/reinforced_deepslate.png){ width=400 loading="lazy" decoding="async" }
