@@ -62,10 +62,12 @@
         nekoEl.style.position = "fixed";
         nekoEl.style.backgroundImage = "url('/assets/oneko.gif')";
         nekoEl.style.imageRendering = "pixelated";
-        nekoEl.style.left = "16px";
-        nekoEl.style.top = "16px";
+        nekoEl.style.left = `${mousePosX}px`;
+        nekoEl.style.top = `${mousePosY}px`;
 
         document.body.appendChild(nekoEl);
+
+        document.getElementById('neko-start').style.display = 'none';
 
         document.onmousemove = (event) => {
             mousePosX = event.clientX;
