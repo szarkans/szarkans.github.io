@@ -74,6 +74,7 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/my.css
   - stylesheets/admonitions.css
+  - stylesheets/before_after.css
 plugins:
   - search
   - open-in-new-tab
@@ -88,7 +89,11 @@ extra_javascript:
   - javascripts/tablesort.js
  # - javascripts/players.js
   - javascripts/effects.js
+  - javascripts/anchors.js
   - javascripts/img_expand.js
+  - javascripts/before_after.js
+  - javascripts/oneko.js
+  - javascripts/oneko-element.js
 watch:
   - includes
 extra: 

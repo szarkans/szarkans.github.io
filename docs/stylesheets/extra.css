@@ -58,11 +58,45 @@ td {
   font-size: 0.75rem;
 }
 
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-1.25em);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.md-content {
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
+}
+
+@media screen and (min-width: 45em) {
+  .md-copyright  {
+    display: flex;
+    align-items: center;
+  }
+}
+
 /* Делает адмонитионы (плашки) более красивыми */
 .md-typeset .admonition, .md-typeset details {
-  border-width: 1px;
+  border-width: 0;
   border-left-width: 4px;
   font-size: .75rem;
+  box-shadow: 0 0 0.2rem #00000036, 0 0.2rem 0.4rem rgba(0, 0, 0, 0.308);
+}
+
+.md-typeset summary:not(.focus-visible) {
+  font-size: 0.9rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Тут смена размеров всего для разных устройств */
@@ -112,10 +146,11 @@ td {
   }
 }
 
-
-label.md-nav__link {
-  font-size: 1rem;
-  margin-left: -12px;
+@media (min-width: 1220px) {
+  label.md-nav__link {
+    font-size: 1rem;
+    margin-left: -12px;
+  }
 }
 
 .md-nav {

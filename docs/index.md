@@ -8,10 +8,11 @@ hide:
   - title
   - actions
 icon: fontawesome/solid/house
+title: Котик спит
 ---
 
 <figure markdown="span">
-![cat](./assets/sleepy_cat.png){ width=300 }
+![cat](./assets/sleepy_cat.png){ width=300 .no-expand }
   <figcaption></figcaption>
 </figure>
 

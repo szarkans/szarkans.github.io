@@ -10,6 +10,8 @@ hide:
 icon: fontawesome/solid/house
 ---
 
+
+
 <div class="index-title">
     <img src="../assets/logo.png" class="image-shadow" alt="Logo">
     <div class="text-container">
@@ -93,7 +95,6 @@ icon: fontawesome/solid/house
 <h1 class="shadow">Частые вопросы</h1>
 
 <div class="faq-container">
-    <!-- FAQ Section with Dropdowns -->
     <div class="faq-section">
         <div class="faq-dropdown">
             <button class="dropdown-btn">Как к вам попасть?</button>
@@ -101,7 +102,6 @@ icon: fontawesome/solid/house
                 <p>Пока что никак - мы на межсезонье! Но пока что ты можешь зайти в наш <a href="https://discord.gg/23XJyDGJaH" target="_blank">Дискорд</a>!</p>
             </div>
         </div>
-        <!-- Add additional dropdowns as needed -->
         <div class="faq-dropdown">
             <button class="dropdown-btn">Какая версия?</button>
             <div class="dropdown-content">
