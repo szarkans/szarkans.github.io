@@ -1,5 +1,6 @@
 ---
 icon: material/account-edit
+description: Кастомные модели персонажа
 ---
 
 # Customizable Player Models

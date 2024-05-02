@@ -1,5 +1,6 @@
 ---
 icon: material/tooltip-check
+description: Крутые моды для Майнкрафта
 ---
 
 # Рекомендуемые моды

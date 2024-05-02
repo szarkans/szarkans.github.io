@@ -524,7 +524,10 @@ img {
         flex: 1 1 100%;
     }
     .discord-box {
+        margin-right: auto;
+        margin-left: auto;
         margin-top: 20px;
+        max-width: 500px;
     }
 }
 
@@ -549,6 +552,7 @@ img {
 @media (max-width: 600px) {
     .discord-logo {
         height: 30px; /* Smaller size on smaller screens */
+        
     }
     .discord-box-link {
         width: 30px;
@@ -557,4 +561,12 @@ img {
 
 .no-expand {
     cursor: default;
+}
+
+.catcraft-logo {
+    max-width: 500px !important;
+}
+
+.small-img-border {
+    border: solid #85858524 5px;
 }

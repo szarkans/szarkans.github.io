@@ -1,6 +1,7 @@
 ---
 icon: octicons/people-16
 status: inprogress
+description: Система кланов
 ---
 
 # Кланы

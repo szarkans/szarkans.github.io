@@ -6,6 +6,7 @@ hide:
   - path
 search:
   exclude: true
+description: Гайд для ГКСБ сервера
 ---
 
 # Ультимативный гайд по ГКСБ

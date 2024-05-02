@@ -2,6 +2,7 @@
 icon: material/human-edit
 title: Армор-стенды
 status: inprogress
+description: Редактирование армор-стендов
 ---
 
 # Редактирование армор-стендов

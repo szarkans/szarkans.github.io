@@ -1,6 +1,7 @@
 ---
 icon: material/download
 toc_depth: 2
+description: Ресурспак нашего сервера!
 ---
 
 # Ресурспак

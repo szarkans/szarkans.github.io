@@ -1,5 +1,6 @@
 ---
 icon: octicons/tools-16
+description: Датапаки Кошкокрафта
 ---
 
 # Наши Датапаки

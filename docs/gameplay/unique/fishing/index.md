@@ -1,6 +1,7 @@
 ---
 icon: fontawesome/solid/fish
 status: new
+description: Кастомная рыбалка на Кошкокрафте
 ---
 
 # Рыбалка

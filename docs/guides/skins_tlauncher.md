@@ -1,3 +1,7 @@
+---
+description: Как исправить скины на TLauncher?
+---
+
 # Пофиксить скины на TLauncher
 
 !!! warning "Важно"

@@ -5,6 +5,7 @@ hide:
   - path
 search:
   exclude: true
+description: Гайд по работе Президента
 ---
 
 # Ультимативный гайд по Президенству

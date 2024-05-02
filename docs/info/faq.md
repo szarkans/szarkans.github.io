@@ -1,5 +1,6 @@
 ---
 icon: octicons/question-16
+description: Частые вопросы
 ---
 
 # Частые Вопросы

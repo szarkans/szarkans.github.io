@@ -5,6 +5,7 @@ hide:
   - path
 search:
   exclude: true
+description: Гайд по работе полицейским
 ---
 
 # Ультимативный гайд по работе Офицером КСБ

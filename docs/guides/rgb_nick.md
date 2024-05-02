@@ -1,3 +1,7 @@
+---
+description: Гайд по установке разноцветного ника в Майнкрафт
+---
+
 # Как сделать разноцветный ник?
 
 !!! warning ""
@@ -5,17 +9,17 @@
 
 Хочешь сделать себе такой же градиентный ник как на фотке? Тогда следуй этому гайду!
 
-![rgb](../assets/guides/nick/rgb_nick.png)
+![rgb](../assets/guides/nick/rgb_nick.png){ width=75% .small-img-border loading="lazy" decoding="async"}
 
 1. Заходишь на сайт [RGB Gradient Creator](https://minecraft.menu/minecraft-rgb-generator)
 
 2. В поле `Message` вводишь свой ник или что хочешь
 
-    ![message](../assets/guides/nick/message.png)
+    ![message](../assets/guides/nick/message.png){.small-img-border loading="lazy" decoding="async"}
 
 3. Слева выбираешь стиль ника - количество цветов, сами цвета, жирный, подчёркнутый и т.п.
 
-    ![alt text](../assets/guides/nick/sett.png)
+    ![alt text](../assets/guides/nick/sett.png){ width=50% .small-img-border loading="lazy" decoding="async"}
 
 4. Копируешь всё из `Output`, и вставляешь на сервере в команду `/nick <текст>`
 

@@ -1,6 +1,7 @@
 ---
 icon: material/book-sync 
 status: new
+description: Ребаланс жителей
 ---
 
 # Ребаланс жителей

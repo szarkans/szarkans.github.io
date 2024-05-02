@@ -1,5 +1,6 @@
 ---
 icon: material/heart-plus
+description: Гайд для новичков на нашем сервере
 ---
 
 # Гайд для новичков

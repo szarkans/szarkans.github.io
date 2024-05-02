@@ -1,5 +1,6 @@
 ---
 icon: material/language-css3
+description: Брендбук Кошкокрафта
 ---
 
 # Брендбук

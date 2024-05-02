@@ -1,13 +1,14 @@
 ---
 icon: fontawesome/solid/money-bill-wheat
 title: Торговец
+description: Новые трейды странствующего торговца
 ---
 
 # Странствующий торговец
 
 На нашем сервере **Странствующий торговец** больше не бесполезен! 
 
-![wandering](../../assets/wandering.png){ width=550 }
+![wandering](../../assets/wandering.png){ width=550 loading="lazy" decoding="async" }
 
 В него были добавлены уникальные трейды:
 

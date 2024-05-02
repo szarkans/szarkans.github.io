@@ -1,5 +1,6 @@
 ---
 icon: material/police-badge
+description: Полиция на Кошкокрафте
 ---
 
 # Работа КСБ

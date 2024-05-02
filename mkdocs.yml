@@ -75,6 +75,7 @@ extra_css:
   - stylesheets/my.css
   - stylesheets/admonitions.css
   - stylesheets/before_after.css
+  - stylesheets/snake.css
 plugins:
   - search
   - open-in-new-tab
@@ -94,6 +95,8 @@ extra_javascript:
   - javascripts/before_after.js
   - javascripts/oneko.js
   - javascripts/oneko-element.js
+  - javascripts/timer.js
+  #- javascripts/snake.js
 watch:
   - includes
 extra: 
@@ -184,17 +187,17 @@ nav:
   #     - "items/vanilla/templates.md"
   #     - "items/vanilla/totem.md"
   #     - "items/vanilla/bundle.md"
-  # - Гайды:
-  #   - Игровое:
-  #     - guides/set_skin.md
-  #     - guides/rgb_nick.md
-  #   - Техническое:
-  #     - guides/mod_download.md
-  #     - guides/mod_errors.md
-  #     - guides/skins_tlauncher.md
-  #   - Разное:
-  #     - guides/launcher.md
-  #     - guides/edit_wiki.md
+  - Гайды:
+    - Игровое:
+      - guides/set_skin.md
+      - guides/rgb_nick.md
+    - Техническое:
+      - guides/mod_download.md
+      - guides/mod_errors.md
+      - guides/skins_tlauncher.md
+    - Разное:
+      - guides/launcher.md
+      - guides/edit_wiki.md
   - История сервера:
     - server-history/1season.md
     - server-history/2season.md

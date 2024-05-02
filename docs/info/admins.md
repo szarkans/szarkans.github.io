@@ -1,14 +1,19 @@
 ---
   icon: material/star
+  description: Админы Кошкокрафта
 ---
 
-# Администрация
+# Всекоты
+
+Администрация Кошкокрафта!
 
 <div class="grid cards" markdown>
 
 -   :material-star:{ .lg .middle .shadow } <span class="shadow">__Szarkan, Серёжа Котиков__</span>
 
-    ![Szarkan](https://cravatar.eu/avatar/Szarkan/600.png){ align=right width="150" }
+    <a href="../../gameplay/snake">
+    <img src="https://cravatar.eu/avatar/Szarkan/600.png" alt="Szarkan" align="right" width="150" class="no-expand" style="cursor: pointer;">
+    </a>
 
     ---
 

@@ -1,5 +1,6 @@
 ---
 icon: material/draw
+description: Рисование на картах
 ---
 
 # Рисование на картах

@@ -1,5 +1,6 @@
 ---
 icon: octicons/info-16
+description: Словарик сервера
 ---
 
 # Словарик сервера

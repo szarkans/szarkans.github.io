@@ -1,6 +1,7 @@
 ---
 icon: material/order-alphabetical-descending
 title: Моды для сервера
+description: Нужные моды для Кошкокрафта и готовая сборка сервера
 toc_depth: 1
 ---
 

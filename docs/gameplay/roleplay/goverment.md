@@ -1,5 +1,6 @@
 ---
 icon: material/account-supervisor
+description: Правительство на Кошкокрафте
 ---
 
 # **Правительство**

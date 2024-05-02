@@ -1,6 +1,7 @@
 ---
 icon: material/account-star
 status: new
+description: Все персонажи Кошкокрафта
 ---
 
 # NPC
