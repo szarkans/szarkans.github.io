@@ -208,15 +208,15 @@ font-weight: bold;
 }
 
 .spoiler {
-    background-color: #000000;
-    color: #000000;
-    border: 1px #000; /* Dotted border */
-    border-radius: 5px;
+    -webkit-filter: blur(0.3em);
+    filter: blur(0.3em);
+    transition: filter 0.25s ease-in-out, -webkit-filter 0.25s ease-in-out;
 }
 
 .spoiler:hover, .spoiler:focus {
-    background: transparent;
-    color: inherit;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    transition: filter 0.25s ease-in-out, -webkit-filter 0.25s ease-in-out;
 }
 
 .bigger-text {
