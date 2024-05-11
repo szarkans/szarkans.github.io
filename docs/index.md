@@ -11,6 +11,14 @@ icon: fontawesome/solid/house
 description: Основная страница
 ---
 
+<!-- <style>
+
+body {
+    animation: ease-in-out 30s infinite animated-index;
+}
+
+</style> -->
+
 <div class="index-title">
     <img src="../assets/sleepy_cat.png" class="image-shadow no-expand catcraft-logo" alt="Logo">
     <div class="text-container">
@@ -97,15 +105,15 @@ description: Основная страница
 <div class="faq-container">
     <div class="faq-section">
         <div class="faq-dropdown">
-            <button class="dropdown-btn">Как к вам попасть?</button>
+            <button class="dropdown-btn">Как к нам попасть?</button>
             <div class="dropdown-content">
-                <p>Пока что никак - мы на межсезонье! Но пока что ты можешь зайти в наш <a href="https://discord.gg/23XJyDGJaH" target="_blank">Дискорд</a>!</p>
+                <p>Пока что никак - мы на межсезонье! Но ты можешь зайти в наш <a href="https://discord.gg/23XJyDGJaH" target="_blank">Дискорд</a>!</p>
             </div>
         </div>
         <div class="faq-dropdown">
             <button class="dropdown-btn">Какая версия?</button>
             <div class="dropdown-content">
-                <p>Планируем открыться через месяц после выхода 1.21 на Java Edition. Играть на Bedrock нельзя.<br></p>
+                <p>Планируем открыться через месяц после выхода 1.21 на Java Edition - примерно июль. Играть на Bedrock нельзя.<br></p>
             </div>
         </div>
         <div class="faq-dropdown">

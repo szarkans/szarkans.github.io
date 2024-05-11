@@ -1,5 +1,23 @@
 /* Дизайн немножко вдохновлён сайтом https://schalker.ru :3 */
 
+@keyframes animated-index {
+    0% {
+        background: radial-gradient(circle, hsla(var(--md-hue),15%,12%,1) 0%, hsla(var(--md-hue),15%,17%,1) 50%, hsla(var(--md-hue),15%,12%,1) 100%);
+    }
+    25% {
+        background: radial-gradient(circle, hsla(var(--md-hue),15%,12%,1) 15%, hsla(var(--md-hue),15%,17%,1) 35%, hsla(var(--md-hue),15%,12%,1) 115%);
+    }
+    50% {
+        background: radial-gradient(circle, hsla(var(--md-hue),15%,12%,1) 0%, hsla(var(--md-hue),15%,17%,1) 65%, hsla(var(--md-hue),15%,12%,1) 85%);
+    }
+    75% {
+        background: radial-gradient(circle, hsla(var(--md-hue),15%,12%,1) 10%, hsla(var(--md-hue),15%,17%,1) 45%, hsla(var(--md-hue),15%,12%,1) 90%);
+    }
+    100% {
+        background: radial-gradient(circle, hsla(var(--md-hue),15%,12%,1) 15%, hsla(var(--md-hue),15%,17%,1) 35%, hsla(var(--md-hue),15%,12%,1) 85%);
+    }
+}
+
 :root {
     --catcraft-color: #4f2dbe;
     --catcraft-gradient-1color: #7648e1;
@@ -43,6 +61,7 @@
     font-size: 1.2em; /* Slightly smaller than the title */
     color: #333;
     margin-top: 10px; /* Adds space between the title and this paragraph */
+    text-wrap: balance;
 }
 
 .version-info {
@@ -64,8 +83,8 @@
     .title-text {
         width: 100%; /* Each takes full width of the container */
         text-align: center;
-        font-size: 1.5rem !important; /* Smaller font size for mobile */
-        line-height: 1.2; /* Adjust line height for better readability */
+        font-size: 2.3rem !important; /* Smaller font size for mobile */
+        line-height: 1.1 !important; /* Adjust line height for better readability */
         margin-bottom: 10px; /* Adds space between title and description */
     }
     .image-shadow {
@@ -569,4 +588,8 @@ img {
 
 .small-img-border {
     border: solid #85858524 5px;
+}
+
+canvas {
+    border: solid black 10px;
 }
