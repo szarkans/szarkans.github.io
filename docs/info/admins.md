@@ -1,9 +1,12 @@
 ---
   icon: material/star
-  description: Админы Кошкокрафта
+  description: Админы и модераторы Кошкокрафта
+  title: Важные котики
 ---
 
-# Всекоты
+# Важные котики
+
+## Всекоты
 
 Администрация Кошкокрафта!
 
@@ -12,7 +15,7 @@
 -   :material-star:{ .lg .middle .shadow } <span class="shadow">__Szarkan, Серёжа Котиков__</span>
 
     <a href="../../gameplay/snake">
-    <img src="https://cravatar.eu/avatar/Szarkan/600.png" alt="Szarkan" align="right" width="150" class="no-expand" style="cursor: pointer;">
+    <img src="https://cravatar.eu/avatar/Szarkan/600.png" alt="Szarkan" width="150" class="no-expand" style="cursor: pointer;">
     </a>
 
     ---
@@ -25,10 +28,7 @@
 
     - **Очень** не люблю, когда меня пингуют
 
-     [:simple-vk:{ .lg .middle } Мой ВК](https://vk.com/szarkan)
-
-</div>
-<div class="grid cards" markdown>
+    [:simple-vk:{ .lg .middle } Мой ВК](https://vk.com/szarkan)
 
 -   :material-star:{ .lg .middle } <span class="shadow">__bykkake747, Яна Симонец__</span>
 
@@ -45,10 +45,6 @@
     - Поговаривают, что он держит весь Ростов
 
      [:simple-vk:{ .lg .middle } Его ВК](https://vk.com/men9l_e6yt_co6aku)
-
-</div>
-
-<div class="grid cards" markdown>
 
 -   :material-star:{ .lg .middle } <span class="shadow">__CharaBell, Натал<u>и</u>я__</span>
 

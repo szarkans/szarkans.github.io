@@ -8,7 +8,7 @@ hide:
   - feedback
   - actions
 icon: fontawesome/solid/house
-description: Основная страница
+description: Кошкокрафт - это Ванилла+ сервер с элементами РП и Котиками!
 ---
 
 <!-- <style>
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </a>
 { .card }
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" target="_blank">
+<a href="www.youtube.com/channel/@catcraftminecraft" target="_blank">
 :simple-youtube:{ .lg .middle .shadow .yt } **Наш YouTube**<br>Видео с нашего сервера!
 </a>
 { .card }
@@ -212,6 +212,4 @@ document.addEventListener('DOMContentLoaded', function() {
 </a>
 { .card }
 
-
 </div>
-
