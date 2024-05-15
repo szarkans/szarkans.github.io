@@ -243,3 +243,8 @@ border-right: 1px solid #526de7;
   border-radius: 0.5rem;
   border: 0.2rem solid var(--md-typeset-table-color);
 }
+
+.md-typeset figcaption {
+  font-style: normal;
+  font-weight: 500;
+}

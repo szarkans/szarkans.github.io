@@ -12,13 +12,14 @@
 
 <div class="grid cards" markdown>
 
--   :material-star:{ .lg .middle .shadow } <span class="shadow">__Szarkan, Серёжа Котиков__</span>
+- 
 
-    <a href="../../gameplay/snake">
-    <img src="https://cravatar.eu/avatar/Szarkan/600.png" alt="Szarkan" width="150" class="no-expand" style="cursor: pointer;">
-    </a>
-
-    ---
+    <figure markdown="span">
+        <a href="../../gameplay/snake">
+        <img src="https://cravatar.eu/avatar/Szarkan/600.png" alt="Szarkan" width="150" class="admin-img no-expand" style="cursor: pointer;">
+        </a>
+        <figcaption>Szarkan, Серёжа</figcaption>
+    </figure>
 
     Основатель Кошкокрафта, главный тех. админ, плейбой, тысячионер, филантроп...
 
@@ -30,11 +31,12 @@
 
     [:simple-vk:{ .lg .middle } Мой ВК](https://vk.com/szarkan)
 
--   :material-star:{ .lg .middle } <span class="shadow">__bykkake747, Яна Симонец__</span>
+-  
 
-    ![bykke747](https://cravatar.eu/avatar/bykkake747/600.png){ align=right width="150" }
-
-    ---
+    <figure markdown="span">
+        ![bykke747](https://cravatar.eu/avatar/bykkake747/600.png){ align=right width="150" .admin-img }
+        <figcaption>bykakke747, Яна</figcaption>
+    </figure>
 
     Второй тех. админ, администратор, лучший дизайнер мира и просто няшечка.
 
@@ -46,11 +48,12 @@
 
      [:simple-vk:{ .lg .middle } Его ВК](https://vk.com/men9l_e6yt_co6aku)
 
--   :material-star:{ .lg .middle } <span class="shadow">__CharaBell, Натал<u>и</u>я__</span>
+- 
 
-    ![CharaBell](https://cravatar.eu/avatar/CharaBell/600.png){ align=right width="150" }
-
-    ---
+    <figure markdown="span">
+        ![CharaBell](https://cravatar.eu/avatar/CharaBell/600.png){ align=right width="150" .admin-img }
+        <figcaption>CharaBell, Натал<span style="text-decoration: underline;">и</span>я</figcaption>
+    </figure>
 
     Любимая жёнушка Szarkan`a и его главная поддержка.
 
@@ -58,16 +61,27 @@
 
     Часто сидит за его компом и может отвечать с его аккаунтов.
 
-</div>
+-  
 
-<div class="grid cards" markdown>
-
--   :octicons-star-16:{ .lg .middle }<span class="shadow"> __Ты!__</span>
-
-    ---
+    <figure markdown="span">
+        ![Yhik](https://cravatar.eu/avatar/Yhik/600.png){ align=right width="150" }
+        <figcaption>Ты!</figcaption>
+    </figure>
 
     Да, ты! Тут можешь оказаться и ты!
 
     Всё, что нужно - проявить инициативу :3
+
+</div>
+
+## Всекотята
+
+Это - модераторы сервера!
+
+<div class="grid cards" markdown>
+
+- Пусто...
+
+    Пока что никого нет...
 
 </div>

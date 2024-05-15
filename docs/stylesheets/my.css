@@ -222,6 +222,10 @@ font-weight: bold;
     text-align: center;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .bigger-text {
     font-size: 1rem;
 }
@@ -592,4 +596,8 @@ img {
 
 canvas {
     border: solid black 10px;
+}
+
+.cards .admin-img {
+    display: flex;
 }
