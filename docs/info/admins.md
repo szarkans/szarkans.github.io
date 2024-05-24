@@ -64,7 +64,7 @@
 -  
 
     <figure markdown="span">
-        ![Yhik](https://cravatar.eu/avatar/Yhik/600.png){ align=right width="150" }
+        ![Неизвестный](https://cravatar.eu/avatar/crijgh/600.png){ align=right width="150" }
         <figcaption>Ты!</figcaption>
     </figure>
 

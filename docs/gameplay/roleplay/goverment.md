@@ -39,7 +39,7 @@ description: Правительство на Кошкокрафте
     === "Министры"
         === "Министр Экономики"
 
-            ![Yhik](https://cravatar.eu/avatar/Yhik/600.png){ align=right width="150" }
+            ![crijgh](https://cravatar.eu/avatar/crijgh/600.png){ align=right width="150" }
 
             Тот, кто отвечает за экономическую ситуацию на сервере, собирает налоги с магазинов и выплачивает АРы из казны!
 
@@ -50,7 +50,7 @@ description: Правительство на Кошкокрафте
 
         === "Министр Строительства"
 
-            ![Yhik](https://cravatar.eu/avatar/Yhik/600.png){ align=right width="150" }
+            ![crijgh](https://cravatar.eu/avatar/crijgh/600.png){ align=right width="150" }
 
             Отвечает за управление большими проектами строительства, их проектирование и помощь в их создании. Также занимается спавном и незер-хабом.
 
@@ -62,7 +62,7 @@ description: Правительство на Кошкокрафте
     === "Правопорядок"
         === "ГКСБ"
 
-            ![Yhik](https://cravatar.eu/avatar/Yhik/600.png){ align=right width="150" }
+            ![crijgh](https://cravatar.eu/avatar/crijgh/600.png){ align=right width="150" }
 
             **Глава Кошачьей Службы Безопасности** - котик, ответственный за найм и увольнение Офицеров, управление законами и правопорядком на сервере!
 
