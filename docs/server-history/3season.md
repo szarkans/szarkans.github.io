@@ -226,7 +226,7 @@ description: История сервера Кошкокрафт - 3 сезон
 
 - Был основан Ебенград под предводительством LittleGirlsLover, Pumcheese, Ghekkish и \_RAT_GEL\_
 
-    - Список жителей: Pumcheese, Ghekkish, LittleGirlsLover, \_RAT_GEL\_, \_\_Jeas\_\_, Blackdragon261, KeniRaym, LiteTuchka, Poogalos, Razond, SM1LLYS, tokasssabtw, shamanishka, zioninside, ZureM и kainet.
+    - Список жителей: Pumcheese, Ghekkish, LittleGirlsLover, \_RAT_GEL\_, \_\_Jeas\_\_, Blackdragon261, KeniRaym, LiteTuchka, Poogalos, Razond, SM1LLYS, cantcaaat, \_bukkake747_\, Pomador, tokasssabtw, shamanishka, zioninside, ZureM и kainet.
 
     - Это был угар-город в ебенях, в будущем самым большим по населению. Почему самым большим? В город принимали всех новичков через 5 минут после того, как они зашли. Хороший ход, только играть они оставались недолго.
 
@@ -445,6 +445,8 @@ description: История сервера Кошкокрафт - 3 сезон
 Яйцо дракона выпадали каждый раз при её убийстве.
 
 - Остров в энде окончательно разрушен, но игрок KUREVO69 уходит с поста министра строительства и не скидывает игрокам схематику Энд-хаба. Новым министром строительства становится Berser72ru, примерно за неделю он проектирует новый Энд-хаб, который к сожалению так и не был построен из-за скорого завершения сезона.
+## 10 декабря 
+SM1LLYS легально соорудил Гигакирку из 64 незеритовых блоков!!
 
 ## 12 декабря
 
