@@ -105,7 +105,7 @@ extra:
     description:
       Мы используем твои куки для просмотра аналитики нашей Вики (кто, что, где, какую страницу смотрят чаще и т.п.)
   status:
-    new: Новое!
+    new: Недавно обновлено!
     inprogress: Статья не завершена
   analytics: 
     provider: google
@@ -124,47 +124,47 @@ nav:
   - ' ': index.md
   - Информация:
     - info/admins.md
-    # - info/dict.md
+    - info/dict.md
     # - info/faq.md
     # - info/donate.md
     # - info/guide.md
     # - info/map.md
-    # - info/for_media.md
+    - info/for_media.md
     - info/brandbook.md
-    # - 'Правила и законы':
-    #   - info/rules/rules.md
-    #   - info/rules/laws.md
+    - 'Правила и законы':
+      - info/rules/rules.md
+      - info/rules/laws.md
     - 'Моды':
       # - info/mods/mods.md
       - info/mods/cool_mods.md
-  # - Геймплей:
-  #   - Роллплей:
-  #     - gameplay/roleplay/goverment.md
-  #     - gameplay/roleplay/police.md
-  #   - Уникальные фишки:
-  #     - gameplay/unique/qol.md
-  #     - gameplay/unique/resourcepack.md
-  #     - gameplay/unique/npc.md
-  #     - gameplay/unique/villager_rebalance.md
-  #     - gameplay/unique/datapacks.md
-  #     - gameplay/unique/artmap.md
-  #     - gameplay/unique/clans.md
-  #     - gameplay/unique/armorstand.md
-  #     - gameplay/unique/wandering_trader.md
-  #     - gameplay/unique/prefixes.md
-  #     - Модели игрока:
-  #       - gameplay/unique/cpm/index.md
-  #       - gameplay/unique/cpm/cpm_guide.md
-  #     - "gameplay/unique/brewery.md"
-  #     - Рыбалка:
-  #       - "gameplay/unique/fishing/index.md"
-  #       - Список рыб: gameplay/unique/fishing/fish_list.md
-  #     - gameplay/unique/voicechat.md
-  #   - Награды игрокам:
-  #     - gameplay/rewards/list.md
-  #     - gameplay/rewards/catpass.md
-  #   - Команды:
-  #     - gameplay/commands/ingame.md
+  - Геймплей:
+    - Роллплей:
+      - gameplay/roleplay/goverment.md
+      - gameplay/roleplay/police.md
+    - Уникальные фишки:
+      - gameplay/unique/qol.md
+      - gameplay/unique/resourcepack.md
+      - gameplay/unique/npc.md
+      - gameplay/unique/villager_rebalance.md
+      - gameplay/unique/datapacks.md
+      - gameplay/unique/artmap.md
+      - gameplay/unique/clans.md
+      - gameplay/unique/armorstand.md
+      - gameplay/unique/wandering_trader.md
+      - gameplay/unique/prefixes.md
+      - Модели игрока:
+        - gameplay/unique/cpm/index.md
+        - gameplay/unique/cpm/cpm_guide.md
+      - "gameplay/unique/brewery.md"
+      # - Рыбалка:
+      - "gameplay/unique/fishing.md"
+        # - Список рыб: gameplay/unique/fishing/fish_list.md
+      - gameplay/unique/voicechat.md
+    - Награды игрокам:
+      - gameplay/rewards/list.md
+      - gameplay/rewards/catpass.md
+    - Команды:
+      - gameplay/commands/ingame.md
   #     - gameplay/commands/discord.md
   # - Предметы:
   #   - Накладываемое:
@@ -204,6 +204,7 @@ nav:
     - server-history/3season.md
     - server-history/4season.md
     - server-history/5season.md
+    - server-history/6season.md
   # - 6 сезон:
   #   - Новое:
   #     - 6season/new/donates.md

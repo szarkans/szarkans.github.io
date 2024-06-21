@@ -99,7 +99,7 @@ description: Крутые моды для Майнкрафта
     -    __RP Renames__
 
         ---
-        ![rpr](https://cdn.modrinth.com/data/hvqcuDMT/b786a55e3b0f7720b596a446c85e2c71f9260a25.png){ align=right width="100" }
+        ![RP Renames](https://cdn.modrinth.com/data/hvqcuDMT/a9c9f8e94ab84262ee2eda8f3dc5e0edaa591219.png){ align=right width="100" }
         Очень полезный мод для нашего сервера - позволяет посмотреть все переименования предметов в наковальне!
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/rp-renames)
@@ -107,7 +107,7 @@ description: Крутые моды для Майнкрафта
     -    __AdvancementInfo__
 
         ---
-        ![advaui](https://cdn.modrinth.com/data/G1epq3jN/icon.png){ align=right width="100" }
+        ![Advancement Info](https://cdn.modrinth.com/data/G1epq3jN/icon.png){ align=right width="100" }
         Мод, улучшающий окно достижений! Он увеличивает это окно, показывает что ещё требуется для выполнение достижение и делает форматирование более удобным!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/advancementinfo)
@@ -115,7 +115,7 @@ description: Крутые моды для Майнкрафта
     -    __Better Statistics Screen__
 
         ---
-        ![betesta](https://cdn.modrinth.com/data/n6PXGAoM/icon.png){ align=right width="100" }
+        ![Better Stats](https://cdn.modrinth.com/data/n6PXGAoM/icon.png){ align=right width="100" }
         Мод, улучшающий окно статистики - показывает детальную информацию в очень красивом меню!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/better-stats)
@@ -123,7 +123,7 @@ description: Крутые моды для Майнкрафта
     -    __Chat Patches__
 
         ---
-        ![betesta](https://cdn.modrinth.com/data/MOqt4Z5n/56c954dea290ef4dd1b0d6ea92a811acac62ca85.png){ align=right width="100" }
+        ![Chat Patches](https://cdn.modrinth.com/data/MOqt4Z5n/56c954dea290ef4dd1b0d6ea92a811acac62ca85.png){ align=right width="100" }
         Многофункциональный мод для чата - позволяет добавлять к сообщениям временные метки, увеличивает историю сообщений, позволяет копировать любое сообщение из чата и многое другое!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/chatpatches)
@@ -131,7 +131,7 @@ description: Крутые моды для Майнкрафта
     -    __Symbol Chat__
 
         ---
-        ![betasd](https://cdn.modrinth.com/data/NKvLVQMc/icon.png){ align=right width="100" }
+        ![Symbol Chat](https://cdn.modrinth.com/data/NKvLVQMc/icon.png){ align=right width="100" }
         Добавляет менюшку с разными символами, эмодзи и смайликами! Также позволяет писать разными шрифтами.
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/symbol-chat)
@@ -139,7 +139,7 @@ description: Крутые моды для Майнкрафта
     -    __Inventory Profiles Next__
 
         ---
-        ![beadasdatesta](https://cdn.modrinth.com/data/O7RBXm3n/icon.png){ align=right width="100" }
+        ![Inventory Profiles Next](https://cdn.modrinth.com/data/O7RBXm3n/icon.png){ align=right width="100" }
         Многофункциональный мод для инвентаря - блокировка слотов, сортировка инвентаря, авто-замена предмета, если он ломается и многое другое!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/inventory-profiles-next)
@@ -147,7 +147,7 @@ description: Крутые моды для Майнкрафта
     -    __AuthMe__
 
         ---
-        ![beadasdatesta](https://cdn.modrinth.com/data/TPAYeAOc/9a73d65c323045ade58268746f784c3f46574f42.png){ align=right width="100" }
+        ![Deathlog](https://cdn.modrinth.com/data/TPAYeAOc/9a73d65c323045ade58268746f784c3f46574f42.png){ align=right width="100" }
         Мод, позволяющий прямо в игре менять свой ник - по моджангу, по майкрософту или по пиратке.
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/deathlog)
@@ -155,7 +155,7 @@ description: Крутые моды для Майнкрафта
     -    __DeathLog__
 
         ---
-        ![beadasdatesta](https://cdn.modrinth.com/data/yjgIrBjZ/icon.png){ align=right width="100" }
+        ![Auth Me](https://cdn.modrinth.com/data/yjgIrBjZ/icon.png){ align=right width="100" }
         Запись инвентаря, координат, времени и причины смерти! Очень полезно для нашего сервера для предостовления пруфов!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/auth-me)
@@ -164,7 +164,7 @@ description: Крутые моды для Майнкрафта
 
         ---
 
-        ![beadasdatesta](https://cdn.modrinth.com/data/ZP7xHXtw/7a416b09817a79adfa6a3ef9368990135e276821.png){ align=right width="100" }
+        ![RRLS](https://cdn.modrinth.com/data/ZP7xHXtw/7a416b09817a79adfa6a3ef9368990135e276821.png){ align=right width="100" }
         Мод, позволяющий играть во время загрузки ресурспаков!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/rrls)

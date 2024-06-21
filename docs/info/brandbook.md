@@ -40,7 +40,7 @@ title: Брендбук
   <img src="../../assets/ava.png" alt="icon">
 </div>
 
-[Скачать логотипы](../../assets/logos.rar){ .md-button .md-button--primary .big-button }
+![Логотип КК](../assets/logo.png){width=100%}
 
 ## Фоны
 
