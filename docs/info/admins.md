@@ -61,6 +61,9 @@
 
     - Часто сидит за его компом и может отвечать с его аккаунтов.
 
+</div>
+
+<div class="grid cards" markdown>
 -  
 
     <figure markdown="span">
@@ -68,9 +71,12 @@
         <figcaption>Ты!</figcaption>
     </figure>
 
-    Да, ты! Тут можешь оказаться и ты!
+    <figure markdown="span">
+    <figcaption>Да, ты! Тут можешь оказаться и ты!  
 
-    Всё, что нужно - проявить инициативу :3
+    Всё что нужно - проявить инициативу :3</figcaption>
+
+    </figure>
 
 </div>
 

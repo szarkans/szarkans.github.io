@@ -10,10 +10,12 @@ title: Брендбук
 
 <div class="grid" markdown>
 
-<div data-clipboard-text="#804feb #4728b6" onclick="copyToClipboard(this)">
-    <b>Основной градиент</b><br>#804feb -> #4728b6
-    { .card .brand-book-color-gradient .cursor-pointer .margin-center }
+
+<div data-clipboard-text="#101114" onclick="copyToClipboard(this)">
+    <b>Наш чёрный</b><br>#101114
+    { .card .margin-center .cursor-pointer .brand-book-color-black }
 </div>
+
 
 <div data-clipboard-text="#4f2dbe" onclick="copyToClipboard(this)">
     <b>Основной цвет</b><br>#4f2dbe
@@ -25,9 +27,13 @@ title: Брендбук
     { .card .margin-center .cursor-pointer .brand-book-color-white }
 </div>
 
-<div data-clipboard-text="#101114" onclick="copyToClipboard(this)">
-    <b>Наш чёрный</b><br>#101114
-    { .card .margin-center .cursor-pointer .brand-book-color-black }
+</div>
+
+<div class="grid" markdown>
+
+<div data-clipboard-text="#804feb #4728b6" onclick="copyToClipboard(this)">
+    <b>Основной градиент</b><br>#804feb -> #4728b6
+    { .card .brand-book-color-gradient .cursor-pointer .margin-center }
 </div>
 
 </div>

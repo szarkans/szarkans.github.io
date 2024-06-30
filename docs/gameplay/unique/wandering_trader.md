@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/money-bill-wheat
+icon: material/horse-human
 title: Торговец
 description: Новые трейды странствующего торговца
 ---
