@@ -52,11 +52,11 @@ title: Брендбук
 
 ### Обычный
 
-![fon](../../assets/fon.png)
+![fon](../../assets/fon.png){ width=50%}
 
 ### Для донатов
 
-![plashka](../../assets/плашка.png)
+![plashka](../../assets/плашка.png){ width=50%}
 
 <script>
   function copyToClipboard(element) {
@@ -68,3 +68,30 @@ title: Брендбук
     });
   }
 </script>
+
+## Скины админов
+
+Кликаешь и скачиваешь!
+
+<div class="grid cards" markdown>
+
+-  
+
+    **Szarkan**
+
+    ![Скин Szarkan](https://mineskin.eu/skin/Szarkan)
+
+-  
+
+    **bykkeke747**
+
+    ![Скин bykkake747](https://mineskin.eu/skin/bykkake747)
+
+-  
+
+    **CharaBell**
+
+    ![Скин CharaBell](https://mineskin.eu/skin/CharaBell)
+
+</div>
+

@@ -17,6 +17,18 @@
 			"tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
 		],
 		"editor.wordBasedSuggestions": "off",
-		"CodeGPT.apiKey": "Ollama"
+		"CodeGPT.apiKey": "Ollama",
+		"cSpell.language": "en,ru",
+		"cSpell.words": [
+			"Szarkan",
+			"Всекот",
+			"Всекотёнок",
+			"Всекотов",
+			"Всекоты",
+			"Гриферство",
+			"Дискорде",
+			"Кошкокрафта",
+			"Кошкокрафте"
+		]
 	}
 }
