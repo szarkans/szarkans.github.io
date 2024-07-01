@@ -354,8 +354,7 @@ description: История сервера Кошкокрафт - 3 сезон
 
 К дню рождения Сережи Котикова Asp1re1337 и gerax2302 записали видео, где много игроков поздравили админа с днем рождения.
 
-<iframe width="853" height="480" src="https://youtu.be/_YRMIuc7578" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/_YRMIuc7578?si=_uAs4EeZuJv_G-l-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Также на спавне была построена статуя кошкомальчика-админа от dimastein и whiterr_ (хех, голубки)
 
