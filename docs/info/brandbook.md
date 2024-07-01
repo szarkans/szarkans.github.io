@@ -52,11 +52,11 @@ title: Брендбук
 
 ### Обычный
 
-![fon](../../assets/fon.png){ width=50%}
+![fon](../../assets/fon.png){ width=50% }
 
 ### Для донатов
 
-![plashka](../../assets/плашка.png){ width=50%}
+![plashka](../../assets/плашка.png){ width=50% }
 
 <script>
   function copyToClipboard(element) {
