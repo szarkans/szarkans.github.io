@@ -7,7 +7,7 @@
 .sliderr {
 	position: relative;
 	overflow: hidden;
-	border: 3px solid crimson;
+	border: 3px solid rgba(36, 26, 78, 1);
 	width: 100%;
 }
 
@@ -27,7 +27,7 @@
 	left: 0;
 	top: 0;
 	overflow: hidden;
-	z-index: 2;
+	z-index: 3;
 	width: 50%;
 	height: 100%;
 }
@@ -36,10 +36,10 @@
 	position: absolute;
 	left: 50%;
 	top: 0;
-	z-index: 10;
+	z-index: 4;
 	width: 3px;
 	height: 100%;
-	background-color: crimson;
+	background-color: rgb(121, 32, 194);
 }
 
 .change::after {
@@ -50,6 +50,6 @@
 	border-radius: 100%;
 	width: 50px;
 	height: 50px;
-	background-color: crimson;
+	background-color: rgb(121, 32, 194);
 	transform: translate(-50%, -50%);
 }

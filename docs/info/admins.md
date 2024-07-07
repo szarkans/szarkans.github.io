@@ -86,8 +86,32 @@
 
 <div class="grid cards" markdown>
 
-- Пусто... *выросла капуста*
+- 
 
-    Пока что никого нет...
+    <figure markdown="span">
+        ![ZakharEren](https://cravatar.eu/avatar/ZakharEren/600.png){ align=right width="150" .admin-img }
+        <figcaption>ZakharEren</figcaption>
+    </figure>
+
+- 
+
+    <figure markdown="span">
+        ![sm1lly](https://cravatar.eu/avatar/sm1lly/600.png){ align=right width="150" .admin-img }
+        <figcaption>sm1lly</figcaption>
+    </figure>
+
+- 
+
+    <figure markdown="span">
+        ![avokato_AMF](https://cravatar.eu/avatar/avokato_AMF/600.png){ align=right width="150" .admin-img }
+        <figcaption>avokato_AMF</figcaption>
+    </figure>
+
+- 
+
+    <figure markdown="span">
+        ![Mr_Milota](https://cravatar.eu/avatar/Mr_Milota/600.png){ align=right width="150" .admin-img }
+        <figcaption>Mr_Milota</figcaption>
+    </figure>
 
 </div>

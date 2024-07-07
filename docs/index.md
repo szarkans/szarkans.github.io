@@ -107,7 +107,7 @@ body {
         <div class="faq-dropdown">
             <button class="dropdown-btn">Как к нам попасть?</button>
             <div class="dropdown-content">
-                <p>Пока что никак - мы на межсезонье! Но ты можешь зайти в наш <a href="https://discord.gg/6f3FwFRJWC" target="_blank">Дискорд</a>!</p>
+                <p>Попасть к нам можно написав хорошую заявку в нашем <a href="https://discord.gg/6f3FwFRJWC" target="_blank">Дискорде</a>! (это совершенно бесплатно :3)</p>
             </div>
         </div>
         <div class="faq-dropdown">
