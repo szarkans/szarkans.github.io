@@ -1,5 +1,6 @@
 ---
 description: Команды на Кошкокрафте
+icon: material/note-plus
 ---
 
 # Команды в игре
