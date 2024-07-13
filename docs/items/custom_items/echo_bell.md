@@ -24,4 +24,4 @@ toc_depth: 1
 
 ## Крафт
 
-![hook](../assets/echo_craft.png){ width=400 }
+![bell](../assets/echo_craft.png){ width=400 }
