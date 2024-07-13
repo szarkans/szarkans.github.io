@@ -28,8 +28,7 @@ body {
         <p class="description almost-white">
             <span class="white">Кошкокрафт</span> - это приватный Ванилла<span class="gold">+</span><br>сервер с элементами Role-play и котиками!
         </p>
-        <p>Мы откроемся через <span id="timer" class="shadow bigger-text"></span></p>
-        <!-- <p class="version-info almost-white">1.21 | Java Edition</p> -->
+        <p class="version-info almost-white">1.20.6 | Java Edition</p>
     </div>
 </div>
 
