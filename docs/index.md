@@ -112,7 +112,7 @@ body {
         <div class="faq-dropdown">
             <button class="dropdown-btn">Какая версия?</button>
             <div class="dropdown-content">
-                <p>Планируем открыться через месяц после выхода 1.21 на Java Edition - примерно июль. Играть на Bedrock нельзя.<br></p>
+                <p>Текущая версия - 1.20.6 Java Edition, но как только появится возможность то сразу перекатимся на 1.21. Играть на Bedrock нельзя.<br></p>
             </div>
         </div>
         <div class="faq-dropdown">
