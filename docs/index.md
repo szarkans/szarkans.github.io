@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </a>
 { .card }
 
-<a href="http://play.catcraftmc.ru:8100" target="_blank">
+<a href="https://map.catcraftmc.ru" target="_blank">
 :octicons-globe-16:{ .lg .middle .shadow } **Онлайн-карта**<br>Посмотреть на сервер вживую!
 </a>
 { .card }
