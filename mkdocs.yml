@@ -125,9 +125,9 @@ nav:
   - Информация:
     - info/admins.md
     - info/dict.md
-    # - info/faq.md
-    # - info/donate.md
-    # - info/guide.md
+    - info/faq.md
+    - info/donate.md
+    - info/guide.md
     # - info/map.md
     - info/for_media.md
     - info/brandbook.md
@@ -159,7 +159,7 @@ nav:
       - gameplay/unique/clans.md
       - gameplay/unique/armorstand.md
       # - Рыбалка:
-      # - "gameplay/unique/fishing.md"
+      - "gameplay/unique/fishing.md"
         # - Список рыб: gameplay/unique/fishing/fish_list.md
     - Награды игрокам:
       - gameplay/rewards/list.md
@@ -206,17 +206,18 @@ nav:
     - server-history/4season.md
     - server-history/5season.md
     - server-history/6season.md
-  # - 6 сезон:
-  #   - 6season/rules.md
-  #   #- 6season/donates.md
-  #   - 6season/advancements.md
-  #   - 6season/new_items.md
-  #   - 6season/fishing.md
-  #   - 6season/villager_rebalance.md
-  #   - 6season/commands.md
-  #   - 6season/qol.md
-  #   - 6season/map.md
-  #   - 6season/datapacks.md
-  #   - 6season/wiki.md
-  #   - 6season/brewery.md
-  #   - 6season/npc.md
+  - 6 сезон:
+    - 6season/notworking.md
+    - 6season/rules.md
+    #- 6season/donates.md
+    - 6season/advancements.md
+    - 6season/new_items.md
+    - 6season/fishing.md
+    - 6season/villager_rebalance.md
+    - 6season/commands.md
+    - 6season/qol.md
+    - 6season/map.md
+    - 6season/datapacks.md
+    - 6season/wiki.md
+    - 6season/brewery.md
+    - 6season/npc.md
