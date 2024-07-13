@@ -212,7 +212,7 @@ nav:
     #- 6season/donates.md
     - 6season/advancements.md
     - 6season/new_items.md
-    - 6season/fishing.md
+    # - 6season/fishing.md
     - 6season/villager_rebalance.md
     - 6season/commands.md
     - 6season/qol.md
