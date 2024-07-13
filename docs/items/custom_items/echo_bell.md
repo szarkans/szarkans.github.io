@@ -7,7 +7,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![gh](../../assets/items/items/echo_bell.png){ width=150 }
+        ![bell](../../assets/items/items/echo_bell.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет
@@ -24,4 +24,4 @@ toc_depth: 1
 
 ## Крафт
 
-![bell](../assets/echo_craft.png){ width=400 }
+![echo_craft](../../assets/items/items/echo_craft.png){ width=400 }
