@@ -23,7 +23,7 @@ description: Декор на Кошкокрафте
 
 !!! abstract ""
 
-    `Можно покрасить` - декор, доступный для покраски **[Малярной кистью](../../../items/custom_items/paint_brush.md)**
+    `Можно покрасить` - декор, доступный для покраски **[Малярной кистью](../../../items/custom_items/paint_brush)**
 
     ![colorable](../../assets/screenshots/decor_color.png){ width=600 }
 
@@ -35,7 +35,7 @@ description: Декор на Кошкокрафте
 
 !!! abstract ""
 
-    `Интерактивное` - декор имеет функционал при клике `ЛКМ` по нему
+    `Интерактивное` - декор имеет функционал если кликнуть `ЛКМ` по нему
 
     ![interactive](../../assets/screenshots/curtain_gif.gif){ width=600 }
 
