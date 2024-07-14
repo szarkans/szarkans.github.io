@@ -176,6 +176,7 @@ nav:
         - "items/blocks/reinforced.md"
         - "items/blocks/light.md"
         - "items/blocks/invis_frame.md"
+        - "items/blocks/decor_table.md"
       - Применяемое:
         - "items/usable/kplus.md"
       - Кастомные предметы:
@@ -184,6 +185,7 @@ nav:
         - "items/custom_items/kotomat.md"
         - "items/custom_items/holy_books.md"
         - "items/custom_items/echo_bell.md"
+        - "items/custom_items/paint_brush.md"
       - Ванильные предметы:
         - "items/vanilla/templates.md"
         - "items/vanilla/totem.md"
