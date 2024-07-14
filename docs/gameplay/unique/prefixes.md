@@ -14,14 +14,16 @@ description: Список всех префиксов и суффиксов на
 | Иконка | Что обозначает? |
 | :------- | :--------------- | 
 |![admin](../../assets/prefixes/admin.png){ width=20 }|Префикс Всекотов - администрации.|
+|![moderator](../../assets/prefixes/moder.png){ width=20 }|Префикс Всекотят - модерации.|
 |![k+](../../assets/prefixes/kplus.png){ width=20 } ![k++](../../assets/prefixes/kplusplus.png){ width=20 } ![k++](../../assets/prefixes/kplusplusplus.png){ width=20 }|Префикс <span class="neon">Котика+</span> - привилегии. Подробнее [на этой странице](../../info/donate.md).|
 |![kadet](../../assets/prefixes/kadet_police.png){ width=20 }|Префикс **кадета** КСБ.|
 |![police](../../assets/prefixes/police.png){ width=20 }|Префикс **Офицера** КСБ.|
 |![glav_police](../../assets/prefixes/glav_police.png){ width=20 }|Префикс **Главы** КСБ.|
-|![jailed](../../assets/prefixes/jailed.png){ width=20 }|Префикс заключённого. Даётся автоматически, если игрок в тюрьме.|
 |![reporter](../../assets/prefixes/reporter.png){ width=20 }|Префикс Репортёров.|
 |![yt](../../assets/prefixes/youtube.png){ width=20 }|Префикс Ютубера. Можно получить, став [нашим партнёром](../../info/for_media.md).|
-|![twitch](../../assets/prefixes/twitch.png){ width=20 }|Префикс стримера. Можно получить, став [нашим партнёром](../../info/for_media.md).|
+|![twitch](../../assets/prefixes/twitch.png){ width=20 }|Префикс Стримера. Можно получить, став [нашим партнёром](../../info/for_media.md).|
+|![tiktok](../../assets/prefixes/tiktok.png){ width=20 }|Префикс Тиктокера. Можно получить, став [нашим партнёром](../../info/for_media.md).|
+|![jailed](../../assets/prefixes/jailed.png){ width=20 }|Префикс заключённого. Даётся автоматически, если игрок в тюрьме.|
 |![afk](../../assets/prefixes/afk.png){ width=35 }|Префикс АФК. Даётся автоматически, если игрок неактивен.|
 |![troll](../../assets/prefixes/trollcat.png){ width=20 }|Секретный префикс.|
 

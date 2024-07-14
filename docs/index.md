@@ -212,3 +212,5 @@ document.addEventListener('DOMContentLoaded', function() {
 { .card }
 
 </div>
+
+![crazy_cat](/assets/screenshots/crazy_cat.gif){width=450}
