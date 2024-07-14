@@ -23,7 +23,7 @@ description: Декор на Кошкокрафте
 
 ### Можно покрасить
 
-Декор, доступный для покраски **[Малярной кистью](items/paint_brush.md)**
+Декор, доступный для покраски **[Малярной кистью](../../../items/paint_brush.md)**
 
 ![colorable](../../assets/screenshots/decor_color.png){ width=600 }
 
