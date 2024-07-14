@@ -10,7 +10,7 @@ toc_depth: 1
         ![decor_table](../../assets/items/block/decor_table.png){ width=150 }
     </figure>
     ***
-    **Тип:** Блок
+    **Тип:** Функциональный блок
     ***
     **Получение:**
     
@@ -20,7 +20,7 @@ toc_depth: 1
     ***
     **Идея by:** bykkake747
 
-**Стол декора** - особый верстак для крафта [декораций](../../../gameplay/unique/decor)
+**Стол декора** - особый верстак для крафта [мебели и декораций](../../../gameplay/unique/decor).
 
 ***
 
@@ -30,11 +30,11 @@ toc_depth: 1
 
 ![decortablecraft](../../assets/items/items/decor_table_menu.png){ width=600}
 
-Рецепты не требуют сетки крафта, а только кол-во некоторых ресурсов
+Рецепты не требуют сетки крафта, а только необходимые ресурсы чертежа.
 
 ![decorrecipedemo](../../assets/items/items/decor_recipe_demo.png){ width=600}
 
 ***
 ## Крафт
 
-![decortablecraft](../../assets/crafts/decor_table_craft.png){ width=400}
+![decortablecraft](../../assets/crafts/decor_table_craft.png){ width=600}

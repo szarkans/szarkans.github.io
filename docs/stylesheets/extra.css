@@ -174,7 +174,7 @@ td {
 .md-nav__link:hover {
   background-color: #38383880; /* Change to desired hover color */
   border-radius: 8px; /* Optional: Add rounded corners */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  transition: background-color 0.125s; /* Smooth transition for hover effect */
 }
 
 @media (min-width: 1220px) {
