@@ -13,31 +13,31 @@ description: Декор на Кошкокрафте
 
 ## **Теги декораций**
 
-В описании каждого декора есть "теги", обозначающие его особые механики
+В описании каждого декора есть "теги", обозначающие его особые механики:
 
-### Источник света
+!!! abstract "" 
 
-Декор излучает свет, подобно обычным лампам или факелам
+    `Источник света` - декор излучает свет, подобно обычным лампам или факелам
 
-![light](../../assets/screenshots/decor_light.png){ width=600 }
+    ![light](../../assets/screenshots/decor_light.png){ width=600 }
 
-### Можно покрасить
+!!! abstract ""
 
-Декор, доступный для покраски **[Малярной кистью](../../../items/custom_items/paint_brush.md)**
+    `Можно покрасить` - декор, доступный для покраски **[Малярной кистью](../../../items/custom_items/paint_brush.md)**
 
-![colorable](../../assets/screenshots/decor_color.png){ width=600 }
+    ![colorable](../../assets/screenshots/decor_color.png){ width=600 }
 
-### Можно сесть
+!!! abstract ""
 
-Декор, на который можно сесть
+    `Можно сесть` - декор, на который можно сесть
 
-![sit](../../assets/screenshots/decor_sit.png){ width=600 }
+    ![sit](../../assets/screenshots/decor_sit.png){ width=600 }
 
-### Интерактивное
+!!! abstract ""
 
-Декор имеет функционал при клике `ЛКМ` по нему
+    `Интерактивное` - декор имеет функционал при клике `ЛКМ` по нему
 
-![interactive](../../assets/screenshots/curtain_gif.gif){ width=600 }
+    ![interactive](../../assets/screenshots/curtain_gif.gif){ width=600 }
 
 ***
 
