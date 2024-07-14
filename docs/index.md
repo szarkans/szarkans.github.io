@@ -112,7 +112,7 @@ body {
         <div class="faq-dropdown">
             <button class="dropdown-btn">Какая версия?</button>
             <div class="dropdown-content">
-                <p>Текущая версия - 1.20.6 Java Edition, но как только появится возможность то сразу перекатимся на 1.21. Играть на Bedrock нельзя.<br></p>
+                <p>Текущая версия - 1.20.6 Java Edition, но как только появится возможность, то сразу перекатимся на 1.21. Играть на Bedrock нельзя.<br></p>
             </div>
         </div>
         <div class="faq-dropdown">
@@ -124,13 +124,13 @@ body {
         <div class="faq-dropdown">
             <button class="dropdown-btn">Какая валюта сервера?</button>
             <div class="dropdown-content">
-                <p><b>АРы</b> - Алмазная руда, в основном глубиносланцевая. Это намного лучше алмазов, ведь у "старичков" с Удачей нет приемущества над новичками!</p>
+                <p><b>АРы</b> - Алмазная руда, в основном глубиносланцевая. Это намного лучше алмазов, ведь у "старичков" с "Удачей" нет преимущества над новичками!</p>
             </div>
         </div>
         <div class="faq-dropdown">
-            <button class="dropdown-btn">Какие ограничения фарма?</button>
+            <button class="dropdown-btn">Какие ограничения ферм?</button>
             <div class="dropdown-content">
-                <p>Прорисовка и симуляция - 8 чанков. Кол-во мобов на игрока - на 10 меньше чем в ванилле. Дюпы сыпучих блоков, рельс и ковров включёны и разрешены.</p>
+                <p>Прорисовка и симуляция - 8 чанков, мобов столько же, сколько и в ванильном Майнкрафте. Дюпы сыпучих блоков, рельс и ковров включёны и разрешены.</p>
             </div>
         </div>
         <div class="faq-dropdown">
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="grid" markdown>
 
 <a href="https://discord.gg/6f3FwFRJWC" target="_blank">
-:simple-discord:{ .lg .middle .shadow .discord } **Discord**<br>Заявки, общение и новости!
+:simple-discord:{ .lg .middle .shadow .discord } **Discord**<br>Заявка на сервер, общение и новости!
 </a>
 { .card }
 
