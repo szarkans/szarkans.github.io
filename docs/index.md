@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </a>
 { .card }
 
-<a href="www.youtube.com/channel/@catcraftminecraft" target="_blank">
+<a href="https://www.youtube.com/@catcraftminecraft" target="_blank">
 :simple-youtube:{ .lg .middle .shadow .yt } **Наш YouTube**<br>Видео с нашего сервера!
 </a>
 { .card }
