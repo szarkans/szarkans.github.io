@@ -23,7 +23,7 @@ description: Декор на Кошкокрафте
 
 ### Можно покрасить
 
-Декор, доступный для покраски **[Малярной кистью](../../../items/paint_brush.md)**
+Декор, доступный для покраски **[Малярной кистью](../../../items/custom_items/paint_brush.md)**
 
 ![colorable](../../assets/screenshots/decor_color.png){ width=600 }
 
@@ -35,12 +35,12 @@ description: Декор на Кошкокрафте
 
 ### Интерактивное
 
-Декор имеет функционал при клике 'ПКМ' по нему
+Декор имеет функционал при клике `ЛКМ` по нему
 
 ![interactive](../../assets/screenshots/curtain_gif.gif){ width=600 }
 
 ***
 
 !!! info "Источники"
-    Преимущественное большинство моделей взяты из ресурспака <a href="https://vk.com/ksepsp" target="_blank">**КСЭПСП**</a>
+    **Большинство** моделей взяты из ресурспака <a href="https://vk.com/ksepsp" target="_blank">**КСЭПСП**</a>
 
