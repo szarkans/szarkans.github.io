@@ -25,3 +25,6 @@ toc_depth: 1
 ## Крафт
 
 ![echo_craft](../../assets/items/items/echo_craft.png){ width=400 }
+
+***
+![echo_demo](../../assets/screenshots/echo_bell_demo.gif){ width=400 }
