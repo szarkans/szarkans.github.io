@@ -147,19 +147,19 @@ description: Крутые моды для Майнкрафта
     -    __AuthMe__
 
         ---
-        ![Deathlog](https://cdn.modrinth.com/data/TPAYeAOc/9a73d65c323045ade58268746f784c3f46574f42.png){ align=right width="100" }
+        ![Auth Me](https://cdn.modrinth.com/data/yjgIrBjZ/icon.png){ align=right width="100" }
         Мод, позволяющий прямо в игре менять свой ник - по моджангу, по майкрософту или по пиратке.
         
-        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/deathlog)
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/auth-me)
 
     -    __DeathLog__
 
         ---
-        ![Auth Me](https://cdn.modrinth.com/data/yjgIrBjZ/icon.png){ align=right width="100" }
+        ![Deathlog](https://cdn.modrinth.com/data/TPAYeAOc/9a73d65c323045ade58268746f784c3f46574f42.png){ align=right width="100" }
         Запись инвентаря, координат, времени и причины смерти! Очень полезно для нашего сервера для предостовления пруфов!
         
-        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/auth-me)
-
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/deathlog)
+        
     -    __Remove Reloading Screen__
 
         ---
