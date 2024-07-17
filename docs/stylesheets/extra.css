@@ -194,11 +194,11 @@ td {
 }
 
 /* Это - разделение полосочками между верхними табами  */
-.md-tabs__item:hover {
-  background-color: #38383880; /* Change to desired hover color */
-  border-radius: 100px; /* Optional: Add rounded corners */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
+/* .md-tabs__item:hover {
+  background-color: #38383880; 
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
+} */
 
 .md-tabs__list {
   margin-bottom: 10px;
