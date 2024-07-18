@@ -142,6 +142,10 @@ font-weight: bold;
     color: whitesmoke;
 }
 
+.gray, .grey {
+    color: #848488;
+}
+
 .almost-white {
     color: rgb(221, 221, 221);
 }

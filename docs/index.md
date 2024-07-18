@@ -11,14 +11,6 @@ icon: fontawesome/solid/house
 description: Кошкокрафт - это Ванилла+ сервер с элементами РП и Котиками!
 ---
 
-<!-- <style>
-
-body {
-    animation: ease-in-out 30s infinite animated-index;
-}
-
-</style> -->
-
 <div class="index-title">
     <img src="../assets/sleepy_cat.png" class="image-shadow no-expand catcraft-logo" alt="Logo">
     <div class="text-container">
@@ -29,6 +21,12 @@ body {
             <span class="white">Кошкокрафт</span> - это приватный Ванилла<span class="gold">+</span><br>сервер с элементами Role-play и котиками!
         </p>
         <p class="version-info almost-white">1.20.6 | Java Edition</p>
+        <a class="md-button md-button--primary" href="https://discord.gg/6f3FwFRJWC">
+            Попасть на сервер
+        </a>
+        <a class="md-button" href="/info/faq/">
+            О сервере
+        </a>
     </div>
 </div>
 
@@ -212,5 +210,3 @@ document.addEventListener('DOMContentLoaded', function() {
 { .card }
 
 </div>
-
-![crazy_cat](/assets/screenshots/crazy_cat.gif){width=450}

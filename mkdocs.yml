@@ -24,16 +24,15 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.tracking
-   # - navigation.prune
+    - navigation.prune
     - navigation.top
     - navigation.indexes
     - search.suggest
     - search.highlight
-    - navigation.footer
     - toc.follow
     - toc.integrate
     - content.action.edit
-  logo: assets/icon.png
+  logo: assets/icon_purple.png
   favicon: assets/icon.png
   font:
     text: Inter
@@ -111,20 +110,20 @@ extra:
     provider: google
     property: G-X3KCR2ZW65
   social:
+    - icon: simple/discord
+      link: https://discord.gg/6f3FwFRJWC
+      name: Наш Дискорд
     - icon: simple/vk
       link: https://vk.com/catcraftmc
       name: Наш ВК
-    - icon: simple/discord
-      link: https://discord.gg/23XJyDGJaH
-      name: Наш Дискорд
     - icon: material/map
-      link: https://vk.cc/ct7HsI
+      link: https://map.catcraftmc.ru
       name: Наша Карта
 nav:
   - '': index.md
   - Информация:
     - info/admins.md
-    - info/dict.md
+    #- info/dict.md
     - info/faq.md
     - info/donate.md
     - info/guide.md
@@ -143,22 +142,22 @@ nav:
       - gameplay/roleplay/police.md
     - Уникальные фишки:
       - gameplay/unique/qol.md
-      - gameplay/unique/resourcepack.md
+      #- gameplay/unique/resourcepack.md
       - gameplay/unique/npc.md
       - gameplay/unique/villager_rebalance.md
       - gameplay/unique/datapacks.md
       - gameplay/unique/artmap.md
-      - "gameplay/unique/brewery.md"
+      - gameplay/unique/brewery.md
       - gameplay/unique/decor.md
       - gameplay/unique/voicechat.md
       - gameplay/unique/wandering_trader.md
       - gameplay/unique/prefixes.md
       - gameplay/unique/ingame.md
-      - Модели игрока:
-        - gameplay/unique/cpm/index.md
-        - gameplay/unique/cpm/cpm_guide.md
-      - gameplay/unique/clans.md
-      - gameplay/unique/armorstand.md
+      #- Модели игрока:
+      #  - gameplay/unique/cpm/index.md
+      #  - gameplay/unique/cpm/cpm_guide.md
+      #- gameplay/unique/clans.md
+      #- gameplay/unique/armorstand.md
       # - Рыбалка:
       # - "gameplay/unique/fishing.md"
         # - Список рыб: gameplay/unique/fishing/fish_list.md
