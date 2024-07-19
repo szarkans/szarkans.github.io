@@ -16,7 +16,7 @@ toc_depth: 1
     Мы написали гайд только для тебя! Он доступен по [этой ссылке](../../guides/mod_download.md)!
 </div>
 
-Если тебе лень скачивать все нужные моды для сервера - у нас есть [готовая сборка :material-download:](../../assets/CatCraft%201.20.6.rar) на **Fabric 1.20.6**!
+Если тебе лень скачивать все нужные моды для сервера - у нас есть [готовая сборка :material-download:](../../assets/CatCraft%201.20.6.7z) на **Fabric 1.20.6**!
 
 <div class="grid cards" markdown>
 
@@ -37,7 +37,7 @@ toc_depth: 1
 ## Гайд по установке
 
 ??? tip "Для ванильного лаунчера, TL, TLegacy и прочих"
-    1. [Скачиваешь архив :material-download:](../../assets/CatCraft%201.20.6.rar)
+    1. [Скачиваешь архив :material-download:](../../assets/CatCraft%201.20.6.7z)
 
     2. Открываешь папку **игры**
         
