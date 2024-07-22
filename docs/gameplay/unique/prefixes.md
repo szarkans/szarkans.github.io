@@ -26,6 +26,8 @@ description: Список всех префиксов и суффиксов на
 |![jailed](../../assets/prefixes/jailed.png){ width=20 }|Префикс заключённого. Даётся автоматически, если игрок в тюрьме.|
 |![afk](../../assets/prefixes/afk.png){ width=35 }|Префикс АФК. Даётся автоматически, если игрок неактивен.|
 |![troll](../../assets/prefixes/trollcat.png){ width=20 }|Секретный префикс.|
+|<span class="red">●</span>|У игрока нет войсчата|
+|<span class="red">✕</span>|У игрока не установлен ресурспак|
 
 
 ## Суффиксы
