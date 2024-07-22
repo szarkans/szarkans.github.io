@@ -27,4 +27,6 @@ toc_depth: 1
 ![echo_craft](../../assets/items/items/echo_craft.png){ width=400 }
 
 ***
-![echo_demo](../../assets/screenshots/echo_bell_demo.gif){ width=400 }
+## Демонстрация
+
+![echo_demo](../../assets/screenshots/echo_bell_demo.gif){ width=500 }

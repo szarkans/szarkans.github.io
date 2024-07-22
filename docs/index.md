@@ -210,3 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
 { .card }
 
 </div>
+
+<figure markdown="span">
+    ![crazy](/assets/screenshots/crazy_cat.gif){ align=right width="400" .admin-img }
+</figure>
