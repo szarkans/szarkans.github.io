@@ -65,5 +65,13 @@ description: Полезные маленькие фишечки на Кошко�
 
 ??? tip "Полублоки"
     Некоторые полублоки при складывании друг с другом образуют новую текстуру.  
-
-    ![slab](../../assets/qol/slab_rp.png){ decoding="async" loading="lazy" }
+    
+    <div class="sliderr">
+        <div class="before">
+            <img src="../../../assets/qol/slab_no_rp.png" class="custom-image" alt="">
+        </div>
+        <div class="after">
+            <img src="../../../assets/qol/slab_rp.png" class="custom-image" alt="">
+        </div>
+        <div class="change"></div>
+    </div>
