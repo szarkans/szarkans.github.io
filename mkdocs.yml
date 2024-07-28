@@ -159,7 +159,7 @@ nav:
       #- gameplay/unique/clans.md
       #- gameplay/unique/armorstand.md
       # - Рыбалка:
-      # - "gameplay/unique/fishing.md"
+      - "gameplay/unique/fishing.md"
         # - Список рыб: gameplay/unique/fishing/fish_list.md
     - Награды игрокам:
       - gameplay/rewards/list.md
