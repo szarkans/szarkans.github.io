@@ -212,5 +212,5 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <figure markdown="span">
-    ![crazy](/assets/screenshots/crazy_cat.gif){ align=right width="400" .admin-img }
+    ![crazy](/assets/screenshots/crazy_cat.gif){ align=left width="100"}
 </figure>
