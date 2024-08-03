@@ -77,6 +77,10 @@ extra_css:
   - stylesheets/snake.css
 plugins:
   - search
+  - blog:
+      blog_dir: updates
+      blog_toc: true
+      post_excerpt_max_authors: 2
   - open-in-new-tab
   - minify:
       minify_html: true
@@ -210,18 +214,20 @@ nav:
     - server-history/4season.md
     - server-history/5season.md
     - server-history/6season.md
-  - 6 сезон:
-    - 6season/notworking.md
-    - 6season/rules.md
-    #- 6season/donates.md
-    - 6season/advancements.md
-    - 6season/new_items.md
-    # - 6season/fishing.md
-    - 6season/villager_rebalance.md
-    - 6season/commands.md
-    - 6season/qol.md
-    - 6season/map.md
-    # - 6season/datapacks.md
-    - 6season/wiki.md
-    - 6season/brewery.md
-    - 6season/npc.md
+  - Обновления:
+    - updates/index.md
+  # - 6 сезон:
+  #   - 6season/notworking.md
+  #   - 6season/rules.md
+  #   #- 6season/donates.md
+  #   - 6season/advancements.md
+  #   - 6season/new_items.md
+  #   # - 6season/fishing.md
+  #   - 6season/villager_rebalance.md
+  #   - 6season/commands.md
+  #   - 6season/qol.md
+  #   - 6season/map.md
+  #   # - 6season/datapacks.md
+  #   - 6season/wiki.md
+  #   - 6season/brewery.md
+  #   - 6season/npc.md
