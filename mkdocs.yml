@@ -144,11 +144,13 @@ nav:
       - gameplay/unique/qol.md
       #- gameplay/unique/resourcepack.md
       - gameplay/unique/npc.md
+      - gameplay/unique/clans.md
       - gameplay/unique/villager_rebalance.md
       - gameplay/unique/datapacks.md
       - gameplay/unique/artmap.md
       - gameplay/unique/brewery.md
       - gameplay/unique/decor.md
+      - gameplay/unique/armorstand.md
       - gameplay/unique/voicechat.md
       - gameplay/unique/wandering_trader.md
       - gameplay/unique/prefixes.md
@@ -156,8 +158,7 @@ nav:
       #- Модели игрока:
       #  - gameplay/unique/cpm/index.md
       #  - gameplay/unique/cpm/cpm_guide.md
-      #- gameplay/unique/clans.md
-      #- gameplay/unique/armorstand.md
+      
       # - Рыбалка:
       - "gameplay/unique/fishing.md"
         # - Список рыб: gameplay/unique/fishing/fish_list.md
