@@ -159,9 +159,9 @@ nav:
       - gameplay/unique/wandering_trader.md
       - gameplay/unique/prefixes.md
       - gameplay/unique/ingame.md
-      #- Модели игрока:
-      #  - gameplay/unique/cpm/index.md
-      #  - gameplay/unique/cpm/cpm_guide.md
+      - Модели игрока:
+        - gameplay/unique/cpm/index.md
+        - gameplay/unique/cpm/cpm_guide.md
       
       # - Рыбалка:
       - "gameplay/unique/fishing.md"
