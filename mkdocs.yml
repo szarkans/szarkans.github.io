@@ -165,12 +165,14 @@ nav:
       
       # - Рыбалка:
       - "gameplay/unique/fishing.md"
-        # - Список рыб: gameplay/unique/fishing/fish_list.md
+      - Список рыб: gameplay/unique/fishing/fish_list.md
     - Награды игрокам:
       - gameplay/rewards/list.md
       - gameplay/rewards/catpass.md
   #     - gameplay/commands/discord.md
   - Бестиарий:
+    # - Мобы:
+    #    - "mobs/red.md"
     - Предметы:
       - Накладываемое:
         - "items/clickable/cattrack.md"
@@ -178,7 +180,6 @@ nav:
       - Блоки:
         - "items/blocks/gycha.md"
         - "items/blocks/compressed.md"
-        - "items/blocks/reinforced.md"
         - "items/blocks/light.md"
         - "items/blocks/invis_frame.md"
         - "items/blocks/decor_table.md"
@@ -196,6 +197,7 @@ nav:
         - "items/vanilla/templates.md"
         - "items/vanilla/totem.md"
         - "items/vanilla/bundle.md"
+        - "items/vanilla/reinforced.md"
   - Гайды:
     - Игровое:
       - guides/set_skin.md
