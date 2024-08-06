@@ -35,6 +35,30 @@ toc_depth: 1
 
 ## Как наложить?
 
-- Взять предмет в инвентаре
+- Взять CatTrack в инвентаре
 
-- Кликнуть предметом на нужный в инвентаре
+- Кликнуть им на нужный предмет в инвентаре
+
+
+***
+
+## Скриншоты
+
+<div class="grid cards" markdown>
+
+- 
+
+    <figure markdown="span">
+        ![cattrack_demo_1](../../../assets/items/items/cattrack_demo_1.png){ align=right width="350" }
+        <figcaption>Пример с мечом</figcaption>
+    </figure>
+
+- 
+
+
+    <figure markdown="span">
+        ![cattrack_demo_2](../../../assets/items/items/cattrack_demo_2.png){ align=right width="350" }
+        <figcaption>Пример с киркой</figcaption>
+    </figure>
+
+</div>

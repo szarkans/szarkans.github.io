@@ -25,13 +25,12 @@ toc_depth: 1
 
 ## Использование
 
-При взаимодействии открывает меню с рецептами расставленными по категориям.
+При взаимодействии открывает меню с рассортированными по категориям рецептами.
 
-![decortablecraft](../../assets/items/items/decor_table_menu.png){ width=600}
-
-Рецепты не требуют сетки крафта, а только необходимые ресурсы чертежа.
-
-![decorrecipedemo](../../assets/items/items/decor_recipe_demo.png){ width=600}
+<figure markdown="span">
+    ![decortablemenu](../../assets/items/items/decor_table_menu.png){ align=left width="500"}
+    <figcaption>Рецепты не требуют сетки крафта, а только необходимые ресурсы чертежа.</figcaption>
+</figure>
 
 ***
 ## Крафт

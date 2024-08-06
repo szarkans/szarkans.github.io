@@ -31,4 +31,7 @@ toc_depth: 1
 ***
 ## Демонстрация
 
-![echo_demo](../../assets/screenshots/echo_bell_demo.gif){ width=500 }
+<figure markdown="span">
+    ![echo_demo](../../assets/screenshots/echo_bell_demo.gif){ align=left width="600"}
+    <figcaption>Колокол подсвечивает мобов, а потом уходит на кулдаун</figcaption>
+</figure>

@@ -32,6 +32,40 @@ toc_depth: 1
 
     - Конфиги к модам, чтобы не настраивать всё по полчаса =)
 
+    ??? tip "Полный список модов в сборке"
+        - [Animatica](https://modrinth.com/mod/animatica)
+        - [Architectury API](https://modrinth.com/mod/architectury-api)
+        - [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
+        - [Cloth Config API](https://modrinth.com/mod/cloth-config)
+        - [Customizable Player Models](https://modrinth.com/plugin/custom-player-models)
+        - [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features)
+        - [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
+        - [Entity Culling](https://modrinth.com/mod/entityculling)
+        - [Fabric API](https://modrinth.com/mod/fabric-api)
+        - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
+        - [Falling Leaves](https://modrinth.com/mod/fallingleaves)
+        - [fast-ip-ping](https://modrinth.com/mod/fast-ip-ping)
+        - [FastQuit](https://modrinth.com/mod/fastquit)
+        - [FerriteCore](https://modrinth.com/mod/ferrite-core)
+        - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
+        - [Indium](https://modrinth.com/mod/indium)
+        - [Iris Shaders](https://modrinth.com/mod/iris)
+        - [Krypton](https://modrinth.com/mod/krypton)
+        - LambDynamicLights (В сборке самодельная, портированная версия)
+        - [Language Reload](https://modrinth.com/mod/language-reload)
+        - [LazyDFU](https://modrinth.com/mod/lazydfu)
+        - [Lithium](https://modrinth.com/mod/lithium)
+        - [ModernFix](https://modrinth.com/mod/modernfix)
+        - [Mod Menu](https://modrinth.com/mod/modmenu)
+        - [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
+        - [OptiGUI](https://modrinth.com/mod/optigui)
+        - [Text Placeholder API](https://modrinth.com/mod/placeholder-api)
+        - [Plasmo Voice](https://modrinth.com/plugin/plasmo-voice)
+        - [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
+        - [Sodium](https://modrinth.com/mod/sodium)
+        - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
+        - [ThreadTweak](https://modrinth.com/mod/threadtweak)
+        - [Very Many Players](https://modrinth.com/mod/vmp-fabric)
 </div>
 
 ## Гайд по установке
@@ -46,6 +80,8 @@ toc_depth: 1
         - Или нажав в лаунчере иконку **папки**, она есть почти везде ![folder](../../assets/guides/folder.png){ width=750 }
     
     3. Открываешь архив 
+
+        - Для этого нужно иметь установленный архиватор [WinRAR](https://ru.wikipedia.org/wiki/WinRAR) или [7-Zip](https://ru.wikipedia.org/wiki/7-Zip)
     
     4. Перекидываешь **все** файлы из архива в папку `.minecraft` или в папку своей версии
 

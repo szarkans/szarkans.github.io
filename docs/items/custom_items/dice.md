@@ -30,4 +30,4 @@ toc_depth: 1
 
 ## Демонстрация
 
-![dice_demo](../../assets/items/items/dice_demo.gif){ width=400 }
+![dice_demo](../../assets/items/items/dice_demo.gif){ width=600 }
