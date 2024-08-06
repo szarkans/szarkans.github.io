@@ -183,6 +183,7 @@ nav:
         - "items/blocks/light.md"
         - "items/blocks/invis_frame.md"
         - "items/blocks/decor_table.md"
+        - "items/blocks/cabinets.md"
         - "items/blocks/chess.md"
       - Применяемое:
         - "items/usable/kplus.md"
