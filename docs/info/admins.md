@@ -96,13 +96,6 @@
 - 
 
     <figure markdown="span">
-        ![sm1lly](https://cravatar.eu/avatar/sm1lly/600.png){ align=right width="150" .admin-img }
-        <figcaption>sm1lly</figcaption>
-    </figure>
-
-- 
-
-    <figure markdown="span">
         ![avokato_AMF](https://cravatar.eu/avatar/avokato_AMF/600.png){ align=right width="150" .admin-img }
         <figcaption>avokato_AMF</figcaption>
     </figure>
