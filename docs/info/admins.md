@@ -107,4 +107,14 @@
         <figcaption>Mr_Milota</figcaption>
     </figure>
 
+ㅤ
+
+- 
+
+    <figure markdown="span">
+        ![Skorohodon](https://cravatar.eu/avatar/Skorohodon/600.png){ align=right width="150" .admin-img }
+        <figcaption>Skorohodon</figcaption>
+    </figure>
+
+
 </div>
