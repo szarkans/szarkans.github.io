@@ -73,14 +73,6 @@ description: Крутые моды для Майнкрафта
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/vmp-fabric)
 
-    -    __CIT Resewn__
-
-        ---
-        ![cit](https://cdn.modrinth.com/data/otVJckYQ/icon.png){ align=right width="100" }
-        Мод, позволяющий видеть и использовать текстуры предметов по переименованию их в наковальне! Мастхев.
-
-        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/cit-resewn)
-
     -    __Fast Quit__
 
         ---
@@ -175,18 +167,18 @@ description: Крутые моды для Майнкрафта
 
 ??? tip "Красота"
     <div class="grid cards" markdown>
-
-    -    __3D Skin Layers__
+    
+    -    __Distant Horizons__
 
         ---
-        ![3dksin](https://cdn.modrinth.com/data/zV5r3pPn/icon.png){ align=right width="100" }
-        Мод, делающий второй слой скина объёмным. Красивенько, но ломает EmoteCraft =(
+        ![3dksin](https://cdn.modrinth.com/data/uCdwusMi/icon.png){ align=right width="100" }
+        Благодаря этому моду ты можешь играть на любой прорисовке **даже на сервере**! Дальние чанки никак не нагружают систему, т.к. они являются фейковыми и рендерятся в слабом качестве. Для использования на сервере достаточно побегать по миру, и чанки сами загрузятся!
         
-        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/3dskinlayers)
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/distanthorizons)
 
         ---
 
-        ![ex1](https://minecraft-inside.ru/uploads/files/2021-08/thumb/3dskin-banner.jpg)
+        ![ex1](https://wsrv.nl/?url=https%3A%2F%2Fmedia.forgecdn.net%2Fattachments%2F880%2F249%2Fdh-512-rd.jpg&n=-1)
 
     -    __Explosive Enhancement__
 
@@ -210,7 +202,7 @@ description: Крутые моды для Майнкрафта
         
         ---
 
-        Картиночки нет =(
+        ![ex](https://cdn.modrinth.com/data/WhbRG4iK/icon.gif)
 
     -    __Wakes__
 
@@ -263,6 +255,14 @@ description: Крутые моды для Майнкрафта
         Мод, позволяющий снимать скриншоты в 4К!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/fabrishot)
+
+    -    __Replay Mod__
+
+        ---
+        ![Replay Mod](https://cdn.modrinth.com/data/Nv2fQJo5/icon.png){ align=right width="100" }
+        База съёмки - позволяет делать запись видео **всего вокруг** и редактировать запись внутри игры!
+        
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/replaymod)
 
     -    __To be continued...__
     
