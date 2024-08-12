@@ -200,6 +200,8 @@ nav:
         - "items/vanilla/totem.md"
         - "items/vanilla/bundle.md"
         - "items/vanilla/reinforced.md"
+        - "items/vanilla/calcite.md"
+        - "items/vanilla/black_dye.md"
   - Гайды:
     - Игровое:
       - guides/set_skin.md
