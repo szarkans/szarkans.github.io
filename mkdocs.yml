@@ -165,7 +165,7 @@ nav:
       
       # - Рыбалка:
       - "gameplay/unique/fishing.md"
-      - Список рыб: gameplay/unique/fishing/fish_list.md
+     # - Список рыб: gameplay/unique/fishing/fish_list.md
     - Награды игрокам:
       - gameplay/rewards/list.md
       - gameplay/rewards/catpass.md
