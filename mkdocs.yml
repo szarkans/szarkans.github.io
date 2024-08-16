@@ -30,7 +30,7 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
-    - toc.integrate
+ #   - toc.integrate
     - content.action.edit
   logo: assets/icon_purple.png
   favicon: assets/icon.png
@@ -125,15 +125,17 @@ extra:
       name: Наша Карта
 nav:
   - '': index.md
-  - Информация:
-    - info/admins.md
-    #- info/dict.md
+  - О сервере:
+    - info/farm.md
     - info/faq.md
-    - info/donate.md
-    - info/guide.md
     - info/map.md
-    - info/for_media.md
-    - info/brandbook.md
+    - 'Информация':
+      - info/admins.md
+      #- info/dict.md
+      - info/donate.md
+      - info/guide.md
+      - info/for_media.md
+      - info/brandbook.md
     - 'Правила и законы':
       - info/rules/rules.md
       - info/rules/laws.md
@@ -173,35 +175,34 @@ nav:
   - Бестиарий:
     # - Мобы:
     #    - "mobs/red.md"
-    - Предметы:
-      - Накладываемое:
-        - "items/clickable/cattrack.md"
-        - "items/clickable/scroll.md"
-      - Блоки:
-        - "items/blocks/gycha.md"
-        - "items/blocks/compressed.md"
-        - "items/blocks/light.md"
-        - "items/blocks/invis_frame.md"
-        - "items/blocks/decor_table.md"
-        - "items/blocks/cabinets.md"
-        - "items/blocks/chess.md"
-      - Применяемое:
-        - "items/usable/kplus.md"
-      - Кастомные предметы:
-        - "items/custom_items/gh.md"
-        - "items/custom_items/plushie.md"
-        - "items/custom_items/kotomat.md"
-        - "items/custom_items/holy_books.md"
-        - "items/custom_items/echo_bell.md"
-        - "items/custom_items/paint_brush.md"
-        - "items/custom_items/dice.md"
-      - Ванильные предметы:
-        - "items/vanilla/templates.md"
-        - "items/vanilla/totem.md"
-        - "items/vanilla/bundle.md"
-        - "items/vanilla/reinforced.md"
-        - "items/vanilla/calcite.md"
-        - "items/vanilla/black_dye.md"
+    - Накладываемое:
+      - "items/clickable/cattrack.md"
+      - "items/clickable/scroll.md"
+    - Блоки:
+      - "items/blocks/gycha.md"
+      - "items/blocks/compressed.md"
+      - "items/blocks/light.md"
+      - "items/blocks/invis_frame.md"
+      - "items/blocks/decor_table.md"
+      - "items/blocks/cabinets.md"
+      - "items/blocks/chess.md"
+    - Применяемое:
+      - "items/usable/kplus.md"
+    - Кастомные предметы:
+      - "items/custom_items/gh.md"
+      - "items/custom_items/plushie.md"
+      - "items/custom_items/kotomat.md"
+      - "items/custom_items/holy_books.md"
+      - "items/custom_items/echo_bell.md"
+      - "items/custom_items/paint_brush.md"
+      - "items/custom_items/dice.md"
+    - Ванилла:
+      - "items/vanilla/templates.md"
+      - "items/vanilla/totem.md"
+      - "items/vanilla/bundle.md"
+      - "items/vanilla/reinforced.md"
+      - "items/vanilla/calcite.md"
+      - "items/vanilla/black_dye.md"
   - Гайды:
     - Игровое:
       - guides/set_skin.md

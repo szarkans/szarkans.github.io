@@ -23,14 +23,17 @@ toc_depth: 1
 **Шахматы** - полный набор фигур для игры в шахматы. Чёрные и белые. 
 
 ## Крафт
-Белые фигуры, из кварцевого блока
+
+Белые фигуры - из кварцевого блока
 
 ![white_chess_craft](../../assets/items/items/white_chess_craft.png){ width=400 }
 
-Чёрные фигуры, из колотого глубинного сланца
+Чёрные фигуры - из колотого глубинного сланца
 
 ![black_chess_craft](../../assets/items/items/black_chess_craft.png){ width=400 }
 
 ***
-## Скриншоты
+
+## Изображения
+
 ![chess_demo](../../assets/items/items/chess_demo.png){ width=400 }

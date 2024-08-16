@@ -37,4 +37,4 @@ toc_depth: 1
 
 - 9 блоков одного типа
 
-![comp](../../assets/crafts/compressed_cobblestone.png){ width=400 }
+![Скомпресированный булыжник, крафт](../../assets/crafts/compressed_cobblestone.png){ width=400 }
