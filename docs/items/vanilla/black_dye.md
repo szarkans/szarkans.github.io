@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![black_dye](../../assets/items/items/black_dye.png){ width=150 }
+        ![Чёрный краситель](../../assets/items/items/black_dye.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет
@@ -25,4 +25,4 @@ toc_depth: 1
 
 Подходит как обычный, так и древесный уголь.
 
-![black_dye_craft](../../../assets/crafts/black_dye_craft.gif){ width=400 loading="lazy" decoding="async" }
+![Крафт чёрного красителя на кошкокрафте](../../../assets/crafts/black_dye_craft.gif){ width=400 loading="lazy" decoding="async" }

@@ -129,6 +129,7 @@ nav:
     - info/farm.md
     - info/faq.md
     - info/map.md
+    - info/mods.md
     - 'Информация':
       - info/admins.md
       #- info/dict.md
@@ -139,9 +140,6 @@ nav:
     - 'Правила и законы':
       - info/rules/rules.md
       - info/rules/laws.md
-    - 'Моды':
-      - info/mods/mods.md
-      - info/mods/cool_mods.md
   - Геймплей:
     - Роллплей:
       - gameplay/roleplay/goverment.md
@@ -161,9 +159,7 @@ nav:
       - gameplay/unique/wandering_trader.md
       - gameplay/unique/prefixes.md
       - gameplay/unique/ingame.md
-      - Модели игрока:
-        - gameplay/unique/cpm/index.md
-        - gameplay/unique/cpm/cpm_guide.md
+      - gameplay/unique/cpm.md
       
       # - Рыбалка:
       - "gameplay/unique/fishing.md"

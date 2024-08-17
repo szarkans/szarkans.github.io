@@ -6,8 +6,14 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![totem](../../assets/items/items/totem.png){ width=150 }
+        ![Тотем бессмертия](../../assets/items/items/totem.png){ width=150 }
     </figure>
+    ***
+    **Тип:** Предмет
+    ***
+    **Получение:**
+    
+    - Дроп
 
 **Тотем бессмертия** - обычный предмет из ванильного Майнкрафта.
 

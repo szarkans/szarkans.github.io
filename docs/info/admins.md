@@ -107,8 +107,6 @@
         <figcaption>Mr_Milota</figcaption>
     </figure>
 
-ㅤ
-
 - 
 
     <figure markdown="span">

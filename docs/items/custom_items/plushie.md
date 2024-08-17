@@ -7,9 +7,9 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![sz](../../assets/items/items/plushie/sz.png){ width=150 }
-        ![bkke](../../assets/items/items/plushie/bkke.png){ width=150 }
-        ![chara](../../assets/items/items/plushie/chara.png){ width=150 }
+        ![Плюшевый szarkan](../../assets/items/items/plushie/sz.png){ width=150 }
+        ![Плюшевый bykkake747](../../assets/items/items/plushie/bkke.png){ width=150 }
+        ![Плюшевая CharaBell](../../assets/items/items/plushie/chara.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет

@@ -7,7 +7,7 @@ toc_depth: 1
 
 !!! tip inline end "Блок"
     <figure markdown="span">
-        ![drawer](../../assets/items/items/drawer.png){ width=150 }
+        ![Декор на кошкокрафте](../../assets/items/items/drawer.png){ width=150 }
     </figure>
     ***
     **Тип:** Декор
@@ -16,7 +16,7 @@ toc_depth: 1
     
     - Крафт
     ***
-    **Текстура by:** КСЕПСП
+    **Текстура by:** КСЭПСП
     ***
     **Идея by:** bykkake747
 
@@ -40,8 +40,8 @@ toc_depth: 1
 
 ## Примеры крафта
 
-![oak_cabinets](../../assets/items/items/oak_cabinets.png){ width=400 }
+![oak_cabinets](../../assets/crafts/oak_cabinets.png){ width=400 }
 
-![bamboo_cabinets](../../assets/items/items/bamboo_cabinets.png){ width=400 }
+![bamboo_cabinets](../../assets/crafts/bamboo_cabinets.png){ width=400 }
 
 ***

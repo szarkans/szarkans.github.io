@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![calcite](../../assets/items/items/calcite.png){ width=150 }
+        ![Кальцит](../../assets/items/items/calcite.png){ width=150 }
     </figure>
     ***
     **Тип:** Блок
@@ -27,4 +27,4 @@ toc_depth: 1
 
 - 2 Кварцевых блока
 
-![calcite_craft](../../../assets/crafts/calcite_craft.png){ width=400 loading="lazy" decoding="async" }
+![Крафт кальцита](../../../assets/crafts/calcite_craft.png){ width=400 loading="lazy" decoding="async" }

@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![kotomat](https://mcapi.marveldc.me/item/written_book?version=1.20&width=250&height=250&fuzzySearch=true){ width=150 }
+        ![Священные писания](../../assets/items/items/holy_book.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет

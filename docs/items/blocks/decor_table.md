@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![decor_table](../../assets/items/block/decor_table.png){ width=150 }
+        ![Стол декора](../../assets/items/block/decor_table.png){ width=150 }
     </figure>
     ***
     **Тип:** Функциональный блок
@@ -28,11 +28,11 @@ toc_depth: 1
 При взаимодействии открывает меню с рассортированными по категориям рецептами.
 
 <figure markdown="span">
-    ![decortablemenu](../../assets/items/items/decor_table_menu.png){ align=left width="500"}
+    ![Меню стола декора](../../assets/items/items/decor_table_menu.png){ align=left width="500"}
     <figcaption>Рецепты не требуют сетки крафта, а только необходимые ресурсы чертежа.</figcaption>
 </figure>
 
 ***
 ## Крафт
 
-![decortablecraft](../../assets/crafts/decor_table_craft.png){ width=600}
+![Крафт стола декора](../../assets/crafts/decor_table_craft.png){ width=600}

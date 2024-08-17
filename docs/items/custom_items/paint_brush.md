@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![paint_brush](../../assets/items/items/paint_brush.png){ width=150 }
+        ![Малярная кисть](../../assets/items/items/paint_brush.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет
@@ -27,4 +27,4 @@ toc_depth: 1
 ***
 ## Крафт
 
-![brush_craft](../../assets/items/items/paint_brush_craft.png){ width=400 }
+![Крафт малярной кисти](../../assets/crafts/paint_brush_craft.png){ width=400 }

@@ -6,8 +6,14 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![cattrack](https://mcapi.marveldc.me/item/bundle?version=1.20&width=250&height=250&fuzzySearch=true){ width=150 }
+        ![Мешочек](../../assets/items/items/bundle.webp){ width=150 }
     </figure>
+    ***
+    **Тип:** Предмет
+    ***
+    **Получение:**
+    
+    - Крафт
 
 На сервер добавлен крафт **Мешка**!
 
@@ -19,4 +25,4 @@ toc_depth: 1
 
 ## Крафт
 
-![template](../../assets/items/items/bundle_craft.png){ width=450}
+![Крафт мешочка](../../assets/crafts/bundle_craft.png){ width=450}

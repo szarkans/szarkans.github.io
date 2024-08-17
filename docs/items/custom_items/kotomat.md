@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![kotomat](../../assets/items/items/kotomat.png){ width=150 }
+        ![Котомат](../../assets/items/items/kotomat.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет

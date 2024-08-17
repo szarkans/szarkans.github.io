@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Блок"
     <figure markdown="span">
-        ![cattrack](https://mcapi.marveldc.me/item/item_frame?version=1.20&width=250&height=250&fuzzySearch=bool){ width=150 }
+        ![Невидимая рамка](../../assets/items/items/invisible_item_frame.webp){ width=150 }
     </figure>
     ***
     **Тип:** Блок
@@ -25,4 +25,4 @@ toc_depth: 1
 
 - Зелье невидимости на **8 минут**
 
-![itemframe](../../assets/crafts/itemframe.png){ width=550}
+![Крафт невидимой рамки](../../assets/crafts/itemframe.png){ width=550}

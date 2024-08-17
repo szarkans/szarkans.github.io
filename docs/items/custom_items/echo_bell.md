@@ -7,7 +7,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![bell](../../assets/items/items/echo_bell.png){ width=150 }
+        ![Эхо-колокол](../../assets/items/items/echo_bell.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет
@@ -26,12 +26,12 @@ toc_depth: 1
 
 ## Крафт
 
-![echo_craft](../../assets/items/items/echo_craft.png){ width=400 }
+![Крафт эхо-колокола](../../assets/crafts/echo_craft.png){ width=400 }
 
 ***
 ## Демонстрация
 
 <figure markdown="span">
-    ![echo_demo](../../assets/screenshots/echo_bell_demo.gif){ align=left width="600"}
+    ![Использование эхо-колокола](../../assets/screenshots/echo_bell_demo.gif){ align=left width="600"}
     <figcaption>Колокол подсвечивает мобов, а потом уходит на кулдаун</figcaption>
 </figure>

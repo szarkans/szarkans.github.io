@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![gh](../../assets/items/items/gh.png){ width=150 }
+        ![Крюк-кошка](../../assets/items/items/gh.png){ width=150 }
     </figure>
     ***
     **Тип:** Предмет
@@ -29,10 +29,10 @@ toc_depth: 1
 
 ### Крафт крюка
 
-![hook](../../assets/items/items/gh_hook.png){ width=400 }
+![Крафт крюка](../../assets/crafts/gh_hook.png){ width=400 }
 
 ### Крафт крюка-кошки
 
-![gh_craft](../../assets/items/items/gh_craft.png){ width=400 }
+![Крафт крюка-кошки](../../assets/crafts/gh_craft.png){ width=400 }
 
 ***

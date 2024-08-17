@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![cattrack](../../assets/items/block/gycha.png){ width=150 }
+        ![ГЫЧА](../../assets/items/block/gycha.png){ width=150 }
     </figure>
     ***
     **Тип:** Блок
@@ -27,4 +27,4 @@ toc_depth: 1
 
 - 9 Гычи
 
-![gychacraft](../../assets/crafts/gychablock.png){ width=400}
+![Крафт гычи](../../assets/crafts/gychablock.png){ width=400}

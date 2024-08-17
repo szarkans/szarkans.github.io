@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Блок"
     <figure markdown="span">
-        ![cattrack](../../assets/items/block/light.png){ width=150 }
+        ![Блок света](../../assets/items/block/light.png){ width=150 }
     </figure>
     ***
     **Тип:** Блок
@@ -31,4 +31,4 @@ toc_depth: 1
 
 - Светокамень
 
-![gychacraft](../../assets/crafts/light.png){ width=400}
+![Крафт блока света](../../assets/crafts/light.png){ width=400}

@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![cattrack](../../assets/items/block/enchanted_cobblestone.png){ width=150 }
+        ![Скомпресированные блоки](../../assets/items/block/enchanted_cobblestone.png){ width=150 }
     </figure>
     ***
     **Тип:** Блок

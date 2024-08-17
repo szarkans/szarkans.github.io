@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![cattrack](../../assets/items/block/reinforced_deepslate.png){ width=150 }
+        ![Укреплённый глубинный сланец](../../assets/items/block/reinforced_deepslate.png){ width=150 }
     </figure>
     ***
     **Тип:** Блок
@@ -29,4 +29,4 @@ toc_depth: 1
 
 - 1 древний обломок
 
-![comp](../../assets/crafts/reinforced_deepslate.png){ width=400 loading="lazy" decoding="async" }
+![Крафт укреплённого глубинного сланца](../../assets/crafts/reinforced_deepslate.png){ width=400 loading="lazy" decoding="async" }
