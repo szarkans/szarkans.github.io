@@ -20,7 +20,7 @@ description: Кошкокрафт - это Ванилла+ сервер с эл�
         <p class="description almost-white">
             <span class="white">Кошкокрафт</span> - это приватный Ванилла<span class="gold">+</span><br>сервер с элементами Role-play и котиками!
         </p>
-        <p class="version-info almost-white">1.20.6 | Java Edition</p>
+        <p class="version-info almost-white">1.21.1 | Java Edition</p>
         <a class="md-button md-button--primary" href="https://discord.gg/6f3FwFRJWC">
             Попасть на сервер
         </a>
@@ -110,7 +110,7 @@ description: Кошкокрафт - это Ванилла+ сервер с эл�
         <div class="faq-dropdown">
             <button class="dropdown-btn">Какая версия?</button>
             <div class="dropdown-content">
-                <p>Текущая версия - 1.20.6 Java Edition, в конце недели будет переход на 1.21.1! Играть на Bedrock нельзя.<br></p>
+                <p>Текущая версия - 1.21.1 Java Edition! Играть на Bedrock нельзя.<br></p>
             </div>
         </div>
         <div class="faq-dropdown">

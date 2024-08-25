@@ -141,9 +141,6 @@ nav:
       - info/rules/rules.md
       - info/rules/laws.md
   - Геймплей:
-    - Роллплей:
-      - gameplay/roleplay/goverment.md
-      - gameplay/roleplay/police.md
     - Уникальные фишки:
       - gameplay/unique/qol.md
       #- gameplay/unique/resourcepack.md
@@ -160,14 +157,13 @@ nav:
       - gameplay/unique/prefixes.md
       - gameplay/unique/ingame.md
       - gameplay/unique/cpm.md
-      
-      # - Рыбалка:
       - "gameplay/unique/fishing.md"
-     # - Список рыб: gameplay/unique/fishing/fish_list.md
+    - Роллплей:
+      - gameplay/roleplay/goverment.md
+      - gameplay/roleplay/police.md
     - Награды игрокам:
       - gameplay/rewards/list.md
       - gameplay/rewards/catpass.md
-  #     - gameplay/commands/discord.md
   - Бестиарий:
     # - Мобы:
     #    - "mobs/red.md"
@@ -195,6 +191,8 @@ nav:
     - Ванилла:
       - "items/vanilla/templates.md"
       - "items/vanilla/totem.md"
+      - "items/vanilla/end_crystal.md"
+      - "items/vanilla/respawn_anchor"
       - "items/vanilla/bundle.md"
       - "items/vanilla/reinforced.md"
       - "items/vanilla/calcite.md"

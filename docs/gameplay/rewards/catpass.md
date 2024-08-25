@@ -1,5 +1,6 @@
 ---
 description: Награды за действия игроков
+icon: fontawesome/solid/cat
 ---
 
 # Котячьи заслуги

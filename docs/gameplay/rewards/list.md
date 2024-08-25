@@ -1,5 +1,6 @@
 ---
 description: Награды игрокам на Кошкокрафте
+icon: material/hand-coin
 ---
 
 # Список наград

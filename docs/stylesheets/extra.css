@@ -206,6 +206,12 @@ td {
 }
 */
 
+@media screen and (min-width: 76.25em) {
+  .md-nav__item--section>.md-nav__link[for] {
+      color: rgb(221, 221, 221);
+  }
+}
+
 @media (min-width: 1220px) {
   label.md-nav__link {
     font-size: 1rem;

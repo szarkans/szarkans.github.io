@@ -1,6 +1,8 @@
 ---
 status: new
 toc_depth: 1
+hide:
+  - toc
 ---
 
 # Эхо-колокол
