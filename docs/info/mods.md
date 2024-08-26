@@ -18,7 +18,7 @@ description: Готовая сборка сервера Кошкокрафт
     Мы написали гайд только для тебя! Он доступен по [этой ссылке](../../guides/mod_download)!
 </div>
 
-Если тебе лень скачивать все нужные моды для сервера - у нас есть [готовая сборка :material-download:](../assets/CATCRAFT_1211_MODS.zip) на **Fabric 1.21.1**!
+Если тебе лень скачивать все нужные моды для сервера - у нас есть [готовая сборка :material-download:](../assets/catcraft_1211_mods.zip) на **Fabric 1.21.1**!
 
 <div class="grid cards" markdown>
 
