@@ -87,7 +87,7 @@ description: Готовая сборка сервера Кошкокрафт
     4. Перекидываешь папку `mods` из архива в папку `.minecraft` или в папку своей версии
 
 ??? tip "Для MultiMC, ModrinthApp, PrismLauncher и т.п."
-    1. [Скачиваешь файл .mrpack :material-download:](../assets/Catcraft 1.21.1 6.1.0.mrpack)
+    1. [Скачиваешь файл .mrpack :material-download:](../assets/Catcraft%201.21.1%206.1.0.mrpack)
 
     2. Создаёшь новую сборку
 
