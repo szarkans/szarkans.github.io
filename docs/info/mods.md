@@ -72,7 +72,7 @@ description: Готовая сборка сервера Кошкокрафт
 ## Гайд по установке
 
 ??? tip "Для ванильного лаунчера, TL, TLegacy и прочих"
-    1. [Скачиваешь архив :material-download:](../assets/CATCRAFT_1211_MODS.zip)
+    1. [Скачиваешь архив :material-download:](../assets/catcraft_1211_mods.zip)
 
     2. Открываешь папку **игры**
         
