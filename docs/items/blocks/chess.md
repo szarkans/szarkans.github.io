@@ -25,13 +25,24 @@ hide:
 
 ## Крафт
 
-Белые фигуры - из кварцевого блока
+<div class="grid cards" markdown>
 
-![Белые шахматы на кошкокрафте](../../assets/crafts/white_chess_craft.png){ width=400 }
+- 
 
-Чёрные фигуры - из колотого глубинного сланца
+    <figure markdown="span">
+        ![Белые шахматы на кошкокрафте](../../assets/crafts/white_chess_craft.png){ width=400 }
+        <figcaption>Белые фигуры - из кварцевого блока</figcaption>
+    </figure>
 
-![Чёрные шахматы на кошкокрафте](../../assets/crafts/black_chess_craft.png){ width=400 }
+- 
+
+
+    <figure markdown="span">
+        ![Чёрные шахматы на кошкокрафте](../../assets/crafts/black_chess_craft.png){ width=400 }
+        <figcaption>Чёрные фигуры - из колотого глубинного сланца</figcaption>
+    </figure>
+
+</div>
 
 ***
 
