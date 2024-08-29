@@ -166,9 +166,9 @@ nav:
   - Бестиарий:
     # - Мобы:
     #    - "mobs/red.md"
-    - Накладываемое:
-      - "items/clickable/cattrack.md"
-      - "items/clickable/scroll.md"
+    - Ванилла:
+      - "items/vanilla/vanilla_crafts.md"
+      - "items/vanilla/vanilla_edits.md"
     - Блоки:
       - "items/blocks/gycha.md"
       - "items/blocks/compressed.md"
@@ -179,6 +179,8 @@ nav:
       - "items/blocks/chess.md"
     - Применяемое:
       - "items/usable/kplus.md"
+      - "items/usable/cattrack.md"
+      - "items/usable/scroll.md"
     - Кастомные предметы:
       - "items/custom_items/gh.md"
       - "items/custom_items/plushie.md"
@@ -189,18 +191,7 @@ nav:
       - "items/custom_items/paint_brush.md"
       - "items/custom_items/cards.md"
       - "items/custom_items/dice.md"
-    - Ванилла:
-      - "items/vanilla/templates.md"
-      - "items/vanilla/totem.md"
-      - "items/vanilla/end_crystal.md"
-      - "items/vanilla/respawn_anchor.md"
-      - "items/vanilla/bundle.md"
-      - "items/vanilla/reinforced.md"
-      - "items/vanilla/calcite.md"
-      - "items/vanilla/black_dye.md"
-    # - Изменение ванили:
-    #   - "items/vanilla/vanilla_crafts.md"
-    #   - "items/vanilla/vanilla_crafts.md"
+    
   - Гайды:
     - Игровое:
       - guides/gameplay/set_skin.md

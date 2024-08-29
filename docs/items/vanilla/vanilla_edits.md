@@ -27,7 +27,7 @@ hide:
     **Кристалл энда**
 
     Кристаллы Энда нельзя ставить вне Энда - они причиняют слишком много вреда.
-    <br><br><br><br><br>
+    <br><br><br><br>
     !!! tip "Предмет"
         <figure markdown="span">
             ![Кристалл Энда](../../assets/items/items/end_crystal.webp){ width=150 }
