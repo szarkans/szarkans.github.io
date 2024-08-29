@@ -198,6 +198,9 @@ nav:
       - "items/vanilla/reinforced.md"
       - "items/vanilla/calcite.md"
       - "items/vanilla/black_dye.md"
+    # - Изменение ванили:
+    #   - "items/vanilla/vanilla_crafts.md"
+    #   - "items/vanilla/vanilla_crafts.md"
   - Гайды:
     - Игровое:
       - guides/gameplay/set_skin.md
