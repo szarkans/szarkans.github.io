@@ -29,12 +29,23 @@ hide:
 
 Крафт крюка-кошки состоит из **Крюка** и ниток.
 
-### Крафт крюка
+<div class="grid cards" markdown>
 
-![Крафт крюка](../../assets/crafts/gh_hook.png){ width=400 }
+- 
 
-### Крафт крюка-кошки
+    <figure markdown="span">
+        ![Крафт крюка](../../assets/crafts/gh_hook.png){ width=400 }
+        <figcaption>Крафт крюка</figcaption>
+    </figure>
 
-![Крафт крюка-кошки](../../assets/crafts/gh_craft.png){ width=400 }
+- 
+
+
+    <figure markdown="span">
+        ![Крафт крюка-кошки](../../assets/crafts/gh_craft.png){ width=400 }
+        <figcaption>Крафт крюка-кошки</figcaption>
+    </figure>
+
+</div>
 
 ***
