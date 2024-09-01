@@ -23,8 +23,6 @@ hide:
 
 **Шкафы и ящики** - часть [декораций](../../../gameplay/unique/decor). Все шкафы и ящики, кроме железных, создаются из брёвен в камнерезе.
 
-***
-
 Шкафы бывают из:
 
 - Дуба
@@ -41,8 +39,22 @@ hide:
 
 ## Примеры крафта
 
-![oak_cabinets](../../assets/crafts/oak_cabinets.png){ width=400 }
+<div class="grid cards" markdown>
 
-![bamboo_cabinets](../../assets/crafts/bamboo_cabinets.png){ width=400 }
+- 
 
-***
+    <figure markdown="span">
+        ![Дубовые шкафы](../../assets/crafts/oak_cabinets.png){ width=400 }
+        <figcaption>Дубовый шкаф</figcaption>
+    </figure>
+
+- 
+
+
+    <figure markdown="span">
+        ![Бамбуковый шкаф](../../assets/crafts/bamboo_cabinets.png){ width=400 }
+        <figcaption>Бамбуковый шкаф</figcaption>
+    </figure>
+
+</div>
+
