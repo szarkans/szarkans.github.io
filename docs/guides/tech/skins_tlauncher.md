@@ -19,6 +19,6 @@ description: Как исправить скины на TLauncher?
 
 2. Выключить в нём скины TLauncher 
 
-    ![tlauskins](../assets/guides/tlauncher_skins.png){ width=600 }
+    ![tlauskins](../../assets/guides/tlauncher_skins.png){ width=600 }
 
 3. Всё!

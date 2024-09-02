@@ -27,10 +27,6 @@ title: Брендбук
     { .card .margin-center .cursor-pointer .brand-book-color-white }
 </div>
 
-</div>
-
-<div class="grid" markdown>
-
 <div data-clipboard-text="#804feb #4728b6" onclick="copyToClipboard(this)">
     <b>Основной градиент</b><br>#804feb -> #4728b6
     { .card .brand-book-color-gradient .cursor-pointer .margin-center }
@@ -58,17 +54,6 @@ title: Брендбук
 
 ![plashka](../../assets/плашка.png){ width=50% }
 
-<script>
-  function copyToClipboard(element) {
-    const text = element.getAttribute('data-clipboard-text');
-    navigator.clipboard.writeText(text).then(() => {
-      console.log('Скопирован цвет: ' + text); 
-    }, (err) => {
-      console.error('Ошибка копирования цвета: ', err);
-    });
-  }
-</script>
-
 ## Скины админов
 
 Кликаешь и скачиваешь!
@@ -87,6 +72,9 @@ title: Брендбук
 
     ![Скин bykkake747](https://mineskin.eu/skin/bykkake747)
 
+</div>
+
+<div class="grid cards" markdown>
 -  
 
     **CharaBell**
@@ -95,3 +83,13 @@ title: Брендбук
 
 </div>
 
+<script>
+  function copyToClipboard(element) {
+    const text = element.getAttribute('data-clipboard-text');
+    navigator.clipboard.writeText(text).then(() => {
+      console.log('Скопирован цвет: ' + text); 
+    }, (err) => {
+      console.error('Ошибка копирования цвета: ', err);
+    });
+  }
+</script>

@@ -49,7 +49,7 @@ description: Гайд по ошибкам модов
 
     - Например, на скриншоте нам нужно скачать CraterLib версии 1.0.2, без него мод Simple RPC не запускается.
 
-![mod_error](../assets/guides/mods/mod_error.png)
+![mod_error](../../assets/guides/mods/mod_error.png)
 
 ### "Mod "X" requires version Y of "Fabric Loader""
 
@@ -59,4 +59,4 @@ description: Гайд по ошибкам модов
 
 - Скачать последнюю версию Fabric
 
-![fabric_wrong_version](../assets/guides/mods/fabric_wrong_version.png)
+![fabric_wrong_version](../../assets/guides/mods/fabric_wrong_version.png)
