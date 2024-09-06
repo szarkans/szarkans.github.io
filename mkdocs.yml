@@ -165,6 +165,7 @@ nav:
   - Бестиарий:
     # - Мобы:
     #    - "mobs/red.md"
+    #    - "mobs/haunted_weapon.md" 
     - Ванилла:
       - "items/vanilla/vanilla_crafts.md"
       - "items/vanilla/vanilla_edits.md"
