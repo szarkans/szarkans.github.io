@@ -34,8 +34,8 @@ hide:
 - 
 
     <figure markdown="span">
-        ![Крафт колоды треф](../../../assets/crafts/deck_of_clubs_craft.gif){ align=right width="400" }
-        <figcaption>Колода треф</figcaption>
+        ![Крафт колоды крести](../../../assets/crafts/deck_of_clubs_craft.gif){ align=right width="400" }
+        <figcaption>Колода крести</figcaption>
     </figure>
 
 - 
