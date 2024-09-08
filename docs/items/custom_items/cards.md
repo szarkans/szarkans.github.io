@@ -27,15 +27,15 @@ hide:
 
 ## Крафт
 
-Карты можно получить, распаковав **Колоду** определённой масти. Чтобы распаковать **Колоду** нужно нажать <span class="keys"><kbd>ПКМ</kbd></span>, держа колоду в руках.
+Карты можно получить, распаковав **Колоду** определённой масти. После распаковки, игроку выдастся весь набор карт указанной масти. Чтобы распаковать **Колоду** нужно нажать <span class="keys"><kbd>ПКМ</kbd></span>, держа её в руках.
 
 <div class="grid cards" markdown>
 
 - 
 
     <figure markdown="span">
-        ![Крафт колоды треф](../../../assets/crafts/deck_of_clubs_craft.gif){ align=right width="400" }
-        <figcaption>Колода треф</figcaption>
+        ![Крафт колоды крести](../../../assets/crafts/deck_of_clubs_craft.gif){ align=right width="400" }
+        <figcaption>Колода крести</figcaption>
     </figure>
 
 - 

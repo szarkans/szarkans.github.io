@@ -2,12 +2,28 @@
 toc_depth: 1
 ---
 
-# В разработке...
+# cmVkIHNrZWxldG9u
 
 !!! tip inline end "Моб"
     <figure markdown="span">
         ![red](../../assets/mobs/red.jpg){ width=150 }
     </figure>
+    ***
+    **Здоровье:** 64
+    
+    **Броня:** 64
+    ***
+    **Поведение:** 64
+
+    **Сила атаки:** 64
+    ***
+    **Дроп:** 64
+
+    **Опыт:** 64
+    ***
+    **Текстура by:** Ynlra2FrZTc0Nw==
+    ***
+    **Идея by:** 0LHRg9C60LDQutC1NzQ3
 
 0YDQtdC00Lgg0LTQuNCz0LPQtdGA0L7QsiDQuCDRiNCw0YXRgtC10YDQ
 vtCyINGD0LbQtSDQv9C+0Lsg0LLQtdC60LAg0YXQvtC00Y/RgiDRgNCw
@@ -31,5 +47,3 @@ g0YDQvtC00LAg0YHRg9GJ0LXRgdGC0LLQsCwg0L3QtSDRgtCw0LrQuNC
 1LCDQutCw0Log0LzRiz8g0KLQvtCz0LTQsCDQv9C+0YfQtdC80YMg0YH
 QutC10LvQtdGC0Ysg0YLQvj8g0J3QtSDRj9GB0L3Qviwg0L3QuNGH0LX
 Qs9C+INC90LUg0L/QvtC90Y/RgtC90L4h
-
-***
