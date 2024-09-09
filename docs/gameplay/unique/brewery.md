@@ -58,8 +58,6 @@ description: Brewery на Кошкокрафте
 
 ## Напитки и их рецепты
 
-TODO: Нужно сделать информацию про Котопедию
-
 [ :material-arrow-right-top: Ссылка на таблицу ](https://docs.google.com/spreadsheets/d/1eeP827cOQyv0Hjfr392m7XS6pfpHPupX){ .md-button .md-button--primary }
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBcp8GW0HhaNDzQdxor1FMwVGUs8Mf2WFshE67-etU5aTd_977CfzjlPDzV5D9ZA/pubhtml?widget=true&amp;headers=false" width=900 height=900></iframe>

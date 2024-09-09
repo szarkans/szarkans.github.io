@@ -29,6 +29,7 @@ theme:
     - navigation.indexes
     - search.suggest
     - search.highlight
+    - content.tooltips
     - toc.follow
  #   - toc.integrate
     - content.action.edit
@@ -151,7 +152,7 @@ nav:
     - gameplay/unique/decor.md
     - gameplay/unique/armorstand.md
     - gameplay/unique/voicechat.md
-    - gameplay/unique/wandering_trader.md
+   # - gameplay/unique/wandering_trader.md
     - gameplay/unique/prefixes.md
     - gameplay/unique/ingame.md
     - gameplay/unique/cpm.md
