@@ -30,7 +30,7 @@ hide:
     **Кристалл энда**
 
     Кристаллы Энда **нельзя ставить вне Энда** - они причиняют слишком много вреда.
-    <br><br><br><br>
+    <br><br><br>
     !!! tip "Предмет"
         <figure markdown="span">
             ![Кристалл Энда](../../assets/items/items/end_crystal.webp){ width=150 }
@@ -47,4 +47,14 @@ hide:
             ![Якорь возрождения](../../assets/items/items/respawn_anchor.webp){ width=150 }
         </figure>
 
+- 
+
+    **Инструменты**
+
+    - Кирки быстро ломают стекло и светокамень
+
+    - Мотыги быстро ломают Жабосветы
+    !!! tip "Предметы"
+        ![Кирочка](../../assets/items/items/diamond_pickaxe.webp){ width=150 }
+        ![Мотыга](../../assets/items/items/diamond_hoe.webp){ width=150 }
 </div>
