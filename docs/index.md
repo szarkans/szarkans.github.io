@@ -8,7 +8,7 @@ hide:
   - feedback
   - actions
 icon: fontawesome/solid/house
-description: Кошкокрафт - это Ванилла+ сервер с элементами РП и Котиками!
+description: Это Ванилла+ сервер с элементами РП и Котиками!
 ---
 
 <div class="index-title">

@@ -6,16 +6,25 @@
     <meta name="keywords" content="кошкокрафт, ванилла, майнкрафт сервер, майнкрафт, рп сервер, майнкрафт рп сервер, catcraft, котики, minecraft rp, minecraft vanilla rp, майнкрафт ванилла, майнкрафт ванилла рп, {{ page.meta.title }}">
     <meta property="og:title" content="{{ page.meta.title }}">
   {% else %}
-    <meta name="keywords" content="кошкокрафт, ванилла, майнкрафт сервер, майнкрафт, рп сервер, майнкрафт рп сервер, catcraft, котики, minecraft rp, minecraft vanilla rp, майнкрафт ванилла, майнкрафт ванилла рп">
+    <meta name="keywords" content="кошкокрафт, ванилла, майнкрафт сервер, майнкрафт, рп сервер, майнкрафт рп сервер, catcraft, котики, minecraft rp, minecraft vanilla rp, майнкрафт ванилла, майнкрафт ванилла рп, {{ page.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+
   {% endif %}
   {% if page.meta.description %}
     <meta
       property="og:description"
       content="{{ page.meta.description }} - Кошкокрафт">
   {% endif %}
+  <meta property="og:image" content="https://wiki.catcraftmc.ru/assets/catcraft.jpg">
+  <meta property="theme_color" content="#4f2dbe">
+  <meta property="og:site_name" content="Вики Кошкокрафта">
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:alt" content="Логотип сервера Кошкокрафт - лапка котика" />
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
 {% else %}
   <meta name="keywords" content="кошкокрафт, ванилла, майнкрафт сервер, майнкрафт, рп сервер, майнкрафт рп сервер, catcraft, котики, minecraft rp, minecraft vanilla rp, майнкрафт ванилла, майнкрафт ванилла рп">
-  <meta property="og:image" content="https://wiki.catcraftmc.ru/assets/icon_purple.png">
+  <meta property="og:image" content="https://wiki.catcraftmc.ru/assets/catcraft.jpg">
   <meta property="theme_color" content="#4f2dbe">
   <meta property="og:site_name" content="Вики Кошкокрафта">
 {% endif %}
