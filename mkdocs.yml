@@ -100,6 +100,7 @@ extra_javascript:
   - javascripts/oneko.js
   - javascripts/oneko-element.js
   #- javascripts/snake.js
+  - javascripts/carousel.js
 watch:
   - includes
 extra: 

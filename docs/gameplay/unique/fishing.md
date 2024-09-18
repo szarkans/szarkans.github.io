@@ -29,7 +29,43 @@ description: Кастомная рыбалка на Кошкокрафте
 
 ## Все мини-игры
 
-### **Гонка**
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/race.gif" class="carousel-image" alt="Image 1">
+      <div class="carousel-caption">Нажимая на Shift, нужно довести рыбку до конца, но нужно следить за индикатором, иначе леска оборвётся!</div>
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/color.gif" class="carousel-image" alt="Image 2">
+      <div class="carousel-caption">Тут всё просто - нужно вовремя нажать <span class="keys"><kbd>ПКМ</kbd></span> по определённому цвету.</div>
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/hold.gif" class="carousel-image" alt="Image 3">
+      <div class="carousel-caption">Тут, нажимая Shift, нужно удержать рыбку на зелёной области </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/click_v1.gif" class="carousel-image" alt="Image 3">
+      <div class="carousel-caption">Тут нужно попасть в зелёную область! </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/click_v2.gif" class="carousel-image" alt="Image 3">
+      <div class="carousel-caption">Тут тоже самое - нужно попасть в зелёную часть, но уже без разных цветов.</div>
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/click_v3.gif" class="carousel-image" alt="Image 3">
+      <div class="carousel-caption">Аналогично - попасть в зелёную часть, без разных цветов.</div>
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/dance.gif" class="carousel-image" alt="Image 3">
+      <div class="carousel-caption">Тут уже сложнее. На экране пишутся стрелочки, которым нужно следовать.  </div>
+    </div>
+  </div>
+  <button class="carousel-button prev-button">&#10094;</button>
+  <button class="carousel-button next-button">&#10095;</button>
+  <div class="carousel-counter">1 / 3</div>
+</div>
+
+<!-- ### **Гонка**
 
 Нажимая на ++left-shift++, нужно довести рыбку до конца, но нужно следить за индикатором, иначе леска оборвётся!
 
@@ -76,4 +112,4 @@ description: Кастомная рыбалка на Кошкокрафте
 
 :material-arrow-left: - ЛКМ, :material-arrow-right: - ПКМ, :material-arrow-up: - Пробел и :material-arrow-down: - Шифт
 
-![dance](../../../assets/fishing/dance.gif){width=800 loading="lazy" decoding="async"}
+![dance](../../../assets/fishing/dance.gif){width=800 loading="lazy" decoding="async"} -->
