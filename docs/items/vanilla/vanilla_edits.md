@@ -5,7 +5,7 @@ hide:
   - toc
 ---
 
-# Механики предметов
+# Изменения механик
 
 Механики некоторых предметов были изменены на Кошкокрафте, для **упрощения** или **усложнения** геймплея.
 <br><br>
@@ -35,6 +35,8 @@ hide:
         <figure markdown="span">
             ![Кристалл Энда](../../assets/items/items/end_crystal.webp){ width=150 }
         </figure>
+</div>
+<div class="grid cards" markdown>
 
 - 
 
@@ -51,10 +53,12 @@ hide:
 
     **Инструменты**
 
-    - Кирки быстро ломают стекло и светокамень
+    - Кирки быстро ломают **стекло** и **светокамень**
 
-    - Мотыги быстро ломают Жабосветы
+    - Мотыги быстро ломают **жабосветы**
+    <br><br>
     !!! tip "Предметы"
-        ![Кирочка](../../assets/items/items/diamond_pickaxe.webp){ width=150 }
-        ![Мотыга](../../assets/items/items/diamond_hoe.webp){ width=150 }
+        <figure markdown="span">
+            ![Кирочка](../../assets/items/items/pickaxe_and_hoe.png){ width=300 }
+        </figure>
 </div>
