@@ -131,6 +131,7 @@ nav:
     - info/map.md
     - info/mods.md
     - info/farm.md
+    - info/guidelines.md
     - 'Информация':
       - info/admins.md
       #- info/dict.md
@@ -170,9 +171,8 @@ nav:
     #    - "mobs/red.md"
     #    - "mobs/haunted_weapon.md" 
     - Ванилла:
-      - Предметы:
-        - "items/vanilla/vanilla_crafts.md"
-        - "items/vanilla/vanilla_edits.md"
+      - "items/vanilla/vanilla_crafts.md"
+      - "items/vanilla/vanilla_edits.md"
     - Кошкокрафт:
       - Блоки:
         - "items/blocks/gycha.md"
