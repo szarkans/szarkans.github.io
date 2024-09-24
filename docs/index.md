@@ -214,3 +214,5 @@ document.addEventListener('DOMContentLoaded', function() {
 <figure markdown="span">
     ![Сумасшедший котик аааа](/assets/screenshots/crazy_cat.gif){ align=left width="100"}
 </figure>
+
+<!-- 472625935abdbe3d4fd7a9d704a38b3cc7173349 -->
