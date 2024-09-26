@@ -8,6 +8,8 @@ title: Брендбук
 
 ## Цвета
 
+Нажми, чтобы скопировать в буфер обмена.
+
 <div class="grid" markdown>
 
 
@@ -62,24 +64,27 @@ title: Брендбук
 
 -  
 
-    **Szarkan**
-
-    ![Скин Szarkan](https://mineskin.eu/skin/Szarkan)
+    <figure markdown="span">
+        ![Скин Szarkan](https://mineskin.eu/skin/Szarkan)
+        <figcaption>**Szarkan**</figcaption>
+    </figure>
 
 -  
 
-    **bykkeke747**
-
-    ![Скин bykkake747](https://mineskin.eu/skin/bykkake747)
+    <figure markdown="span">
+        ![Скин bykkake747](https://mineskin.eu/skin/bykkake747)
+        <figcaption>**bykkake747**</figcaption>
+    </figure>
 
 </div>
-
 <div class="grid cards" markdown>
+
 -  
 
-    **CharaBell**
-
-    ![Скин CharaBell](https://mineskin.eu/skin/CharaBell)
+    <figure markdown="span">
+        ![Скин CharaBell](https://mineskin.eu/skin/CharaBell)
+        <figcaption>**CharaBell**</figcaption>
+    </figure>
 
 </div>
 
