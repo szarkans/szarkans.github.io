@@ -144,7 +144,7 @@ nav:
       - info/rules/laws.md
   - Геймплей:
     - gameplay/unique/qol.md
-    #- gameplay/unique/resourcepack.md
+    - gameplay/unique/resourcepack.md
     - gameplay/unique/npc.md
     - gameplay/unique/clans.md
     - gameplay/unique/villager_rebalance.md
@@ -156,7 +156,7 @@ nav:
     - gameplay/unique/voicechat.md
    # - gameplay/unique/wandering_trader.md
     - gameplay/unique/prefixes.md
-    - gameplay/unique/ingame.md
+    - gameplay/unique/commands.md
     - gameplay/unique/cpm.md
     - "gameplay/unique/fishing.md"
     - Роллплей:

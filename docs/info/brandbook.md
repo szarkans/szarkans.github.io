@@ -72,16 +72,6 @@ title: Брендбук
 -  
 
     <figure markdown="span">
-        ![Скин bykkake747](https://mineskin.eu/skin/bykkake747)
-        <figcaption>**bykkake747**</figcaption>
-    </figure>
-
-</div>
-<div class="grid cards" markdown>
-
--  
-
-    <figure markdown="span">
         ![Скин CharaBell](https://mineskin.eu/skin/CharaBell)
         <figcaption>**CharaBell**</figcaption>
     </figure>

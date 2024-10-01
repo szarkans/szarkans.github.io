@@ -292,6 +292,10 @@ td {
   color: var(--md-primary-bg-color);
 }
 
+.md-typeset .md-button:focus, .md-typeset .md-button:hover {
+  color: #000;
+}
+
 .md-typeset .md-button--primary:hover {
   background-color: #a582f5;
   border-color: #704ac9;

@@ -1,6 +1,7 @@
 ---
 icon: material/account-edit
 description: Кастомные модели персонажа
+title: Модели игрока
 ---
 
 # Customizable Player Models
@@ -27,12 +28,22 @@ description: Кастомные модели персонажа
 
 Вот пример модели с разными волосами и с разными лицевыми анимациями, которые можно менять прямо во время игры.
 
-<div class="image-grid">
-  <img src="../../../assets/cpm/showcase1.png" alt="icon">
-  <img src="../../../assets/cpm/showcase2.png" alt="icon">
-  <img src="../../../assets/cpm/showcase3.png" alt="icon">
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="carousel-item">
+      <img src="../../../assets/cpm/showcase1.png" alt="Пример модели Customizable Player Models" width="75%" class="carousel-image">
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/cpm/showcase2.png" class="carousel-image" width="75%" alt="Пример модели Customizable Player Models">
+    </div>
+    <div class="carousel-item">
+      <img src="../../../assets/cpm/showcase3.png" class="carousel-image" width="75%" alt="Пример модели Customizable Player Models">
+    </div>
+  </div>
+  <button class="carousel-button prev-button">&#10094;</button>
+  <button class="carousel-button next-button">&#10095;</button>
+  <div class="carousel-counter">1 / 3</div>
 </div>
-
 ***
 
 ## Как установить/создать свою модель CPM?
