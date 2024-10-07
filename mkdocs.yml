@@ -131,7 +131,6 @@ nav:
     - info/map.md
     - info/mods.md
     - info/farm.md
-    - info/guidelines.md
     - 'Информация':
       - info/admins.md
       #- info/dict.md
@@ -142,6 +141,8 @@ nav:
     - 'Правила и законы':
       - info/rules/rules.md
       - info/rules/laws.md
+    - "Бюрократия":
+      - info/oferta.md
   - Геймплей:
     - gameplay/unique/qol.md
     - gameplay/unique/resourcepack.md
