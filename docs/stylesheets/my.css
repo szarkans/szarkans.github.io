@@ -33,6 +33,28 @@
     flex-wrap: wrap; /* Allows items to wrap in smaller screens */
 }
 
+.index-cards-left {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: space-evenly;
+}
+
+.index-cards-left img {
+    margin-right: 20px; /* Отступ справа от картинки */
+}
+
+.index-cards-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: space-evenly;
+}
+
+.index-cards-right img {
+    margin-left: 20px; /* Отступ справа от картинки */
+}
+
+
 /* Styling for the image */
 .image-shadow {
     width: 50%; /* Takes half of the container's width */

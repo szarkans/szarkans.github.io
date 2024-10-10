@@ -47,7 +47,15 @@ description: Ванилла+ сервер с элементами РП и Кот
 
     ---
 
-    Свой [собственный ресурспак](gameplay/unique/resourcepack.md), ежедневные [квесты](gameplay/unique/npc.md), [1000+ достижений](gameplay/unique/datapacks.md), кастомная [рыбалка](gameplay/unique/fishing.md), ребалансы для более честной игры, новые предметы и механики для улучшения качества жизни!
+    * Свой [собственный ресурспак](gameplay/unique/resourcepack.md)
+    
+    * Ежедневные [квесты](gameplay/unique/npc.md)
+    
+    * [1000+ достижений](gameplay/unique/datapacks.md)
+    
+    * Кастомная [рыбалка](gameplay/unique/fishing.md)
+    
+    * Ребалансы для более честной игры, новые предметы и механики для улучшения качества жизни!
 
     ---
 
@@ -57,28 +65,17 @@ description: Ванилла+ сервер с элементами РП и Кот
 
     ---
 
-    Правительство, управляющее строительством, полицией и новостями.  
-    Никаких приватов - есть **законы территорий**!  
-    Экономика в АРах!
+    * Правительство, управляющее строительством, полицией и новостями.
+
+    * Никаких приватов - есть **законы территорий**!
+
+    * Экономика в АРах!
+
+    * Да хоть [свергни правительство](server-history/5season/#14_-)!
 
     ---
 
     ![ca](/assets/screenshots/catcraft.jpg){width=450}
-
--   :octicons-package-16:{ .lg .middle .shadow } <span class="shadow">__Никаких ограничений!__</span>
-
-    ---
-
-    Делай что твоей душе угодно - создай ОПГ, [свергни правительство](server-history/5season/#14_-), построй огромную постройку 1000 блоков в высоту или стань богатейшим игроком Кошкокрафта!
-
-    ---
-
-    ![end](/assets/screenshots/tower.png){width=450}
-
-</div>
-
-
-<div class="grid cards" markdown>
 
 - :material-gamepad-variant:{ .lg .middle .shadow } <span class="shadow">__А также...__</span>
 
@@ -100,7 +97,7 @@ description: Ванилла+ сервер с элементами РП и Кот
 
 </div>
 
-<br><br><br>
+<br><br>
 
 <h1 class="shadow">Частые вопросы</h1>
 
