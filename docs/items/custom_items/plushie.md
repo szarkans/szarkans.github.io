@@ -8,7 +8,7 @@ hide:
 
 !!! tip inline end "Предмет"
     <figure markdown="span">
-        ![Плюшевый szarkan](../../assets/items/items/plushie/sz.png){ width=150 }
+        ![Плюшевый Szarkan](../../assets/items/items/plushie/sz.png){ width=150 }
         ![Плюшевый bykkake747](../../assets/items/items/plushie/bkke.png){ width=150 }
         ![Плюшевая CharaBell](../../assets/items/items/plushie/chara.png){ width=150 }
     </figure>
@@ -20,12 +20,15 @@ hide:
     - ???
 
     ***
-    **Текстура by:** bykkake747
+    **Текстуры by:**  
+    - bykkake747  
+    - sm1lly  
+    - Abauch  
     ***
     **Идея by:** bykkake747
 
 **Плюшевая игрушка** - забавные мягкие куклы. Эти персонажи кажутся вам знакомыми...
 
-Разбросаны по всему миру. Получить их можно, но неизвестно как. Возможно, стоит рассмотреть самые разные способы...
+Разбросаны по всему миру, всего их 15 штук. Получить их можно, но неизвестно как. Возможно, стоит рассмотреть самые разные способы...
 
 
