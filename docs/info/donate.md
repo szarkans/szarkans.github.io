@@ -126,6 +126,8 @@ description: Донатик
 
         - Ежедневный кит с плюшками!  
 
+        - Доступ к ChatGPT 4o в Дискорде!
+
         [:fontawesome-solid-money-bill-trend-up: Купить на сайте](https://donate.catcraftmc.ru){ .md-button .md-button--primary }
 
 ## Облики
@@ -136,11 +138,26 @@ description: Донатик
 
 <div class="grid cards" markdown>
 
+- Набор <span style="color: #4ff6ff;">Атака титанов</span>
+
+    ---
+
+    ![Атака титанов в Майнкрафте](../assets/updates/6_2_0/aot.jpg){ width=400 loading="lazy" decoding="async" }
+
+    ---
+
+    Набор из УПМ и косметической брони Развед-Корпуса!
+
+    В наборе:
+    - УПМ во основную руку - очень прочную крюк-кошку, которая одновременно с этим является оружием!
+    - УПМ во вторую руку - то самое устройство пространственного маневрирования!
+    - Косметическая форма Развед-корпуса, повышающую безопасную дистанцию для падения!
+
 -   Набор <span class="gold shadow">**Chainsaw Man**</span>
 
     ---
 
-    ![chainsaw](../assets/donates/skins/chainsawman.png){ width=400 }
+    ![chainsaw](../assets/donates/skins/chainsawman.png){ width=400 loading="lazy" decoding="async" }
 
     ---
 
@@ -156,7 +173,7 @@ description: Донатик
 
     ---
 
-    ![jojo](../assets/donates/skins/jojo.png){ width=400 }
+    ![jojo](../assets/donates/skins/jojo.png){ width=400 loading="lazy" decoding="async" }
 
     ---
 
@@ -168,7 +185,7 @@ description: Донатик
 
     ---
 
-    ![berserk](../assets/donates/skins/berserk.png){ width=400 }
+    ![berserk](../assets/donates/skins/berserk.png){ width=400 loading="lazy" decoding="async" }
 
     ---
 
@@ -186,7 +203,7 @@ description: Донатик
 
     ---
 
-    ![neon](../assets/donates/skins/neon.png){ width=400 }
+    ![neon](../assets/donates/skins/neon.png){ width=400 loading="lazy" decoding="async" }
 
     ---
 
@@ -200,7 +217,7 @@ description: Донатик
 
     ---
 
-    ![cherry](../assets/donates/skins/cherry.png){ width=400 }
+    ![cherry](../assets/donates/skins/cherry.png){ width=400 loading="lazy" decoding="async" }
 
     ---
 
@@ -214,7 +231,7 @@ description: Донатик
 
     ---
 
-    ![steampunk](../assets/donates/skins/steampunk.png){ width=400 }
+    ![steampunk](../assets/donates/skins/steampunk.png){ width=400 loading="lazy" decoding="async" }
 
     ---
 
