@@ -9,6 +9,10 @@ description: Brewery на Кошкокрафте
 
 От крайне крепкого пива сорта <span class="red shadow bold">Dragonblood</span> до <span class="neon">CUM</span>!
 
+## Напитки и их рецепты
+
+Список всех рецептов можно узнать в [Котопедии](../../items/custom_items/cotopedia.md). Для её получения обратись к [Бармену](npc.md)!
+
 ## **Как варить?**
 
 !!! abstract ""
@@ -53,12 +57,3 @@ description: Brewery на Кошкокрафте
 Для дистилляции нужна зельеварочная стойка и светопыль. Просто кладёшь светопыль в верхний отсек, а напитки в нижний, и всё! Напиток дистиллируется!
 
 ![distillation](../../assets/brewery/distillation.png){ width=600 }
-
-***
-
-## Напитки и их рецепты
-
-[ :material-arrow-right-top: Ссылка на таблицу ](https://docs.google.com/spreadsheets/d/1eeP827cOQyv0Hjfr392m7XS6pfpHPupX){ .md-button .md-button--primary }
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBcp8GW0HhaNDzQdxor1FMwVGUs8Mf2WFshE67-etU5aTd_977CfzjlPDzV5D9ZA/pubhtml?widget=true&amp;headers=false" width=900 height=900></iframe>
-
