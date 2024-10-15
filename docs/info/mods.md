@@ -34,7 +34,7 @@ description: Готовая сборка сервера Кошкокрафт
 
     - Конфиги к модам, чтобы не настраивать всё по полчаса =)
 
-    ??? tip "Полный список модов в сборке"
+    ??? note-cc "Полный список модов в сборке"
         <!-- Нет на 1.21 - [Animatica](https://modrinth.com/mod/animatica) -->
         - [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)  
         - [Customizable Player Models](https://modrinth.com/plugin/custom-player-models)  
@@ -71,7 +71,7 @@ description: Готовая сборка сервера Кошкокрафт
 
 ## Гайд по установке
 
-??? tip "Для ванильного лаунчера, TL, TLegacy и прочих"
+??? note-cc "Для ванильного лаунчера, TL, TLegacy и прочих"
     1. [Скачиваешь архив :material-download:](../assets/catcraft_1211_mods.zip)
 
     2. Открываешь папку **игры**
@@ -86,7 +86,7 @@ description: Готовая сборка сервера Кошкокрафт
     
     4. Перекидываешь папку `mods` из архива в папку `.minecraft` или в папку своей версии
 
-??? tip "Для MultiMC, ModrinthApp, PrismLauncher и т.п."
+??? note-cc "Для MultiMC, ModrinthApp, PrismLauncher и т.п."
     1. [Скачиваешь файл .mrpack :material-download:](../assets/Catcraft%201.21.1%206.1.0.mrpack)
 
     2. Создаёшь новую сборку
@@ -101,7 +101,7 @@ description: Готовая сборка сервера Кошкокрафт
 
 Моды из этого списка необязательны, но думаю ты сможешь найти что-то, что тебе зайдёт! Все моды из списка протестированы!
 
-??? tip "Оптимизация"
+??? note-cc "Оптимизация"
 
     Майнкрафт не славится своей оптимизацией - даже на самых сильных компах ФПС может быть низким. Но эти моды увеличат эту цифру в **пять** раз!
 
@@ -112,7 +112,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __FerriteCore__
 
         ---
-        ![ferritecore](https://cdn.modrinth.com/data/uXXizFIs/icon.jpg){ align=right width="100" }
+        ![ferritecore](https://cdn.modrinth.com/data/uXXizFIs/icon.jpg){  align=right width="100" loading="lazy" decoding="async" }
         Тоже база! Оптимизация оперативной памяти в игре.
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/ferrite-core)
@@ -120,7 +120,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __lazyDFU__
 
         ---
-        ![lazdfy](https://cdn.modrinth.com/data/hvFnDODi/icon.png){ align=right width="100" }
+        ![lazdfy](https://cdn.modrinth.com/data/hvFnDODi/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Оптимизация запуска игры!
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/lazydfu)
@@ -128,7 +128,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Lithium__
 
         ---
-        ![lithufasd](https://cdn.modrinth.com/data/gvQqBUqZ/icon.png){ align=right width="100" }
+        ![lithufasd](https://cdn.modrinth.com/data/gvQqBUqZ/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Оптимизация многих аспектов игры - от ИИ до физики игры!
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/lithium)
@@ -136,7 +136,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Language Reload__
 
         ---
-        ![PISYA_POPA](https://cdn.modrinth.com/data/uLbm7CG6/9cae8ec18cac3b1cc6ef1efa239f381d669264e6.png){ align=right width="100" }
+        ![PISYA_POPA](https://cdn.modrinth.com/data/uLbm7CG6/9cae8ec18cac3b1cc6ef1efa239f381d669264e6.png){  align=right width="100" loading="lazy" decoding="async" }
         Позволяет менять язык игры за миллисекунду!
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/language-reload)
@@ -144,7 +144,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Very Many Players__
 
         ---
-        ![litd](https://cdn.modrinth.com/data/wnEe9KBa/icon.png){ align=right width="100" }
+        ![litd](https://cdn.modrinth.com/data/wnEe9KBa/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Полезный мод на серверах - при большом скоплении игроков он оптимизирует игру!
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/vmp-fabric)
@@ -152,7 +152,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Fast Quit__
 
         ---
-        ![cit](https://cdn.modrinth.com/data/x1hIzbuY/d257579b8687765ef8154467d88276e522545dc0.jpeg){ align=right width="100" }
+        ![cit](https://cdn.modrinth.com/data/x1hIzbuY/d257579b8687765ef8154467d88276e522545dc0.jpeg){  align=right width="100" loading="lazy" decoding="async" }
         Оптимизация выхода из миров, серверов и игры в целом!
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/fastquit)
@@ -161,29 +161,29 @@ description: Готовая сборка сервера Кошкокрафт
 
     </div>
 
-??? tip "Полезности"
+??? note-cc "Полезности"
     <div class="grid cards" markdown>
 
     -    __RP Renames__
 
         ---
-        ![RP Renames](https://cdn.modrinth.com/data/hvqcuDMT/a9c9f8e94ab84262ee2eda8f3dc5e0edaa591219.png){ align=right width="100" }
+        ![RP Renames](https://cdn.modrinth.com/data/hvqcuDMT/a9c9f8e94ab84262ee2eda8f3dc5e0edaa591219.png){  align=right width="100" loading="lazy" decoding="async" }
         Очень полезный мод для нашего сервера - позволяет посмотреть все переименования предметов в наковальне!
 
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/rp-renames)
 
-    -    __AdvancementInfo__
+    -    __AdvancementInfo Reloaded__
 
         ---
-        ![Advancement Info](https://cdn.modrinth.com/data/G1epq3jN/icon.png){ align=right width="100" }
+        ![Advancement Info Reloaded](https://cdn.modrinth.com/data/tLuRLqpa/1b5575753dd926e1bbdf2cc2ee2a5a8b4501cb56.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, улучшающий окно достижений! Он увеличивает это окно, показывает что ещё требуется для выполнение достижение и делает форматирование более удобным!
         
-        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/advancementinfo)
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/advancements-reloaded)
 
     -    __Better Statistics Screen__
 
         ---
-        ![Better Stats](https://cdn.modrinth.com/data/n6PXGAoM/icon.png){ align=right width="100" }
+        ![Better Stats](https://cdn.modrinth.com/data/n6PXGAoM/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, улучшающий окно статистики - показывает детальную информацию в очень красивом меню!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/better-stats)
@@ -191,7 +191,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Chat Patches__
 
         ---
-        ![Chat Patches](https://cdn.modrinth.com/data/MOqt4Z5n/56c954dea290ef4dd1b0d6ea92a811acac62ca85.png){ align=right width="100" }
+        ![Chat Patches](https://cdn.modrinth.com/data/MOqt4Z5n/56c954dea290ef4dd1b0d6ea92a811acac62ca85.png){  align=right width="100" loading="lazy" decoding="async" }
         Многофункциональный мод для чата - позволяет добавлять к сообщениям временные метки, увеличивает историю сообщений, позволяет копировать любое сообщение из чата и многое другое!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/chatpatches)
@@ -199,7 +199,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Symbol Chat__
 
         ---
-        ![Symbol Chat](https://cdn.modrinth.com/data/NKvLVQMc/icon.png){ align=right width="100" }
+        ![Symbol Chat](https://cdn.modrinth.com/data/NKvLVQMc/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Добавляет менюшку с разными символами, эмодзи и смайликами! Также позволяет писать разными шрифтами.
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/symbol-chat)
@@ -207,7 +207,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Inventory Profiles Next__
 
         ---
-        ![Inventory Profiles Next](https://cdn.modrinth.com/data/O7RBXm3n/icon.png){ align=right width="100" }
+        ![Inventory Profiles Next](https://cdn.modrinth.com/data/O7RBXm3n/04cdecd37b4c7409f70d36fcdc85722ebf14aab8_96.webp){  align=right width="100" loading="lazy" decoding="async" }
         Многофункциональный мод для инвентаря - блокировка слотов, сортировка инвентаря, авто-замена предмета, если он ломается и многое другое!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/inventory-profiles-next)
@@ -215,7 +215,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __AuthMe__
 
         ---
-        ![Auth Me](https://cdn.modrinth.com/data/yjgIrBjZ/icon.png){ align=right width="100" }
+        ![Auth Me](https://cdn.modrinth.com/data/yjgIrBjZ/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, позволяющий прямо в игре менять свой ник - по моджангу, по майкрософту или по пиратке.
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/auth-me)
@@ -223,7 +223,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __DeathLog__
 
         ---
-        ![Deathlog](https://cdn.modrinth.com/data/TPAYeAOc/9a73d65c323045ade58268746f784c3f46574f42.png){ align=right width="100" }
+        ![Deathlog](https://cdn.modrinth.com/data/TPAYeAOc/9a73d65c323045ade58268746f784c3f46574f42.png){  align=right width="100" loading="lazy" decoding="async" }
         Запись инвентаря, координат, времени и причины смерти! Очень полезно для нашего сервера для предостовления пруфов!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/deathlog)
@@ -232,22 +232,28 @@ description: Готовая сборка сервера Кошкокрафт
 
         ---
 
-        ![RRLS](https://cdn.modrinth.com/data/ZP7xHXtw/7a416b09817a79adfa6a3ef9368990135e276821.png){ align=right width="100" }
+        ![RRLS](https://cdn.modrinth.com/data/ZP7xHXtw/7a416b09817a79adfa6a3ef9368990135e276821.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, позволяющий играть во время загрузки ресурспаков!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/rrls)
+
+    -    __Screenshot to Clipboard__
+        ![Screenshot to Clipboard](https://cdn.modrinth.com/data/1KiJRrTg/4e48efa1ebd82026b4b304d343b1f646fae84679_96.webp){  align=right width="100" loading="lazy" decoding="async" }
+        Очень полезный мод, который копирует сделанный скриншот в буфер обмена, что позволяет сразу вставить его куда-угодно с помощью Ctrl + V!
+
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/screenshot-to-clipboard)
 
     -    __To be continued...__
 
     </div>
 
-??? tip "Красота"
+??? note-cc "Красота"
     <div class="grid cards" markdown>
     
     -    __Distant Horizons__
 
         ---
-        ![3dksin](https://cdn.modrinth.com/data/uCdwusMi/icon.png){ align=right width="100" }
+        ![Distant Horizons](https://cdn.modrinth.com/data/uCdwusMi/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Благодаря этому моду ты можешь играть на любой прорисовке **даже на сервере**! Дальние чанки никак не нагружают систему, т.к. они являются фейковыми и рендерятся в слабом качестве. Для использования на сервере достаточно побегать по миру, и чанки сами загрузятся!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/distanthorizons)
@@ -259,7 +265,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Explosive Enhancement__
 
         ---
-        ![3dksin](https://cdn.modrinth.com/data/OSQ8mw2r/88f44e9ed022061b1eb865996b2f98fe01937de6.png){ align=right width="100" }
+        ![Explosive Enhancement](https://cdn.modrinth.com/data/OSQ8mw2r/88f44e9ed022061b1eb865996b2f98fe01937de6.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, делающий взрывы в игре более красивыми и объёмными. Даже взрывы под водой!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/explosive-enhancement)
@@ -271,7 +277,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Falling Leaves__
 
         ---
-        ![3dksinlave](https://cdn.modrinth.com/data/WhbRG4iK/icon.gif){ align=right width="100" }
+        ![Falling Leaves](https://cdn.modrinth.com/data/WhbRG4iK/icon.gif){  align=right width="100" loading="lazy" decoding="async" }
         Мод, добавляющий падающую листву ко всем деревьям!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/fallingleaves)
@@ -283,7 +289,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Wakes__
 
         ---
-        ![wakes](https://cdn.modrinth.com/data/dlNu0RQY/a4ae56b04602060fab56796ac88a4c4fb656c6ac.png){ align=right width="100" }
+        ![Wakes](https://cdn.modrinth.com/data/dlNu0RQY/a4ae56b04602060fab56796ac88a4c4fb656c6ac.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, добавляющий след от лодок или игрока при плавании!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/wakes)
@@ -295,7 +301,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Not Enough Animations__
 
         ---
-        ![nea](https://cdn.modrinth.com/data/MPCX6s5C/icon.png){ align=right width="100" }
+        ![Not Enough Animations](https://cdn.modrinth.com/data/MPCX6s5C/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, добавляющий различные анимации игрока для разных действий - ползание по лестнице, карабкание, книга в руках и прочее!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/not-enough-animations)
@@ -307,7 +313,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Better Clouds__
 
         ---
-        ![bc](https://cdn.modrinth.com/data/5srFLIaK/03454d120e13a3a25579bd74fe4bd761fed19431.png){ align=right width="100" }
+        ![Better Clouds](https://cdn.modrinth.com/data/5srFLIaK/03454d120e13a3a25579bd74fe4bd761fed19431.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, заменяющий скучные ванильные облака на процедурно-генерируемые 3D облака! Их вид можно настроить как-угодно!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/better-clouds)
@@ -321,21 +327,37 @@ description: Готовая сборка сервера Кошкокрафт
     </div>
 
 
-??? tip "Съёмка"
+??? note-cc "Съёмка"
     <div class="grid cards" markdown>
 
     -    __Fabrishot__
 
         ---
-        ![bc](https://cdn.modrinth.com/data/3qsfQtE9/icon.png){ align=right width="100" }
+        ![Fabrishot](https://cdn.modrinth.com/data/3qsfQtE9/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         Мод, позволяющий снимать скриншоты в 4К!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/fabrishot)
 
+    -    __Camera Utils__
+
+        ---
+        ![Camera Utils](https://cdn.modrinth.com/data/rrwQMaWQ/00f30d85352fdbbc34354a550b24ee153848800f.png){  align=right width="100" loading="lazy" decoding="async" }
+        Полезный мод, позволяющий играться с камерой - "отсоединять" её, изменять дальность камеры от третьего лица и другое!
+        Данный мод разрешён на Кошкокрафте.
+
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/camera-utils)
+
+    -    __Flashback__
+
+        ![Flashback](https://cdn.modrinth.com/data/4das1Fjq/e81c66aacf2e12c09a95e4f971ea5e2b9f608317_96.webp){  align=right width="100" loading="lazy" decoding="async" }
+        Убийца Replay Mod от создателей Axiom! Добавляет возможность снимать запись видео **всего вокруг**, и имеет больше возможностей и приколюх, нежели Replay Mod, но сделан лишь на версии 1.21+ и имеет критические несовместимости с некоторыми модами.
+
+        [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/flashback)
+
     -    __Replay Mod__
 
         ---
-        ![Replay Mod](https://cdn.modrinth.com/data/Nv2fQJo5/icon.png){ align=right width="100" }
+        ![Replay Mod](https://cdn.modrinth.com/data/Nv2fQJo5/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         База съёмки - позволяет делать запись видео **всего вокруг** и редактировать запись внутри игры!
         
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/replaymod)

@@ -33,7 +33,11 @@ description: Гайд для новичков на нашем сервере
     Замечательно! Заходи на наш сервер по данным IP:
 
     !!! question ""
-        `play.catcraftmc.ru` (если ты с Украины или IP не работает - `play.catcraftmc.xyz`)
+        `play.catcraftmc.ru` - основной
+
+        `play.catcraftmc.xyz` - запасной
+
+        `play.catcraft.ru` - запасной
 
         Мы играем на **1.21.1 Java**!
 
