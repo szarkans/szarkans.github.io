@@ -63,6 +63,9 @@ description: Кастомная рыбалка на Кошкокрафте
       <img src="../../../assets/fishing/dance.gif" class="carousel-image" alt="Image 3">
       <div class="carousel-caption">Тут уже сложнее. На экране пишутся стрелочки, которым нужно следовать.  </div>
     </div>
+    <div class="carousel-item">
+      <img src="../../../assets/fishing/void_fishing.png" class="carousel-image" alt="Image 3">
+      <div class="carousel-caption">А это Пустотная рыбалка! Просто кинь поплавок в пустоту!  </div>
   </div>
   <button class="carousel-button prev-button">&#10094;</button>
   <button class="carousel-button next-button">&#10095;</button>
