@@ -18,16 +18,17 @@ description: Ванилла+ сервер с элементами РП и Кот
             <span class="white">Лучший.<span class="neon white"> Кошачий.</span> <span class="white"><u>Навсегда!</u></span>
         </h1>
         <p class="description almost-white">
-            <span class="white">Кошкокрафт</span> - это приватный Ванилла<span class="gold">+</span><br>сервер с элементами Role-play и котиками!
+            <span class="white">Кошкокрафт</span> - это лучший Ванилла<span class="gold">+</span><br>сервер с элементами Role-play и котиками!
         </p>
+        <p class="version-info almost-white" data-clipboard-text="play.catcraftmc.ru" onclick="copyToClipboard(this)">Наш IP: play.catcraftmc.ru</p>
         <p class="version-info almost-white">1.21.1 | Java Edition</p>
         <a class="md-button md-button--primary" style="display: inline-block;" href="https://discord.gg/6f3FwFRJWC">
             <svg style="height:1em;fill:white;margin-right:5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36"><defs></defs><g id="图层_2" data-name="图层 2"><g id="Discord_Logos" data-name="Discord Logos"><g id="Discord_Logo_-_Large_-_White" data-name="Discord Logo - Large - White"><path class="cls-1" d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></g></g></g></svg>
-            Попасть на сервер
+            Наш Дискорд
         </a>
         <a class="md-button md-button--primary" style="display: inline-block;" href="https://t.me/catcraftmc_tg">
             <svg style="height:1em;fill:white;margin-right:5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm4.962 7.224c.1-.002.321.023.465.14a.5.5 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024q-.159.037-5.061 3.345-.72.495-1.302.48c-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789q.04-.324.893-.663 5.247-2.286 6.998-3.014c3.332-1.386 4.025-1.627 4.476-1.635"/></svg>
-            Сообщество в ТГ
+            Наш Телеграм
         </a>
         <a class="md-button" href="/info/faq/">
             О сервере
@@ -65,13 +66,13 @@ description: Ванилла+ сервер с элементами РП и Кот
 
     ---
 
-    * Правительство, управляющее строительством, полицией и новостями.
+    * Правительство, управляющее строительством и налогами!
 
-    * Никаких приватов - есть **законы территорий**!
+    * Полиция, которая решит все проблемы граждан!
 
     * Экономика в АРах!
 
-    * Да хоть [свергни правительство](server-history/5season/#14_-)!
+    * Можно [свергнуть правительство](server-history/5season/#14_-)!
 
     ---
 
@@ -104,9 +105,9 @@ description: Ванилла+ сервер с элементами РП и Кот
 <div class="faq-container">
     <div class="faq-section">
         <div class="faq-dropdown">
-            <button class="dropdown-btn">Как к нам попасть? Это бесплатно?</button>
+            <button class="dropdown-btn">Что вы такое?</button>
             <div class="dropdown-content">
-                <p>Попасть к нам можно написав хорошую заявку в нашем <a href="https://discord.gg/6f3FwFRJWC" target="_blank">Дискорде</a>! (это совершенно бесплатно :3)</p>
+                <p>Мы Ванилла+ сервер с элементами РП - мы добавляем ванильный [контент](gameplay/unique/qol.md) в игру и приправляем всё это элементами РП - [полицией](info/rules/laws.md), правительством и прочьим!</p>
             </div>
         </div>
         <div class="faq-dropdown">
@@ -157,24 +158,6 @@ description: Ванилла+ сервер с элементами РП и Кот
     </div>
 </div>
 
-<script>
-
-document.addEventListener('DOMContentLoaded', function() {
-    var dropdowns = document.getElementsByClassName("dropdown-btn");
-    for (var i = 0; i < dropdowns.length; i++) {
-        dropdowns[i].addEventListener("click", function() {
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        });
-    }
-});
-
-</script>
-
 <br><br><br>
 
 <h1 class="shadow">Все ещё не уверен?</h1>
@@ -184,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="grid" markdown>
 
 <a href="https://discord.gg/6f3FwFRJWC" target="_blank">
-:simple-discord:{ .lg .middle .shadow .discord } **Discord**<br>Заявка на сервер, общение и новости!
+:simple-discord:{ .lg .middle .shadow .discord } **Discord**<br>Наше основное сообщество, общение и новости!
 </a>
 { .card }
 
@@ -193,13 +176,18 @@ document.addEventListener('DOMContentLoaded', function() {
 </a>
 { .card }
 
-<a href="https://www.youtube.com/@catcraftminecraft" target="_blank">
-:simple-youtube:{ .lg .middle .shadow .yt } **Наш YouTube**<br>Видео с нашего сервера!
+<a href="https://t.me/catcraftmc_tg" target="_blank">
+:simple-telegram:{ .lg .middle .shadow } **Наш Telegram**<br>Общение и новости но в ТГ!
 </a>
 { .card }
 </div>
 
 <div class="grid" markdown>
+
+<a href="https://www.youtube.com/@catcraftminecraft" target="_blank">
+:simple-youtube:{ .lg .middle .shadow .yt } **Наш YouTube**<br>Видео с нашего сервера!
+</a>
+{ .card }
 
 <a href="./server-history/1season">
 :octicons-book-16:{ .lg .middle .shadow } **История сезонов**<br>Как развивался сервер!
@@ -217,4 +205,29 @@ document.addEventListener('DOMContentLoaded', function() {
     ![Сумасшедший котик аааа](/assets/screenshots/crazy_cat.gif){ align=left width="100"}
 </figure>
 
-<!-- 472625935abdbe3d4fd7a9d704a38b3cc7173349 -->
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    var dropdowns = document.getElementsByClassName("dropdown-btn");
+    for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].addEventListener("click", function() {
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+});
+
+function copyToClipboard(element) {
+const text = element.getAttribute('data-clipboard-text');
+navigator.clipboard.writeText(text).then(() => {
+    console.log('IP Скопирован!'); 
+}, (err) => {
+    console.error('Ошибка копирования...');
+});
+}
+
+</script>

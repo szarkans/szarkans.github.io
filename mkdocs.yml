@@ -138,6 +138,7 @@ nav:
       - info/guide.md
       - info/for_media.md
       - info/brandbook.md
+      - info/banlist.md
     - 'Правила и законы':
       - info/rules/rules.md
       - info/rules/laws.md
@@ -145,21 +146,20 @@ nav:
       - info/oferta.md
   - Геймплей:
     - gameplay/unique/qol.md
-    - gameplay/unique/resourcepack.md
-    - gameplay/unique/npc.md
-    - gameplay/unique/clans.md
-    - gameplay/unique/villager_rebalance.md
-    - gameplay/unique/datapacks.md
+    - gameplay/unique/commands.md
+    - gameplay/unique/land_protection.md
+    - gameplay/unique/decor.md
     - gameplay/unique/artmap.md
     - gameplay/unique/brewery.md
-    - gameplay/unique/decor.md
-    - gameplay/unique/armorstand.md
+    - gameplay/unique/fishing.md
+    - gameplay/unique/npc.md
+    - gameplay/unique/clans.md
+    - gameplay/unique/cpm.md
     - gameplay/unique/voicechat.md
    # - gameplay/unique/wandering_trader.md
     - gameplay/unique/prefixes.md
-    - gameplay/unique/commands.md
-    - gameplay/unique/cpm.md
-    - "gameplay/unique/fishing.md"
+    - gameplay/unique/resourcepack.md
+    - gameplay/unique/datapacks.md
     - Роллплей:
       - gameplay/roleplay/goverment.md
       - gameplay/roleplay/police.md
