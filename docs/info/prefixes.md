@@ -25,7 +25,6 @@ description: Список всех префиксов и суффиксов на
 |![tiktok](../../assets/prefixes/tiktok.png){ width=20 }|Префикс Тиктокера. Можно получить, став [нашим партнёром](../../info/for_media.md).|
 |![jailed](../../assets/prefixes/jailed.png){ width=20 }|Префикс заключённого. Даётся автоматически, если игрок в тюрьме.|
 |![afk](../../assets/prefixes/afk.png){ width=35 }|Префикс АФК. Даётся автоматически, если игрок неактивен.|
-|![troll](../../assets/prefixes/trollcat.png){ width=20 }|Секретный префикс.|
 |<span class="red">●</span>|У игрока нет войсчата|
 |<span class="red">✕</span>|У игрока не установлен ресурспак|
 

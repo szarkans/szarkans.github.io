@@ -111,6 +111,7 @@ extra:
   status:
     new: Недавно обновлено!
     inprogress: Статья не завершена
+    beta: Эта фича в Бете!
   analytics: 
     provider: google
     property: G-X3KCR2ZW65
@@ -133,12 +134,12 @@ nav:
     - info/farm.md
     - 'Информация':
       - info/admins.md
-      #- info/dict.md
       - info/donate.md
       - info/guide.md
       - info/for_media.md
       - info/brandbook.md
       - info/banlist.md
+      - info/prefixes.md
     - 'Правила и законы':
       - info/rules/rules.md
       - info/rules/laws.md
@@ -156,8 +157,6 @@ nav:
     - gameplay/unique/clans.md
     - gameplay/unique/cpm.md
     - gameplay/unique/voicechat.md
-   # - gameplay/unique/wandering_trader.md
-    - gameplay/unique/prefixes.md
     - gameplay/unique/resourcepack.md
     - gameplay/unique/datapacks.md
     - Роллплей:
