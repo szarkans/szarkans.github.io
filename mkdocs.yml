@@ -201,6 +201,7 @@ nav:
     
   - Гайды:
     - Игровое:
+      - guides/gameplay/create_shop.md
       - guides/gameplay/set_skin.md
       - guides/gameplay/rgb_nick.md
       - guides/gameplay/create_event.md

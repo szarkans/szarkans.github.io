@@ -36,34 +36,31 @@ description: Готовая сборка сервера Кошкокрафт
 
     ??? note-cc "Полный список модов в сборке"
         <!-- Нет на 1.21 - [Animatica](https://modrinth.com/mod/animatica) -->
-        - [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)  
         - [Customizable Player Models](https://modrinth.com/plugin/custom-player-models)  
         - [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features)  
         - [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)  
         - [Entity Culling](https://modrinth.com/mod/entityculling)  
         - [EmoteCraft](https://modrinth.com/plugin/noemotecraft)  
         - [Falling Leaves](https://modrinth.com/mod/fallingleaves)  
-        <!-- Нет на 1.21 - [fast-ip-ping](https://modrinth.com/mod/fast-ip-ping) -->
+        - [fast-ip-ping](https://modrinth.com/mod/fast-ip-ping)
         - [FastQuit](https://modrinth.com/mod/fastquit)  
         - [FerriteCore](https://modrinth.com/mod/ferrite-core)  
         - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)  
         - [Indium](https://modrinth.com/mod/indium)  
-        - [Iris Shaders](https://modrinth.com/mod/iris)  
+        - [Iris](https://modrinth.com/mod/iris)  
         - [Krypton](https://modrinth.com/mod/krypton)  
-        <!-- Нет на 1.21 - LambDynamicLights (В сборке самодельная, портированная версия) -->
+        - [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)
         - [Language Reload](https://modrinth.com/mod/language-reload)  
         <!-- Нет на 1.21 - [LazyDFU](https://modrinth.com/mod/lazydfu) -->
         - [Lithium](https://modrinth.com/mod/lithium)  
         - [ModernFix](https://modrinth.com/mod/modernfix)  
         - [Mod Menu](https://modrinth.com/mod/modmenu)  
         <!-- Лагает на 1.21 + это всё равно на сервере есть - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) -->
-        - [Text Placeholder API](https://modrinth.com/mod/placeholder-api)  
         - [Plasmo Voice](https://modrinth.com/plugin/plasmo-voice)  
         - [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)  
         - [Remove Reloading Screen](https://modrinth.com/mod/rrls)  
         - [Sodium](https://modrinth.com/mod/sodium)  
         - [Sodium Extra](https://modrinth.com/mod/sodium-extra)  
-        - [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip)  
         - [ThreadTweak](https://modrinth.com/mod/threadtweak)  
         - [Very Many Players](https://modrinth.com/mod/vmp-fabric)  
         - И библиотеки для модов  
@@ -84,16 +81,18 @@ description: Готовая сборка сервера Кошкокрафт
 
         - Для этого нужно иметь установленный архиватор, советуем [7-Zip](https://ru.wikipedia.org/wiki/7-Zip)
     
-    4. Перекидываешь папку `mods` из архива в папку `.minecraft` или в папку своей версии
+    4. Перекидываешь все моды из архива в папку `mods`
+    
+    5. Готово! Запускай игру!
 
 ??? note-cc "Для MultiMC, ModrinthApp, PrismLauncher и т.п."
-    1. [Скачиваешь файл .mrpack :material-download:](../assets/Catcraft%201.21.1%206.1.0.mrpack)
+    1. [Скачиваешь файл .mrpack :material-download:](../assets/Catcraft%201.21.1%206.0.3.mrpack)
 
     2. Создаёшь новую сборку
 
     3. В настройках сборки выбираешь пункт "Импортировать из файла" или что-то похожее ![mrpack](../../assets/guides/mrpack.png){ width=650 }
 
-    `.mrpack` это файл всей сборки в... одном файле. И конфиги, и иконка, и моды, и всё всё всё!
+    `.mrpack` это файл всей сборки - все моды, все конфиги, иконка и всё-всё-всё!
 
 ***
 
