@@ -237,6 +237,9 @@ description: Готовая сборка сервера Кошкокрафт
         [:octicons-arrow-right-24: Перейти на сайт мода](https://modrinth.com/mod/rrls)
 
     -    __Screenshot to Clipboard__
+
+        ---
+
         ![Screenshot to Clipboard](https://cdn.modrinth.com/data/1KiJRrTg/4e48efa1ebd82026b4b304d343b1f646fae84679_96.webp){  align=right width="100" loading="lazy" decoding="async" }
         Очень полезный мод, который копирует сделанный скриншот в буфер обмена, что позволяет сразу вставить его куда-угодно с помощью Ctrl + V!
 
@@ -348,6 +351,8 @@ description: Готовая сборка сервера Кошкокрафт
 
     -    __Flashback__
 
+        ---
+
         ![Flashback](https://cdn.modrinth.com/data/4das1Fjq/e81c66aacf2e12c09a95e4f971ea5e2b9f608317_96.webp){  align=right width="100" loading="lazy" decoding="async" }
         Убийца Replay Mod от создателей Axiom! Добавляет возможность снимать запись видео **всего вокруг**, и имеет больше возможностей и приколюх, нежели Replay Mod, но сделан лишь на версии 1.21+ и имеет критические несовместимости с некоторыми модами.
 
@@ -356,6 +361,7 @@ description: Готовая сборка сервера Кошкокрафт
     -    __Replay Mod__
 
         ---
+
         ![Replay Mod](https://cdn.modrinth.com/data/Nv2fQJo5/icon.png){  align=right width="100" loading="lazy" decoding="async" }
         База съёмки - позволяет делать запись видео **всего вокруг** и редактировать запись внутри игры!
         
