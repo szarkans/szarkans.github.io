@@ -80,3 +80,22 @@
     </figure>
 
 </div>
+
+<div class="grid cards" markdown>
+
+- 
+
+    <figure markdown="span">
+        ![ABUSER](https://cravatar.eu/avatar/ABUSER/600.png){ align=right width="150" .admin-img }
+        <figcaption>ABUSER</figcaption>
+    </figure>
+
+- 
+
+    <figure markdown="span">
+        ![nico4an](https://cravatar.eu/avatar/nico4an/600.png){ align=right width="150" .admin-img }
+        <figcaption>nico4an</figcaption>
+    </figure>
+
+
+</div>
