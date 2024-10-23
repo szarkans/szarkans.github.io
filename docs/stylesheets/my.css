@@ -492,35 +492,54 @@ img {
 /* =================FAQ==================== */
 /* ======================================== */
 
-
+/* Стили для контейнера FAQ */
 .faq-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.faq-section {
-    flex: 1 1 60%; /* Takes as much width as possible on larger screens */
+  }
+  
+  /* Левая и правая колонки */
+  .faq-left {
+    width: 70%;
     box-sizing: border-box;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
+    padding: 10px;
+  }
 
-.faq-dropdown {
-    margin-bottom: -1px;
-    background: transparent;
-    width: 95%;
-    border-top: 1px solid hsla(var(--md-hue),15%,18%,1);
-    border-bottom: 1px solid hsla(var(--md-hue),15%,18%,1);
-}
+  .faq-right {
+    align-content: center;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
 
-.dropdown-btn {
+  @media screen and (max-width: 768px) {
+    .faq-container {
+      flex-direction: column; /* Располагаем элементы вертикально */
+      align-items: stretch;   /* Растягиваем элементы по ширине контейнера */
+    }
+  
+    .faq-left {
+      width: 100%;            /* Вопросы занимают всю ширину */
+      margin-bottom: 20px;    /* Добавляем отступ снизу для разделения */
+    }
+  
+    .faq-right {
+      width: 100%;            /* Discord Box занимает всю ширину */
+      margin-top: 0;          /* Убираем верхний отступ, если он был */
+    }
+  }
+  
+  /* Стили для дропдауна */
+  .dropdown {
+    width: 100%;
+    border: solid hsla(var(--md-hue),15%,18%,1);
+    border-radius: 15px; 
+    margin-top: 5px;
+  }
+  
+  .dropdown-title {
     padding: 22px;
-    padding-right: 30px; /* Increased padding to accommodate the arrow */
+    padding-right: 30px; 
     width: 100%;
     border: none;
     outline: none;
@@ -528,36 +547,72 @@ img {
     cursor: pointer;
     text-align: left;
     font-size: 20px;
-    position: relative; /* Required for proper positioning of the background */
+    position: relative; 
     background-image: url("data:image/svg+xml;utf8,<svg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L7 7L13 1' stroke='%2379797A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path></svg>");
     background-repeat: no-repeat;
-    background-position: right 10px center; /* Positions the arrow to the right */
+    background-position: right 10px center; 
     transition: background-color 0.2s;
-}
-
-/* .dropdown-btn {
-    padding: 12px;
-    width: 100%;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: transparent;
-    font-size: 20px;
-    text-align: left;
-    transition: background-color 0.2s;
-}  */
-
-
-.dropdown-btn:hover {
-    background-color: hsla(var(--md-hue),15%,18%,1); /* Light grey color on hover for better UI feedback */
-}
-
-.dropdown-content {
-    padding: 10px;
-    display: none;
+  }
+  
+  .dropdown-title:hover {
+    background-color: hsla(var(--md-hue),15%,18%,1);
+  }
+  
+  .dropdown-content {
+    max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Smooth transition for max-height and padding */
-}
+    transition: max-height 0.5s ease;
+  }
+  
+  .dropdown-content p {
+    padding: 15px;
+    margin: 0;
+  }
+  
+  /* Стили для Discord Link Box */
+  .discord-box {
+    width: 100%;
+    background-color: #7289da;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .discord-box-top {
+    padding: 20px;
+  }
+  
+  .discord-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .discord-box-link {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    margin-top: 10px;
+  }
+  
+  .discord-text h4 {
+    margin: 10px 0 5px 0;
+    font-size: 20px;
+  }
+  
+  .discord-text p {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+  }
+  
+  /* Адаптивность для мобильных устройств */
+  @media screen and (max-width: 768px) {
+    .faq-left,
+    .faq-right {
+      width: 100%;
+    }
+  }
+  
 
 .discord-box {
     flex: 0 0 35%; /* Adjusts size on larger screens */
