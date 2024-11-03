@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,14 +18,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'О сервере', link: '/info/rules/laws' },
-      { text: 'История сервера', link: '/history/1season.md'},
-      { text: "Геймплей", link: '/gameplay/unique/qol'},
-      { text: "Гайды", link: '/guides/gameplay_event'}
+      { text: 'О сервере', link: '/docs/info/rules/laws' },
+      { text: 'История сервера', link: '/docs/history/1season.md'},
+      { text: "Геймплей", link: '/docs/gameplay/unique/qol'},
+      { text: "Гайды", link: '/docs/guides/gameplay_event'}
     ],
 
     sidebar: {
-      '/info/': [
+      '/docs/info/': [
         {
           text: "О сервере",
           items: [
@@ -33,11 +33,11 @@ export default defineConfig({
               items: [
                 {
                   text: 'Правила',
-                  link: '/info/rules/rules'
+                  link: '/docs/info/rules/rules'
                 },
                 {
                   text: "Законы",
-                  link: '/info/rules/laws'
+                  link: '/docs/info/rules/laws'
                 }
               ]
             },
@@ -95,36 +95,36 @@ export default defineConfig({
           ]
         }
       ],
-      '/history/': [
+      '/docs/history/': [
         {
           text: '1 сезон',
-          link: '/history/1season'
+          link: '/docs/history/1season'
         },
         {
           text: '2 сезон',
-          link: '/history/2season'
+          link: '/docs/history/2season'
         },
         {
           text: '3 сезон',
-          link: '/history/3season'
+          link: '/docs/history/3season'
         },
         {
           text: '4 сезон',
-          link: '/history/4season'
+          link: '/docs/history/4season'
         },
         {
           text: '5 сезон',
-          link: '/history/5season'
+          link: '/docs/history/5season'
         },
         {
           text: '6 сезон',
-          link: '/history/6season'
+          link: '/docs/history/6season'
         }
       ]
-    },
+    }
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   }
 })

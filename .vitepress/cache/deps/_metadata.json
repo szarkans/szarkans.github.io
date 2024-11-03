@@ -1,29 +1,89 @@
 {
-  "hash": "0ae9be32",
-  "configHash": "7abba346",
-  "lockfileHash": "b92c2081",
-  "browserHash": "030c44c4",
+  "hash": "a72bee7a",
+  "configHash": "78b95b5f",
+  "lockfileHash": "ee8cf073",
+  "browserHash": "9dac607a",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "2ae896eb",
+      "fileHash": "8217aa6e",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "2e46070d",
+      "fileHash": "9a84eca0",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "ff6bc152",
+      "fileHash": "53e74f5e",
+      "needsInterop": false
+    },
+    "primevue/config": {
+      "src": "../../../node_modules/primevue/config/index.mjs",
+      "file": "primevue_config.js",
+      "fileHash": "3ef201f4",
+      "needsInterop": false
+    },
+    "primevue/button": {
+      "src": "../../../node_modules/primevue/button/index.mjs",
+      "file": "primevue_button.js",
+      "fileHash": "0a4930ba",
+      "needsInterop": false
+    },
+    "primevue/tabs": {
+      "src": "../../../node_modules/primevue/tabs/index.mjs",
+      "file": "primevue_tabs.js",
+      "fileHash": "0355efc4",
+      "needsInterop": false
+    },
+    "primevue/tablist": {
+      "src": "../../../node_modules/primevue/tablist/index.mjs",
+      "file": "primevue_tablist.js",
+      "fileHash": "a8de24ad",
+      "needsInterop": false
+    },
+    "primevue/tab": {
+      "src": "../../../node_modules/primevue/tab/index.mjs",
+      "file": "primevue_tab.js",
+      "fileHash": "e8990625",
+      "needsInterop": false
+    },
+    "primevue/tabpanels": {
+      "src": "../../../node_modules/primevue/tabpanels/index.mjs",
+      "file": "primevue_tabpanels.js",
+      "fileHash": "e08b0277",
+      "needsInterop": false
+    },
+    "primevue/tabpanel": {
+      "src": "../../../node_modules/primevue/tabpanel/index.mjs",
+      "file": "primevue_tabpanel.js",
+      "fileHash": "b2d56c67",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-ETTLIRZH": {
+      "file": "chunk-ETTLIRZH.js"
+    },
+    "chunk-PWZQFEJH": {
+      "file": "chunk-PWZQFEJH.js"
+    },
+    "chunk-AVMHXGPB": {
+      "file": "chunk-AVMHXGPB.js"
+    },
+    "chunk-TUHEKRCN": {
+      "file": "chunk-TUHEKRCN.js"
+    },
+    "chunk-6UAIVZT4": {
+      "file": "chunk-6UAIVZT4.js"
+    },
+    "chunk-3QCNEV3V": {
+      "file": "chunk-3QCNEV3V.js"
+    },
     "chunk-XYSSNQS4": {
       "file": "chunk-XYSSNQS4.js"
     }

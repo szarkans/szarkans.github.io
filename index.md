@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "CATCRAFT"
-  text: "Лучший. Кошачий. Навсегда!"
-  tagline: My great project tagline
+  text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
+  tagline: "IP: <u>play.catcraftmc.ru</u>"
   actions:
     - theme: brand
       text: Markdown Examples

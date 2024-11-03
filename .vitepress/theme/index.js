@@ -3,6 +3,10 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import { createApp } from 'vue';
+import PrimeVue from 'primevue/config';
+
+
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
@@ -12,6 +16,5 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
   }
 }
