@@ -132,6 +132,9 @@ nav:
     - info/map.md
     - info/mods.md
     - info/farm.md
+    - 'Правила и законы':
+      - info/rules/rules.md
+      - info/rules/laws.md
     - 'Информация':
       - info/admins.md
       - info/donate.md
@@ -140,9 +143,6 @@ nav:
       - info/brandbook.md
       - info/banlist.md
       - info/prefixes.md
-    - 'Правила и законы':
-      - info/rules/rules.md
-      - info/rules/laws.md
     - "Бюрократия":
       - info/oferta.md
   - Геймплей:

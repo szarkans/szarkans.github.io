@@ -17,6 +17,10 @@
   padding: 0.15rem;
 }
 
+strong {
+  font-weight: 700;
+}
+
 .md-grid {
   max-width: 70rem;
 }
