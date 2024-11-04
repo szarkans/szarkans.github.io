@@ -1,9 +1,9 @@
 import {
-  Base
-} from "./chunk-AVMHXGPB.js";
-import {
   PrimeVueService
-} from "./chunk-6UAIVZT4.js";
+} from "./chunk-OG2UCFWF.js";
+import {
+  Base
+} from "./chunk-U4XPCC5S.js";
 import {
   BaseStyle,
   addClass,
@@ -27,10 +27,10 @@ import {
   toCapitalCase,
   toFlatCase,
   uuid
-} from "./chunk-3QCNEV3V.js";
+} from "./chunk-23NTEW4Y.js";
 import {
   mergeProps
-} from "./chunk-XYSSNQS4.js";
+} from "./chunk-5J2UBCUN.js";
 
 // node_modules/@primevue/core/basedirective/index.mjs
 function _typeof(o) {
@@ -615,4 +615,4 @@ var Ripple = BaseRipple.extend("ripple", {
 export {
   Ripple
 };
-//# sourceMappingURL=chunk-PWZQFEJH.js.map
+//# sourceMappingURL=chunk-HYZFFJCE.js.map

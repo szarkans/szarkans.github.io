@@ -1,10 +1,10 @@
 import {
   script
-} from "./chunk-AVMHXGPB.js";
+} from "./chunk-U4XPCC5S.js";
 import {
   BaseStyle,
   equals
-} from "./chunk-3QCNEV3V.js";
+} from "./chunk-23NTEW4Y.js";
 import {
   Fragment,
   createBlock,
@@ -18,7 +18,7 @@ import {
   vShow,
   withCtx,
   withDirectives
-} from "./chunk-XYSSNQS4.js";
+} from "./chunk-5J2UBCUN.js";
 
 // node_modules/primevue/tabpanel/style/index.mjs
 var classes = {

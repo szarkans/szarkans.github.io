@@ -1,15 +1,15 @@
 import {
   script
-} from "./chunk-AVMHXGPB.js";
+} from "./chunk-U4XPCC5S.js";
 import {
   BaseStyle
-} from "./chunk-3QCNEV3V.js";
+} from "./chunk-23NTEW4Y.js";
 import {
   createElementBlock,
   mergeProps,
   openBlock,
   renderSlot
-} from "./chunk-XYSSNQS4.js";
+} from "./chunk-5J2UBCUN.js";
 
 // node_modules/primevue/tabpanels/style/index.mjs
 var classes = {

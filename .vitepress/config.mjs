@@ -62,7 +62,8 @@ export default defineConfig({
               text: 'Информация',
               items: [
                 {
-                  text: 'Администрация'
+                  text: 'Администрация',
+                  link: "/docs/info/admins"
                 },
                 {
                   text: "Донатик"

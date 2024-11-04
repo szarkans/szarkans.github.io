@@ -221,3 +221,47 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+
+.red {
+  color:rgb(209, 6, 6);
+}
+
+.gold {
+  color:gold;
+} 
+
+.vk {
+  color: #0077FF;
+}
+
+.discord {
+  color: #5865F2;
+}
+
+.yt {
+  color: #EE0F0F;
+}
+
+.green {
+  color: #13c422;
+}
+
+.purple {
+  color:#7140e2;
+}
+
+.pink {
+  color:#eba8a8;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.white {
+  color: whitesmoke;
+}
+
+.gray, .grey {
+  color: #848488;
+}

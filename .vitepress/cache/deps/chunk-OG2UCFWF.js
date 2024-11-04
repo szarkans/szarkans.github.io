@@ -1,6 +1,6 @@
 import {
   EventBus
-} from "./chunk-3QCNEV3V.js";
+} from "./chunk-23NTEW4Y.js";
 
 // node_modules/@primevue/core/service/index.mjs
 var PrimeVueService = EventBus();
@@ -8,4 +8,4 @@ var PrimeVueService = EventBus();
 export {
   PrimeVueService
 };
-//# sourceMappingURL=chunk-6UAIVZT4.js.map
+//# sourceMappingURL=chunk-OG2UCFWF.js.map
