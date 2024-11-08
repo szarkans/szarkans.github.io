@@ -13,7 +13,13 @@ import Tab from 'primevue/tab';
 import TabPanels from 'primevue/tabpanels';
 import TabPanel from 'primevue/tabpanel';
 
-import Divider from 'primevue/divider'
+import Divider from 'primevue/divider';
+
+import Fieldset from 'primevue/fieldset';
+
+import ImageCompare from 'primevue/imagecompare';
+
+import Galleria from 'primevue/galleria';
 
 import './style.css';
 import Aura from '@primevue/themes/aura';
@@ -40,5 +46,8 @@ export default {
     app.component('TabPanels', TabPanels);
     app.component('TabPanel', TabPanel);
     app.component('Divider', Divider);
+    app.component('ImageCompare', ImageCompare);
+    app.component('Fieldset', Fieldset);
+    app.component('Galleria', Galleria);
   }
 };

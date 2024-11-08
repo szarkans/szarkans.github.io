@@ -1,13 +1,15 @@
 import {
-  script as script2
-} from "./chunk-34K4UYRN.js";
+  script as script2,
+  script2 as script3
+} from "./chunk-SUZXZJMW.js";
+import "./chunk-IZV5ZA7Q.js";
 import {
   Ripple
-} from "./chunk-HYZFFJCE.js";
-import "./chunk-OG2UCFWF.js";
+} from "./chunk-LAYGNASV.js";
+import "./chunk-M3Z2YNOL.js";
 import {
   script
-} from "./chunk-U4XPCC5S.js";
+} from "./chunk-6LRDN5RD.js";
 import {
   BaseStyle,
   findSingle,
@@ -16,7 +18,7 @@ import {
   getOuterHeight,
   getOuterWidth,
   getWidth
-} from "./chunk-23NTEW4Y.js";
+} from "./chunk-ATOVSKCZ.js";
 import {
   createBaseVNode,
   createBlock,
@@ -29,44 +31,6 @@ import {
   resolveDynamicComponent,
   withDirectives
 } from "./chunk-5J2UBCUN.js";
-
-// node_modules/@primevue/icons/chevronleft/index.mjs
-var script3 = {
-  name: "ChevronLeftIcon",
-  "extends": script2
-};
-function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createElementBlock("svg", mergeProps({
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, _ctx.pti()), _cache[0] || (_cache[0] = [createBaseVNode("path", {
-    d: "M9.61296 13C9.50997 13.0005 9.40792 12.9804 9.3128 12.9409C9.21767 12.9014 9.13139 12.8433 9.05902 12.7701L3.83313 7.54416C3.68634 7.39718 3.60388 7.19795 3.60388 6.99022C3.60388 6.78249 3.68634 6.58325 3.83313 6.43628L9.05902 1.21039C9.20762 1.07192 9.40416 0.996539 9.60724 1.00012C9.81032 1.00371 10.0041 1.08597 10.1477 1.22959C10.2913 1.37322 10.3736 1.56698 10.3772 1.77005C10.3808 1.97313 10.3054 2.16968 10.1669 2.31827L5.49496 6.99022L10.1669 11.6622C10.3137 11.8091 10.3962 12.0084 10.3962 12.2161C10.3962 12.4238 10.3137 12.6231 10.1669 12.7701C10.0945 12.8433 10.0083 12.9014 9.91313 12.9409C9.81801 12.9804 9.71596 13.0005 9.61296 13Z",
-    fill: "currentColor"
-  }, null, -1)]), 16);
-}
-script3.render = render;
-
-// node_modules/@primevue/icons/chevronright/index.mjs
-var script4 = {
-  name: "ChevronRightIcon",
-  "extends": script2
-};
-function render2(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createElementBlock("svg", mergeProps({
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, _ctx.pti()), _cache[0] || (_cache[0] = [createBaseVNode("path", {
-    d: "M4.38708 13C4.28408 13.0005 4.18203 12.9804 4.08691 12.9409C3.99178 12.9014 3.9055 12.8433 3.83313 12.7701C3.68634 12.6231 3.60388 12.4238 3.60388 12.2161C3.60388 12.0084 3.68634 11.8091 3.83313 11.6622L8.50507 6.99022L3.83313 2.31827C3.69467 2.16968 3.61928 1.97313 3.62287 1.77005C3.62645 1.56698 3.70872 1.37322 3.85234 1.22959C3.99596 1.08597 4.18972 1.00371 4.3928 1.00012C4.59588 0.996539 4.79242 1.07192 4.94102 1.21039L10.1669 6.43628C10.3137 6.58325 10.3962 6.78249 10.3962 6.99022C10.3962 7.19795 10.3137 7.39718 10.1669 7.54416L4.94102 12.7701C4.86865 12.8433 4.78237 12.9014 4.68724 12.9409C4.59212 12.9804 4.49007 13.0005 4.38708 13Z",
-    fill: "currentColor"
-  }, null, -1)]), 16);
-}
-script4.render = render2;
 
 // node_modules/primevue/tablist/style/index.mjs
 var classes = {
@@ -100,7 +64,7 @@ var script$1 = {
     };
   }
 };
-var script5 = {
+var script4 = {
   name: "TabList",
   "extends": script$1,
   inheritAttrs: false,
@@ -250,8 +214,8 @@ var script5 = {
     }
   },
   components: {
-    ChevronLeftIcon: script3,
-    ChevronRightIcon: script4
+    ChevronLeftIcon: script2,
+    ChevronRightIcon: script3
   },
   directives: {
     ripple: Ripple
@@ -260,7 +224,7 @@ var script5 = {
 var _hoisted_1 = ["aria-label", "tabindex"];
 var _hoisted_2 = ["aria-orientation"];
 var _hoisted_3 = ["aria-label", "tabindex"];
-function render3(_ctx, _cache, $props, $setup, $data, $options) {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _directive_ripple = resolveDirective("ripple");
   return openBlock(), createElementBlock("div", mergeProps({
     ref: "list",
@@ -309,8 +273,8 @@ function render3(_ctx, _cache, $props, $setup, $data, $options) {
     "aria-hidden": "true"
   }, _ctx.ptm("nextIcon")), null, 16))], 16, _hoisted_3)), [[_directive_ripple]]) : createCommentVNode("", true)], 16);
 }
-script5.render = render3;
+script4.render = render;
 export {
-  script5 as default
+  script4 as default
 };
 //# sourceMappingURL=primevue_tablist.js.map

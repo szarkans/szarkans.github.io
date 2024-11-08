@@ -1,13 +1,13 @@
+import "./chunk-BATNEY45.js";
 import {
   PrimeVueService
-} from "./chunk-OG2UCFWF.js";
-import "./chunk-TUHEKRCN.js";
+} from "./chunk-M3Z2YNOL.js";
 import {
   BaseStyle,
   config_default,
   mergeKeys,
   service_default
-} from "./chunk-23NTEW4Y.js";
+} from "./chunk-ATOVSKCZ.js";
 import {
   inject,
   reactive,

@@ -2,12 +2,12 @@
   "hash": "c3439bfd",
   "configHash": "751767f2",
   "lockfileHash": "447404c9",
-  "browserHash": "81f38763",
+  "browserHash": "7a7bd438",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "1cef46b3",
+      "fileHash": "f57ffc73",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
@@ -19,19 +19,19 @@
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "38bb1b29",
+      "fileHash": "babbc924",
       "needsInterop": false
     },
     "primevue/config": {
       "src": "../../../node_modules/primevue/config/index.mjs",
       "file": "primevue_config.js",
-      "fileHash": "ac51c296",
+      "fileHash": "db57b961",
       "needsInterop": false
     },
     "primevue/button": {
       "src": "../../../node_modules/primevue/button/index.mjs",
       "file": "primevue_button.js",
-      "fileHash": "e1145cb0",
+      "fileHash": "77e60f3d",
       "needsInterop": false
     },
     "@primevue/themes/aura": {
@@ -43,64 +43,88 @@
     "primevue/card": {
       "src": "../../../node_modules/primevue/card/index.mjs",
       "file": "primevue_card.js",
-      "fileHash": "098c916f",
+      "fileHash": "40e5d5fa",
       "needsInterop": false
     },
     "primevue/tabs": {
       "src": "../../../node_modules/primevue/tabs/index.mjs",
       "file": "primevue_tabs.js",
-      "fileHash": "67b12dbb",
+      "fileHash": "8fc5dae7",
       "needsInterop": false
     },
     "primevue/tablist": {
       "src": "../../../node_modules/primevue/tablist/index.mjs",
       "file": "primevue_tablist.js",
-      "fileHash": "fe86322d",
+      "fileHash": "17420385",
       "needsInterop": false
     },
     "primevue/tab": {
       "src": "../../../node_modules/primevue/tab/index.mjs",
       "file": "primevue_tab.js",
-      "fileHash": "b747b707",
+      "fileHash": "e7de4781",
       "needsInterop": false
     },
     "primevue/tabpanels": {
       "src": "../../../node_modules/primevue/tabpanels/index.mjs",
       "file": "primevue_tabpanels.js",
-      "fileHash": "971eb650",
+      "fileHash": "a505a62d",
       "needsInterop": false
     },
     "primevue/tabpanel": {
       "src": "../../../node_modules/primevue/tabpanel/index.mjs",
       "file": "primevue_tabpanel.js",
-      "fileHash": "a85ecc5d",
+      "fileHash": "9f2628e0",
       "needsInterop": false
     },
     "primevue/divider": {
       "src": "../../../node_modules/primevue/divider/index.mjs",
       "file": "primevue_divider.js",
-      "fileHash": "eb59eeb0",
+      "fileHash": "a7ef4f6f",
+      "needsInterop": false
+    },
+    "primevue/imagecompare": {
+      "src": "../../../node_modules/primevue/imagecompare/index.mjs",
+      "file": "primevue_imagecompare.js",
+      "fileHash": "cd8a14bf",
+      "needsInterop": false
+    },
+    "primevue/fieldset": {
+      "src": "../../../node_modules/primevue/fieldset/index.mjs",
+      "file": "primevue_fieldset.js",
+      "fileHash": "f2636ffe",
+      "needsInterop": false
+    },
+    "primevue/galleria": {
+      "src": "../../../node_modules/primevue/galleria/index.mjs",
+      "file": "primevue_galleria.js",
+      "fileHash": "9ad5f194",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-34K4UYRN": {
-      "file": "chunk-34K4UYRN.js"
+    "chunk-SUZXZJMW": {
+      "file": "chunk-SUZXZJMW.js"
     },
-    "chunk-HYZFFJCE": {
-      "file": "chunk-HYZFFJCE.js"
+    "chunk-KI4UNW25": {
+      "file": "chunk-KI4UNW25.js"
     },
-    "chunk-OG2UCFWF": {
-      "file": "chunk-OG2UCFWF.js"
+    "chunk-BATNEY45": {
+      "file": "chunk-BATNEY45.js"
     },
-    "chunk-TUHEKRCN": {
-      "file": "chunk-TUHEKRCN.js"
+    "chunk-IZV5ZA7Q": {
+      "file": "chunk-IZV5ZA7Q.js"
     },
-    "chunk-U4XPCC5S": {
-      "file": "chunk-U4XPCC5S.js"
+    "chunk-LAYGNASV": {
+      "file": "chunk-LAYGNASV.js"
     },
-    "chunk-23NTEW4Y": {
-      "file": "chunk-23NTEW4Y.js"
+    "chunk-M3Z2YNOL": {
+      "file": "chunk-M3Z2YNOL.js"
+    },
+    "chunk-6LRDN5RD": {
+      "file": "chunk-6LRDN5RD.js"
+    },
+    "chunk-ATOVSKCZ": {
+      "file": "chunk-ATOVSKCZ.js"
     },
     "chunk-5J2UBCUN": {
       "file": "chunk-5J2UBCUN.js"

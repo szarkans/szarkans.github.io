@@ -131,40 +131,52 @@ export default defineConfig({
               link: "/docs/gameplay/unique/qol.md"
             },
             {
-              text: "Команды"
+              text: "Команды",
+              link: "/docs/gameplay/unique/commands.md"
             },
             {
-              text: "Защита территорий"
+              text: "Защита территорий",
+              link: "/docs/gameplay/unique/land_protection.md"
             },
             {
-              text: "Яйцо Дракона"
+              text: "Яйцо Дракона",
+              link: "/docs/gameplay/unique/dragon_egg.md"
             },
             {
-              text: "Мебель и декорации"
+              text: "Мебель и декорации",
+              link: "/docs/gameplay/unique/decor.md"
             },
             {
-              text: "Рисование"
+              text: "Рисование",
+              link: "/docs/gameplay/unique/artmap.md"
             },
             {
-              text: "Варка напитков"
+              text: "Варка напитков",
+              link: "/docs/gameplay/unique/brewery.md"
             },
             {
-              text: "Рыбалка"
+              text: "Рыбалка",
+              link: "/docs/gameplay/unique/fishing.md"
             },
             {
-              text: "NPC"
+              text: "NPC",
+              link: "/docs/gameplay/unique/npc.md"
             },
             {
-              text: "Кланы"
+              text: "Кланы",
+              link: "/docs/gameplay/unique/clans.md"
             },
             {
-              text: "Модели игрока"
+              text: "Модели игрока",
+              link: "/docs/gameplay/unique/cpm.md"
             },
             {
-              text: "Войсчат и диски"
+              text: "Войсчат и диски",
+              link: "/docs/gameplay/unique/voicechat.md"
             },
             {
-              text: "Ресурспак"
+              text: "Ресурспак",
+              link: "/docs/gameplay/unique/resourcepack.md"
             }
           ]
         },
@@ -172,10 +184,12 @@ export default defineConfig({
           text: "Роллплей",
           items: [
             {
-              text: "Правительство"
+              text: "Правительство",
+              link: "/docs/gameplay/roleplay/goverment.md"
             },
             {
-              text: "Работа КСБ"
+              text: "Работа КСБ",
+              link: "/docs/gameplay/roleplay/police.md"
             }
           ]
         },
@@ -183,10 +197,12 @@ export default defineConfig({
           text: "Награды игрокам",
           items: [
             {
-              text: "Котячьи Заслуги"
+              text: "Котячьи Заслуги",
+              link: "/docs/gameplay/rewards/catpass.md"
             },
             {
-              text: "Все награды"
+              text: "Все награды",
+              link: "/docs/gameplay/rewards/list.md"
             }
             
           ]
