@@ -69,7 +69,7 @@ description: Готовая сборка сервера Кошкокрафт
 ## Гайд по установке
 
 ??? note-cc "Для ванильного лаунчера, TL, TLegacy и прочих"
-    1. [Скачиваешь архив :material-download:](../assets/catcraft_1211_mods.zip)
+    1. [Скачиваешь архив :material-download:](../assets/catcraft_mods_6.0.4.zip)
 
     2. Открываешь папку **игры**
         
@@ -86,7 +86,7 @@ description: Готовая сборка сервера Кошкокрафт
     5. Готово! Запускай игру!
 
 ??? note-cc "Для MultiMC, ModrinthApp, PrismLauncher и т.п."
-    1. [Скачиваешь файл .mrpack :material-download:](../assets/Catcraft%201.21.1%206.0.3.mrpack)
+    1. [Скачиваешь файл .mrpack :material-download:](../assets/Catcraft%201.21.1%206.0.4.mrpack)
 
     2. Создаёшь новую сборку
 
