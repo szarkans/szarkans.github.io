@@ -63,6 +63,69 @@ function unblockBodyScroll(className = "p-overflow-hidden") {
   (variableData == null ? void 0 : variableData.name) && document.body.style.removeProperty(variableData.name);
   removeClass(document.body, className);
 }
+function getHiddenElementDimensions(element) {
+  let dimensions = { width: 0, height: 0 };
+  if (element) {
+    element.style.visibility = "hidden";
+    element.style.display = "block";
+    dimensions.width = element.offsetWidth;
+    dimensions.height = element.offsetHeight;
+    element.style.display = "none";
+    element.style.visibility = "visible";
+  }
+  return dimensions;
+}
+function getViewport() {
+  let win = window, d = document, e = d.documentElement, g = d.getElementsByTagName("body")[0], w = win.innerWidth || e.clientWidth || g.clientWidth, h = win.innerHeight || e.clientHeight || g.clientHeight;
+  return { width: w, height: h };
+}
+function getWindowScrollLeft() {
+  let doc = document.documentElement;
+  return (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+}
+function getWindowScrollTop() {
+  let doc = document.documentElement;
+  return (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+}
+function absolutePosition(element, target, gutter = true) {
+  var _a, _b, _c, _d;
+  if (element) {
+    const elementDimensions = element.offsetParent ? { width: element.offsetWidth, height: element.offsetHeight } : getHiddenElementDimensions(element);
+    const elementOuterHeight = elementDimensions.height;
+    const elementOuterWidth = elementDimensions.width;
+    const targetOuterHeight = target.offsetHeight;
+    const targetOuterWidth = target.offsetWidth;
+    const targetOffset = target.getBoundingClientRect();
+    const windowScrollTop = getWindowScrollTop();
+    const windowScrollLeft = getWindowScrollLeft();
+    const viewport = getViewport();
+    let top, left, origin = "top";
+    if (targetOffset.top + targetOuterHeight + elementOuterHeight > viewport.height) {
+      top = targetOffset.top + windowScrollTop - elementOuterHeight;
+      origin = "bottom";
+      if (top < 0) {
+        top = windowScrollTop;
+      }
+    } else {
+      top = targetOuterHeight + targetOffset.top + windowScrollTop;
+    }
+    if (targetOffset.left + elementOuterWidth > viewport.width) left = Math.max(0, targetOffset.left + windowScrollLeft + targetOuterWidth - elementOuterWidth);
+    else left = targetOffset.left + windowScrollLeft;
+    element.style.top = top + "px";
+    element.style.left = left + "px";
+    element.style.transformOrigin = origin;
+    gutter && (element.style.marginTop = origin === "bottom" ? `calc(${(_b = (_a = getCSSVariableByRegex(/-anchor-gutter$/)) == null ? void 0 : _a.value) != null ? _b : "2px"} * -1)` : (_d = (_c = getCSSVariableByRegex(/-anchor-gutter$/)) == null ? void 0 : _c.value) != null ? _d : "");
+  }
+}
+function addStyle(element, style) {
+  if (element) {
+    if (typeof style === "string") {
+      element.style.cssText = style;
+    } else {
+      Object.entries(style || {}).forEach(([key, value]) => element.style[key] = value);
+    }
+  }
+}
 function getOuterWidth(element, margin) {
   if (element instanceof HTMLElement) {
     let width = element.offsetWidth;
@@ -74,8 +137,48 @@ function getOuterWidth(element, margin) {
   }
   return 0;
 }
+function relativePosition(element, target, gutter = true) {
+  var _a, _b, _c, _d;
+  if (element) {
+    const elementDimensions = element.offsetParent ? { width: element.offsetWidth, height: element.offsetHeight } : getHiddenElementDimensions(element);
+    const targetHeight = target.offsetHeight;
+    const targetOffset = target.getBoundingClientRect();
+    const viewport = getViewport();
+    let top, left, origin = "top";
+    if (targetOffset.top + targetHeight + elementDimensions.height > viewport.height) {
+      top = -1 * elementDimensions.height;
+      origin = "bottom";
+      if (targetOffset.top + top < 0) {
+        top = -1 * targetOffset.top;
+      }
+    } else {
+      top = targetHeight;
+    }
+    if (elementDimensions.width > viewport.width) {
+      left = targetOffset.left * -1;
+    } else if (targetOffset.left + elementDimensions.width > viewport.width) {
+      left = (targetOffset.left + elementDimensions.width - viewport.width) * -1;
+    } else {
+      left = 0;
+    }
+    element.style.top = top + "px";
+    element.style.left = left + "px";
+    element.style.transformOrigin = origin;
+    gutter && (element.style.marginTop = origin === "bottom" ? `calc(${(_b = (_a = getCSSVariableByRegex(/-anchor-gutter$/)) == null ? void 0 : _a.value) != null ? _b : "2px"} * -1)` : (_d = (_c = getCSSVariableByRegex(/-anchor-gutter$/)) == null ? void 0 : _c.value) != null ? _d : "");
+  }
+}
 function isElement(element) {
   return typeof HTMLElement === "object" ? element instanceof HTMLElement : element && typeof element === "object" && element !== null && element.nodeType === 1 && typeof element.nodeName === "string";
+}
+function clearSelection() {
+  if (window.getSelection) {
+    const selection = window.getSelection() || {};
+    if (selection.empty) {
+      selection.empty();
+    } else if (selection.removeAllRanges && selection.rangeCount > 0 && selection.getRangeAt(0).getClientRects().length > 0) {
+      selection.removeAllRanges();
+    }
+  }
 }
 function setAttributes(element, attributes = {}) {
   if (isElement(element)) {
@@ -119,6 +222,22 @@ function createElement(type, attributes = {}, ...children) {
     return element;
   }
   return void 0;
+}
+function fadeIn(element, duration) {
+  if (element) {
+    element.style.opacity = "0";
+    let last = +/* @__PURE__ */ new Date();
+    let opacity = "0";
+    let tick = function() {
+      opacity = `${+element.style.opacity + ((/* @__PURE__ */ new Date()).getTime() - last) / duration}`;
+      element.style.opacity = opacity;
+      last = +/* @__PURE__ */ new Date();
+      if (+opacity < 1) {
+        !!window.requestAnimationFrame && requestAnimationFrame(tick) || setTimeout(tick, 16);
+      }
+    };
+    tick();
+  }
 }
 function find(element, selector) {
   return isElement(element) ? Array.from(element.querySelectorAll(selector)) : [];
@@ -245,6 +364,11 @@ function getScrollableParents(element) {
   }
   return scrollableParents;
 }
+function getSelection() {
+  if (window.getSelection) return window.getSelection().toString();
+  else if (document.getSelection) return document.getSelection().toString();
+  return void 0;
+}
 function isExist(element) {
   return !!(element !== null && typeof element !== "undefined" && element.nodeName && getParentNode(element));
 }
@@ -257,6 +381,9 @@ function getWidth(element) {
   }
   return 0;
 }
+function isAndroid() {
+  return /(android)/i.test(navigator.userAgent);
+}
 function isClient() {
   return !!(typeof window !== "undefined" && window.document && window.document.createElement);
 }
@@ -268,6 +395,12 @@ function isFocusableElement(element, selector = "") {
             textarea:not([tabindex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden])${selector},
             [tabIndex]:not([tabIndex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden])${selector},
             [contenteditable]:not([tabIndex = "-1"]):not([disabled]):not([style*="display:none"]):not([hidden])${selector}`) : false;
+}
+function isVisible(element) {
+  return !!(element && element.offsetParent != null);
+}
+function isTouchDevice() {
+  return "ontouchstart" in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
 }
 function setAttribute(element, attribute = "", value) {
   if (isElement(element) && value !== null && value !== void 0) {
@@ -376,6 +509,17 @@ function equals(obj1, obj2, field) {
   if (field) return resolveFieldData(obj1, field) === resolveFieldData(obj2, field);
   else return deepEquals(obj1, obj2);
 }
+function findLastIndex(arr, callback) {
+  let index = -1;
+  if (isNotEmpty(arr)) {
+    try {
+      index = arr.findLastIndex(callback);
+    } catch (e) {
+      index = arr.lastIndexOf([...arr].reverse().find(callback));
+    }
+  }
+  return index;
+}
 function isObject(value, empty = true) {
   return value instanceof Object && value.constructor === Object && (empty || Object.keys(value).length !== 0);
 }
@@ -398,6 +542,9 @@ function isArray(value, empty = true) {
 }
 function isNumber(value) {
   return isNotEmpty(value) && !isNaN(value);
+}
+function isPrintableCharacter(char = "") {
+  return isNotEmpty(char) && char.length === 1 && !!char.match(/\S| /);
 }
 function localeComparator() {
   return new Intl.Collator(void 0, { numeric: true }).compare;
@@ -426,6 +573,61 @@ function mergeKeys(...args) {
 }
 function minifyCSS(css3) {
   return css3 ? css3.replace(/\/\*(?:(?!\*\/)[\s\S])*\*\/|[\r\n\t]+/g, "").replace(/ {2,}/g, " ").replace(/ ([{:}]) /g, "$1").replace(/([;,]) /g, "$1").replace(/ !/g, "!").replace(/: /g, ":") : css3;
+}
+function removeAccents(str) {
+  const accentCheckRegex = /[\xC0-\xFF\u0100-\u017E]/;
+  if (str && accentCheckRegex.test(str)) {
+    const accentsMap = {
+      A: /[\xC0-\xC5\u0100\u0102\u0104]/g,
+      AE: /[\xC6]/g,
+      C: /[\xC7\u0106\u0108\u010A\u010C]/g,
+      D: /[\xD0\u010E\u0110]/g,
+      E: /[\xC8-\xCB\u0112\u0114\u0116\u0118\u011A]/g,
+      G: /[\u011C\u011E\u0120\u0122]/g,
+      H: /[\u0124\u0126]/g,
+      I: /[\xCC-\xCF\u0128\u012A\u012C\u012E\u0130]/g,
+      IJ: /[\u0132]/g,
+      J: /[\u0134]/g,
+      K: /[\u0136]/g,
+      L: /[\u0139\u013B\u013D\u013F\u0141]/g,
+      N: /[\xD1\u0143\u0145\u0147\u014A]/g,
+      O: /[\xD2-\xD6\xD8\u014C\u014E\u0150]/g,
+      OE: /[\u0152]/g,
+      R: /[\u0154\u0156\u0158]/g,
+      S: /[\u015A\u015C\u015E\u0160]/g,
+      T: /[\u0162\u0164\u0166]/g,
+      U: /[\xD9-\xDC\u0168\u016A\u016C\u016E\u0170\u0172]/g,
+      W: /[\u0174]/g,
+      Y: /[\xDD\u0176\u0178]/g,
+      Z: /[\u0179\u017B\u017D]/g,
+      a: /[\xE0-\xE5\u0101\u0103\u0105]/g,
+      ae: /[\xE6]/g,
+      c: /[\xE7\u0107\u0109\u010B\u010D]/g,
+      d: /[\u010F\u0111]/g,
+      e: /[\xE8-\xEB\u0113\u0115\u0117\u0119\u011B]/g,
+      g: /[\u011D\u011F\u0121\u0123]/g,
+      i: /[\xEC-\xEF\u0129\u012B\u012D\u012F\u0131]/g,
+      ij: /[\u0133]/g,
+      j: /[\u0135]/g,
+      k: /[\u0137,\u0138]/g,
+      l: /[\u013A\u013C\u013E\u0140\u0142]/g,
+      n: /[\xF1\u0144\u0146\u0148\u014B]/g,
+      p: /[\xFE]/g,
+      o: /[\xF2-\xF6\xF8\u014D\u014F\u0151]/g,
+      oe: /[\u0153]/g,
+      r: /[\u0155\u0157\u0159]/g,
+      s: /[\u015B\u015D\u015F\u0161]/g,
+      t: /[\u0163\u0165\u0167]/g,
+      u: /[\xF9-\xFC\u0169\u016B\u016D\u016F\u0171\u0173]/g,
+      w: /[\u0175]/g,
+      y: /[\xFD\xFF\u0177]/g,
+      z: /[\u017A\u017C\u017E]/g
+    };
+    for (let key in accentsMap) {
+      str = str.replace(accentsMap[key], key);
+    }
+  }
+  return str;
 }
 function sort(value1, value2, order = 1, comparator, nullSortOrder = 1) {
   const result = compare(value1, value2, comparator, order);
@@ -475,6 +677,16 @@ function EventBus() {
       allHandlers.clear();
     }
   };
+}
+
+// node_modules/@primeuix/utils/uuid/index.mjs
+var lastIds = {};
+function uuid(prefix = "pui_id_") {
+  if (!lastIds.hasOwnProperty(prefix)) {
+    lastIds[prefix] = 0;
+  }
+  lastIds[prefix]++;
+  return `${prefix}${lastIds[prefix]}`;
 }
 
 // node_modules/@primeuix/styled/index.mjs
@@ -1007,16 +1219,6 @@ var config_default = {
   }
 };
 
-// node_modules/@primeuix/utils/uuid/index.mjs
-var lastIds = {};
-function uuid(prefix = "pui_id_") {
-  if (!lastIds.hasOwnProperty(prefix)) {
-    lastIds[prefix] = 0;
-  }
-  lastIds[prefix]++;
-  return `${prefix}${lastIds[prefix]}`;
-}
-
 // node_modules/@primevue/core/usestyle/index.mjs
 function _typeof(o) {
   "@babel/helpers - typeof";
@@ -1320,44 +1522,63 @@ var BaseStyle = {
 };
 
 export {
+  hasClass,
   addClass,
   blockBodyScroll,
   removeClass,
   unblockBodyScroll,
+  getViewport,
+  getWindowScrollLeft,
+  getWindowScrollTop,
+  absolutePosition,
+  addStyle,
   getOuterWidth,
+  relativePosition,
+  clearSelection,
   createElement,
+  fadeIn,
   find,
   findSingle,
   focus,
   getAttribute,
+  getFocusableElements,
   getFirstFocusableElement,
   getHeight,
   getLastFocusableElement,
   getOffset,
   getOuterHeight,
   getScrollableParents,
+  getSelection,
+  isExist,
   getWidth,
+  isAndroid,
   isClient,
   isFocusableElement,
+  isVisible,
+  isTouchDevice,
   setAttribute,
   isEmpty,
   isFunction,
   isNotEmpty,
+  resolveFieldData,
   equals,
+  findLastIndex,
   isObject,
   resolve,
   isString,
   toFlatCase,
   getKeyValue,
   isArray,
+  isPrintableCharacter,
   localeComparator,
   mergeKeys,
+  removeAccents,
   sort,
   toCapitalCase,
   EventBus,
+  uuid,
   service_default,
   config_default,
-  uuid,
   BaseStyle
 };
-//# sourceMappingURL=chunk-ATOVSKCZ.js.map
+//# sourceMappingURL=chunk-ZIUW5ZN6.js.map

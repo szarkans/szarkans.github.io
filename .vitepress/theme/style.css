@@ -142,6 +142,12 @@
   backdrop-filter: blur(8px);
 }
 
+.p-card {
+  background-color: #f0f0f0; /* Изменение фона */
+  border-radius: 8px; /* Закругление углов */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени */
+}
+
 /* Прозрачный NavBar */
 
 @media (min-width: 960px) {

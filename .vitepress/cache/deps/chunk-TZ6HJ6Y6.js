@@ -1,4 +1,7 @@
 import {
+  Base
+} from "./chunk-3NBT74VZ.js";
+import {
   BaseStyle,
   config_default,
   findSingle,
@@ -12,30 +15,10 @@ import {
   service_default,
   toFlatCase,
   uuid
-} from "./chunk-ATOVSKCZ.js";
+} from "./chunk-ZIUW5ZN6.js";
 import {
   mergeProps
 } from "./chunk-5J2UBCUN.js";
-
-// node_modules/@primevue/core/base/index.mjs
-var Base = {
-  _loadedStyleNames: /* @__PURE__ */ new Set(),
-  getLoadedStyleNames: function getLoadedStyleNames() {
-    return this._loadedStyleNames;
-  },
-  isStyleNameLoaded: function isStyleNameLoaded(name) {
-    return this._loadedStyleNames.has(name);
-  },
-  setLoadedStyleName: function setLoadedStyleName(name) {
-    this._loadedStyleNames.add(name);
-  },
-  deleteLoadedStyleName: function deleteLoadedStyleName(name) {
-    this._loadedStyleNames["delete"](name);
-  },
-  clearLoadedStyleNames: function clearLoadedStyleNames() {
-    this._loadedStyleNames.clear();
-  }
-};
 
 // node_modules/@primevue/core/basecomponent/index.mjs
 var BaseComponentStyle = BaseStyle.extend({
@@ -558,7 +541,6 @@ var script = {
 };
 
 export {
-  Base,
   script
 };
-//# sourceMappingURL=chunk-6LRDN5RD.js.map
+//# sourceMappingURL=chunk-TZ6HJ6Y6.js.map

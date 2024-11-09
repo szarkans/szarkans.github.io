@@ -21,6 +21,12 @@ import ImageCompare from 'primevue/imagecompare';
 
 import Galleria from 'primevue/galleria';
 
+import DataView from 'primevue/dataview';
+
+import CardGrid from './CardGrid.vue';
+
+import Tooltip from 'primevue/tooltip';
+
 import './style.css';
 import Aura from '@primevue/themes/aura';
 
@@ -49,5 +55,8 @@ export default {
     app.component('ImageCompare', ImageCompare);
     app.component('Fieldset', Fieldset);
     app.component('Galleria', Galleria);
+    app.component('DataView', DataView);
+    app.component('CardGrid', CardGrid);
+    app.directive('tooltip', Tooltip);
   }
 };

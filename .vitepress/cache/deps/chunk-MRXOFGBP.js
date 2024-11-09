@@ -2,7 +2,7 @@ import {
   getScrollableParents,
   isNotEmpty,
   uuid
-} from "./chunk-ATOVSKCZ.js";
+} from "./chunk-ZIUW5ZN6.js";
 
 // node_modules/@primevue/core/utils/index.mjs
 function _typeof$1(o) {
@@ -213,6 +213,7 @@ function UniqueComponentId() {
 }
 
 export {
+  ConnectedOverlayScrollHandler,
   UniqueComponentId
 };
-//# sourceMappingURL=chunk-KI4UNW25.js.map
+//# sourceMappingURL=chunk-MRXOFGBP.js.map
