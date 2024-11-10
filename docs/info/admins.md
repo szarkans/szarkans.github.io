@@ -72,13 +72,6 @@
         <figcaption>Mr_Milota</figcaption>
     </figure>
 
-- 
-
-    <figure markdown="span">
-        ![avokato_AMF](https://cravatar.eu/avatar/avokato_AMF/600.png){ align=right width="150" .admin-img }
-        <figcaption>avokato_AMF</figcaption>
-    </figure>
-
 </div>
 
 <div class="grid cards" markdown>
