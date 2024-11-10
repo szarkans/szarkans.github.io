@@ -1,10 +1,10 @@
 import {
   script
-} from "./chunk-TZ6HJ6Y6.js";
+} from "./chunk-BEAQ6NNO.js";
 import {
   BaseStyle,
   isEmpty
-} from "./chunk-ZIUW5ZN6.js";
+} from "./chunk-M7TXSPCN.js";
 
 // node_modules/@primevue/icons/baseicon/style/index.mjs
 var css = "\n.p-icon {\n    display: inline-block;\n    vertical-align: baseline;\n}\n\n.p-icon-spin {\n    -webkit-animation: p-icon-spin 2s infinite linear;\n    animation: p-icon-spin 2s infinite linear;\n}\n\n@-webkit-keyframes p-icon-spin {\n    0% {\n        -webkit-transform: rotate(0deg);\n        transform: rotate(0deg);\n    }\n    100% {\n        -webkit-transform: rotate(359deg);\n        transform: rotate(359deg);\n    }\n}\n\n@keyframes p-icon-spin {\n    0% {\n        -webkit-transform: rotate(0deg);\n        transform: rotate(0deg);\n    }\n    100% {\n        -webkit-transform: rotate(359deg);\n        transform: rotate(359deg);\n    }\n}\n";
@@ -99,4 +99,4 @@ var script2 = {
 export {
   script2 as script
 };
-//# sourceMappingURL=chunk-HQLWPNOZ.js.map
+//# sourceMappingURL=chunk-QQEJEFKW.js.map

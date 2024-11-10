@@ -27,6 +27,8 @@ import CardGrid from './CardGrid.vue';
 
 import Tooltip from 'primevue/tooltip';
 
+import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
+
 import './style.css';
 import Aura from '@primevue/themes/aura';
 
@@ -44,6 +46,7 @@ export default {
         preset: Aura
       }
     }); // Инициализируем PrimeVue
+    enhanceAppWithTabs(app);
     app.component('Button', Button); // Регистрируем компонент Button глобально
     app.component('Card', Card);
     app.component('Tabs', Tabs);

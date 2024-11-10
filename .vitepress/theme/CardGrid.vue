@@ -18,8 +18,9 @@ const items = [
 <style>
 .card-grid {
   display: flex;
-  flex-wrap: nowrap;
   gap: 0.5em;
   justify-content: space-around;
+  align-items: stretch; /* Растягивает элементы по высоте */
 }
+
 </style>

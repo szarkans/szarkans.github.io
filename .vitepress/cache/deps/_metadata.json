@@ -1,157 +1,163 @@
 {
-  "hash": "c3439bfd",
+  "hash": "75bca0db",
   "configHash": "751767f2",
-  "lockfileHash": "447404c9",
-  "browserHash": "4036cdc0",
+  "lockfileHash": "e2ab5740",
+  "browserHash": "7e283467",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "2c484370",
+      "fileHash": "db758a9c",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "ab425a10",
+      "fileHash": "73e09a08",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "9d1cbab1",
+      "fileHash": "b8b7c278",
       "needsInterop": false
     },
     "primevue/config": {
       "src": "../../../node_modules/primevue/config/index.mjs",
       "file": "primevue_config.js",
-      "fileHash": "5d35bb04",
+      "fileHash": "88dd54f6",
       "needsInterop": false
     },
     "primevue/button": {
       "src": "../../../node_modules/primevue/button/index.mjs",
       "file": "primevue_button.js",
-      "fileHash": "26bf5827",
-      "needsInterop": false
-    },
-    "@primevue/themes/aura": {
-      "src": "../../../node_modules/@primevue/themes/aura/index.mjs",
-      "file": "@primevue_themes_aura.js",
-      "fileHash": "411de595",
+      "fileHash": "18c4e07e",
       "needsInterop": false
     },
     "primevue/card": {
       "src": "../../../node_modules/primevue/card/index.mjs",
       "file": "primevue_card.js",
-      "fileHash": "2879a10c",
+      "fileHash": "dc5fb951",
       "needsInterop": false
     },
     "primevue/tabs": {
       "src": "../../../node_modules/primevue/tabs/index.mjs",
       "file": "primevue_tabs.js",
-      "fileHash": "a41f6193",
+      "fileHash": "894fc621",
       "needsInterop": false
     },
     "primevue/tablist": {
       "src": "../../../node_modules/primevue/tablist/index.mjs",
       "file": "primevue_tablist.js",
-      "fileHash": "45420729",
+      "fileHash": "0e0a4119",
       "needsInterop": false
     },
     "primevue/tab": {
       "src": "../../../node_modules/primevue/tab/index.mjs",
       "file": "primevue_tab.js",
-      "fileHash": "ab743544",
+      "fileHash": "62b93349",
       "needsInterop": false
     },
     "primevue/tabpanels": {
       "src": "../../../node_modules/primevue/tabpanels/index.mjs",
       "file": "primevue_tabpanels.js",
-      "fileHash": "34cd10c7",
+      "fileHash": "15ed4fbd",
       "needsInterop": false
     },
     "primevue/tabpanel": {
       "src": "../../../node_modules/primevue/tabpanel/index.mjs",
       "file": "primevue_tabpanel.js",
-      "fileHash": "0ad2cd89",
+      "fileHash": "9be84008",
       "needsInterop": false
     },
     "primevue/divider": {
       "src": "../../../node_modules/primevue/divider/index.mjs",
       "file": "primevue_divider.js",
-      "fileHash": "a99672f5",
-      "needsInterop": false
-    },
-    "primevue/imagecompare": {
-      "src": "../../../node_modules/primevue/imagecompare/index.mjs",
-      "file": "primevue_imagecompare.js",
-      "fileHash": "93443e98",
+      "fileHash": "64eaeaa4",
       "needsInterop": false
     },
     "primevue/fieldset": {
       "src": "../../../node_modules/primevue/fieldset/index.mjs",
       "file": "primevue_fieldset.js",
-      "fileHash": "3844fb4d",
+      "fileHash": "bd8c959d",
+      "needsInterop": false
+    },
+    "primevue/imagecompare": {
+      "src": "../../../node_modules/primevue/imagecompare/index.mjs",
+      "file": "primevue_imagecompare.js",
+      "fileHash": "2bf8ca35",
       "needsInterop": false
     },
     "primevue/galleria": {
       "src": "../../../node_modules/primevue/galleria/index.mjs",
       "file": "primevue_galleria.js",
-      "fileHash": "8aea9139",
+      "fileHash": "6191795f",
       "needsInterop": false
     },
     "primevue/dataview": {
       "src": "../../../node_modules/primevue/dataview/index.mjs",
       "file": "primevue_dataview.js",
-      "fileHash": "c25c31eb",
+      "fileHash": "85e766b8",
       "needsInterop": false
     },
     "primevue/tooltip": {
       "src": "../../../node_modules/primevue/tooltip/index.mjs",
       "file": "primevue_tooltip.js",
-      "fileHash": "35bece8b",
+      "fileHash": "f2f775d8",
+      "needsInterop": false
+    },
+    "vitepress-plugin-tabs/client": {
+      "src": "../../../node_modules/vitepress-plugin-tabs/src/client/index.ts",
+      "file": "vitepress-plugin-tabs_client.js",
+      "fileHash": "fd335432",
+      "needsInterop": false
+    },
+    "@primevue/themes/aura": {
+      "src": "../../../node_modules/@primevue/themes/aura/index.mjs",
+      "file": "@primevue_themes_aura.js",
+      "fileHash": "1c6a6b61",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-UGDMAF3M": {
-      "file": "chunk-UGDMAF3M.js"
+    "chunk-WFWIJYDN": {
+      "file": "chunk-WFWIJYDN.js"
     },
-    "chunk-KHO6PYJ6": {
-      "file": "chunk-KHO6PYJ6.js"
+    "chunk-QSSSBM74": {
+      "file": "chunk-QSSSBM74.js"
     },
-    "chunk-V2HV44EX": {
-      "file": "chunk-V2HV44EX.js"
+    "chunk-S4C5KRV4": {
+      "file": "chunk-S4C5KRV4.js"
     },
-    "chunk-HQLWPNOZ": {
-      "file": "chunk-HQLWPNOZ.js"
-    },
-    "chunk-H5VAXCDH": {
-      "file": "chunk-H5VAXCDH.js"
-    },
-    "chunk-ZJXI7Q6Q": {
-      "file": "chunk-ZJXI7Q6Q.js"
-    },
-    "chunk-QPE5YPSD": {
-      "file": "chunk-QPE5YPSD.js"
-    },
-    "chunk-T3HDIY4M": {
-      "file": "chunk-T3HDIY4M.js"
-    },
-    "chunk-MRXOFGBP": {
-      "file": "chunk-MRXOFGBP.js"
+    "chunk-KUST3VTD": {
+      "file": "chunk-KUST3VTD.js"
     },
     "chunk-BATNEY45": {
       "file": "chunk-BATNEY45.js"
     },
-    "chunk-TZ6HJ6Y6": {
-      "file": "chunk-TZ6HJ6Y6.js"
+    "chunk-GQYXH2WY": {
+      "file": "chunk-GQYXH2WY.js"
+    },
+    "chunk-QQEJEFKW": {
+      "file": "chunk-QQEJEFKW.js"
+    },
+    "chunk-V7GEICFN": {
+      "file": "chunk-V7GEICFN.js"
+    },
+    "chunk-CIGLQQ3G": {
+      "file": "chunk-CIGLQQ3G.js"
+    },
+    "chunk-6ETBYVEO": {
+      "file": "chunk-6ETBYVEO.js"
+    },
+    "chunk-BEAQ6NNO": {
+      "file": "chunk-BEAQ6NNO.js"
     },
     "chunk-3NBT74VZ": {
       "file": "chunk-3NBT74VZ.js"
     },
-    "chunk-ZIUW5ZN6": {
-      "file": "chunk-ZIUW5ZN6.js"
+    "chunk-M7TXSPCN": {
+      "file": "chunk-M7TXSPCN.js"
     },
     "chunk-5J2UBCUN": {
       "file": "chunk-5J2UBCUN.js"

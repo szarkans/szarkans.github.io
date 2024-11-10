@@ -42,15 +42,8 @@ description: Кастомная рыбалка на Кошкокрафте
   { src: '/assets/gameplay/unique/fishing/hold.gif', alt: 'Здесь нужно удержать рыбку' },
   { src: '/assets/gameplay/unique/fishing/race.gif', alt: 'Здесь нужно довести рыбку до финиша' },
   { src: '/assets/gameplay/unique/fishing/void_fishing.png', alt: 'Также есть пустотная рыбалка!' }
-]" :responsiveOptions="responsiveOptions" :numVisible="5" :circular="true"
-    :showItemNavigators="true" :showThumbnails="false" :showIndicators="true" :indicatorsPosition="inside">
+]"  :circular="true" :showItemNavigators="true" :showThumbnails="false" :showIndicators="true" :indicatorsPosition="inside">
   <template #item="{ item }">
     <img :src="item.src" :alt="item.alt" class="galleria-image" />
-  </template>
-  <template #thumbnail="{ item }">
-    <img :src="item.src" :alt="item.alt" class="galleria-thumbnail" />
-  </template>
-  <template #caption="slotProps">
-    <p class="text-white">{{ slotProps.item.alt }}</p>
   </template>
 </Galleria>

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,6 +12,9 @@ export default defineConfig({
   metaChunk: true,
 
   markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    },
     image: {
       lazyLoading: true
     }

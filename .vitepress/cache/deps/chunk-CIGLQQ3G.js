@@ -1,6 +1,6 @@
 import {
   PrimeVueService
-} from "./chunk-T3HDIY4M.js";
+} from "./chunk-6ETBYVEO.js";
 import {
   Base
 } from "./chunk-3NBT74VZ.js";
@@ -18,7 +18,7 @@ import {
   toCapitalCase,
   toFlatCase,
   uuid
-} from "./chunk-ZIUW5ZN6.js";
+} from "./chunk-M7TXSPCN.js";
 import {
   mergeProps
 } from "./chunk-5J2UBCUN.js";
@@ -448,4 +448,4 @@ var BaseDirective = {
 export {
   BaseDirective
 };
-//# sourceMappingURL=chunk-ZJXI7Q6Q.js.map
+//# sourceMappingURL=chunk-CIGLQQ3G.js.map
