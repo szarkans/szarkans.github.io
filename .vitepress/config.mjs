@@ -24,7 +24,26 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: 'Редактировать страницу'
+    },
+    outline: { label: 'Содержание страницы' },
+    docFooter: {
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
+    },
+
+    lastUpdated: {
+      text: 'Обновлено'
+    },
+    darkModeSwitchLabel: 'Оформление',
+    lightModeSwitchTitle: 'Переключить на светлую тему',
+    darkModeSwitchTitle: 'Переключить на тёмную тему',
+    sidebarMenuLabel: 'Меню',
+    returnToTopLabel: 'Вернуться к началу',
+    langMenuLabel: 'Изменить язык',
+    
     nav: [
       { text: 'О сервере', link: '/docs/info/rules/laws' },
       { text: "Геймплей", link: '/docs/gameplay/unique/qol'},
