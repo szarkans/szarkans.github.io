@@ -2,6 +2,7 @@
 import { h } from 'vue';
 import DefaultTheme from 'vitepress/theme';
 import PrimeVue from 'primevue/config';
+import 'primeicons/primeicons.css'
 
 import Button from 'primevue/button';
 
@@ -23,15 +24,31 @@ import Galleria from 'primevue/galleria';
 
 import DataView from 'primevue/dataview';
 
-import CardGrid from './CardGrid.vue';
-
 import Tooltip from 'primevue/tooltip';
+
+import Accordion from 'primevue/accordion';
+import AccordionPanel from 'primevue/accordionpanel';
+import AccordionHeader from 'primevue/accordionheader';
+import AccordionContent from 'primevue/accordioncontent';
+
+import Image from 'primevue/image';
+
+import Tag from 'primevue/tag';
 
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
-import './style.css';
-import Aura from '@primevue/themes/aura';
+// MY VUE COMPONENTS
+import CardGrid from './CardGrid.vue';
+import Spoiler from './Spoiler.vue';
+import BanList from './BanList.vue';
+import ItemCard from './ItemCard.vue';
 
+import ItemPageLayout from './ItemPageLayout.vue';
+// 
+
+import Aura from '@primevue/themes/aura';
+import './style.css';
+``
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
@@ -59,7 +76,18 @@ export default {
     app.component('Fieldset', Fieldset);
     app.component('Galleria', Galleria);
     app.component('DataView', DataView);
+    app.component('Accordion', Accordion);
+    app.component('AccordionPanel', AccordionPanel);
+    app.component('AccordionHeader', AccordionHeader);
+    app.component('AccordionContent', AccordionContent);
+    app.component('Image', Image);
+    app.component('Tag', Tag);
+    // MY VUE COMPONENTS
+    app.component('Spoiler', Spoiler);
     app.component('CardGrid', CardGrid);
+    app.component('BanList', BanList);
+    app.component('ItemCard', ItemCard);
+    // 
     app.directive('tooltip', Tooltip);
   }
 };

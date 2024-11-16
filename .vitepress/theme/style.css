@@ -68,6 +68,10 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --cc-main: #4f2dbe;
+  --cc-black: #101114;
+  --cc-white: #f5f5f5;
 }
 
 /**
@@ -127,6 +131,25 @@
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+/*  */
+/* Headers */
+/*  */
+h1 {
+  color: #8758f3;
+  border-top: none !important;
+}
+
+h2 {
+  color: #966cf8;
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+
+h3 {
+  color: #b698fc; 
+  border-top: none !important;
 }
 
 /**
@@ -270,4 +293,38 @@ font-weight: bold;
 
 .gray, .grey {
   color: #848488;
+}
+
+/*  */
+/* BUTTONS */
+/*  */
+
+/* В style.css */
+.p-button {
+  background-color: var(--cc-main) !important;  /* Темный фон */
+  color: #fff !important;  /* Белый текст */
+  border: var(--cc-main) solid 2px !important;
+  border-radius: 4px;  /* Закругленные углы */
+  margin-right: 10px !important; /* Отступ от других кнопок */
+}
+
+.p-button:hover {
+  background-color: var(--cc-main) !important;  /* Темный фон */
+  filter: brightness(85%);
+}
+
+.p-button-label {
+  padding: 5px 0 5px 0;
+}
+
+/* Если ты хочешь изменить кнопки с определенными типами */
+.p-button-primary {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* И для остальных стилей, если нужно */
+.p-button-secondary {
+  background-color: #6c757d !important;
+  color: white !important;
 }

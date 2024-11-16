@@ -6,13 +6,6 @@
   </template>
 
 <script setup>
-import Card from 'primevue/card';
-
-const items = [
-  { title: 'Card 1', content: 'Content of Card 1', src: '/assets/gameplay/unique/artmap/example_art.gif' },
-  { title: 'Card 2', content: 'Content of Card 2', src: '/assets/gameplay/unique/artmap/example_art.gif' },
-  { title: 'Card 3', content: 'Content of Card 3', src: '/assets/gameplay/unique/artmap/example_art.gif' }
-];
 </script>
 
 <style>
@@ -21,6 +14,15 @@ const items = [
   gap: 0.5em;
   justify-content: space-around;
   align-items: stretch; /* Растягивает элементы по высоте */
+  margin-bottom: 10px;
+}
+
+.card-grid .p-card {
+  transition: box-shadow 0.3s ease-in-out 0.2s; /* Задержка 0.2s перед началом анимации */
+}
+
+.card-grid .p-card:hover {
+  box-shadow: 10px 5px 5px black;
 }
 
 </style>

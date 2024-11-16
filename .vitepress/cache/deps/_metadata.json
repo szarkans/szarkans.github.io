@@ -2,12 +2,12 @@
   "hash": "75bca0db",
   "configHash": "751767f2",
   "lockfileHash": "e2ab5740",
-  "browserHash": "7e283467",
+  "browserHash": "89e21fe2",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "db758a9c",
+      "fileHash": "23dd195f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
@@ -19,97 +19,97 @@
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "b8b7c278",
+      "fileHash": "136f8ff8",
       "needsInterop": false
     },
     "primevue/config": {
       "src": "../../../node_modules/primevue/config/index.mjs",
       "file": "primevue_config.js",
-      "fileHash": "88dd54f6",
+      "fileHash": "96cb7d8e",
       "needsInterop": false
     },
     "primevue/button": {
       "src": "../../../node_modules/primevue/button/index.mjs",
       "file": "primevue_button.js",
-      "fileHash": "18c4e07e",
+      "fileHash": "8786f590",
       "needsInterop": false
     },
     "primevue/card": {
       "src": "../../../node_modules/primevue/card/index.mjs",
       "file": "primevue_card.js",
-      "fileHash": "dc5fb951",
+      "fileHash": "5e63e139",
       "needsInterop": false
     },
     "primevue/tabs": {
       "src": "../../../node_modules/primevue/tabs/index.mjs",
       "file": "primevue_tabs.js",
-      "fileHash": "894fc621",
+      "fileHash": "97c2b1a5",
       "needsInterop": false
     },
     "primevue/tablist": {
       "src": "../../../node_modules/primevue/tablist/index.mjs",
       "file": "primevue_tablist.js",
-      "fileHash": "0e0a4119",
+      "fileHash": "c568d3e4",
       "needsInterop": false
     },
     "primevue/tab": {
       "src": "../../../node_modules/primevue/tab/index.mjs",
       "file": "primevue_tab.js",
-      "fileHash": "62b93349",
+      "fileHash": "b76d434e",
       "needsInterop": false
     },
     "primevue/tabpanels": {
       "src": "../../../node_modules/primevue/tabpanels/index.mjs",
       "file": "primevue_tabpanels.js",
-      "fileHash": "15ed4fbd",
+      "fileHash": "0cadf1c9",
       "needsInterop": false
     },
     "primevue/tabpanel": {
       "src": "../../../node_modules/primevue/tabpanel/index.mjs",
       "file": "primevue_tabpanel.js",
-      "fileHash": "9be84008",
+      "fileHash": "3b7b3b09",
       "needsInterop": false
     },
     "primevue/divider": {
       "src": "../../../node_modules/primevue/divider/index.mjs",
       "file": "primevue_divider.js",
-      "fileHash": "64eaeaa4",
+      "fileHash": "97cfe3a2",
       "needsInterop": false
     },
     "primevue/fieldset": {
       "src": "../../../node_modules/primevue/fieldset/index.mjs",
       "file": "primevue_fieldset.js",
-      "fileHash": "bd8c959d",
+      "fileHash": "323d7711",
       "needsInterop": false
     },
     "primevue/imagecompare": {
       "src": "../../../node_modules/primevue/imagecompare/index.mjs",
       "file": "primevue_imagecompare.js",
-      "fileHash": "2bf8ca35",
+      "fileHash": "bacb3d41",
       "needsInterop": false
     },
     "primevue/galleria": {
       "src": "../../../node_modules/primevue/galleria/index.mjs",
       "file": "primevue_galleria.js",
-      "fileHash": "6191795f",
+      "fileHash": "cce38149",
       "needsInterop": false
     },
     "primevue/dataview": {
       "src": "../../../node_modules/primevue/dataview/index.mjs",
       "file": "primevue_dataview.js",
-      "fileHash": "85e766b8",
+      "fileHash": "d8c0e65c",
       "needsInterop": false
     },
     "primevue/tooltip": {
       "src": "../../../node_modules/primevue/tooltip/index.mjs",
       "file": "primevue_tooltip.js",
-      "fileHash": "f2f775d8",
+      "fileHash": "d870f024",
       "needsInterop": false
     },
     "vitepress-plugin-tabs/client": {
       "src": "../../../node_modules/vitepress-plugin-tabs/src/client/index.ts",
       "file": "vitepress-plugin-tabs_client.js",
-      "fileHash": "fd335432",
+      "fileHash": "6ee7c5ff",
       "needsInterop": false
     },
     "@primevue/themes/aura": {
@@ -117,47 +117,140 @@
       "file": "@primevue_themes_aura.js",
       "fileHash": "1c6a6b61",
       "needsInterop": false
+    },
+    "@primevue/themes/lara": {
+      "src": "../../../node_modules/@primevue/themes/lara/index.mjs",
+      "file": "@primevue_themes_lara.js",
+      "fileHash": "bce2c9c2",
+      "needsInterop": false
+    },
+    "@primevue/themes/material": {
+      "src": "../../../node_modules/@primevue/themes/material/index.mjs",
+      "file": "@primevue_themes_material.js",
+      "fileHash": "ceb5e648",
+      "needsInterop": false
+    },
+    "primevue/accordion": {
+      "src": "../../../node_modules/primevue/accordion/index.mjs",
+      "file": "primevue_accordion.js",
+      "fileHash": "874d92d1",
+      "needsInterop": false
+    },
+    "primevue/accordionpanel": {
+      "src": "../../../node_modules/primevue/accordionpanel/index.mjs",
+      "file": "primevue_accordionpanel.js",
+      "fileHash": "d322e954",
+      "needsInterop": false
+    },
+    "primevue/accordionheader": {
+      "src": "../../../node_modules/primevue/accordionheader/index.mjs",
+      "file": "primevue_accordionheader.js",
+      "fileHash": "0e256164",
+      "needsInterop": false
+    },
+    "primevue/accordioncontent": {
+      "src": "../../../node_modules/primevue/accordioncontent/index.mjs",
+      "file": "primevue_accordioncontent.js",
+      "fileHash": "1ce8987b",
+      "needsInterop": false
+    },
+    "primevue/image": {
+      "src": "../../../node_modules/primevue/image/index.mjs",
+      "file": "primevue_image.js",
+      "fileHash": "dd785a8b",
+      "needsInterop": false
+    },
+    "primevue/datatable": {
+      "src": "../../../node_modules/primevue/datatable/index.mjs",
+      "file": "primevue_datatable.js",
+      "fileHash": "61e032fb",
+      "needsInterop": false
+    },
+    "primevue/column": {
+      "src": "../../../node_modules/primevue/column/index.mjs",
+      "file": "primevue_column.js",
+      "fileHash": "e921c506",
+      "needsInterop": false
+    },
+    "primevue/tag": {
+      "src": "../../../node_modules/primevue/tag/index.mjs",
+      "file": "primevue_tag.js",
+      "fileHash": "c988c632",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-WFWIJYDN": {
-      "file": "chunk-WFWIJYDN.js"
+    "chunk-W4VZUXMC": {
+      "file": "chunk-W4VZUXMC.js"
     },
-    "chunk-QSSSBM74": {
-      "file": "chunk-QSSSBM74.js"
+    "chunk-7OHFPI3S": {
+      "file": "chunk-7OHFPI3S.js"
     },
-    "chunk-S4C5KRV4": {
-      "file": "chunk-S4C5KRV4.js"
+    "chunk-BS7L5EBX": {
+      "file": "chunk-BS7L5EBX.js"
     },
-    "chunk-KUST3VTD": {
-      "file": "chunk-KUST3VTD.js"
+    "chunk-VKZXHPXI": {
+      "file": "chunk-VKZXHPXI.js"
     },
-    "chunk-BATNEY45": {
-      "file": "chunk-BATNEY45.js"
+    "chunk-YKV73SQT": {
+      "file": "chunk-YKV73SQT.js"
     },
-    "chunk-GQYXH2WY": {
-      "file": "chunk-GQYXH2WY.js"
+    "chunk-CFC7QGI6": {
+      "file": "chunk-CFC7QGI6.js"
     },
-    "chunk-QQEJEFKW": {
-      "file": "chunk-QQEJEFKW.js"
+    "chunk-LPT3GUQ7": {
+      "file": "chunk-LPT3GUQ7.js"
     },
-    "chunk-V7GEICFN": {
-      "file": "chunk-V7GEICFN.js"
+    "chunk-ETCFFBTJ": {
+      "file": "chunk-ETCFFBTJ.js"
     },
-    "chunk-CIGLQQ3G": {
-      "file": "chunk-CIGLQQ3G.js"
+    "chunk-3QKYXEVK": {
+      "file": "chunk-3QKYXEVK.js"
     },
-    "chunk-6ETBYVEO": {
-      "file": "chunk-6ETBYVEO.js"
+    "chunk-JL7KU7RS": {
+      "file": "chunk-JL7KU7RS.js"
     },
-    "chunk-BEAQ6NNO": {
-      "file": "chunk-BEAQ6NNO.js"
+    "chunk-GJ4M5ZQI": {
+      "file": "chunk-GJ4M5ZQI.js"
+    },
+    "chunk-CXETA7UJ": {
+      "file": "chunk-CXETA7UJ.js"
+    },
+    "chunk-VHCN4E3L": {
+      "file": "chunk-VHCN4E3L.js"
+    },
+    "chunk-QU5TB5FV": {
+      "file": "chunk-QU5TB5FV.js"
+    },
+    "chunk-YRUPXRC4": {
+      "file": "chunk-YRUPXRC4.js"
+    },
+    "chunk-UHW3BWHC": {
+      "file": "chunk-UHW3BWHC.js"
+    },
+    "chunk-GTHTUSPK": {
+      "file": "chunk-GTHTUSPK.js"
+    },
+    "chunk-IAH4HJXH": {
+      "file": "chunk-IAH4HJXH.js"
+    },
+    "chunk-TAUDC576": {
+      "file": "chunk-TAUDC576.js"
+    },
+    "chunk-U6KWIEK7": {
+      "file": "chunk-U6KWIEK7.js"
+    },
+    "chunk-PCPF6MCG": {
+      "file": "chunk-PCPF6MCG.js"
+    },
+    "chunk-HJIV2PMA": {
+      "file": "chunk-HJIV2PMA.js"
     },
     "chunk-3NBT74VZ": {
       "file": "chunk-3NBT74VZ.js"
     },
-    "chunk-M7TXSPCN": {
-      "file": "chunk-M7TXSPCN.js"
+    "chunk-FMDU42L7": {
+      "file": "chunk-FMDU42L7.js"
     },
     "chunk-5J2UBCUN": {
       "file": "chunk-5J2UBCUN.js"

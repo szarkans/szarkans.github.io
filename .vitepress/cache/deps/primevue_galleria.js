@@ -1,51 +1,52 @@
 import {
+  script as script7
+} from "./chunk-VKZXHPXI.js";
+import {
+  script as script4
+} from "./chunk-YKV73SQT.js";
+import {
+  FocusTrap
+} from "./chunk-LPT3GUQ7.js";
+import {
   script as script5,
-  script2 as script6,
-  script3 as script7
-} from "./chunk-WFWIJYDN.js";
+  script2 as script6
+} from "./chunk-ETCFFBTJ.js";
 import {
   UniqueComponentId
-} from "./chunk-KUST3VTD.js";
+} from "./chunk-JL7KU7RS.js";
+import "./chunk-CXETA7UJ.js";
 import {
   ZIndex
-} from "./chunk-BATNEY45.js";
-import {
-  script as script3,
-  script2 as script4
-} from "./chunk-GQYXH2WY.js";
+} from "./chunk-VHCN4E3L.js";
 import {
   script as script2
-} from "./chunk-QQEJEFKW.js";
+} from "./chunk-UHW3BWHC.js";
+import {
+  script as script3
+} from "./chunk-GTHTUSPK.js";
+import "./chunk-IAH4HJXH.js";
 import {
   Ripple
-} from "./chunk-V7GEICFN.js";
-import {
-  BaseDirective
-} from "./chunk-CIGLQQ3G.js";
-import "./chunk-6ETBYVEO.js";
+} from "./chunk-TAUDC576.js";
+import "./chunk-U6KWIEK7.js";
+import "./chunk-PCPF6MCG.js";
 import {
   script
-} from "./chunk-BEAQ6NNO.js";
+} from "./chunk-HJIV2PMA.js";
 import "./chunk-3NBT74VZ.js";
 import {
   BaseStyle,
   addClass,
   blockBodyScroll,
-  createElement,
   find,
   findSingle,
-  focus,
   getAttribute,
-  getFirstFocusableElement,
-  getLastFocusableElement,
-  isFocusableElement,
-  isNotEmpty,
   localeComparator,
   removeClass,
   setAttribute,
   sort,
   unblockBodyScroll
-} from "./chunk-M7TXSPCN.js";
+} from "./chunk-FMDU42L7.js";
 import {
   Fragment,
   Transition,
@@ -63,168 +64,6 @@ import {
   withCtx,
   withDirectives
 } from "./chunk-5J2UBCUN.js";
-
-// node_modules/primevue/focustrap/style/index.mjs
-var FocusTrapStyle = BaseStyle.extend({
-  name: "focustrap-directive"
-});
-
-// node_modules/primevue/focustrap/index.mjs
-var BaseFocusTrap = BaseDirective.extend({
-  style: FocusTrapStyle
-});
-function _typeof(o) {
-  "@babel/helpers - typeof";
-  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o2) {
-    return typeof o2;
-  } : function(o2) {
-    return o2 && "function" == typeof Symbol && o2.constructor === Symbol && o2 !== Symbol.prototype ? "symbol" : typeof o2;
-  }, _typeof(o);
-}
-function ownKeys(e, r) {
-  var t = Object.keys(e);
-  if (Object.getOwnPropertySymbols) {
-    var o = Object.getOwnPropertySymbols(e);
-    r && (o = o.filter(function(r2) {
-      return Object.getOwnPropertyDescriptor(e, r2).enumerable;
-    })), t.push.apply(t, o);
-  }
-  return t;
-}
-function _objectSpread(e) {
-  for (var r = 1; r < arguments.length; r++) {
-    var t = null != arguments[r] ? arguments[r] : {};
-    r % 2 ? ownKeys(Object(t), true).forEach(function(r2) {
-      _defineProperty(e, r2, t[r2]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function(r2) {
-      Object.defineProperty(e, r2, Object.getOwnPropertyDescriptor(t, r2));
-    });
-  }
-  return e;
-}
-function _defineProperty(e, r, t) {
-  return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: true, configurable: true, writable: true }) : e[r] = t, e;
-}
-function _toPropertyKey(t) {
-  var i = _toPrimitive(t, "string");
-  return "symbol" == _typeof(i) ? i : i + "";
-}
-function _toPrimitive(t, r) {
-  if ("object" != _typeof(t) || !t) return t;
-  var e = t[Symbol.toPrimitive];
-  if (void 0 !== e) {
-    var i = e.call(t, r || "default");
-    if ("object" != _typeof(i)) return i;
-    throw new TypeError("@@toPrimitive must return a primitive value.");
-  }
-  return ("string" === r ? String : Number)(t);
-}
-var FocusTrap = BaseFocusTrap.extend("focustrap", {
-  mounted: function mounted(el, binding) {
-    var _ref = binding.value || {}, disabled = _ref.disabled;
-    if (!disabled) {
-      this.createHiddenFocusableElements(el, binding);
-      this.bind(el, binding);
-      this.autoElementFocus(el, binding);
-    }
-    el.setAttribute("data-pd-focustrap", true);
-    this.$el = el;
-  },
-  updated: function updated(el, binding) {
-    var _ref2 = binding.value || {}, disabled = _ref2.disabled;
-    disabled && this.unbind(el);
-  },
-  unmounted: function unmounted(el) {
-    this.unbind(el);
-  },
-  methods: {
-    getComputedSelector: function getComputedSelector(selector) {
-      return ':not(.p-hidden-focusable):not([data-p-hidden-focusable="true"])'.concat(selector !== null && selector !== void 0 ? selector : "");
-    },
-    bind: function bind(el, binding) {
-      var _this = this;
-      var _ref3 = binding.value || {}, onFocusIn = _ref3.onFocusIn, onFocusOut = _ref3.onFocusOut;
-      el.$_pfocustrap_mutationobserver = new MutationObserver(function(mutationList) {
-        mutationList.forEach(function(mutation) {
-          if (mutation.type === "childList" && !el.contains(document.activeElement)) {
-            var _findNextFocusableElement = function findNextFocusableElement(_el) {
-              var focusableElement = isFocusableElement(_el) ? isFocusableElement(_el, _this.getComputedSelector(el.$_pfocustrap_focusableselector)) ? _el : getFirstFocusableElement(el, _this.getComputedSelector(el.$_pfocustrap_focusableselector)) : getFirstFocusableElement(_el);
-              return isNotEmpty(focusableElement) ? focusableElement : _el.nextSibling && _findNextFocusableElement(_el.nextSibling);
-            };
-            focus(_findNextFocusableElement(mutation.nextSibling));
-          }
-        });
-      });
-      el.$_pfocustrap_mutationobserver.disconnect();
-      el.$_pfocustrap_mutationobserver.observe(el, {
-        childList: true
-      });
-      el.$_pfocustrap_focusinlistener = function(event) {
-        return onFocusIn && onFocusIn(event);
-      };
-      el.$_pfocustrap_focusoutlistener = function(event) {
-        return onFocusOut && onFocusOut(event);
-      };
-      el.addEventListener("focusin", el.$_pfocustrap_focusinlistener);
-      el.addEventListener("focusout", el.$_pfocustrap_focusoutlistener);
-    },
-    unbind: function unbind(el) {
-      el.$_pfocustrap_mutationobserver && el.$_pfocustrap_mutationobserver.disconnect();
-      el.$_pfocustrap_focusinlistener && el.removeEventListener("focusin", el.$_pfocustrap_focusinlistener) && (el.$_pfocustrap_focusinlistener = null);
-      el.$_pfocustrap_focusoutlistener && el.removeEventListener("focusout", el.$_pfocustrap_focusoutlistener) && (el.$_pfocustrap_focusoutlistener = null);
-    },
-    autoFocus: function autoFocus(options) {
-      this.autoElementFocus(this.$el, {
-        value: _objectSpread(_objectSpread({}, options), {}, {
-          autoFocus: true
-        })
-      });
-    },
-    autoElementFocus: function autoElementFocus(el, binding) {
-      var _ref4 = binding.value || {}, _ref4$autoFocusSelect = _ref4.autoFocusSelector, autoFocusSelector = _ref4$autoFocusSelect === void 0 ? "" : _ref4$autoFocusSelect, _ref4$firstFocusableS = _ref4.firstFocusableSelector, firstFocusableSelector = _ref4$firstFocusableS === void 0 ? "" : _ref4$firstFocusableS, _ref4$autoFocus = _ref4.autoFocus, autoFocus2 = _ref4$autoFocus === void 0 ? false : _ref4$autoFocus;
-      var focusableElement = getFirstFocusableElement(el, "[autofocus]".concat(this.getComputedSelector(autoFocusSelector)));
-      autoFocus2 && !focusableElement && (focusableElement = getFirstFocusableElement(el, this.getComputedSelector(firstFocusableSelector)));
-      focus(focusableElement);
-    },
-    onFirstHiddenElementFocus: function onFirstHiddenElementFocus(event) {
-      var _this$$el;
-      var currentTarget = event.currentTarget, relatedTarget = event.relatedTarget;
-      var focusableElement = relatedTarget === currentTarget.$_pfocustrap_lasthiddenfocusableelement || !((_this$$el = this.$el) !== null && _this$$el !== void 0 && _this$$el.contains(relatedTarget)) ? getFirstFocusableElement(currentTarget.parentElement, this.getComputedSelector(currentTarget.$_pfocustrap_focusableselector)) : currentTarget.$_pfocustrap_lasthiddenfocusableelement;
-      focus(focusableElement);
-    },
-    onLastHiddenElementFocus: function onLastHiddenElementFocus(event) {
-      var _this$$el2;
-      var currentTarget = event.currentTarget, relatedTarget = event.relatedTarget;
-      var focusableElement = relatedTarget === currentTarget.$_pfocustrap_firsthiddenfocusableelement || !((_this$$el2 = this.$el) !== null && _this$$el2 !== void 0 && _this$$el2.contains(relatedTarget)) ? getLastFocusableElement(currentTarget.parentElement, this.getComputedSelector(currentTarget.$_pfocustrap_focusableselector)) : currentTarget.$_pfocustrap_firsthiddenfocusableelement;
-      focus(focusableElement);
-    },
-    createHiddenFocusableElements: function createHiddenFocusableElements(el, binding) {
-      var _this2 = this;
-      var _ref5 = binding.value || {}, _ref5$tabIndex = _ref5.tabIndex, tabIndex = _ref5$tabIndex === void 0 ? 0 : _ref5$tabIndex, _ref5$firstFocusableS = _ref5.firstFocusableSelector, firstFocusableSelector = _ref5$firstFocusableS === void 0 ? "" : _ref5$firstFocusableS, _ref5$lastFocusableSe = _ref5.lastFocusableSelector, lastFocusableSelector = _ref5$lastFocusableSe === void 0 ? "" : _ref5$lastFocusableSe;
-      var createFocusableElement = function createFocusableElement2(onFocus) {
-        return createElement("span", {
-          "class": "p-hidden-accessible p-hidden-focusable",
-          tabIndex,
-          role: "presentation",
-          "aria-hidden": true,
-          "data-p-hidden-accessible": true,
-          "data-p-hidden-focusable": true,
-          onFocus: onFocus === null || onFocus === void 0 ? void 0 : onFocus.bind(_this2)
-        });
-      };
-      var firstFocusableElement = createFocusableElement(this.onFirstHiddenElementFocus);
-      var lastFocusableElement = createFocusableElement(this.onLastHiddenElementFocus);
-      firstFocusableElement.$_pfocustrap_lasthiddenfocusableelement = lastFocusableElement;
-      firstFocusableElement.$_pfocustrap_focusableselector = firstFocusableSelector;
-      firstFocusableElement.setAttribute("data-pc-section", "firstfocusableelement");
-      lastFocusableElement.$_pfocustrap_firsthiddenfocusableelement = firstFocusableElement;
-      lastFocusableElement.$_pfocustrap_focusableselector = lastFocusableSelector;
-      lastFocusableElement.setAttribute("data-pc-section", "lastfocusableelement");
-      el.prepend(firstFocusableElement);
-      el.append(lastFocusableElement);
-    }
-  }
-});
 
 // node_modules/primevue/galleria/style/index.mjs
 var theme = function theme2(_ref) {
@@ -308,25 +147,6 @@ var GalleriaStyle = BaseStyle.extend({
   theme,
   classes
 });
-
-// node_modules/@primevue/icons/chevronup/index.mjs
-var script8 = {
-  name: "ChevronUpIcon",
-  "extends": script2
-};
-function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createElementBlock("svg", mergeProps({
-    width: "14",
-    height: "14",
-    viewBox: "0 0 14 14",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, _ctx.pti()), _cache[0] || (_cache[0] = [createBaseVNode("path", {
-    d: "M12.2097 10.4113C12.1057 10.4118 12.0027 10.3915 11.9067 10.3516C11.8107 10.3118 11.7237 10.2532 11.6506 10.1792L6.93602 5.46461L2.22139 10.1476C2.07272 10.244 1.89599 10.2877 1.71953 10.2717C1.54307 10.2556 1.3771 10.1808 1.24822 10.0593C1.11933 9.93766 1.035 9.77633 1.00874 9.6011C0.982477 9.42587 1.0158 9.2469 1.10338 9.09287L6.37701 3.81923C6.52533 3.6711 6.72639 3.58789 6.93602 3.58789C7.14565 3.58789 7.3467 3.6711 7.49502 3.81923L12.7687 9.09287C12.9168 9.24119 13 9.44225 13 9.65187C13 9.8615 12.9168 10.0626 12.7687 10.2109C12.616 10.3487 12.4151 10.4207 12.2097 10.4113Z",
-    fill: "currentColor"
-  }, null, -1)]), 16);
-}
-script8.render = render;
 
 // node_modules/primevue/galleria/index.mjs
 var script$4 = {
@@ -529,7 +349,7 @@ var script$3 = {
       "default": null
     }
   },
-  mounted: function mounted2() {
+  mounted: function mounted() {
     if (this.autoPlay) {
       this.$emit("start-slideshow");
     }
@@ -683,8 +503,8 @@ var script$3 = {
     }
   },
   components: {
-    ChevronLeftIcon: script3,
-    ChevronRightIcon: script4
+    ChevronLeftIcon: script2,
+    ChevronRightIcon: script3
   },
   directives: {
     ripple: Ripple
@@ -884,14 +704,14 @@ var script$2 = {
       this.d_oldActiveItemIndex = oldValue;
     }
   },
-  mounted: function mounted3() {
+  mounted: function mounted2() {
     this.createStyle();
     this.calculatePosition();
     if (this.responsiveOptions) {
       this.bindDocumentListeners();
     }
   },
-  updated: function updated2() {
+  updated: function updated() {
     var totalShiftedItems = this.totalShiftedItems;
     if (this.d_oldNumVisible !== this.d_numVisible || this.d_oldActiveItemIndex !== this.d_activeIndex) {
       if (this.d_activeIndex <= this.getMedianItemIndex()) {
@@ -1194,10 +1014,10 @@ var script$2 = {
     }
   },
   components: {
-    ChevronLeftIcon: script3,
-    ChevronRightIcon: script4,
-    ChevronUpIcon: script8,
-    ChevronDownIcon: script7
+    ChevronLeftIcon: script2,
+    ChevronRightIcon: script3,
+    ChevronUpIcon: script7,
+    ChevronDownIcon: script4
   },
   directives: {
     ripple: Ripple
@@ -1422,10 +1242,10 @@ var script$1 = {
       newVal ? this.startSlideShow() : this.stopSlideShow();
     }
   },
-  mounted: function mounted4() {
+  mounted: function mounted3() {
     this.id = this.id || UniqueComponentId();
   },
-  updated: function updated3() {
+  updated: function updated2() {
     this.$emit("activeitem-change", this.activeIndex);
   },
   beforeUnmount: function beforeUnmount2() {
@@ -1478,21 +1298,21 @@ var script$1 = {
   components: {
     GalleriaItem: script$3,
     GalleriaThumbnails: script$2,
-    TimesIcon: script6
+    TimesIcon: script5
   },
   directives: {
     ripple: Ripple
   }
 };
-function _typeof2(o) {
+function _typeof(o) {
   "@babel/helpers - typeof";
-  return _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o2) {
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o2) {
     return typeof o2;
   } : function(o2) {
     return o2 && "function" == typeof Symbol && o2.constructor === Symbol && o2 !== Symbol.prototype ? "symbol" : typeof o2;
-  }, _typeof2(o);
+  }, _typeof(o);
 }
-function ownKeys2(e, r) {
+function ownKeys(e, r) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
     var o = Object.getOwnPropertySymbols(e);
@@ -1502,30 +1322,30 @@ function ownKeys2(e, r) {
   }
   return t;
 }
-function _objectSpread2(e) {
+function _objectSpread(e) {
   for (var r = 1; r < arguments.length; r++) {
     var t = null != arguments[r] ? arguments[r] : {};
-    r % 2 ? ownKeys2(Object(t), true).forEach(function(r2) {
-      _defineProperty2(e, r2, t[r2]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys2(Object(t)).forEach(function(r2) {
+    r % 2 ? ownKeys(Object(t), true).forEach(function(r2) {
+      _defineProperty(e, r2, t[r2]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function(r2) {
       Object.defineProperty(e, r2, Object.getOwnPropertyDescriptor(t, r2));
     });
   }
   return e;
 }
-function _defineProperty2(e, r, t) {
-  return (r = _toPropertyKey2(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: true, configurable: true, writable: true }) : e[r] = t, e;
+function _defineProperty(e, r, t) {
+  return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: true, configurable: true, writable: true }) : e[r] = t, e;
 }
-function _toPropertyKey2(t) {
-  var i = _toPrimitive2(t, "string");
-  return "symbol" == _typeof2(i) ? i : i + "";
+function _toPropertyKey(t) {
+  var i = _toPrimitive(t, "string");
+  return "symbol" == _typeof(i) ? i : i + "";
 }
-function _toPrimitive2(t, r) {
-  if ("object" != _typeof2(t) || !t) return t;
+function _toPrimitive(t, r) {
+  if ("object" != _typeof(t) || !t) return t;
   var e = t[Symbol.toPrimitive];
   if (void 0 !== e) {
     var i = e.call(t, r || "default");
-    if ("object" != _typeof2(i)) return i;
+    if ("object" != _typeof(i)) return i;
     throw new TypeError("@@toPrimitive must return a primitive value.");
   }
   return ("string" === r ? String : Number)(t);
@@ -1545,7 +1365,7 @@ function render$1(_ctx, _cache, $props, $setup, $data, $options) {
     style: _ctx.$attrs.containerStyle,
     "aria-label": _ctx.$attrs.ariaLabel,
     "aria-roledescription": _ctx.$attrs.ariaRoledescription
-  }, _objectSpread2(_objectSpread2({}, _ctx.$attrs.containerProps), $options.getPTOptions("root"))), [_ctx.$attrs.fullScreen ? withDirectives((openBlock(), createElementBlock("button", mergeProps({
+  }, _objectSpread(_objectSpread({}, _ctx.$attrs.containerProps), $options.getPTOptions("root"))), [_ctx.$attrs.fullScreen ? withDirectives((openBlock(), createElementBlock("button", mergeProps({
     key: 0,
     autofocus: "",
     type: "button",
@@ -1613,7 +1433,7 @@ function render$1(_ctx, _cache, $props, $setup, $data, $options) {
   }, $options.getPTOptions("footer")), [(openBlock(), createBlock(resolveDynamicComponent(_ctx.$attrs.templates["footer"])))], 16)) : createCommentVNode("", true)], 16, _hoisted_1$1)) : createCommentVNode("", true);
 }
 script$1.render = render$1;
-var script9 = {
+var script8 = {
   name: "Galleria",
   "extends": script$4,
   inheritAttrs: false,
@@ -1625,7 +1445,7 @@ var script9 = {
       containerVisible: this.visible
     };
   },
-  updated: function updated4() {
+  updated: function updated3() {
     if (this.fullScreen && this.visible) {
       this.containerVisible = this.visible;
     }
@@ -1671,7 +1491,7 @@ var script9 = {
     maskRef: function maskRef(el) {
       this.mask = el;
     },
-    focus: function focus2() {
+    focus: function focus() {
       var focusTarget = this.container.$el.querySelector("[autofocus]");
       if (focusTarget) {
         focusTarget.focus();
@@ -1680,14 +1500,14 @@ var script9 = {
   },
   components: {
     GalleriaContent: script$1,
-    Portal: script5
+    Portal: script6
   },
   directives: {
     focustrap: FocusTrap
   }
 };
 var _hoisted_1 = ["aria-modal"];
-function render2(_ctx, _cache, $props, $setup, $data, $options) {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_GalleriaContent = resolveComponent("GalleriaContent");
   var _component_Portal = resolveComponent("Portal");
   var _directive_focustrap = resolveDirective("focustrap");
@@ -1732,8 +1552,8 @@ function render2(_ctx, _cache, $props, $setup, $data, $options) {
     unstyled: _ctx.unstyled
   }, _ctx.$props), null, 16, ["templates", "onActiveitemChange", "pt", "unstyled"]));
 }
-script9.render = render2;
+script8.render = render;
 export {
-  script9 as default
+  script8 as default
 };
 //# sourceMappingURL=primevue_galleria.js.map

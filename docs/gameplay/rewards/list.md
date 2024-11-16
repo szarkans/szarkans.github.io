@@ -13,7 +13,7 @@ icon: material/hand-coin
 
 Подробнее о **КЗ** можно почитать в этой статье:
 
-[ :material-arrow-top-right: Котячьи заслуги ](../rewards/catpass.md){ .md-button .md-button--primary }
+<Button as="a" href="./catpass.md" label="Котячьи заслуги" icon="pi pi-external-link" />
 
 ## Баг-Баунти
 
@@ -34,13 +34,13 @@ icon: material/hand-coin
 
 ## **Медиа партнёрство**
 
-Снимаешь на :simple-youtube: Youtube или :simple-tiktok: TikTok или стримишь на :simple-twitch: Twitch? Тогда мы можем стать партнёрами!
+Снимаешь на  <i class="pi pi-youtube"></i> Youtube или <i class="pi pi-tiktok"></i> TikTok или стримишь на <i class="pi pi-twitch"></i> Twitch? Тогда мы можем стать партнёрами!
 
 От нас ты сможешь получить деньги, предметы на сервере и поддержку в съемке :3
 
 Подробнее о партнёрстве можно прочитать на этой странице:
 
-[ :material-arrow-top-right: Для Ютуберов и Стримеров](../../info/for_media.md){ .md-button .md-button--primary}
+<Button as="a" href="../../info/for_media.md" label="Для Ютуберов и Стримеров" icon="pi pi-external-link" />
 
 ## Голосование на мониторингах
 
