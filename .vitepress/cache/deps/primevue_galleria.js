@@ -2,15 +2,15 @@ import {
   script as script7
 } from "./chunk-VKZXHPXI.js";
 import {
-  script as script4
-} from "./chunk-YKV73SQT.js";
-import {
   FocusTrap
 } from "./chunk-LPT3GUQ7.js";
 import {
-  script as script5,
-  script2 as script6
-} from "./chunk-ETCFFBTJ.js";
+  script as script6
+} from "./chunk-YKV73SQT.js";
+import {
+  script as script4,
+  script2 as script5
+} from "./chunk-4IRK5OKQ.js";
 import {
   UniqueComponentId
 } from "./chunk-JL7KU7RS.js";
@@ -1017,7 +1017,7 @@ var script$2 = {
     ChevronLeftIcon: script2,
     ChevronRightIcon: script3,
     ChevronUpIcon: script7,
-    ChevronDownIcon: script4
+    ChevronDownIcon: script6
   },
   directives: {
     ripple: Ripple
@@ -1500,7 +1500,7 @@ var script8 = {
   },
   components: {
     GalleriaContent: script$1,
-    Portal: script6
+    Portal: script4
   },
   directives: {
     focustrap: FocusTrap

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <DataTable :value="bannedPlayers" responsiveLayout="scroll" style="width: 100%;">
+      <DataTable :value="bannedPlayers" responsiveLayout="scroll" paginator :rows="30" :rowsPerPageOptions="[30, 50]" style="width: 100%;" >
         <Column field="name" header="Ник забаненного">
           <template #body="slotProps">
             <div style="display: flex; align-items: center; gap: 8px;">

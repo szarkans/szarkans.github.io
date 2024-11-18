@@ -8,6 +8,7 @@
     </template>
     <template #title>Szarkan, Серёжа</template>
     <template #subtitle>Всекотец, основатель</template>
+    <template #content>Я создал этот сервер :3<br>Очень прошу не пинговать меня<br>Очень прошу общаться на "ты", мне всего лишь 20...</template>
 </Card>
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
@@ -16,6 +17,7 @@
     </template>
     <template #title>CharaBell</template>
     <template #subtitle>Жена Всекотца</template>
+    <template #content>Часто сидит с аккаунта Серёжи и может отвечать от его лица</template>
 </Card>
 </CardGrid>
 

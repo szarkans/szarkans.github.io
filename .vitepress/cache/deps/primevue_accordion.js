@@ -1,4 +1,7 @@
 import {
+  script as script6
+} from "./chunk-CFC7QGI6.js";
+import {
   script as script5
 } from "./chunk-7OHFPI3S.js";
 import {
@@ -8,9 +11,6 @@ import {
   script as script3
 } from "./chunk-VKZXHPXI.js";
 import "./chunk-YKV73SQT.js";
-import {
-  script as script6
-} from "./chunk-CFC7QGI6.js";
 import {
   UniqueComponentId
 } from "./chunk-JL7KU7RS.js";

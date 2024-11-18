@@ -18,11 +18,11 @@
 }
 
 .card-grid .p-card {
-  transition: box-shadow 0.3s ease-in-out 0.2s; /* Задержка 0.2s перед началом анимации */
+  transition: box-shadow 0.1s ease-in-out !important;
 }
 
 .card-grid .p-card:hover {
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5) !important;
 }
 
 </style>

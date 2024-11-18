@@ -14,6 +14,11 @@ description: Бан-лист Кошкокрафта
 
 .content-container {
     margin: none;
+    max-width: none !important;
+}
+
+.vp-doc table {
+    display: inline-table !important;
 }
 </style>
 

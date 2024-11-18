@@ -1,5 +1,9 @@
 import { defineConfig } from 'vitepress';
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+import fs from 'fs';
+import path from 'path';
+
+const updatesPath = path.resolve(__dirname, '../docs/updates/6season/');
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,25 +28,25 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: 'Редактировать страницу'
-    },
-    outline: { label: 'Содержание страницы' },
-    docFooter: {
-      prev: 'Предыдущая страница',
-      next: 'Следующая страница'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+    //   text: 'Редактировать страницу'
+    // },
+    // outline: { label: 'Содержание страницы' },
+    // docFooter: {
+    //   prev: 'Предыдущая страница',
+    //   next: 'Следующая страница'
+    // },
 
-    lastUpdated: {
-      text: 'Обновлено'
-    },
-    darkModeSwitchLabel: 'Оформление',
-    lightModeSwitchTitle: 'Переключить на светлую тему',
-    darkModeSwitchTitle: 'Переключить на тёмную тему',
-    sidebarMenuLabel: 'Меню',
-    returnToTopLabel: 'Вернуться к началу',
-    langMenuLabel: 'Изменить язык',
+    // lastUpdated: {
+    //   text: 'Обновлено'
+    // },
+    // darkModeSwitchLabel: 'Оформление',
+    // lightModeSwitchTitle: 'Переключить на светлую тему',
+    // darkModeSwitchTitle: 'Переключить на тёмную тему',
+    // sidebarMenuLabel: 'Меню',
+    // returnToTopLabel: 'Вернуться к началу',
+    // langMenuLabel: 'Изменить язык',
     
     nav: [
       { text: 'О сервере', link: '/docs/info/rules/laws' },
@@ -50,10 +54,82 @@ export default defineConfig({
       { text: "Бестиарий", link: "/docs/bestiary/main.md"},
       { text: "Гайды", link: '/docs/guides/gameplay_event'},
       { text: 'История сервера', link: '/docs/history/1season.md'},
-      { text: 'Обновления'}
+      { text: 'Обновления', link: '/docs/updates/'}
     ],
 
     sidebar: {
+      '/docs/updates': [
+        {
+          text: "Главная",
+          link: "/docs/updates/index.md"
+        },
+        {
+          text: "6 сезон",
+          items: generateSidebar(updatesPath, '/docs/updates/6season/')
+        },
+        {
+          text: "Архив",
+          items: [
+            {
+                "text": "12.08.2022",
+                "link": "/docs/updates/archive/12_08_2022.md"
+            },
+            {
+                "text": "11.07.2022",
+                "link": "/docs/updates/archive/11_07_2022.md"
+            },
+            {
+                "text": "08.07.2022",
+                "link": "/docs/updates/archive/08_07_2022.md"
+            },
+            {
+                "text": "05.07.2022",
+                "link": "/docs/updates/archive/05_07_2022.md"
+            },
+            {
+                "text": "02.07.2022",
+                "link": "/docs/updates/archive/02_07_2022.md"
+            },
+            {
+                "text": "20.07.2022",
+                "link": "/docs/updates/archive/20_07_2022.md"
+            },
+            {
+                "text": "01.08.2022",
+                "link": "/docs/updates/archive/01_08_2022.md"
+            },
+            {
+                "text": "25.03.2022",
+                "link": "/docs/updates/archive/25_03_2022.md"
+            },
+            {
+                "text": "15.02.2022",
+                "link": "/docs/updates/archive/15_02_2022.md"
+            },
+            {
+                "text": "14.02.2022",
+                "link": "/docs/updates/archive/14_02_2022.md"
+            },
+            {
+                "text": "28.01.2022",
+                "link": "/docs/updates/archive/28_01_2022.md"
+            },
+            {
+                "text": "29.06.2022",
+                "link": "/docs/updates/archive/29_06_2022.md"
+            },
+            {
+                "text": "01.07.2022",
+                "link": "/docs/updates/archive/01_07_2022.md"
+            },
+            {
+                "text": "01.03.2022",
+                "link": "/docs/updates/archive/01_03_2022.md"
+            }
+        ]
+        
+        }
+      ],
       '/docs/info/': [
         {
           text: "О сервере",
@@ -375,3 +451,27 @@ export default defineConfig({
     // ]
   }
 })
+
+function generateSidebar(folderPath, basePath = '') {
+  const files = fs.readdirSync(folderPath);
+
+  // Формируем элементы для сайдбара
+  return files
+    .filter((file) => file.endsWith('.md')) // Оставляем только Markdown файлы
+    .map((file) => {
+      const name = path.parse(file).name; // Имя файла без расширения
+      return {
+        text: name === 'index' ? 'Главная' : name.replace(/_/g, '.'), // Если index.md, то 'Главная'
+        link: `${basePath}/${name}`,
+        isIndex: name === 'index', // Флаг для index.md
+      };
+    })
+    .sort((a, b) => {
+      // Всегда ставим index.md первым
+      if (a.isIndex) return -1;
+      if (b.isIndex) return 1;
+
+      // Перевернуть порядок по имени файла (обратная сортировка)
+      return b.text.localeCompare(a.text, undefined, { numeric: true });
+    });
+}

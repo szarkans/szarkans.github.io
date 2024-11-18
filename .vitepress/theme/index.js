@@ -42,13 +42,14 @@ import CardGrid from './CardGrid.vue';
 import Spoiler from './Spoiler.vue';
 import BanList from './BanList.vue';
 import ItemCard from './ItemCard.vue';
+import File from './File.vue';
+// 
 
 import ItemPageLayout from './ItemPageLayout.vue';
-// 
 
 import Aura from '@primevue/themes/aura';
 import './style.css';
-``
+
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
@@ -87,6 +88,7 @@ export default {
     app.component('CardGrid', CardGrid);
     app.component('BanList', BanList);
     app.component('ItemCard', ItemCard);
+    app.component('File', File);
     // 
     app.directive('tooltip', Tooltip);
   }
