@@ -3,17 +3,20 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import fs from 'fs';
 import path from 'path';
 
-const updatesPath = path.resolve(__dirname, '../docs/updates/6season/');
+const updatesPath = path.resolve(__dirname, '../updates/6season/');
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Кошкокрафт",
   lang: 'ru',
   description: "Вики самого Кошачьего сервера - Кошкокрафт!",
+  logo: './icon.png',
 
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
+
+  appearance: 'force-dark',
 
   head: [
     ['link', { rel: 'icon', href: '/icon.png'}]
@@ -28,109 +31,111 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    // editLink: {
-    //   pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-    //   text: 'Редактировать страницу'
-    // },
-    // outline: { label: 'Содержание страницы' },
-    // docFooter: {
-    //   prev: 'Предыдущая страница',
-    //   next: 'Следующая страница'
-    // },
-
-    // lastUpdated: {
-    //   text: 'Обновлено'
-    // },
-    // darkModeSwitchLabel: 'Оформление',
-    // lightModeSwitchTitle: 'Переключить на светлую тему',
-    // darkModeSwitchTitle: 'Переключить на тёмную тему',
-    // sidebarMenuLabel: 'Меню',
-    // returnToTopLabel: 'Вернуться к началу',
-    // langMenuLabel: 'Изменить язык',
-    
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/:path',
+      text: 'Редактировать страницу'
+    },
+  
+    outline: { label: 'Содержание страницы' },
+  
+    docFooter: {
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
+    },
+  
+    lastUpdated: {
+      text: 'Обновлено'
+    },
+  
+    darkModeSwitchLabel: 'Оформление',
+    lightModeSwitchTitle: 'Переключить на светлую тему',
+    darkModeSwitchTitle: 'Переключить на тёмную тему',
+    sidebarMenuLabel: 'Меню',
+    returnToTopLabel: 'Вернуться к началу',
+    langMenuLabel: 'Изменить язык',
     nav: [
-      { text: 'О сервере', link: '/docs/info/rules/laws' },
-      { text: "Геймплей", link: '/docs/gameplay/unique/qol'},
-      { text: "Бестиарий", link: "/docs/bestiary/main.md"},
-      { text: "Гайды", link: '/docs/guides/gameplay_event'},
-      { text: 'История сервера', link: '/docs/history/1season.md'},
-      { text: 'Обновления', link: '/docs/updates/'}
+      { text: 'О сервере', link: '/info/rules/laws' },
+      { text: "Геймплей", link: '/gameplay/unique/qol'},
+      { text: "Бестиарий", link: "/bestiary/main.md"},
+      { text: "Гайды", link: '/guides/gameplay_event'},
+      { text: 'История сервера', link: '/history/1season.md'},
+      { text: 'Обновления', link: '/updates/'}
     ],
 
     sidebar: {
-      '/docs/updates': [
+      '/updates': [
         {
           text: "Главная",
-          link: "/docs/updates/index.md"
+          link: "/updates/index.md"
         },
         {
           text: "6 сезон",
-          items: generateSidebar(updatesPath, '/docs/updates/6season/')
+          items: generateSidebar(updatesPath, '/updates/6season/')
         },
         {
           text: "Архив",
           items: [
             {
                 "text": "12.08.2022",
-                "link": "/docs/updates/archive/12_08_2022.md"
+                "link": "/updates/archive/12_08_2022.md"
             },
             {
                 "text": "11.07.2022",
-                "link": "/docs/updates/archive/11_07_2022.md"
+                "link": "/updates/archive/11_07_2022.md"
             },
             {
                 "text": "08.07.2022",
-                "link": "/docs/updates/archive/08_07_2022.md"
+                "link": "/updates/archive/08_07_2022.md"
             },
             {
                 "text": "05.07.2022",
-                "link": "/docs/updates/archive/05_07_2022.md"
+                "link": "/updates/archive/05_07_2022.md"
             },
             {
                 "text": "02.07.2022",
-                "link": "/docs/updates/archive/02_07_2022.md"
+                "link": "/updates/archive/02_07_2022.md"
             },
             {
                 "text": "20.07.2022",
-                "link": "/docs/updates/archive/20_07_2022.md"
+                "link": "/updates/archive/20_07_2022.md"
             },
             {
                 "text": "01.08.2022",
-                "link": "/docs/updates/archive/01_08_2022.md"
+                "link": "/updates/archive/01_08_2022.md"
             },
             {
                 "text": "25.03.2022",
-                "link": "/docs/updates/archive/25_03_2022.md"
+                "link": "/updates/archive/25_03_2022.md"
             },
             {
                 "text": "15.02.2022",
-                "link": "/docs/updates/archive/15_02_2022.md"
+                "link": "/updates/archive/15_02_2022.md"
             },
             {
                 "text": "14.02.2022",
-                "link": "/docs/updates/archive/14_02_2022.md"
+                "link": "/updates/archive/14_02_2022.md"
             },
             {
                 "text": "28.01.2022",
-                "link": "/docs/updates/archive/28_01_2022.md"
+                "link": "/updates/archive/28_01_2022.md"
             },
             {
                 "text": "29.06.2022",
-                "link": "/docs/updates/archive/29_06_2022.md"
+                "link": "/updates/archive/29_06_2022.md"
             },
             {
                 "text": "01.07.2022",
-                "link": "/docs/updates/archive/01_07_2022.md"
+                "link": "/updates/archive/01_07_2022.md"
             },
             {
                 "text": "01.03.2022",
-                "link": "/docs/updates/archive/01_03_2022.md"
+                "link": "/updates/archive/01_03_2022.md"
             }
         ]
         
         }
       ],
-      '/docs/info/': [
+      '/info/': [
         {
           text: "О сервере",
           items: [
@@ -138,11 +143,11 @@ export default defineConfig({
               items: [
                 {
                   text: 'Правила',
-                  link: '/docs/info/rules/rules'
+                  link: '/info/rules/rules'
                 },
                 {
                   text: "Законы",
-                  link: '/docs/info/rules/laws'
+                  link: '/info/rules/laws'
                 }
               ]
             },
@@ -151,19 +156,19 @@ export default defineConfig({
               items: [
                 {
                   text: 'Частые вопросы',
-                  link: '/docs/info/faq.md'
+                  link: '/info/faq.md'
                 },
                 {
                   text: 'Локации Сервера',
-                  link: '/docs/info/map.md'
+                  link: '/info/map.md'
                 },
                 {
                   text: 'Моды для сервера',
-                  link: '/docs/info/mods.md'
+                  link: '/info/mods.md'
                 },
                 {
                   text: "Фермы, ядро сервера",
-                  link: '/docs/info/farm.md'
+                  link: '/info/farm.md'
                 }
               ]
             },
@@ -172,31 +177,31 @@ export default defineConfig({
               items: [
                 {
                   text: 'Администрация',
-                  link: "/docs/info/admins"
+                  link: "/info/admins"
                 },
                 {
                   text: "Донатик",
-                  link: '/docs/info/donate.md'
+                  link: '/info/donate.md'
                 },
                 {
                   text: "Гайд для новичков",
-                  link: '/docs/info/guide.md'
+                  link: '/info/guide.md'
                 },
                 {
                   text: "Для контент-мейкеров",
-                  link: '/docs/info/for_media.md'
+                  link: '/info/for_media.md'
                 },
                 {
                   text: "Бан-лист",
-                  link: '/docs/info/banlist.md'
+                  link: '/info/banlist.md'
                 },
                 {
                   text: "Префиксы и суффиксы",
-                  link: '/docs/info/prefixes.md'
+                  link: '/info/prefixes.md'
                 },
                 {
                   text: "Брендбук"
-                  // link: '/docs/info/brandbook.md'
+                  // link: '/info/brandbook.md'
                 }
               ]
             },
@@ -205,68 +210,68 @@ export default defineConfig({
               items: [
                 {
                   text: "Оферта",
-                  link: '/docs/info/oferta.md'
+                  link: '/info/oferta.md'
                 }
               ]
             }
           ]
         }
       ],
-      '/docs/gameplay/': [
+      '/gameplay/': [
         {
           text: "Геймплей",
           items: [
             {
               text: "Общие фишки",
-              link: "/docs/gameplay/unique/qol.md"
+              link: "/gameplay/unique/qol.md"
             },
             {
               text: "Команды",
-              link: "/docs/gameplay/unique/commands.md"
+              link: "/gameplay/unique/commands.md"
             },
             {
               text: "Защита территорий",
-              link: "/docs/gameplay/unique/land_protection.md"
+              link: "/gameplay/unique/land_protection.md"
             },
             {
               text: "Яйцо Дракона",
-              link: "/docs/gameplay/unique/dragon_egg.md"
+              link: "/gameplay/unique/dragon_egg.md"
             },
             {
               text: "Мебель и декорации",
-              link: "/docs/gameplay/unique/decor.md"
+              link: "/gameplay/unique/decor.md"
             },
             {
               text: "Рисование",
-              link: "/docs/gameplay/unique/artmap.md"
+              link: "/gameplay/unique/artmap.md"
             },
             {
               text: "Варка напитков",
-              link: "/docs/gameplay/unique/brewery.md"
+              link: "/gameplay/unique/brewery.md"
             },
             {
               text: "Рыбалка",
-              link: "/docs/gameplay/unique/fishing.md"
+              link: "/gameplay/unique/fishing.md"
             },
             {
               text: "NPC",
-              link: "/docs/gameplay/unique/npc.md"
+              link: "/gameplay/unique/npc.md"
             },
             {
               text: "Кланы",
-              link: "/docs/gameplay/unique/clans.md"
+              link: "/gameplay/unique/clans.md"
             },
             {
               text: "Модели игрока",
-              link: "/docs/gameplay/unique/cpm.md"
+              link: "/gameplay/unique/cpm.md"
             },
             {
               text: "Войсчат и диски",
-              link: "/docs/gameplay/unique/voicechat.md"
+              link: "/gameplay/unique/voicechat.md"
             },
             {
               text: "Ресурспак",
-              link: "/docs/gameplay/unique/resourcepack.md"
+              link: "/gameplay/unique/resourcepack.md"
             }
           ]
         },
@@ -275,11 +280,11 @@ export default defineConfig({
           items: [
             {
               text: "Правительство",
-              link: "/docs/gameplay/roleplay/goverment.md"
+              link: "/gameplay/roleplay/goverment.md"
             },
             {
               text: "Работа КСБ",
-              link: "/docs/gameplay/roleplay/police.md"
+              link: "/gameplay/roleplay/police.md"
             }
           ]
         },
@@ -288,27 +293,27 @@ export default defineConfig({
           items: [
             {
               text: "Котячьи Заслуги",
-              link: "/docs/gameplay/rewards/catpass.md"
+              link: "/gameplay/rewards/catpass.md"
             },
             {
               text: "Все награды",
-              link: "/docs/gameplay/rewards/list.md"
+              link: "/gameplay/rewards/list.md"
             }
             
           ]
         }
       ],
-      '/docs/bestiary': [
+      '/bestiary': [
         {
           text: "Ванилла",
           items: [
             {
               text: 'Изменения крафтов',
-              link: '/docs/bestiary/vanilla/vanilla_crafts.md'
+              link: '/bestiary/vanilla/vanilla_crafts.md'
             },
             {
               text: 'Изменения механик',
-              link: '/docs/bestiary/vanilla/vanilla_edits.md'
+              link: '/bestiary/vanilla/vanilla_edits.md'
             }
           ]
         },
@@ -322,31 +327,31 @@ export default defineConfig({
               items: [
                 {
                   text: "Блок Гычи",
-                  link: "/docs/bestiary/blocks/gycha.md"
+                  link: "/bestiary/blocks/gycha.md"
                 },
                 {
                   text: "Скомпресированные блоки",
-                  link: "/docs/bestiary/blocks/compressed.md"
+                  link: "/bestiary/blocks/compressed.md"
                 },
                 {
                   text: "Блок света",
-                  link: "/docs/bestiary/blocks/light.md"
+                  link: "/bestiary/blocks/light.md"
                 },
                 {
                   text: "Невидимые рамки",
-                  link: "/docs/bestiary/blocks/invis_frame.md"
+                  link: "/bestiary/blocks/invis_frame.md"
                 },
                 {
                   text: "Стол декора",
-                  link: "/docs/bestiary/blocks/decor_table.md"
+                  link: "/bestiary/blocks/decor_table.md"
                 },
                 {
                   text: "Шкафы и ящики",
-                  link: "/docs/bestiary/blocks/cabinets.md"
+                  link: "/bestiary/blocks/cabinets.md"
                 },
                 {
                   text: "Шахматы",
-                  link: "/docs/bestiary/blocks/chess.md"
+                  link: "/bestiary/blocks/chess.md"
                 }
               ]
             },
@@ -355,15 +360,15 @@ export default defineConfig({
               items: [
                 {
                   text: "Котик+",
-                  link: '/docs/bestiary/usable/kplus.md'
+                  link: '/bestiary/usable/kplus.md'
                 },
                 {
                   text: "Модуль CatTrack",
-                  link: '/docs/bestiary/usable/cattrack.md'
+                  link: '/bestiary/usable/cattrack.md'
                 },
                 {
                   text: "Свиток облика",
-                  link: "/docs/bestiary/usable/scroll.md"
+                  link: "/bestiary/usable/scroll.md"
                 }
               ]
             },
@@ -372,15 +377,15 @@ export default defineConfig({
               items: [
                 {
                   text: "Крюк-кошка",
-                  link: '/docs/bestiary/custom_items/gh.md'
+                  link: '/bestiary/custom_items/gh.md'
                 },
                 {
                   text: "Эхо-колокол",
-                  link: "/docs/bestiary/custom_items/echo_bell.md"
+                  link: "/bestiary/custom_items/echo_bell.md"
                 },
                 {
                   text: "Малярная кисть",
-                  link: "/docs/bestiary/custom_items/paint_brush.md"
+                  link: "/bestiary/custom_items/paint_brush.md"
                 }
               ]
             },
@@ -389,27 +394,27 @@ export default defineConfig({
               items: [
                 {
                   text: "Плюшевые игрушки",
-                  link: "/docs/bestiary/custom_items/plushie.md"
+                  link: "/bestiary/custom_items/plushie.md"
                 },
                 {
                   text: "Котомат",
-                  link: "/docs/bestiary/custom_items/kotomat.md"
+                  link: "/bestiary/custom_items/kotomat.md"
                 },
                 {
                   text: "Священные писания",
-                  link: "/docs/bestiary/custom_items/holy_books.md"
+                  link: "/bestiary/custom_items/holy_books.md"
                 },
                 {
                   text: "Тренировочный манекен",
-                  link: "/docs/bestiary/custom_items/dummy.md"
+                  link: "/bestiary/custom_items/dummy.md"
                 },
                 {
                   text: "Игральные карты",
-                  link: "/docs/bestiary/custom_items/cards.md"
+                  link: "/bestiary/custom_items/cards.md"
                 },
                 {
                   text: "Игральные кости",
-                  link: "/docs/bestiary/custom_items/dice.md"
+                  link: "/bestiary/custom_items/dice.md"
                 }
               ]
             }
@@ -417,38 +422,34 @@ export default defineConfig({
 
         }
       ],
-      '/docs/history/': [
+      '/history/': [
         {
           text: '1 сезон',
-          link: '/docs/history/1season'
+          link: '/history/1season'
         },
         {
           text: '2 сезон',
-          link: '/docs/history/2season'
+          link: '/history/2season'
         },
         {
           text: '3 сезон',
-          link: '/docs/history/3season'
+          link: '/history/3season'
         },
         {
           text: '4 сезон',
-          link: '/docs/history/4season'
+          link: '/history/4season'
         },
         {
           text: '5 сезон',
-          link: '/docs/history/5season'
+          link: '/history/5season'
         },
         {
           text: '6 сезон',
-          link: '/docs/history/6season'
+          link: '/history/6season'
         }
       ]
       
     }
-
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ]
   }
 })
 
