@@ -1,0 +1,128 @@
+:root {
+    --md-status--beta: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.23 17.59v5.53H6.88V6.72c0-1.45.43-2.59 1.28-3.44C9 2.43 10.17 2 11.61 2c1.39 0 2.46.34 3.26 1 .79.68 1.18 1.62 1.18 2.81 0 .82-.26 1.59-.78 2.3s-1.19 1.2-2.02 1.47v.04c1.25.2 2.22.65 2.88 1.38.66.71.99 1.62.99 2.74 0 1.32-.46 2.4-1.37 3.23-.92.83-2.12 1.24-3.62 1.24-1.06 0-2.03-.21-2.9-.62m1.49-6.84V8.83c.87-.11 1.58-.43 2.15-.97.56-.55.84-1.16.84-1.86 0-1.38-.71-2.08-2.11-2.08-.76 0-1.35.24-1.76.73s-.61 1.17-.61 2.06v8.79c.91.53 1.8.79 2.66.79.84 0 1.5-.22 1.97-.65.47-.44.7-1.06.7-1.85 0-1.79-1.28-2.79-3.84-3.04"/></svg>');
+
+    --md-admonition-icon--tiktok: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>');
+
+    --md-admonition-icon--twitch: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0 1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg>');
+
+    --md-admonition-icon--youtube: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>');
+
+    --md-admonition-icon--new: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4c1.11 0 2 .89 2 2v12c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2V6c0-1.11.89-2 2-2h16M8.5 15V9H7.25v3.5L4.75 9H3.5v6h1.25v-3.5L7.3 15h1.2m5-4.74V9h-4v6h4v-1.25H11v-1.11h2.5v-1.26H11v-1.12h2.5m7 3.74V9h-1.25v4.5h-1.12V10h-1.25v3.5h-1.13V9H14.5v5a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1Z"/></svg>');
+
+    --md-admonition-icon--changed: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 5.75 10.25 10H7v6h6.5l2 2H7a2 2 0 0 1-2-2v-6H1.75L6 5.75m12 12.5L13.75 14H17V8h-6.5l-2-2H17a2 2 0 0 1 2 2v6h3.25L18 18.25Z"/></svg>');
+
+    --md-admonition-icon--info-cc: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg>');
+
+    --md-admonition-icon--note-cc: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 10h5.5L14 4.5V10M5 3h10l6 6v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.11.89-2 2-2m0 9v2h14v-2H5m0 4v2h9v-2H5Z"/></svg>');
+}
+
+.md-status--beta::after {
+    mask-image: var(--md-status--beta);
+    -webkit-mask-image: var(--md-status--beta);
+}
+
+.md-typeset .admonition.tiktok,
+.md-typeset details.tiktok {
+    border-color: rgb(5, 4, 8);
+}
+.md-typeset .tiktok > .admonition-title,
+.md-typeset .tiktok > summary {
+    background-color: rgba(5, 4, 8, 0.1);
+}
+.md-typeset .tiktok > .admonition-title::before,
+.md-typeset .tiktok > summary::before {
+    background-color: rgb(255, 255, 255);
+    -webkit-mask-image: var(--md-admonition-icon--tiktok);
+            mask-image: var(--md-admonition-icon--tiktok);
+}
+
+.md-typeset .admonition.twitch,
+.md-typeset details.twitch {
+    border-color: #9146FF;
+}
+.md-typeset .twitch > .admonition-title,
+.md-typeset .twitch > summary {
+    background-color: #9046ff17;
+}
+.md-typeset .twitch > .admonition-title::before,
+.md-typeset .twitch > summary::before {
+    background-color: rgb(255, 255, 255);
+    -webkit-mask-image: var(--md-admonition-icon--twitch);
+            mask-image: var(--md-admonition-icon--twitch);
+}
+
+
+.md-typeset .admonition.youtube,
+.md-typeset details.youtube {
+    border-color: #EE0F0F;;
+}
+.md-typeset .youtube > .admonition-title,
+.md-typeset .youtube > summary {
+    background-color: #EE0F0F17;
+}
+.md-typeset .youtube > .admonition-title::before,
+.md-typeset .youtube > summary::before {
+    background-color: rgb(255, 255, 255);
+    -webkit-mask-image: var(--md-admonition-icon--youtube);
+            mask-image: var(--md-admonition-icon--youtube);
+}
+
+.md-typeset .admonition.new,
+.md-typeset details.new {
+    border-color: #eea00f;
+}
+.md-typeset .new > .admonition-title,
+.md-typeset .new > summary {
+    background-color: #b1770c17;
+}
+.md-typeset .new > .admonition-title::before,
+.md-typeset .new > summary::before {
+    background-color: #eeaf39;
+    -webkit-mask-image: var(--md-admonition-icon--new);
+            mask-image: var(--md-admonition-icon--new);
+}
+
+.md-typeset .admonition.changed,
+.md-typeset details.changed {
+    border-color: #2f8542;
+}
+.md-typeset .changed > .admonition-title,
+.md-typeset .changed > summary {
+    background-color: #2f854217;
+}
+.md-typeset .changed > .admonition-title::before,
+.md-typeset .changed > summary::before {
+    background-color: #48b15f;
+    -webkit-mask-image: var(--md-admonition-icon--changed);
+            mask-image: var(--md-admonition-icon--changed);
+}
+
+.md-typeset .admonition.info-cc,
+.md-typeset details.info-cc {
+    border-color: #2c2c2c;
+}
+.md-typeset .info-cc > .admonition-title,
+.md-typeset .info-cc > summary {
+    background-color: #ffffff00;
+}
+.md-typeset .info-cc > .admonition-title::before,
+.md-typeset .info-cc > summary::before {
+    background-color: #cbcfcc;
+    -webkit-mask-image: var(--md-admonition-icon--info-cc);
+            mask-image: var(--md-admonition-icon--info-cc);
+}
+
+.md-typeset .admonition.note-cc,
+.md-typeset details.note-cc {
+    border-color: #2c2c2c;
+}
+.md-typeset .note-cc > .admonition-title,
+.md-typeset .note-cc > summary {
+    background-color: #ffffff00;
+}
+.md-typeset .note-cc > .admonition-title::before,
+.md-typeset .note-cc > summary::before {
+    background-color: #cbcfcc;
+    -webkit-mask-image: var(--md-admonition-icon--note-cc);
+            mask-image: var(--md-admonition-icon--note-cc);
+}
