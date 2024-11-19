@@ -160,22 +160,22 @@ h3 {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* Прозрачный NavBar */
+
 .VPNav {
-  background-color: rgba(5, 5, 5, 0.5);
+  background-color: transparent !important;
   backdrop-filter: blur(8px);
 }
 
-/* Прозрачный NavBar */
-
 @media (min-width: 960px) {
   .VPNavBar:not(.home.top) .content-body[data-v-84a11e99] {
-    background-color: rgba(5, 5, 5, 0.5);
+    background-color: transparent !important;
     backdrop-filter: blur(8px);
   }
 }
 
 .VPLocalNav[data-v-da48a524] {
-  background-color: rgba(5, 5, 5, 0.5);
+  background-color: transparent !important;
   backdrop-filter: blur(8px);
 }
 

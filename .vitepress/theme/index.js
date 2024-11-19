@@ -43,6 +43,7 @@ import Spoiler from './Spoiler.vue';
 import BanList from './BanList.vue';
 import ItemCard from './ItemCard.vue';
 import File from './File.vue';
+import ClanLevelCalculator from './ClanLevelCalculator.vue';
 // 
 
 import ItemPageLayout from './ItemPageLayout.vue';
@@ -89,6 +90,7 @@ export default {
     app.component('BanList', BanList);
     app.component('ItemCard', ItemCard);
     app.component('File', File);
+    app.component('ClanLevelCalculator', ClanLevelCalculator);
     // 
     app.directive('tooltip', Tooltip);
   }

@@ -10,7 +10,7 @@ export default defineConfig({
   title: "Кошкокрафт",
   lang: 'ru',
   description: "Вики самого Кошачьего сервера - Кошкокрафт!",
-  logo: './icon.png',
+  base: '/',
 
   lastUpdated: true,
   cleanUrls: true,
@@ -19,7 +19,7 @@ export default defineConfig({
   appearance: 'force-dark',
 
   head: [
-    ['link', { rel: 'icon', href: '/icon.png'}]
+    ['link', { rel: 'icon', href: '/favicon.png'}]
   ],
 
   markdown: {
@@ -31,6 +31,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    logo: '/favicon.png',
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/:path',
       text: 'Редактировать страницу'
@@ -76,61 +77,61 @@ export default defineConfig({
           text: "Архив",
           items: [
             {
-                "text": "12.08.2022",
-                "link": "/updates/archive/12_08_2022.md"
+              "text": "12.08.2022",
+              "link": "/updates/archive/12_08_2022.md"
             },
             {
-                "text": "11.07.2022",
-                "link": "/updates/archive/11_07_2022.md"
+              "text": "01.08.2022",
+              "link": "/updates/archive/01_08_2022.md"
             },
             {
-                "text": "08.07.2022",
-                "link": "/updates/archive/08_07_2022.md"
+              "text": "11.07.2022",
+              "link": "/updates/archive/11_07_2022.md"
             },
             {
-                "text": "05.07.2022",
-                "link": "/updates/archive/05_07_2022.md"
+              "text": "08.07.2022",
+              "link": "/updates/archive/08_07_2022.md"
             },
             {
-                "text": "02.07.2022",
-                "link": "/updates/archive/02_07_2022.md"
+              "text": "05.07.2022",
+              "link": "/updates/archive/05_07_2022.md"
             },
             {
-                "text": "20.07.2022",
-                "link": "/updates/archive/20_07_2022.md"
+              "text": "02.07.2022",
+              "link": "/updates/archive/02_07_2022.md"
             },
             {
-                "text": "01.08.2022",
-                "link": "/updates/archive/01_08_2022.md"
+              "text": "20.07.2022",
+              "link": "/updates/archive/20_07_2022.md"
             },
             {
-                "text": "25.03.2022",
-                "link": "/updates/archive/25_03_2022.md"
+              "text": "14.02.2022",
+              "link": "/updates/archive/14_07_2022.md"
             },
             {
-                "text": "15.02.2022",
-                "link": "/updates/archive/15_02_2022.md"
+              "text": "01.07.2022",
+              "link": "/updates/archive/01_07_2022.md"
             },
             {
-                "text": "14.02.2022",
-                "link": "/updates/archive/14_02_2022.md"
+              "text": "29.06.2022",
+              "link": "/updates/archive/29_06_2022.md"
             },
             {
-                "text": "28.01.2022",
-                "link": "/updates/archive/28_01_2022.md"
+              "text": "25.03.2022",
+              "link": "/updates/archive/25_03_2022.md"
             },
             {
-                "text": "29.06.2022",
-                "link": "/updates/archive/29_06_2022.md"
+              "text": "01.03.2022",
+              "link": "/updates/archive/01_03_2022.md"
             },
             {
-                "text": "01.07.2022",
-                "link": "/updates/archive/01_07_2022.md"
+              "text": "15.02.2022",
+              "link": "/updates/archive/15_02_2022.md"
             },
             {
-                "text": "01.03.2022",
-                "link": "/updates/archive/01_03_2022.md"
-            }
+              "text": "28.01.2022",
+              "link": "/updates/archive/28_01_2022.md"
+          },
         ]
         
         }
