@@ -1129,6 +1129,5 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 ## Данные
 
 <File
-  filePath="/assets/general/torrents/catcraft-map-season5.torrent",
-  fileAlias="catcraft-map-season5.torrent"
+  filePath="/downloads/torrents/catcraft-map-season5.torrent"
 />

@@ -60,16 +60,21 @@ export default {
     async fetchFileSize() {
       try {
         const response = await fetch(this.filePath, { method: "HEAD" });
+        if (!response.ok) {
+          console.error(`Ошибка HTTP: ${response.status} при запросе ${this.filePath}`);
+          return;
+        }
         const size = response.headers.get("content-length");
         if (size) {
           this.fileSize = parseInt(size, 10);
         } else {
-          console.warn("Не удалось получить размер файла");
+          console.warn("Не удалось получить размер файла: отсутствует заголовок content-length");
         }
       } catch (error) {
         console.error("Ошибка при запросе размера файла:", error);
       }
-    },
+    }
+
   },
   mounted() {
     this.fetchFileSize(); // Получаем размер файла при загрузке компонента

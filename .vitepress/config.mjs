@@ -37,7 +37,9 @@ export default defineConfig({
       text: 'Редактировать страницу'
     },
   
-    outline: { label: 'Содержание страницы' },
+    outline: { label: 'Содержание страницы',
+      level: [2, 3]
+     },
   
     docFooter: {
       prev: 'Предыдущая страница',
@@ -61,6 +63,10 @@ export default defineConfig({
       { text: "Гайды", link: '/guides/gameplay_event'},
       { text: 'История сервера', link: '/history/1season.md'},
       { text: 'Обновления', link: '/updates/'}
+    ],
+
+    socialLinks: [
+      { icon: 'discord', link: 'https://discord.gg/catcraftmc' }
     ],
 
     sidebar: {

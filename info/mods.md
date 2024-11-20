@@ -66,7 +66,7 @@ description: Готовая сборка сервера Кошкокрафт
 1. Скачиваешь архив
 
 <File
-  filePath="/assets/general/catcraft_mods_6.0.4.zip"
+  filePath="/downloads/catcraft_mods_6.0.4.zip"
 />
 
 1. Открываешь папку **игры**
@@ -88,7 +88,7 @@ description: Готовая сборка сервера Кошкокрафт
 1. Скачиваешь файл .mrpack
 
 <File
-  filePath="/assets/general/Catcraft 1.21.1 6.0.4.mrpack"
+  filePath="/downloads/Catcraft 1.21.1 6.0.4.mrpack"
 />
 
 1. Создаёшь новую сборку

@@ -182,9 +182,9 @@ description: История сервера Кошкокрафт - 4 сезон
 
 ## Данные
 
+<File
+  filePath="/downloads/torrents/catcraft-map-season4.torrent"
+/>
+
 [ :simple-vk: Альбом 4 сезона](https://vk.com/album-210306238_291063222){ .md-button .md-button--primary }
 
-<File
-  filePath="/assets/general/torrents/catcraft-map-season4.torrent",
-  fileAlias="catcraft-map-season4.torrent"
-/>
