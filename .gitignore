@@ -1,4 +1,5 @@
 
 /assets/old_assets
-/.vitepress/dist
+/.vitepress/dist/*
+!/.vitepress/dist/assets
 /.vitepress/cache
