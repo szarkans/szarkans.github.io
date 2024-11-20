@@ -22,6 +22,14 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.png'}]
   ],
 
+  vue: {
+    template: {
+      transformAssetUrls: {
+        Image: ['src']
+      }
+    }
+  },
+
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
@@ -60,7 +68,7 @@ export default defineConfig({
       { text: 'О сервере', link: '/info/rules/laws' },
       { text: "Геймплей", link: '/gameplay/unique/qol'},
       { text: "Бестиарий", link: "/bestiary/main.md"},
-      { text: "Гайды", link: '/guides/gameplay_event'},
+      { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season.md'},
       { text: 'Обновления', link: '/updates/'}
     ],
@@ -416,8 +424,7 @@ export default defineConfig({
                   link: "/bestiary/custom_items/dummy.md"
                 },
                 {
-                  text: "Игральные карты",
-                  link: "/bestiary/custom_items/cards.md"
+                  text: "Игральные карты"
                 },
                 {
                   text: "Игральные кости",
@@ -427,6 +434,59 @@ export default defineConfig({
             }
           ],
 
+        }
+      ],
+      '/guides/': [
+        {
+          text: "Технические",
+          items: [
+            {
+              text: "Ошибки с модами на Fabric",
+              link: '/guides/tech/mod_errors.md'
+            },
+            {
+              text: "Как скачивать моды?",
+              link: '/guides/tech/mod_download.md'
+            },
+            {
+              text: "Фикс скинов на ТЛаунчере",
+              link: '/guides/tech/skins_tlauncher.md'
+            }
+          ]
+        },
+        {
+          text: "Геймпленые",
+          items: [
+            {
+              text: "Как провести ивент?",
+              link: '/guides/gameplay/create_event.md'
+            },
+            {
+              text: "Как создать магазин?",
+              link: '/guides/gameplay/create_shop.md'
+            },
+            {
+              text: "Как сделать разноцветный ник?",
+              link: '/guides/gameplay/rgb_nick.md'
+            },
+            {
+              text: "Как поставить другой скин?",
+              link: '/guides/gameplay/set_skin.md'
+            }
+          ]
+        },
+        {
+          text: "Прочие",
+          items: [
+            {
+              text: "Как редактировать Вики?",
+              link: '/guides/other/edit_wiki.md'
+            },
+            {
+              text: "Какой лаунчер выбрать для игры?",
+              link: '/guides/other/launcher.md'
+            }
+          ]
         }
       ],
       '/history/': [

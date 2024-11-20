@@ -38,7 +38,7 @@ description: Донатик
 
 - Ежедневный кит с плюшками!
 
-<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" />
+<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" icon="pi pi-external-link" />
 
 ==Котик++
 
@@ -78,7 +78,7 @@ description: Донатик
 
 - Ежедневный кит с плюшками!
 
-<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" />
+<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" icon="pi pi-external-link" />
 
 ==Котик+++
 
@@ -126,7 +126,7 @@ description: Донатик
 
 - Доступ к ChatGPT 4o в Дискорде!
 
-<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" />
+<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" icon="pi pi-external-link" />
 
 :::
 

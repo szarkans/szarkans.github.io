@@ -41,6 +41,8 @@ description: Мебель и декорации на Кошкокрафте
     <img src="/assets/gameplay/unique/decor/decor_sit.png">
 </Fieldset>
 
+
+
 ***
 
 ::: info Источники

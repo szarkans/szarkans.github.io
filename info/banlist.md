@@ -4,10 +4,6 @@ description: Бан-лист Кошкокрафта
 ---
 
 <style>
-.aside {
-    display: none !important;
-}
-
 .p-datatable {
     width: 60em !important;
 }

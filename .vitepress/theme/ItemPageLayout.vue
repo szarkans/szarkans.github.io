@@ -7,9 +7,3 @@ import DefaultTheme from 'vitepress/theme'
 <template>
   <DefaultTheme.Layout />
 </template>
-
-<style>
-.aside {
-    display: none;
-}
-</style>
