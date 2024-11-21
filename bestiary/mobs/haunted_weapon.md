@@ -6,31 +6,39 @@ hide:
 
 # Одержимое доспехи
 
-!!! tip inline end "Моб"
-    <figure markdown="span">
-        ![red](/assets/bestiary/mobs/red.jpg){ width=150 }
-    </figure>
-    ***
-    **Здоровье:** wip
-    
-    **Броня:** wip
-    ***
-    **Поведение:** Враждебный
-
-    **Сила атаки:** wip
-    ***
-    **Дроп:** wip
-
-    **Опыт:** wip
-    ***
-    **Текстура by:** bykkake747
-    ***
-    **Идея by:** bykkake747
+<ItemCard>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/mobs/red.jpg" width="40%"/>
+    </template>
+    <template #title>Одержимые доспехи</template>
+    <template #content>
+      <Divider />
+      <h3>Броня</h3>
+      <ul>
+      <li>WIP</li>
+      </ul>
+      <Divider />
+      <h3>Опыт</h3>
+      <ul>
+      <li>WIP</li>
+      </ul>
+      <Divider />
+      <h3>Здоровье</h3>
+      <ul>
+      <li>WIP</li>
+      </ul>
+      <Divider />
+      <p>Текстура: bykkake747</p>
+    </template>
+</Card>
+</ItemCard>
 
 **Одержимые доспехи и оружие** - сильные враждебные мобы, атакующие игроков. Сила варьируется от материала, из которого они состоят.
 
-!!! note ""
+::: tip Заметка...
     Кто-то прикрепил неупокоеные души к доспехам и оружию, теперь ими движет только злоба и ненависть. Хорошая взбучка высвобождают духов из заточения, каким-то образом…
+:::
 
 ## Поведение
 ***
@@ -56,6 +64,8 @@ hide:
 ***
 ### Доспехи
 <div class="grid cards" markdown>
+
+<!-- Ой да похуй -->
 
 - 
 

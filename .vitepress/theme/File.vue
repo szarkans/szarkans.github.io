@@ -91,6 +91,7 @@ export default {
   border: 1px solid var(--p-content-border-color);;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  margin: 10px 0 10px 0;
 }
 
 .file:hover, .file:focus, .file:hover .file-size {

@@ -6,7 +6,7 @@
         type="number"
         id="number-input"
         v-model.number="number"
-        style="width: 100px; padding: 5px; font-size: 16px;"
+        style="width: 100px; padding: 5px; font-size: 16px; border: var(--cc-black) solid 1px; border-radius: 5px;"
       /><br />
       <div class="preset-buttons">
         <button

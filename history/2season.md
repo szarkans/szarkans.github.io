@@ -24,7 +24,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Примерно в это же время игроки StCrouse и Liberaha получили ОПки, т.к. были игроками с большим доверием к ним и в целом помогали серверу развиваться.
 
-![spawn](/assets/server_history/season2/spawn.png){ width=75% decoding="async" loading="lazy" }
+![spawn](/assets/server_history/season2/spawn.png)
 
 ## 18 марта
 
@@ -41,7 +41,7 @@ description: История сервера Кошкокрафт - 2 сезон
 ## 22 марта
 - Был запущен ивент с ещё одним мини-боссом - Иллюзионером! <https://vk.com/wall-210306238_178>
 
-    ![il](https://sun9-44.userapi.com/impg/DHZUazKXEFf7dMfWxBPtSCj-yA3k4Ksyncsmng/oqjsGP9p3Co.jpg?size=2560x1440&quality=96&sign=dea646545d199b4d1046f9d2412a768c&type=album){ width=75% decoding="async" loading="lazy" }
+    ![il](https://sun9-44.userapi.com/impg/DHZUazKXEFf7dMfWxBPtSCj-yA3k4Ksyncsmng/oqjsGP9p3Co.jpg?size=2560x1440&quality=96&sign=dea646545d199b4d1046f9d2412a768c&type=album)
 
 - В этот же день хостинг слёг и сервер был оффлайн целый день
 
@@ -83,7 +83,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Также был отсроен Энд-хаб игроком Lofiry - очень красивый и часто использовался в рекламе сервера - <https://vk.com/wall-210306238_377>
 
-    ![gub](https://sun9-70.userapi.com/impg/mGBPoqAognOKjECOecoxSbp_jn1BCQvQ5LRHxQ/Y6d7JR5BheE.jpg?size=1920x1080&quality=96&sign=c76ebe29041e6db1af813c5a8a501274&type=album){ width=75% decoding="async" loading="lazy" }
+    ![gub](https://sun9-70.userapi.com/impg/mGBPoqAognOKjECOecoxSbp_jn1BCQvQ5LRHxQ/Y6d7JR5BheE.jpg?size=1920x1080&quality=96&sign=c76ebe29041e6db1af813c5a8a501274&type=album)
 
 ## 3 мая
 
@@ -93,7 +93,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Как минимум у 5 игроков на тот момент была ОПка - у самых старых и заслуживающих уважения игроков
 
-![stcrouse](/assets/server_history/season2/stcrouse.png){ width=75% decoding="async" loading="lazy" }
+![stcrouse](/assets/server_history/season2/stcrouse.png)
 
 ## 12-30 мая
 
@@ -103,7 +103,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Был построен охуенный гигант на спавне игроком God_of_hentai. Эту постройку вы тоже могли часто видеть <https://vk.com/wall-210306238_441>
 
-![gigant](/assets/server_history/season2/gigant.png){ width=75% decoding="async" loading="lazy" }
+![gigant](/assets/server_history/season2/gigant.png)
 
 - Серверу исполнилось полгода <https://vk.com/wall-210306238_491>
 
@@ -119,5 +119,5 @@ description: История сервера Кошкокрафт - 2 сезон
 
 ## Альбом 2 сезона
 
-[:simple-vk: Ссылка](https://vk.com/album-210306238_283207236){ .md-button .md-button--primary }
+<Button as="a" href="https://vk.com/album-210306238_283207236" label="Альбом 2 сезона" icon="pi pi-external-link" />
 

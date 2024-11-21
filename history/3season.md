@@ -497,5 +497,5 @@ SM1LLYS легально соорудил Гигакирку из 64 незер�
   filePath="/downloads/torrents/catcraft-map-season3.torrent"
 />
 
-[:simple-vk: Альбом 3 сезона](https://vk.com/album-210306238_284869427){ .md-button .md-button--primary }
+<Button as="a" href="https://vk.com/album-210306238_284869427" label="Альбом 3 сезона" icon="pi pi-external-link" />
 

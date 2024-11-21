@@ -42,7 +42,7 @@ Nurbek09 выдал предложение админу группы - "А да�
 
 Вход на сервер осуществлялся смешным способом - в правилах было скрыто кодовое слово, лишь после того, как игрок напишет его админу, его ник будет добавлен в вайтлист. Ни о каких заявках или ботах речи и не шло...
 
-![first_post](/assets/server_history/season1/first_post.png){ width=75% decoding="async" loading="lazy" }
+![first_post](/assets/server_history/season1/first_post.png)
 
 ## Ноябрь 2021 - Январь 2022
 
@@ -60,7 +60,7 @@ Nurbek09 выдал предложение админу группы - "А да�
 
 - Зашёл клан MP, состоящий наполовину из читеров, а наполовину из долбаебов. Кто к какой касте пренадлежит - остаётся загадкой... Именно этот клан сжёг свою базу с свастонами и именно их база на этом видео
 
-<iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239017&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239017&hd=2" width="100%" height="500px" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
 
 - Строились мини-города, спавн был ужасным, но одновременно ламповым. Все занимались своими делами и играли в поистине ванильный сервер
 
@@ -96,7 +96,7 @@ EZENMYR создал группу [Кошкокрафт](https://vk.com/koshkocr
 
 Пост - <https://vk.com/catcraftmc?w=wall-210306238_31>
 
-![winners](https://sun9-38.userapi.com/impg/YTkW3dFzGw_WcIkRjnr2J33tlv09pIJ3z8wV9Q/pDsTX2pgznM.jpg?size=1920x1080&quality=96&sign=b3d51fa5add25c1b10b7834b2ba4dfac&type=album){ width=75% decoding="async" loading="lazy" }
+![winners](https://sun9-38.userapi.com/impg/YTkW3dFzGw_WcIkRjnr2J33tlv09pIJ3z8wV9Q/pDsTX2pgznM.jpg?size=1920x1080&quality=96&sign=b3d51fa5add25c1b10b7834b2ba4dfac&type=album)
 
 ## 8 февраля 2022
 
@@ -114,19 +114,19 @@ EZENMYR создал группу [Кошкокрафт](https://vk.com/koshkocr
 
 - Спавн 
 
-    ![spawn](https://sun9-30.userapi.com/impg/QGrlqIShUPJ7Z31KyQbx3Yvu0ntgkki2p4Ncfg/GsMfreYvdF4.jpg?size=1920x1080&quality=96&sign=d613fbc951cdca561496d979901f1d0f&type=album){ width=75% decoding="async" loading="lazy" }
+    ![spawn](https://sun9-30.userapi.com/impg/QGrlqIShUPJ7Z31KyQbx3Yvu0ntgkki2p4Ncfg/GsMfreYvdF4.jpg?size=1920x1080&quality=96&sign=d613fbc951cdca561496d979901f1d0f&type=album)
 
 - Первый город КК. Основатели - **EZENMYR**, **Qwikxy** и, *вроде*, **Liberaha**
 
-    ![city](https://sun9-15.userapi.com/impg/F_3bokem7W5PYvBmQWc8LJDiJdK5hMLBW9kZ_A/x3UpeJyd1xY.jpg?size=1920x1080&quality=96&sign=54c6246863e4ee3be2c2c718253165c9&type=album){ width=75% decoding="async" loading="lazy" }
+    ![city](https://sun9-15.userapi.com/impg/F_3bokem7W5PYvBmQWc8LJDiJdK5hMLBW9kZ_A/x3UpeJyd1xY.jpg?size=1920x1080&quality=96&sign=54c6246863e4ee3be2c2c718253165c9&type=album)
 
 - Была смешная попытка добавления первого босса
 
-    ![boss](https://sun9-63.userapi.com/impg/dgodh2ahmxHQvvhZFQnVhEobMo7CkV0ZWTvBiA/8QlNijGWkmc.jpg?size=807x454&quality=96&sign=1439912c865973fce86ca342a27556b7&c_uniq_tag=naWblXN97doyMVR_5dYKIuthDT1GFxC24RSEw8x0eB4&type=album){ width=75% decoding="async" loading="lazy" }
+    ![boss](https://sun9-63.userapi.com/impg/dgodh2ahmxHQvvhZFQnVhEobMo7CkV0ZWTvBiA/8QlNijGWkmc.jpg?size=807x454&quality=96&sign=1439912c865973fce86ca342a27556b7&c_uniq_tag=naWblXN97doyMVR_5dYKIuthDT1GFxC24RSEw8x0eB4&type=album)
 
     - Вот как выглядел боссфайт. После победы выпадала рандомная алмазная броня с **защитой 6**
 
-        ![bossfight](https://sun9-49.userapi.com/impg/urrX0MBAA5j6x7jj_6A83sdwC1-0RJhpddEwCw/oCZVqNYKGzI.jpg?size=1920x1080&quality=96&sign=1732c6fa82515370b99c9cc4841cb2a6&type=album){ width=75% decoding="async" loading="lazy" }
+        ![bossfight](https://sun9-49.userapi.com/impg/urrX0MBAA5j6x7jj_6A83sdwC1-0RJhpddEwCw/oCZVqNYKGzI.jpg?size=1920x1080&quality=96&sign=1732c6fa82515370b99c9cc4841cb2a6&type=album)
 
     - Вскоре его удалили, ведь он был довольно лёгким, и vaskar абузил его.
 
@@ -144,8 +144,8 @@ EZENMYR создал группу [Кошкокрафт](https://vk.com/koshkocr
 
 StCrouse (r.i.p.), DmitrySmirnov, zioninside, imbuedennui, Liberaha, EZENMYR, vaskar, клан MP (MP_Rize, MP_TrokCber и пр.), Luke_Twice
 
-![mpemerson](https://sun9-53.userapi.com/impg/FkACxksbal5-KJb0fIDGWb1bEo9oT4kdkvvyfw/EMEwR_F5sUk.jpg?size=1148x1004&quality=96&sign=2ffd423b7db1f987c4518c889f1a129b&type=album){ width=75% decoding="async" loading="lazy" }
+![mpemerson](https://sun9-53.userapi.com/impg/FkACxksbal5-KJb0fIDGWb1bEo9oT4kdkvvyfw/EMEwR_F5sUk.jpg?size=1148x1004&quality=96&sign=2ffd423b7db1f987c4518c889f1a129b&type=album)
 
 ## Альбом 1 сезона
 
-[:simple-vk: Ссылка](https://vk.com/album-210306238_282348213){ .md-button .md-button--primary }
+<Button as="a" href="https://vk.com/album-210306238_282348213" label="Альбом 1 сезона" icon="pi pi-external-link" />

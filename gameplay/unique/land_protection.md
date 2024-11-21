@@ -42,7 +42,7 @@ status: beta
 
 - Кликнув `Левый Shift` + `ПКМ` **Семечком пшеницы** внутри территории, она отобразиться на 10 секунд. Также территория отображается при клике ПКМ на защитный блок.
 
-    ![Показ территории](/assets/gameplay/unique/land_protection/land_show.gif)
+    ![Показ территории](/assets/gameplay/unique/land_protection/land_show.gif){ width=100% }
 
     <span class="gray">хаха винду не активировал</span>
 
