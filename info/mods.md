@@ -60,9 +60,9 @@ description: Готовая сборка сервера Кошкокрафт
 <!-- Нет на 1.21 - [LazyDFU](https://modrinth.com/mod/lazydfu) -->
 :::
 
-## Гайд по установке
+## Сборка сервера
 
-::: details Для ванильного лаунчера, TL, TLegacy и прочих
+::: tip Установка для ванильного лаунчера, TL, TLegacy и прочих
 1. Скачиваешь архив
 
 <File
@@ -84,7 +84,7 @@ description: Готовая сборка сервера Кошкокрафт
 4. Готово! Запускай игру!
 :::
 
-::: details Для MultiMC, ModrinthApp, PrismLauncher и т.п.
+::: tip Установка для MultiMC, ModrinthApp, PrismLauncher и т.п.
 1. Скачиваешь файл .mrpack
 
 <File
