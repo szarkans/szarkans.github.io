@@ -7,15 +7,15 @@ hero:
   text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
   tagline: "IP: <u>play.catcraftmc.ru</u>"
   actions:
+    - theme: alt
+      text: Гайд новичка
+      link: /info/guide.md
     - theme: brand
       text: Наш Дискорд
       link: https://discord.gg/catcraftmc
     - theme: brand
       text: Наш ТГ
       link: https://t.me/catcraftmc_tg
-    - theme: alt
-      text: О сервере
-      link: /info/faq.md
   image:
     src: "/catcraft_cat.png"
     alt: "Котик-маскот нашего сервера"
