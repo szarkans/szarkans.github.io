@@ -71,7 +71,7 @@ export default defineConfig({
     langMenuLabel: 'Изменить язык',
     nav: [
       { text: 'О сервере', link: '/info/rules/laws' },
-      { text: "Геймплей", link: '/gameplay/unique/qol'},
+      { text: "Геймплей", link: '/gameplay/unique/qol/small_features'},
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season.md'},
@@ -243,7 +243,52 @@ export default defineConfig({
           items: [
             {
               text: "Общие фишки",
-              link: "/gameplay/unique/qol.md"
+              items: [
+                {
+                  text: "Маленькие фишки",
+                  link: '/gameplay/unique/qol/small_features.md'
+                },
+                {
+                  text: "Бартер [Бета]",
+                  link: '/gameplay/unique/qol/barter.md'
+                },
+                {
+                  text: "Система магазинов [Бета]",
+                  link: "/gameplay/unique/qol/shop.md"
+                },
+                {
+                  text: "Система наград Кошкокрафта",
+                  link: '/gameplay/unique/qol/rewards.md'
+                },
+                {
+                  text: "Авторизация для лицензий",
+                  link: '/gameplay/unique/qol/premium_auth.md'
+                },
+                {
+                  text: "Быстрая смена скина",
+                  link: '/gameplay/unique/qol/skinswap.md'
+                },
+                {
+                  text: "Изменение полублоков",
+                  link: '/gameplay/unique/qol/plits.md'
+                },
+                {
+                  text: "Подключение к Дискорду",
+                  link: "/gameplay/unique/qol/discord_link.md"
+                },
+                {
+                  text: "Ребаланс трейдов жителей",
+                  link: "/gameplay/unique/qol/trade_rebalance.md"
+                },
+                {
+                  text: "Датапаки сервера",
+                  link: "/gameplay/unique/qol/datapacks.md"
+                },
+                {
+                  text: "Владелец Яйца Дракона",
+                  link: "/gameplay/unique/qol/dragon_egg.md"
+                }
+              ]
             },
             {
               text: "Команды",
@@ -252,10 +297,6 @@ export default defineConfig({
             {
               text: "Защита территорий",
               link: "/gameplay/unique/land_protection.md"
-            },
-            {
-              text: "Яйцо Дракона",
-              link: "/gameplay/unique/dragon_egg.md"
             },
             {
               text: "Мебель и декорации",
@@ -272,10 +313,6 @@ export default defineConfig({
             {
               text: "Рыбалка",
               link: "/gameplay/unique/fishing.md"
-            },
-            {
-              text: "NPC",
-              link: "/gameplay/unique/npc.md"
             },
             {
               text: "Кланы",
@@ -307,20 +344,6 @@ export default defineConfig({
               link: "/gameplay/roleplay/police.md"
             }
           ]
-        },
-        {
-          text: "Награды игрокам",
-          items: [
-            {
-              text: "Котячьи Заслуги",
-              link: "/gameplay/rewards/catpass.md"
-            },
-            {
-              text: "Все награды",
-              link: "/gameplay/rewards/list.md"
-            }
-            
-          ]
         }
       ],
       '/bestiary': [
@@ -341,6 +364,15 @@ export default defineConfig({
           text: "Кошкокрафт",
           
           items: [
+            {
+              text: "Сущности",
+              items: [
+                {
+                  text: "Жители Столицы",
+                  link: '/bestiary/mobs/npc.md'
+                }
+              ]
+            },
             {
               // Блоки
               text: "Блоки",
