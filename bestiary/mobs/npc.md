@@ -4,30 +4,6 @@
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/bartender.png" width="40%"/>
-    </template>
-    <template #title>Бармен</template>
-    <template #content>
-      <Divider />
-      <h3>Механики:</h3>
-      <ul>
-      <li>Квесты</li>
-      <li>Бартер</li>
-      </ul>
-      <p>Моделька: bykkake747</p>
-    </template>
-</Card>
-</ItemCard>
-
-**Миша** - самый добрый парень в столице! Владеет собственным баром "Баюн" и выдаёт котикам ежедневные квесты! Они обновляются в 00:00 по МСК.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-***
-
-<ItemCard>
-<Card style="overflow: hidden;" class="m-0">
-    <template #header>
         <Image alt="user header" src="/assets/bestiary/mobs/npc/guide.png" width="40%"/>
     </template>
     <template #title>Путеводитель</template>
@@ -45,7 +21,31 @@
 
 Первая, кого видит новоприбывший! Находится у точки спавна, отвечает на самые частые вопросы и позволяет телепортироваться в любую сторону на 3500 блоков!
 
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+***
+
+<ItemCard>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/bartender.png" width="40%"/>
+    </template>
+    <template #title>Бармен</template>
+    <template #content>
+      <Divider />
+      <h3>Механики:</h3>
+      <ul>
+      <li>Квесты</li>
+      <li>Бартер</li>
+      </ul>
+      <p>Моделька: bykkake747</p>
+    </template>
+</Card>
+</ItemCard>
+
+**Миша** - самый добрый парень в столице! Владеет собственным баром "Баюн" и выдаёт котикам ежедневные квесты! Они обновляются в 00:00 по МСК.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -68,7 +68,7 @@
 
 Первая, кого видит новоприбывший! Находится у точки спавна, отвечает на самые частые вопросы и позволяет телепортироваться в любую сторону на 3500 блоков!
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -95,7 +95,7 @@
 
 Также она продаёт очки улучшения для кланов <span class="gray">и скоро начнёт выдавать квесты кланов...</span>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -118,7 +118,7 @@
 
 Вера - служительница недостроенного храма при Всекотце, даёт благословение и хорошие эффекты раз в сутки. Через неё можно пожертвовать АРы в храм, от чего благословение будет иметь более сильный эффект.
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -142,7 +142,7 @@
 
 Некогда владыка морей и гроза океанов теперь пришвартовался в городе смотрителем маяка и скупает рыбу!
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -169,7 +169,7 @@
 
 Подробнее про пластинки - [в статье про войсчат](/gameplay/unique/voicechat.md)
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -192,7 +192,7 @@
 
 У Валеры работа простая - через него можно увидеть вживую все [Наборы Обликов](/info/donate.md)!
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -215,7 +215,7 @@
 
 Тимурчик сидит в торговой зоне Столицы, и рассказывает как работают магазины, как их создать и как арендовать территорию под магазин! <span class="gray">Ещё продаёт арбузы.</span>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
