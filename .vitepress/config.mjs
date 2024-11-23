@@ -499,10 +499,6 @@ export default defineConfig({
               link: '/guides/gameplay/create_event.md'
             },
             {
-              text: "Как создать магазин?",
-              link: '/guides/gameplay/create_shop.md'
-            },
-            {
               text: "Как сделать разноцветный ник?",
               link: '/guides/gameplay/rgb_nick.md'
             },
