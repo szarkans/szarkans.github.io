@@ -48,12 +48,6 @@
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/DashaKit23/600.png" />
-    </template>
-    <template #title>DashaKit23</template>
-</Card>
-<Card style="width: 25rem; overflow: hidden" class="m-0">
-    <template #header>
         <img alt="user header" src="https://cravatar.eu/avatar/GroM7IcE7/600.png" />
     </template>
     <template #title>GroM7IcE7</template>

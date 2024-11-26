@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 import fs from 'fs';
 import path from 'path';
 
@@ -44,9 +44,13 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
+
     logo: '/favicon.png',
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/:path',
+      pattern: 'https://github.com/szarkans/szarkans.github.io/edit/main/:path',
       text: 'Редактировать страницу'
     },
   
@@ -249,15 +253,15 @@ export default defineConfig({
                   link: '/gameplay/unique/qol/small_features.md'
                 },
                 {
-                  text: "Бартер [Бета]",
+                  text: "Бартер β",
                   link: '/gameplay/unique/qol/barter.md'
                 },
                 {
-                  text: "Система магазинов [Бета]",
+                  text: "Система магазинов β",
                   link: "/gameplay/unique/qol/shop.md"
                 },
                 {
-                  text: "Система наград Кошкокрафта",
+                  text: "Система наград",
                   link: '/gameplay/unique/qol/rewards.md'
                 },
                 {
@@ -295,7 +299,7 @@ export default defineConfig({
               link: "/gameplay/unique/commands.md"
             },
             {
-              text: "Защита территорий [Бета]",
+              text: "Защита территорий β",
               link: "/gameplay/unique/land_protection.md"
             },
             {
