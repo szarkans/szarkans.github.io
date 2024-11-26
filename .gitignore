@@ -2,3 +2,4 @@
 /assets/old_assets
 /.vitepress/dist
 /.vitepress/cache
+/node_modules
