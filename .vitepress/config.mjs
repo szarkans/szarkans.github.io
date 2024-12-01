@@ -79,7 +79,7 @@ export default defineConfig({
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season.md'},
-      { text: 'Обновления', link: '/updates/6season/6_2_5.md'}
+      { text: 'Обновления', link: '/updates/6season/6_2_6.md'}
     ],
 
     socialLinks: [
@@ -248,6 +248,10 @@ export default defineConfig({
             {
               text: "Общие фишки",
               items: [
+                {
+                  text: "Адвент-календарь",
+                  link: "/gameplay/unique/qol/advent.md"
+                },
                 {
                   text: "Маленькие фишки",
                   link: '/gameplay/unique/qol/small_features.md'
@@ -448,6 +452,10 @@ export default defineConfig({
             {
               text: "Прочее",
               items: [
+                {
+                  text: "Петарды и хлопушки",
+                  link: '/bestiary/custom_items/firecrackers.md'
+                },
                 {
                   text: "Плюшевые игрушки",
                   link: "/bestiary/custom_items/plushie.md"

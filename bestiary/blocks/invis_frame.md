@@ -16,8 +16,6 @@ aside: false
       <ul>
       <li>Крафт</li>
       </ul>
-      <Divider />
-      <p>Текстура: bykkake747</p>
     </template>
 </Card>
 </ItemCard>
