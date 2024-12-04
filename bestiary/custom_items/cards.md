@@ -61,9 +61,11 @@ aside: false
 </Card>
 </CardGrid>
 
+<CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
         <Image alt="user header" src="/assets/bestiary/crafts/joker_craft.gif" preview />
     </template>
     <template #subtitle>Джокир крафтится отдельно</template>
 </Card>
+</CardGrid>

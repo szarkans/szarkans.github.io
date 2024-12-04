@@ -28,15 +28,23 @@ title: Модели игрока
 
 Вот пример модели с разными волосами и с разными лицевыми анимациями, которые можно менять прямо во время игры.
 
-<Galleria :value="[
-  { src: '/assets/gameplay/unique/cpm/showcase1.png', alt: 'Пример модели Customizable Player Models' },
-  { src: '/assets/gameplay/unique/cpm/showcase2.png', alt: 'Пример модели Customizable Player Models' },
-  { src: '/assets/gameplay/unique/cpm/showcase3.png', alt: 'Пример модели Customizable Player Models' }
-]"  :circular="true" :showItemNavigators="true" :showThumbnails="false" :showIndicators="true" :indicatorsPosition="inside">
-  <template #item="{ item }">
-    <img :src="item.src" class="galleria-image" />
-  </template>
-</Galleria>
+<CardGrid>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase1.png" preview />
+    </template>
+</Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase2.png" preview />
+    </template>
+</Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase3.png" preview />
+    </template>
+</Card>
+</CardGrid>
 
 
 ## Как установить/создать свою модель CPM?

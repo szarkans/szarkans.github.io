@@ -323,7 +323,7 @@ export default defineConfig({
               link: "/gameplay/unique/fishing.md"
             },
             {
-              text: "Кланы",
+              text: "Кланы β",
               link: "/gameplay/unique/clans.md"
             },
             {
@@ -473,7 +473,8 @@ export default defineConfig({
                   link: "/bestiary/custom_items/dummy.md"
                 },
                 {
-                  text: "Игральные карты"
+                  text: "Игральные карты",
+                  link: '/bestiary/custom_items/cards.md'
                 },
                 {
                   text: "Игральные кости",

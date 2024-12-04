@@ -16,8 +16,25 @@
         <img alt="user header" src="https://cravatar.eu/avatar/CharaBell/600.png" />
     </template>
     <template #title>CharaBell</template>
-    <template #subtitle>Жена Всекотца</template>
+    <template #subtitle>Всекотесса, жена Всекотца</template>
     <template #content>Часто сидит с аккаунта Серёжи и может отвечать от его лица</template>
+</Card>
+</CardGrid>
+
+<CardGrid>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://cravatar.eu/avatar/bykkake747/600.png" />
+    </template>
+    <template #title>bykkake747</template>
+    <template #subtitle>Всекот</template>
+</Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://cravatar.eu/avatar/sm1lly/600.png" />
+    </template>
+    <template #title>sm1lly</template>
+    <template #subtitle>Всекот</template>
 </Card>
 </CardGrid>
 
