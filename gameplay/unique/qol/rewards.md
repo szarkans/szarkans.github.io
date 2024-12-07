@@ -10,7 +10,7 @@
 
 Подробнее:
 
-<Button as="a" href="./catpass.md" label="Котячьи заслуги" />
+<Button as="a" href="./catpass" label="Котячьи заслуги" />
 
 ## Баг-Баунти
 
