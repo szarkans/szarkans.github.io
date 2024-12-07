@@ -269,6 +269,10 @@ export default defineConfig({
                   link: '/gameplay/unique/qol/rewards.md'
                 },
                 {
+                  text: "Котячьи заслуги",
+                  link: '/gameplay/unique/qol/catpass.md'
+                },
+                {
                   text: "Авторизация для лицензий",
                   link: '/gameplay/unique/qol/premium_auth.md'
                 },
