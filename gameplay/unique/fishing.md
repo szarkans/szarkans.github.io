@@ -32,18 +32,75 @@ description: Кастомная рыбалка на Кошкокрафте
 
 ## Все мини-игры
 
-<Galleria :value="[
-  { src: '/assets/gameplay/unique/fishing/click_game.gif', alt: 'Здесь нужно накликать для вылавливания рыбы' },
-  { src: '/assets/gameplay/unique/fishing/click_v1.gif', alt: 'Здесь нужно попасть в зелёную область' },
-  { src: '/assets/gameplay/unique/fishing/click_v2.gif', alt: 'Здесь нужно попасть в зелёную область' },
-  { src: '/assets/gameplay/unique/fishing/click_v3.gif', alt: 'Здесь нужно попасть в зелёную область' },
-  { src: '/assets/gameplay/unique/fishing/color.gif', alt: 'Здесь нужно попасть в нужный цвет' },
-  { src: '/assets/gameplay/unique/fishing/dance.gif', alt: 'Здесь нужно нажимать определенные клавиши' },
-  { src: '/assets/gameplay/unique/fishing/hold.gif', alt: 'Здесь нужно удержать рыбку' },
-  { src: '/assets/gameplay/unique/fishing/race.gif', alt: 'Здесь нужно довести рыбку до финиша' },
-  { src: '/assets/gameplay/unique/fishing/void_fishing.png', alt: 'Также есть пустотная рыбалка!' }
-]"  :circular="true" :showItemNavigators="true" :showThumbnails="false" :showIndicators="true" :indicatorsPosition="inside">
-  <template #item="{ item }">
-    <img :src="item.src" :alt="item.alt" class="galleria-image" />
-  </template>
-</Galleria>
+<CardGrid>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/click_game.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно накликать для вылавливания рыбы</template>
+</Card>
+
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/click_v1.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно попасть в зелёную область</template>
+</Card>
+</CardGrid>
+
+<CardGrid>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/click_v2.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно попасть в зелёную область</template>
+</Card>
+
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/click_v3.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно замафонить гычу</template>
+</Card>
+</CardGrid>
+
+<CardGrid>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/color.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно попасть в нужный цвет</template>
+</Card>
+
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/dance.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно нажимать определенные клавиши</template>
+</Card>
+</CardGrid>
+
+<CardGrid>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/hold.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно удержать рыбку</template>
+</Card>
+
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/race.gif" preview />
+    </template>
+    <template #subtitle>Здесь нужно довести рыбку до финиша</template>
+</Card>
+</CardGrid>
+
+<CardGrid>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/void_fishing.png" preview />
+    </template>
+    <template #subtitle>Также есть пустотная рыбалка! Нужно кинуть поплавок в любую пустоту</template>
+</Card>
+</CardGrid>

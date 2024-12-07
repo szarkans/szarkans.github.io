@@ -224,8 +224,8 @@ export default defineConfig({
                   link: '/info/prefixes.md'
                 },
                 {
-                  text: "Брендбук"
-                  // link: '/info/brandbook.md'
+                  text: "Брендбук",
+                  link: '/info/brandbook.md'
                 }
               ]
             },
@@ -456,6 +456,10 @@ export default defineConfig({
             {
               text: "Прочее",
               items: [
+                {
+                  text: "Котопедии",
+                  link: '/bestiary/custom_items/cotopedia.md'
+                },
                 {
                   text: "Петарды и хлопушки",
                   link: '/bestiary/custom_items/firecrackers.md'

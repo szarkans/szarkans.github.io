@@ -36,7 +36,6 @@ aside: false
 
 Список котиков, удостоенных своих игрушек:
 
-- dimastein
 - CharaBell
 - Elivor_
 
