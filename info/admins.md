@@ -26,15 +26,15 @@
     <template #header>
         <img alt="user header" src="https://cravatar.eu/avatar/bykkake747/600.png" />
     </template>
-    <template #title>bykkake747</template>
-    <template #subtitle>Всекот</template>
+    <template #title>Тайный агент B.K.K.E.</template>
+    <template #subtitle>Никто не знает кто это, и что он делает. Но он кто-то, и что-то делает.</template>
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
         <img alt="user header" src="https://cravatar.eu/avatar/sm1lly/600.png" />
     </template>
     <template #title>sm1lly</template>
-    <template #subtitle>Всекот</template>
+    <template #subtitle>Всекот, отдел дизайна</template>
 </Card>
 </CardGrid>
 
