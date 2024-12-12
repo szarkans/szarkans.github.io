@@ -45,6 +45,7 @@ import ItemCard from './ItemCard.vue';
 import File from './File.vue';
 import ClanLevelCalculator from './ClanLevelCalculator.vue';
 import Neon from './Neon.vue';
+import Reviews from './Reviews.vue';
 // 
 
 import ItemPageLayout from './ItemPageLayout.vue';
@@ -93,6 +94,7 @@ export default {
     app.component('File', File);
     app.component('ClanLevelCalculator', ClanLevelCalculator);
     app.component('Neon', Neon);
+    app.component('Reviews', Reviews);
     // 
     app.directive('tooltip', Tooltip);
   }
