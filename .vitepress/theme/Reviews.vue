@@ -96,7 +96,7 @@ const reviews = [
 ];
 
 // Текущий индекс отзыва
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
+import { ref, computed } from 'vue';
 
 const currentIndex = ref(0);
 
@@ -110,17 +110,6 @@ function prevReview() {
 
 const currentReview = computed(() => reviews[currentIndex.value]);
 
-// Автоматическая прокрутка каждые 10 секунд
-let intervalId;
-onMounted(() => {
-  intervalId = setInterval(() => {
-    nextReview();
-  }, 10000);
-});
-
-onBeforeUnmount(() => {
-  clearInterval(intervalId);
-});
 
 // Добавим простой функционал свайпа для мобильных устройств
 // (Это базовый пример. В реальности стоит более гибко обрабатывать расстояния свайпа.)
