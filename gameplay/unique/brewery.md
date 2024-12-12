@@ -39,7 +39,7 @@ description: Brewery на Кошкокрафте
 А вот если звёзд мало, то напитки дадут плохие эффекты или даже **убьют**...
 :::
 
-![brew](/assets/gameplay/unique/brewery//brew.png){ width=600 }
+![brew](/assets/gameplay/unique/brewery/brew.png){ width=600 }
 
 ## Как бродить напиток?
 
@@ -49,7 +49,7 @@ description: Brewery на Кошкокрафте
 
 **Бочка** - многоблочная структура из деревянных или медных блоков. Бочки бывают двух видов: маленькая, размером **2х2** и большая, размером **3х3х4** с ножками. Для того, чтобы бочка работала, нужно на её лицевой части поставить табличку с надписью "barrel" или "бочка".
 
-![barrel_big](/assets/gameplay/unique/brewery//barrel_big.png){ width=600 }
+![barrel_big](/assets/gameplay/unique/brewery/barrel_big.png){ width=600 }
 
 ***
 

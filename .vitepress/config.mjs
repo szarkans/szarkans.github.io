@@ -337,10 +337,6 @@ export default defineConfig({
             {
               text: "Войсчат и диски",
               link: "/gameplay/unique/voicechat.md"
-            },
-            {
-              text: "Ресурспак",
-              link: "/gameplay/unique/resourcepack.md"
             }
           ]
         },
