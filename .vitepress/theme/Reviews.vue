@@ -7,6 +7,7 @@
             <img class="review-avatar" :src="currentReview.avatar" alt="Автор" />
             <span class="review-name">{{ currentReview.name }}</span>
           </div>
+          <Divider type="solid" />
           <div class="review-text">{{ currentReview.text }}</div>
         </div>
       </transition>
