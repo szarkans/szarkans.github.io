@@ -22,21 +22,13 @@ aside: false
 </Card>
 </ItemCard>
 
-**Крюк-кошка** - предмет, позволяющий цеплятся за блоки или мобов (или даже игроков!) и "прыгать" к ним!
+**Крюк-кошка** - предмет, позволяющий цеплятся за блоки и "прыгать" к ним, или цеплять мобов и притягивать их к себе!
 
 Существует модифицированная версия Крюка-кошки - [УПМ из Атаки титанов!](/info/donate.md)
 
 ## Крафт
 
-Крафт крюка-кошки состоит из **Крюка** и ниток.
-
 <CardGrid>
-<Card style="overflow: hidden;" class="m-0">
-    <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/gh_hook.png" preview />
-    </template>
-    <template #title>Крафт крюка</template>
-</Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
         <Image alt="user header" src="/assets/bestiary/crafts/gh_craft.png" preview />

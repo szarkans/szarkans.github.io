@@ -257,11 +257,15 @@ export default defineConfig({
                   link: '/gameplay/unique/qol/small_features.md'
                 },
                 {
+                  text: "Профиль игрока β",
+                  link: "/gameplay/unique/qol/profile.md"
+                },
+                {
                   text: "Бартер β",
                   link: '/gameplay/unique/qol/barter.md'
                 },
                 {
-                  text: "Система магазинов β",
+                  text: "Система магазинов",
                   link: "/gameplay/unique/qol/shop.md"
                 },
                 {
@@ -305,6 +309,10 @@ export default defineConfig({
             {
               text: "Команды",
               link: "/gameplay/unique/commands.md"
+            },
+            {
+              text: "Гардеробная обликов β",
+              link: "/gameplay/unique/wardrobe.md"
             },
             {
               text: "Защита территорий β",

@@ -14,6 +14,7 @@ aside: false
       <Divider />
       <h3>Получение:</h3>
       <ul>
+      <li>Покупка у <a href="/gameplay/unique/wardrobe">Аркадия Гусева</a></li>
       <li>Донатик</li>
       </ul>
       <Divider />
@@ -28,4 +29,4 @@ aside: false
 
 Наложить свиток можно нажав им по нужному предмету в инвентаре.
 
-<br><br><br>
+<br><br><br><br><br><br><br><br><br>

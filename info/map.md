@@ -77,8 +77,8 @@ description: Карты основных мест нашего сервера
 
 <Image src="/assets/info/map/spawn_music.png" alt="" width="80%" preview />
 
-==Валера
-Здесь можно посмотреть все [наборы обликов](./donate.md)!
+==Аркадий Гусев
+Здесь стоит Аркаша - у него можно за АРы купить облики на предметы, а также посмотреть донатные облики!
 
 <Image src="/assets/info/map/spawn_valera.png" alt="" width="80%" preview />
 :::

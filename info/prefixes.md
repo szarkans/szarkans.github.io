@@ -21,6 +21,7 @@ description: Список всех префиксов и суффиксов на
 |![Офицер КСБ](/assets/general/prefixes/police.png){ width=20 }|Префикс **Офицера** КСБ.|
 |![Глава КСБ](/assets/general/prefixes/glav_police.png){ width=20 }|Префикс **Главы** КСБ.|
 |![Репортёр](/assets/general/prefixes/reporter.png){ width=20 }|Префикс Репортёров.|
+|![Гид](/assets/general/prefixes/guide.png){ width=20 }|Префикс Гидов.|
 |![Ютубер](/assets/general/prefixes/youtube.png){ width=20 }|Префикс Ютубера. Можно получить, став [нашим партнёром](./for_media.md).|
 |![Стример](/assets/general/prefixes/twitch.png){ width=20 }|Префикс Стримера. Можно получить, став [нашим партнёром](./for_media.md).|
 |![Тиктокер](/assets/general/prefixes/tiktok.png){ width=20 }|Префикс Тиктокера. Можно получить, став [нашим партнёром](./for_media.md).|

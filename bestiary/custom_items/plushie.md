@@ -32,11 +32,27 @@ aside: false
 
 Разбросаны по всему миру, всего их 14 штук. Получить их можно, но неизвестно как. Возможно, стоит рассмотреть самые разные способы...
 
-Также существуют плюшевые игрушки особых котиков - тех, кто наиграл на сервере **1000 часов**! Такие игрушки остаются навсегда, но **пока что** получить их нельзя.
+Также существуют плюшевые игрушки особых котиков - тех, кто наиграл на сервере **1000 часов**! Такие игрушки остаются на все следующие сезоны.
+
+А для их получения нужно совместить **шаблон игрушки** и **голову удостоенного котика**:
+
+<CardGrid>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/crafts/plushie_template.png" preview />
+    </template>
+</Card>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/crafts/plushie_craft.png" preview />
+    </template>
+</Card>
+</CardGrid>
 
 Список котиков, удостоенных своих игрушек:
 
 - CharaBell
 - Elivor_
+- Master
 
 <br><br><br><br><br><br><br>

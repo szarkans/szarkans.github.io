@@ -181,11 +181,12 @@ aside: false
     <template #header>
         <Image alt="user header" src="/assets/bestiary/mobs/npc/valera.png" width="40%"/>
     </template>
-    <template #title>Валера</template>
+    <template #title>Аркадий Гусев</template>
     <template #content>
       <Divider />
       <h3>Механики:</h3>
       <ul>
+      <li>Продажа обликов</li>
       <li>Показ наборов обликов</li>
       </ul>
       <p>Скин: sm1lly</p>
@@ -193,7 +194,7 @@ aside: false
 </Card>
 </ItemCard>
 
-У Валеры работа простая - через него можно увидеть вживую все [Наборы Обликов](/info/donate.md)!
+Аркадий предлагает к покупке более 150 обликов на оружие, инструменты и броню, а также показывает все [донатные облики](/info/donate.md#облики)!
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
