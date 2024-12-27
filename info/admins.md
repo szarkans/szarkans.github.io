@@ -4,37 +4,35 @@
 <CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/Szarkan/600.png" />
+        <img alt="user header" src="/assets/info/admins/szarkan.png" />
     </template>
-    <template #title>Szarkan, Серёжа</template>
-    <template #subtitle>Всекотец, основатель</template>
-    <template #content>Я создал этот сервер :3<br>Очень прошу не пинговать меня<br>Очень прошу общаться на "ты", мне всего лишь 20...</template>
+    <template #title>Всекотец Szarkan</template>
+    <template #subtitle>Не дай бог вы назовёте как-то кроме как Серёжа...</template>
 </Card>
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/CharaBell/600.png" />
+        <img alt="user header" src="/assets/info/admins/charabell.png" />
     </template>
-    <template #title>CharaBell</template>
-    <template #subtitle>Всекотесса, жена Всекотца</template>
-    <template #content>Часто сидит с аккаунта Серёжи и может отвечать от его лица</template>
+    <template #title>Всекотесса CharaBell</template>
+    <template #subtitle>Иногда ворует у Серёжи компьютер и отвечает от его лица.</template>
 </Card>
 </CardGrid>
 
 <CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/bykkake747/600.png" />
+        <img alt="user header" src="/assets/info/admins/bykkake747.png" />
     </template>
     <template #title>Тайный агент B.K.K.E.</template>
     <template #subtitle>Никто не знает кто это и что он делает. Но он кто-то и что-то делает.</template>
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/sm1lly/600.png" />
+        <img alt="user header" src="/assets/info/admins/sm1lly.png" />
     </template>
-    <template #title>sm1lly</template>
-    <template #subtitle>Всекот, отдел дизайна</template>
+    <template #title>Дизайнер и лоровед sm1lly</template>
+    <template #subtitle>Вызывает улыбку! Пока его не назовут sm1llys...</template>
 </Card>
 </CardGrid>
 
@@ -62,11 +60,5 @@
         <img alt="user header" src="https://cravatar.eu/avatar/ABUSER/600.png" />
     </template>
     <template #title>ABUSER</template>
-</Card>
-<Card style="width: 25rem; overflow: hidden" class="m-0">
-    <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/GroM7IcE7/600.png" />
-    </template>
-    <template #title>GroM7IcE7</template>
 </Card>
 </CardGrid>
