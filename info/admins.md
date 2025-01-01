@@ -19,14 +19,7 @@
 </Card>
 </CardGrid>
 
-<CardGrid>
-<Card style="width: 25rem; overflow: hidden" class="m-0">
-    <template #header>
-        <img alt="user header" src="/assets/info/admins/bykkake747.png" />
-    </template>
-    <template #title>Тайный агент B.K.K.E.</template>
-    <template #subtitle>Никто не знает кто это и что он делает. Но он кто-то и что-то делает.</template>
-</Card>
+
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
         <img alt="user header" src="/assets/info/admins/sm1lly.png" />
@@ -37,14 +30,6 @@
 </CardGrid>
 
 ## Модераторы
-
-<CardGrid>
-<Card style="width: 25rem; overflow: hidden" class="m-0">
-    <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/Mr_Milota/600.png" />
-    </template>
-    <template #title>Mr_Milota</template>
-</Card>
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
