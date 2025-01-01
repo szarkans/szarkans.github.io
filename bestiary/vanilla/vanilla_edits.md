@@ -62,3 +62,17 @@ hide:
 - Кирки быстро ломают **стекло** и **светокамень**
 
 - Мотыги быстро ломают **жабосветы**
+<br><br>
+
+## Вырезанная тыква
+
+<ItemCard>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/block/carved_pumpkin.webp" width="30%"/>
+    </template>
+</Card>
+</ItemCard>
+
+Вырезанные тыквы можно зачаровывать как и обычные шлема!
+<br><br><br><br><br>

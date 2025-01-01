@@ -48,13 +48,13 @@ description: Донатик
 
 - Опыт не пропадает при смерти!
 
+- Возможность открывать шалкер в руке с помощью `Shift` + `ПКМ`
+
 - Ежедневный кит с плюшками!  
 
 - Доступ к ChatGPT 4o в Дискорде!
 
 <Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" icon="pi pi-external-link" />
-
-:::
 
 ## Облики
 
