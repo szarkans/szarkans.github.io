@@ -10,19 +10,17 @@ description: Карты основных мест нашего сервера
 ## Спавн
 :::tabs
 ==Столица
-
 Столица Кошкокрафта!
+
 <Image src="/assets/info/map/main.png" alt="" width="80%" preview />
 
 ==Спавн
-
 Собственно, спавн. Здесь всё и начинается.
 
 <Image src="/assets/info/map/spawn_spawn.png" alt="" width="80%" preview />
 
 ==Бар "Баюн"
-
-    Здесь можно взять квесты у Бармена и хорошо провести время.
+Здесь можно взять квесты у Бармена и хорошо провести время.
 
 <Image src="/assets/info/map/spawn_bar.png" alt="" width="80%" preview />
 
@@ -47,8 +45,7 @@ description: Карты основных мест нашего сервера
 <Image src="/assets/info/map/spawn_church.png" alt="" width="80%" preview />
 
 ==Маяк
-
-    Здесь можно продать или обменять рыбку у Рыбака.
+Здесь можно продать или обменять рыбку у Рыбака.
 
 <Image src="/assets/info/map/spawn_beacon.png" alt="" width="80%" preview />
 
