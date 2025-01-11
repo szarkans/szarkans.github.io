@@ -55,10 +55,17 @@ description: Готовая сборка сервера Кошкокрафт
 - [ThreadTweak](https://modrinth.com/mod/threadtweak)  
 - [Very Many Players](https://modrinth.com/mod/vmp-fabric)  
 - И библиотеки для модов  
-  <!-- Нет на 1.21 - [Animatica](https://modrinth.com/mod/animatica) -->
-<!-- Лагает на 1.21 + это всё равно на сервере есть - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) -->
-<!-- Нет на 1.21 - [LazyDFU](https://modrinth.com/mod/lazydfu) -->
 :::
+
+## Нужные моды
+
+Если ты не хочешь скачивать готовую сборку, то вот список самых нужных модов для нашего сервера:
+
+- [PlasmoVoice](https://modrinth.com/plugin/plasmo-voice/versions?g=1.21.1&l=fabric) - войсчат
+- [ETF](https://modrinth.com/mod/entitytexturefeatures/versions?g=1.21.1&l=fabric) - текстуры существ
+- [EMF](https://modrinth.com/mod/entity-model-features/versions?g=1.21.1&l=fabric) - модели существ
+- [CIT Resewn](https://modrinth.com/mod/cit-resewn/versions?g=1.21.1) - ресурспак с переименованиями
+- [EmoteCraft](https://modrinth.com/plugin/emotecraft/versions?g=1.21.1&l=fabric) - эмоции внутри игры
 
 ## Сборка сервера
 
@@ -66,7 +73,7 @@ description: Готовая сборка сервера Кошкокрафт
 1. Скачиваешь архив
 
 <File
-  filePath="/downloads/catcraft_mods_6.0.4.zip"
+  filePath="/downloads/catcraft_mods.zip"
 />
 
 1. Открываешь папку **игры**
@@ -90,7 +97,7 @@ description: Готовая сборка сервера Кошкокрафт
 1. Скачиваешь файл .mrpack
 
 <File
-  filePath="/downloads/Catcraft 1.21.1 6.0.4.mrpack"
+  filePath="/downloads/catcraft.mrpack"
 />
 
 1. Создаёшь новую сборку
