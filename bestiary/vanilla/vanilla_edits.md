@@ -23,32 +23,6 @@ hide:
 
 Шанс выпадения тотема снижен до **5%**.
 
-## Кристалл Энда
-
-<ItemCard>
-<Card style="overflow: hidden;" class="m-0">
-    <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/end_crystal.webp" width="25%"/>
-    </template>
-</Card>
-</ItemCard>
-
-Кристаллы Энда **нельзя ставить вне Энда** - они причиняют слишком много вреда.
-<br><br><br>
-
-## Якорь Возрождения
-
-<ItemCard>
-<Card style="overflow: hidden;" class="m-0">
-    <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/respawn_anchor.webp" width="25%"/>
-    </template>
-</Card>
-</ItemCard>
-
-Якори Возрождения **нельзя ставить вне Незера** - они тоже причиняют слишком много вреда.
-<br><br>
-
 ## Инструменты
 
 <ItemCard>
