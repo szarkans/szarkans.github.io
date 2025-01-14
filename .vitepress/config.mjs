@@ -79,7 +79,7 @@ export default defineConfig({
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season.md'},
-      { text: 'Обновления', link: '/updates/6season/6_3_1.md'}
+      { text: 'Обновления', link: '/updates/6season/6_3_2.md'}
     ],
 
     socialLinks: [
@@ -311,13 +311,13 @@ export default defineConfig({
               link: "/gameplay/unique/commands.md"
             },
             {
-              text: "Гардеробная обликов β",
+              text: "Гардеробная обликов",
               link: "/gameplay/unique/wardrobe.md"
             },
-            {
-              text: "Защита территорий β",
-              link: "/gameplay/unique/land_protection.md"
-            },
+            // {
+            //   text: "Защита территорий β",
+            //   link: "/gameplay/unique/land_protection.md"
+            // },
             {
               text: "Мебель и декорации",
               link: "/gameplay/unique/decor.md"
