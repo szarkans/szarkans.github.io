@@ -5,10 +5,10 @@ layout: home
 hero:
   name: "CATCRAFT"
   text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
-  tagline: "IP: <u>play.catcraftmc.ru</u>"
+  tagline: "Приватный сервер только для тебя!<br>IP: <u>play.catcraftmc.ru</u>"
   actions:
     - theme: alt
-      text: Гайд новичка
+      text: Начать играть
       link: /info/guide.md
     - theme: brand
       text: Наш Дискорд
@@ -32,6 +32,6 @@ features:
     details: "- Награды игрокам за постройки, идеи, баги и т.п.!<br>- Партнёрство с Ютуберами и Стримерами!<br>- И просто лучшее коммьюнити во всём РуМайне!"
 ---
 
-## Наши неподкупные отзывы
+## Неподкупные отзывы о сервере
 
 <Reviews />

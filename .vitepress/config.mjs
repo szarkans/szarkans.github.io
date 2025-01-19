@@ -100,6 +100,26 @@ export default defineConfig({
           text: "Архив",
           items: [
             {
+              "text": "29.10.2022",
+              "link": "/updates/archive/29_10_2022.md"
+            },
+            {
+              "text": "04.10.2022",
+              "link": "/updates/archive/04_10_2022.md"
+            },
+            {
+              "text": "10.09.2022",
+              "link": "/updates/archive/10_09_2022.md"
+            },
+            {
+              "text": "24.08.2022",
+              "link": "/updates/archive/24_08_2022.md"
+            },
+            {
+              "text": "18.08.2022",
+              "link": "/updates/archive/18_08_2022.md"
+            },
+            {
               "text": "12.08.2022",
               "link": "/updates/archive/12_08_2022.md"
             },

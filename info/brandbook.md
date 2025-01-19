@@ -62,12 +62,6 @@ aside: false
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="https://mineskin.eu/skin/bykkake747" preview />
-    </template>
-    <template #subtitle>bykkake747</template>
-</Card>
-<Card style="overflow: hidden;" class="m-0">
-    <template #header>
         <Image alt="user header" src="https://mineskin.eu/skin/sm1lly" preview />
     </template>
     <template #subtitle>sm1lly</template>
