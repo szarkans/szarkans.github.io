@@ -34,22 +34,6 @@
 <CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/Mr_Milota/600.png" />
-    </template>
-    <template #title>Mr_Milota</template>
-</Card>
-
-<Card style="width: 25rem; overflow: hidden" class="m-0">
-    <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/nico4an/600.png" />
-    </template>
-    <template #title>nico4an</template>
-</Card>
-</CardGrid>
-
-<CardGrid>
-<Card style="width: 25rem; overflow: hidden" class="m-0">
-    <template #header>
         <img alt="user header" src="https://cravatar.eu/avatar/ABUSER/600.png" />
     </template>
     <template #title>ABUSER</template>
