@@ -38,4 +38,16 @@
     </template>
     <template #title>ABUSER</template>
 </Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://cravatar.eu/avatar/artlaks/600.png" />
+    </template>
+    <template #title>artlaks</template>
+</Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://cravatar.eu/avatar/ShirooQWT/600.png" />
+    </template>
+    <template #title>ShirooQWT</template>
+</Card>
 </CardGrid>
