@@ -38,7 +38,7 @@ description: История сервера Кошкокрафт - 4 сезон
 
 [https://vk.com/wall-210306238_3086](https://vk.com/wall-210306238_3086)
 
-![uh](https://sun9-75.userapi.com/impg/zwaDgLdFTbHQx0bEIgV49zRnA8W6jf-NpYEaUQ/jPbLQkHcQMc.jpg?size=1366x768&quality=95&sign=3d2967c70c198dbe4bc436e107f627de&type=album){width=75% loading="lazy" decoding="async"}
+![uh](https://sun9-75.userapi.com/impg/zwaDgLdFTbHQx0bEIgV49zRnA8W6jf-NpYEaUQ/jPbLQkHcQMc.jpg?size=1366x768&quality=95&sign=3d2967c70c198dbe4bc436e107f627de&type=album){width=100% loading="lazy" decoding="async"}
 
 ## 4 февраля
 
@@ -48,7 +48,7 @@ description: История сервера Кошкокрафт - 4 сезон
 
     - Озвучка рыбака от Skorohodon - <https://vk.com/wall-210306238_3129>
 
-    <iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239057&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239057&hd=2" width="100%" height="100%" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
 
 ## 10 февраля
 
@@ -76,11 +76,11 @@ description: История сервера Кошкокрафт - 4 сезон
 
 ## 13 Февраля
 
-- \__Jeas__ снял видео на сервере! 
+- \_\_Jeas__ снял видео на сервере! 
 
 <https://vk.com/wall-210306238_3164>
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/QEFB6-CdnWs?si=YKHfvq_EqCdO2WdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="520" height="340" src="https://www.youtube.com/embed/QEFB6-CdnWs?si=YKHfvq_EqCdO2WdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 17 февраля 
 
@@ -126,7 +126,7 @@ description: История сервера Кошкокрафт - 4 сезон
 
 ## 24 марта
 
-- Единственное глобальное обновление за сезон - <span class="neon">Жри & Пей</span> Update 
+- Большое глобальное обновление - <span class="neon">Жри & Пей</span> Update 
 
     - 93 вида еды, которые крафтились на специальном верстаке
 
@@ -136,7 +136,9 @@ description: История сервера Кошкокрафт - 4 сезон
 
 <https://vk.com/wall-210306238_3421>
 
-![eat](https://sun9-21.userapi.com/impg/KxQpWvuGoWpaIJDgvDc9tDYhRTo1p1CSjyKzyw/_lL_uPDkLAA.jpg?size=1920x768&quality=96&sign=4e164a9102d640dc68a201cc4088c33b&type=album){width=75% loading="lazy" decoding="async"}
+<Image alt="user header" src="https://sun9-21.userapi.com/impg/KxQpWvuGoWpaIJDgvDc9tDYhRTo1p1CSjyKzyw/_lL_uPDkLAA.jpg?size=1920x768&quality=96&sign=4e164a9102d640dc68a201cc4088c33b&type=album" preview />
+
+<span class="gray">очень горжусь этой картиночкой... сам её делал... долго... упорно...</span>
 
 ## 27 марта
 

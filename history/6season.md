@@ -20,7 +20,7 @@ description: История сервера Кошкокрафт - 6 сезон
 
 Пик онлайна в день достиг **81 человек**, но на "второе" открытие зашло **76 человек**. Абсолютный рекорд сервера (прошлый рекорд - 45 человек)!
 
-![Онлайн на открытии 6 сезона](/assets/server_history/season6/wipe.png){ width=75% decoding="async" loading="lazy" }
+<Image src="/assets/server_history/season6/wipe.png" preview />
 
 ## 13-15 июля
 

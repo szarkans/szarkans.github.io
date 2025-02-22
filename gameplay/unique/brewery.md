@@ -9,9 +9,11 @@ description: Brewery на Кошкокрафте
 
 От крайне крепкого пива сорта <span class="red shadow bold">Dragonblood</span> до <span class="neon">CUM</span>!
 
-::: tip Список всех рецептов
+## Список всех рецептов
+
 Список всех рецептов можно узнать в [Алкопедии](/bestiary/custom_items/cotopedia.md). Для её получения обратись к [Бармену](/bestiary/mobs/npc.md)!
-:::
+
+![Алкопедия](/assets/updates/6_2_0/alkopedia.png)
 
 ## **Как варить?**
 

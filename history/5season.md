@@ -30,7 +30,7 @@ description: История сервера Кошкокрафт - 5 сезон
 
 - Была создана новая Вики (сейчас ты читаешь **ещё более** новую :D)
 
-    ![oldoldwiki](/assets/server_history/season5/oldold_wiki.png){ width=75% decoding="async" loading="lazy" }
+    <Image src="/assets/server_history/season5/oldold_wiki.png" preview />
 
 - Было обновлено и вырезано много всего, что не работало ранее, и прочее, что ты можешь видеть и сейчас
 

@@ -42,3 +42,16 @@
 Также можно добавить **свою** картину на сервер - это может быть любой картинкой (даже 18+!). Сделать это можно на нашем [сайте донатика](https://donate.catcraftmc.ru)
 
 ![Новые картины](/assets/gameplay/unique/qol/paintings.png)
+
+## Плиты
+
+Некоторые плиты при складывании друг на друга образуют новые блоки.  
+
+<ImageCompare class="shadow-lg rounded-2xl">
+    <template #left>
+        <img src="/assets/gameplay/unique/qol/slab_no_rp.png" />
+    </template>
+    <template #right>
+        <img src="/assets/gameplay/unique/qol/slab_rp.png" />
+    </template>
+</ImageCompare>

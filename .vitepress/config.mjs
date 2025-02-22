@@ -269,10 +269,6 @@ export default defineConfig({
               text: "Общие фишки",
               items: [
                 {
-                  text: "Адвент-календарь",
-                  link: "/gameplay/unique/qol/advent.md"
-                },
-                {
                   text: "Маленькие фишки",
                   link: '/gameplay/unique/qol/small_features.md'
                 },
@@ -283,10 +279,6 @@ export default defineConfig({
                 {
                   text: "Бартер β",
                   link: '/gameplay/unique/qol/barter.md'
-                },
-                {
-                  text: "Система магазинов",
-                  link: "/gameplay/unique/qol/shop.md"
                 },
                 {
                   text: "Система наград",
@@ -483,10 +475,6 @@ export default defineConfig({
                 {
                   text: "Котопедии",
                   link: '/bestiary/custom_items/cotopedia.md'
-                },
-                {
-                  text: "Петарды и хлопушки",
-                  link: '/bestiary/custom_items/firecrackers.md'
                 },
                 {
                   text: "Плюшевые игрушки",
