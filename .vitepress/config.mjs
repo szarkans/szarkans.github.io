@@ -297,10 +297,6 @@ export default defineConfig({
                   link: '/gameplay/unique/qol/skinswap.md'
                 },
                 {
-                  text: "Изменение полублоков",
-                  link: '/gameplay/unique/qol/plits.md'
-                },
-                {
                   text: "Подключение к Дискорду",
                   link: "/gameplay/unique/qol/discord_link.md"
                 },

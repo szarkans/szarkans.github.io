@@ -13,7 +13,7 @@ description: Brewery на Кошкокрафте
 
 Список всех рецептов можно узнать в [Алкопедии](/bestiary/custom_items/cotopedia.md). Для её получения обратись к [Бармену](/bestiary/mobs/npc.md)!
 
-![Алкопедия](/assets/updates/6_2_0/alkopedia.png)
+![Алкопедия](/assets/gameplay/brewery/alkopedia.png)
 
 ## **Как варить?**
 
