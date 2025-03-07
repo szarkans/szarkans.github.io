@@ -39,13 +39,15 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/plushie_template.png" preview />
+        <Image alt="user header" src="/assets/bestiary/items/plushie/template_craft.png" preview />
     </template>
+    <template #title>Крафт шаблона плюшевой игрушки</template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/plushie_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/items/plushie/plushie_craft.png" preview />
     </template>
+    <template #title>Крафт плюшевой игрушки из головы игрока</template>
 </Card>
 </CardGrid>
 
@@ -59,4 +61,15 @@ aside: false
 - Akyla_s_siskamu
 - sm1lly
 
-<br><br><br><br><br><br><br>
+## Своя игрушка
+
+У вас есть возможность добавить и свою игрушку на сервер! Для этого достаточно нарисовать её и закинуть нам. Но для этого она должна соответствовать нескольким требованиям:
+- Разрешение всех текстур - 16х
+- Кубы в модельке можно изменять как хочется
+- Игрушка должна подходить по вайбу сервера, нравится админам или быть желанной для всех игроков сервера
+
+### Шаблон плюшевой игрушки
+
+<File
+  filePath="/assets/bestiary/items/plushie/template_plushie.bbmodel"
+/>

@@ -29,4 +29,12 @@ aside: false
 
 Наложить свиток можно нажав им по нужному предмету в инвентаре.
 
-<br><br><br><br><br><br><br><br><br>
+## Демонстрация
+
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/usable/scroll_showcase.gif" width="75%"/>
+    </template>
+</Card>
+
+<br><br><br>
