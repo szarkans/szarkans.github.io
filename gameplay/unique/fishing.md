@@ -40,7 +40,7 @@ description: Кастомная рыбалка на Кошкокрафте
   { src: '/assets/gameplay/unique/fishing/void_fishing.png', alt: 'Также есть пустотная рыбалка!' }
 ]"  :circular="true" :showItemNavigators="true" :showThumbnails="false" :showIndicators="false" :indicatorsPosition="inside">
     <template #item="{ item }">
-        <img :src="item.src" :alt="item.alt" class="galleria-image" />
+        <Image :src="item.src" :alt="item.alt" class="galleria-image" />
     </template>
     <template #caption="slotProps">
         <p class="text-white">{{ slotProps.item.alt }}</p>
