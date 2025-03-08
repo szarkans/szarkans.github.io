@@ -191,7 +191,7 @@ h3 {
 }
 
 @media (min-width: 960px) {
-  .VPNavBar:not(.home.top) .content-body[data-v-84a11e99] {
+  .VPNavBar, .content-body {
     background-color: transparent !important;
     backdrop-filter: blur(8px);
   }
@@ -310,8 +310,8 @@ font-weight: bold;
 /* Badge */
 /*  */
 
-.vp-doc h2 > .VPBadge {
-  vertical-align: baseline;
+.VPBadge {
+  vertical-align: unset !important;
 }
 
 /*  */

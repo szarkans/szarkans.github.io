@@ -28,7 +28,26 @@ description: Кастомная рыбалка на Кошкокрафте
 
 ## Все мини-игры
 
-<CardGrid>
+<Galleria :value="[
+  { src: '/assets/gameplay/unique/fishing/click_game.gif', alt: 'Здесь нужно накликать для вылавливания рыбы' },
+  { src: '/assets/gameplay/unique/fishing/click_v1.gif', alt: 'Здесь нужно попасть в зелёную область' },
+  { src: '/assets/gameplay/unique/fishing/click_v2.gif', alt: 'Здесь нужно попасть в зелёную область' },
+  { src: '/assets/gameplay/unique/fishing/click_v3.gif', alt: 'Здесь нужно попасть в зелёную область' },
+  { src: '/assets/gameplay/unique/fishing/color.gif', alt: 'Здесь нужно попасть в нужный цвет' },
+  { src: '/assets/gameplay/unique/fishing/dance.gif', alt: 'Здесь нужно нажимать определенные клавиши' },
+  { src: '/assets/gameplay/unique/fishing/hold.gif', alt: 'Здесь нужно удержать рыбку' },
+  { src: '/assets/gameplay/unique/fishing/race.gif', alt: 'Здесь нужно довести рыбку до финиша' },
+  { src: '/assets/gameplay/unique/fishing/void_fishing.png', alt: 'Также есть пустотная рыбалка!' }
+]"  :circular="true" :showItemNavigators="true" :showThumbnails="false" :showIndicators="false" :indicatorsPosition="inside">
+    <template #item="{ item }">
+        <img :src="item.src" :alt="item.alt" class="galleria-image" />
+    </template>
+    <template #caption="slotProps">
+        <p class="text-white">{{ slotProps.item.alt }}</p>
+    </template>
+</Galleria>
+
+<!-- <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
         <Image alt="user header" src="/assets/gameplay/unique/fishing/click_game.gif" preview />
@@ -99,4 +118,4 @@ description: Кастомная рыбалка на Кошкокрафте
     </template>
     <template #subtitle>Также есть пустотная рыбалка! Нужно кинуть поплавок в любую пустоту</template>
 </Card>
-</CardGrid>
+</CardGrid> -->
