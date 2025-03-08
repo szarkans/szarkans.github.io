@@ -4,6 +4,8 @@ aside: false
 
 # Жители Столицы
 
+## Путеводитель
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -24,9 +26,11 @@ aside: false
 
 Первая, кого видит новоприбывший! Находится у точки спавна, отвечает на самые частые вопросы и позволяет телепортироваться в любую сторону на 3500 блоков!
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
+
+## Бармен
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
@@ -52,6 +56,8 @@ aside: false
 
 ***
 
+## Банкир
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -75,12 +81,14 @@ aside: false
 
 ***
 
+## Админка
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
         <Image alt="user header" src="/assets/bestiary/mobs/npc/admin.png" width="40%"/>
     </template>
-    <template #title>Администратор Гильдии</template>
+    <template #title>Админка</template>
     <template #content>
       <Divider />
       <h3>Механики:</h3>
@@ -94,13 +102,15 @@ aside: false
 </Card>
 </ItemCard>
 
-Администратор Гильдии поможет заполнить все необходимые бумажки для оформления собственного клана!
+Админка поможет заполнить все необходимые бумажки для оформления собственного клана!
 
 Также она продаёт очки улучшения для кланов <span class="gray">и скоро начнёт выдавать квесты кланов...</span>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
+
+## Священница
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
@@ -119,11 +129,13 @@ aside: false
 </Card>
 </ItemCard>
 
-Вера - служительница недостроенного храма при Всекотце, даёт благословение и хорошие эффекты раз в сутки. Через неё можно пожертвовать АРы в храм, от чего благословение будет иметь более сильный эффект.
+**Вера** - служительница недостроенного храма при Всекотце, даёт благословение и хорошие эффекты раз в сутки. Через неё можно пожертвовать АРы в храм, от чего благословение будет иметь более сильный эффект.
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
+
+## Рыбак
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
@@ -149,12 +161,14 @@ aside: false
 
 ***
 
+## Музыкантка
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
         <Image alt="user header" src="/assets/bestiary/mobs/npc/music.png" width="40%"/>
     </template>
-    <template #title>Музыкант</template>
+    <template #title>Музыкантка</template>
     <template #content>
       <Divider />
       <h3>Механики:</h3>
@@ -166,7 +180,7 @@ aside: false
 </Card>
 </ItemCard>
 
-Музыкантка позволяет создать кастомную пластинку с музыкой из Внешнего мира - с Youtube, Soundcloud, Bandcamp или даже трансляции Twitch!
+**Аська** позволяет создать кастомную пластинку с музыкой из Внешнего мира - с Youtube, Soundcloud, Bandcamp или даже трансляции Twitch!
 
 За 32 АРа ты сможешь сделать десять кастомных пластинок. Или девять раз ошибиться =)
 
@@ -175,6 +189,8 @@ aside: false
 <br><br><br><br><br><br><br><br><br><br><br>
 
 ***
+
+## Костюмер
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
@@ -194,11 +210,13 @@ aside: false
 </Card>
 </ItemCard>
 
-Аркадий предлагает к покупке более 150 обликов на оружие, инструменты и броню, а также показывает все [донатные облики](/info/donate.md#облики)!
+**Аркадий** предлагает к покупке более 150 обликов на оружие, инструменты и броню, а также показывает все [донатные облики](/info/donate.md#облики)!
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-***
+<!-- ***
+
+## Тимурчик
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
@@ -219,9 +237,11 @@ aside: false
 
 Тимурчик сидит в торговой зоне Столицы, и рассказывает как работают магазины, как их создать и как арендовать территорию под магазин! <span class="gray">Ещё продаёт арбузы.</span>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
 ***
+
+## Загадочная кошка
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
@@ -247,4 +267,4 @@ u0LXRhtC40LvQvtGC0YEg0LIg0L
 jQvNCw0LrRjtC7INCw0Lcg0Lj
 QtNC10LvQoQ==
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

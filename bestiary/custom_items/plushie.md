@@ -71,5 +71,5 @@ aside: false
 ### Шаблон плюшевой игрушки
 
 <File
-  filePath="/assets/bestiary/items/plushie/template_plushie.bbmodel"
+  filePath="/downloads/template_plushie.bbmodel"
 />
