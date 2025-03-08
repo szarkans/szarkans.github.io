@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "CATCRAFT"
   text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
-  tagline: "Приватный сервер только для тебя!<br>IP: <u>play.catcraftmc.ru</u>"
+  tagline: "Приватный сервер только для тебя!<br>Мы на межсезонье!</u>"
   actions:
     - theme: alt
       text: Начать играть
