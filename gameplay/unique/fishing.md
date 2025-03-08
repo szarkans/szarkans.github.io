@@ -28,7 +28,7 @@ description: Кастомная рыбалка на Кошкокрафте
 
 ## Все мини-игры
 
-<Galleria :value="[
+<!-- <Galleria :value="[
   { src: '/assets/gameplay/unique/fishing/click_game.gif', alt: 'Здесь нужно накликать для вылавливания рыбы' },
   { src: '/assets/gameplay/unique/fishing/click_v1.gif', alt: 'Здесь нужно попасть в зелёную область' },
   { src: '/assets/gameplay/unique/fishing/click_v2.gif', alt: 'Здесь нужно попасть в зелёную область' },
@@ -45,9 +45,9 @@ description: Кастомная рыбалка на Кошкокрафте
     <template #caption="slotProps">
         <p class="text-white">{{ slotProps.item.alt }}</p>
     </template>
-</Galleria>
+</Galleria> -->
 
-<!-- <CardGrid>
+<CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
         <Image alt="user header" src="/assets/gameplay/unique/fishing/click_game.gif" preview />
@@ -118,4 +118,4 @@ description: Кастомная рыбалка на Кошкокрафте
     </template>
     <template #subtitle>Также есть пустотная рыбалка! Нужно кинуть поплавок в любую пустоту</template>
 </Card>
-</CardGrid> -->
+</CardGrid>

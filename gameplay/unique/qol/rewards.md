@@ -39,7 +39,7 @@
 
 Подробнее о партнёрстве можно прочитать на этой странице:
 
-<Button as="a" href="../../info/for_media.md" label="Для Ютуберов и Стримеров" icon="pi pi-external-link" />
+<Button as="a" href="/info/for_media" label="Для Ютуберов и Стримеров" icon="pi pi-external-link" />
 
 ## Голосование на мониторингах
 
