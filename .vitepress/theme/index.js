@@ -1,5 +1,6 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue';
+// import {VPLTheme} from '@lando/vitepress-theme-default-plus';
 import DefaultTheme from 'vitepress/theme';
 import PrimeVue from 'primevue/config';
 import 'primeicons/primeicons.css'
@@ -46,6 +47,7 @@ import File from './File.vue';
 import ClanLevelCalculator from './ClanLevelCalculator.vue';
 import Neon from './Neon.vue';
 import Reviews from './Reviews.vue';
+import InfoCard from './InfoCard.vue';
 // 
 
 import ItemPageLayout from './ItemPageLayout.vue';
@@ -95,6 +97,7 @@ export default {
     app.component('ClanLevelCalculator', ClanLevelCalculator);
     app.component('Neon', Neon);
     app.component('Reviews', Reviews);
+    app.component('InfoCard', InfoCard);
     // 
     app.directive('tooltip', Tooltip);
   }
