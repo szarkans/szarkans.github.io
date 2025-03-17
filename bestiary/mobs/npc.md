@@ -52,7 +52,7 @@ aside: false
 
 **Миша** - самый добрый парень в столице! Владеет собственным баром "Баюн" и выдаёт котикам ежедневные квесты! Они обновляются в 00:00 по МСК.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***
 
@@ -267,4 +267,4 @@ u0LXRhtC40LvQvtGC0YEg0LIg0L
 jQvNCw0LrRjtC7INCw0Lcg0Lj
 QtNC10LvQoQ==
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

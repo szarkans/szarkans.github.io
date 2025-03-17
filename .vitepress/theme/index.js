@@ -1,6 +1,5 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue';
-// import {VPLTheme} from '@lando/vitepress-theme-default-plus';
 import DefaultTheme from 'vitepress/theme';
 import PrimeVue from 'primevue/config';
 import 'primeicons/primeicons.css'
@@ -52,6 +51,8 @@ import InfoCard from './InfoCard.vue';
 
 import ItemPageLayout from './ItemPageLayout.vue';
 
+import googleAnalytics from 'vitepress-plugin-google-analytics';
+
 import Aura from '@primevue/themes/aura';
 import './style.css';
 
@@ -68,7 +69,11 @@ export default {
       theme: {
         preset: Aura
       }
-    }); // Инициализируем PrimeVue
+    },
+    googleAnalytics({
+      id: 'G-X3KCR2ZW65'
+    })
+  ); // Инициализируем PrimeVue
     enhanceAppWithTabs(app);
     app.component('Button', Button); // Регистрируем компонент Button глобально
     app.component('Card', Card);

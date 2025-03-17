@@ -24,6 +24,8 @@ aside: false
 
 Зелье невидимости на **3 минуты**!
 
+### Крафт
+
 ![Крафт невидимой рамки](/assets/bestiary/crafts/itemframe.png){ width=550}
 
 <br><br><br><br><br><br><br>

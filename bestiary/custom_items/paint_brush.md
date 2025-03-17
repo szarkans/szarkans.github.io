@@ -30,4 +30,4 @@ aside: false
 ***
 ## Крафт
 
-![Крафт малярной кисти](/assets/bestiary/crafts/paint_brush_craft.png){ width=400 }
+![Крафт малярной кисти](/assets/bestiary/crafts/paint_brush_craft.png){ width=50% }

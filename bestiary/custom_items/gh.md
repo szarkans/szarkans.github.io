@@ -28,11 +28,4 @@ aside: false
 
 ## Крафт
 
-<CardGrid>
-<Card style="overflow: hidden;" class="m-0">
-    <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/gh_craft.png" preview />
-    </template>
-    <template #title>Крафт Крюка-кошки</template>
-</Card>
-</CardGrid>
+![Крафт крюка-кошки](/assets/bestiary/crafts/gh_craft.png){width=50%}

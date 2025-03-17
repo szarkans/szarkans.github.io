@@ -15,11 +15,11 @@
 
 ![Быстрый ЛС](/assets/gameplay/unique/qol/qol_ls.png)
 
-## Локализация
+<!-- ## Локализация
 
 Потихонечку мы переводим все элементы сервера сразу на 4 языка - Английский, Украинский, Казахский и LOLCAT!
 
-![Локализация на сервере Кошкокрафт](/assets/gameplay/unique/qol/translations.png)
+![Локализация на сервере Кошкокрафт](/assets/gameplay/unique/qol/translations.png) -->
 
 ## Новые картины
 

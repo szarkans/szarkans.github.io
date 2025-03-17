@@ -24,10 +24,6 @@ aside: false
 
 ### Крафт
 
-- 8 глубинного сланца
-
-- 1 древний обломок
-
 ![Крафт укреплённого глубинного сланца](/assets/bestiary/crafts/reinforced_deepslate.png){ width=400 loading="lazy" decoding="async" }
 
 <br><br>

@@ -79,12 +79,13 @@ export default defineConfig({
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season.md'},
-      { text: 'Обновления', link: '/updates/6season/6_3_2.md'}
+      { text: 'Обновления', link: '/updates/6season/6season/6_3_2.md'}
     ],
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/catcraftmc' },
-      { icon: {svg: '<svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>'}, link: 'https://t.me/catcraftmc_tg' }
+      { icon: {svg: '<svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>'}, link: 'https://t.me/catcraftmc_tg' },
+      { icon: 'youtube', link: 'https://youtube.com/@catcraftminecraft' }
     ],
 
     sidebar: {
@@ -94,90 +95,208 @@ export default defineConfig({
           link: "/updates/index.md"
         },
         {
-          text: "6 сезон",
-          items: generateSidebar(updatesPath, '/updates/6season/')
+          text: "7 сезон",
+          items: []
         },
         {
           text: "Архив",
           items: [
             {
-              "text": "29.10.2022",
-              "link": "/updates/archive/29_10_2022.md"
+              "text": "6 сезон",
+              "collapsed": true,
+              "items": generateSidebar(updatesPath, '/updates/6season/')
             },
             {
-              "text": "04.10.2022",
-              "link": "/updates/archive/04_10_2022.md"
+              "text": "5 сезон",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "5.9",
+                  "link": "/updates/5season/5_9.md"
+                },
+                {
+                  "text": "5.8",
+                  "link": "/updates/5season/5_8.md"
+                },
+                {
+                  "text": "5.7",
+                  "link": "/updates/5season/5_7.md"
+                },
+                {
+                  "text": "5.6",
+                  "link": "/updates/5season/5_6.md"
+                },
+                {
+                  "text": "5.5",
+                  "link": "/updates/5season/5_5.md"
+                },
+                {
+                  "text": "5.4",
+                  "link": "/updates/5season/5_4.md"
+                },
+                {
+                  "text": "5.3",
+                  "link": "/updates/5season/5_3.md"
+                },
+                {
+                  "text": "5.2",
+                  "link": "/updates/5season/5_2.md"
+                },
+                {
+                  "text": "5.1",
+                  "link": "/updates/5season/5_1.md"
+                }
+              ]
             },
             {
-              "text": "10.09.2022",
-              "link": "/updates/archive/10_09_2022.md"
+              "text": "4 сезон",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "4.3.4",
+                  "link": "/updates/4season/4_3_4.md"
+                },
+                {
+                  "text": "4.3.3",
+                  "link": "/updates/4season/4_3_3.md"
+                },
+                {
+                  "text": "4.3.2",
+                  "link": "/updates/4season/4_3_2.md"
+                },
+                {
+                  "text": "4.3.1",
+                  "link": "/updates/4season/4_3_1.md"
+                },
+                {
+                  "text": "4.2.0",
+                  "link": "/updates/4season/4_2_0.md"
+                },
+                {
+                  "text": "4.1.2",
+                  "link": "/updates/4season/4_1_2.md"
+                },
+                {
+                  "text": "4.1.1.1",
+                  "link": "/updates/4season/4_1_1_1.md"
+                },
+                {
+                  "text": "4.1.1",
+                  "link": "/updates/4season/4_1_1.md"
+                },
+                {
+                  "text": "4.1",
+                  "link": "/updates/4season/4_1.md"
+                },
+                {
+                  "text": "4 сезон",
+                  "link": "/updates/4season/init.md"
+                },
+              ]
             },
             {
-              "text": "24.08.2022",
-              "link": "/updates/archive/24_08_2022.md"
+              "text": "3 сезон",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "03.12.2022",
+                  "link": "/updates/archive/03_12_2022.md"
+                },
+                {
+                  "text": "16.11.2022",
+                  "link": "/updates/archive/16_11_2022.md"
+                },
+                {
+                  "text": "30.10.2022",
+                  "link": "/updates/archive/29_10_2022.md"
+                },
+                {
+                  "text": "04.10.2022",
+                  "link": "/updates/archive/04_10_2022.md"
+                },
+                {
+                  "text": "10.09.2022",
+                  "link": "/updates/archive/10_09_2022.md"
+                },
+                {
+                  "text": "24.08.2022",
+                  "link": "/updates/archive/24_08_2022.md"
+                },
+                {
+                  "text": "18.08.2022",
+                  "link": "/updates/archive/18_08_2022.md"
+                },
+                {
+                  "text": "12.08.2022",
+                  "link": "/updates/archive/12_08_2022.md"
+                },
+                {
+                  "text": "01.08.2022",
+                  "link": "/updates/archive/01_08_2022.md"
+                },
+                {
+                  "text": "11.07.2022",
+                  "link": "/updates/archive/11_07_2022.md"
+                },
+                {
+                  "text": "08.07.2022",
+                  "link": "/updates/archive/08_07_2022.md"
+                },
+                {
+                  "text": "05.07.2022",
+                  "link": "/updates/archive/05_07_2022.md"
+                },
+                {
+                  "text": "02.07.2022",
+                  "link": "/updates/archive/02_07_2022.md"
+                },
+                {
+                  "text": "20.07.2022",
+                  "link": "/updates/archive/20_07_2022.md"
+                },
+                {
+                  "text": "14.02.2022",
+                  "link": "/updates/archive/14_07_2022.md"
+                },
+                {
+                  "text": "01.07.2022",
+                  "link": "/updates/archive/01_07_2022.md"
+                },
+                {
+                  "text": "29.06.2022",
+                  "link": "/updates/archive/29_06_2022.md"
+                }
+              ]
             },
             {
-              "text": "18.08.2022",
-              "link": "/updates/archive/18_08_2022.md"
+              "text": "2 сезон",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "25.03.2022",
+                  "link": "/updates/archive/25_03_2022.md"
+                }
+              ]
             },
             {
-              "text": "12.08.2022",
-              "link": "/updates/archive/12_08_2022.md"
-            },
-            {
-              "text": "01.08.2022",
-              "link": "/updates/archive/01_08_2022.md"
-            },
-            {
-              "text": "11.07.2022",
-              "link": "/updates/archive/11_07_2022.md"
-            },
-            {
-              "text": "08.07.2022",
-              "link": "/updates/archive/08_07_2022.md"
-            },
-            {
-              "text": "05.07.2022",
-              "link": "/updates/archive/05_07_2022.md"
-            },
-            {
-              "text": "02.07.2022",
-              "link": "/updates/archive/02_07_2022.md"
-            },
-            {
-              "text": "20.07.2022",
-              "link": "/updates/archive/20_07_2022.md"
-            },
-            {
-              "text": "14.02.2022",
-              "link": "/updates/archive/14_07_2022.md"
-            },
-            {
-              "text": "01.07.2022",
-              "link": "/updates/archive/01_07_2022.md"
-            },
-            {
-              "text": "29.06.2022",
-              "link": "/updates/archive/29_06_2022.md"
-            },
-            {
-              "text": "25.03.2022",
-              "link": "/updates/archive/25_03_2022.md"
-            },
-            {
-              "text": "01.03.2022",
-              "link": "/updates/archive/01_03_2022.md"
-            },
-            {
-              "text": "15.02.2022",
-              "link": "/updates/archive/15_02_2022.md"
-            },
-            {
-              "text": "28.01.2022",
-              "link": "/updates/archive/28_01_2022.md"
-          },
+              "text": "1 сезон",
+              "collapsed": true,
+              "items":  [
+                {
+                  "text": "01.03.2022",
+                  "link": "/updates/archive/01_03_2022.md"
+                },
+                {
+                  "text": "15.02.2022",
+                  "link": "/updates/archive/15_02_2022.md"
+                },
+                {
+                  "text": "28.01.2022",
+                  "link": "/updates/archive/28_01_2022.md"
+                }
+              ]
+            }
         ]
-        
         }
       ],
       '/info/': [
@@ -546,7 +665,7 @@ export default defineConfig({
           ]
         },
         {
-          text: "Геймпленые",
+          text: "Геймплейные",
           items: [
             {
               text: "Как провести ивент?",

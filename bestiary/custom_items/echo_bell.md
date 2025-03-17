@@ -28,7 +28,7 @@ aside: false
 
 ## Крафт
 
-![Крафт эхо-колокола](/assets/bestiary/crafts/echo_craft.png){ width=400 }
+![Крафт эхо-колокола](/assets/bestiary/crafts/echo_craft.png){ width=50% }
 
 ## Демонстрация
 

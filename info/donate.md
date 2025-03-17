@@ -8,7 +8,7 @@ description: Донатик
 
 Донатик можно приобрести на нашем [сайте донатика](https://donate.catcraftmc.ru)!
 
-### Котик+
+### Котик+ {#kplus}
 
 **Котик+** - привилегия-подписка на нашем сервере, добавляющая полезные, но балансные команды:
 
@@ -58,7 +58,7 @@ description: Донатик
 <Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" icon="pi pi-external-link" />
 :::
 
-## Облики
+## Облики {#skins}
 
 Это скины на твои инструменты, броню, тотемы или прочее!
 
@@ -175,5 +175,3 @@ description: Донатик
 </Card>
 
 </CardGrid>
-
-

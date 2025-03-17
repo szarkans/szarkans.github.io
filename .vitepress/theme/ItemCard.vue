@@ -1,6 +1,5 @@
 <template>
     <div class="item-card">
-      <!-- Здесь <slot> позволяет передавать полностью настраиваемые карточки из md-файла -->
       <slot />
     </div>
   </template>
@@ -12,7 +11,8 @@
 .item-card {
   float: right;
   margin: 0 10px 10px 10px;
-  width: 20em;
+  max-width: 33%;
+  width: auto;
   overflow: auto;
 }
 
