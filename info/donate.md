@@ -12,7 +12,7 @@ description: Донатик
 
 **Котик+** - привилегия-подписка на нашем сервере, добавляющая полезные, но балансные команды:
 
-::: info Команды К+
+::: warning Команды К+
 - `/heal` - вылечить себя или другого раз в 5 минут
 
 - `/feed` - насытить себя или другого раз в 5 минут
@@ -55,7 +55,7 @@ description: Донатик
 
 - Доступ к ChatGPT 4o в Дискорде!
 
-<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Купить на сайте" icon="pi pi-external-link" />
+<Button as="a" href="https://donate.catcraftmc.ru" target="_blank" rel="noopener" label="Приобрести на сайте" icon="pi pi-external-link" />
 :::
 
 ## Облики {#skins}
@@ -169,7 +169,7 @@ description: Донатик
         <p>Набор настоящих работяг в стиле Стимпанк! Набор полностью анимирован!</p>
         <p>В наборе:</p>
         <ul>
-            <li>- 6 Свитков Обликов для инструментов и удочки</li>
+            <li>6 Свитков Обликов для инструментов и удочки</li>
         </ul>
     </template>
 </Card>

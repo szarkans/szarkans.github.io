@@ -7,7 +7,7 @@
         <img alt="user header" src="/assets/info/admins/szarkan.png" />
     </template>
     <template #title>Всекотец Szarkan</template>
-    <template #subtitle>Не дай бог вы назовёте как-то кроме как Серёжа...</template>
+    <template #subtitle>прив я серёжа. называйте меня серёжа. я тут типа основатель.</template>
 </Card>
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
@@ -25,7 +25,7 @@
         <img alt="user header" src="/assets/info/admins/sm1lly.png" />
     </template>
     <template #title>Дизайнер и лоровед sm1lly</template>
-    <template #subtitle>Вызывает улыбку! Пока его не назовут sm1llys...</template>
+    <template #subtitle>Не назовайте его sm1llys...</template>
 </Card>
 </CardGrid>
 

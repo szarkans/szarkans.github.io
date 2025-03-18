@@ -4,6 +4,7 @@
       <transition name="fade">
         <div class="review" v-if="currentReview">
           <div class="review-header">
+            <!-- Здесь будет уже предзагруженное изображение -->
             <img class="review-avatar" :src="currentReview.avatar" alt="Автор" />
             <span class="review-name">{{ currentReview.name }}</span>
           </div>
@@ -13,16 +14,21 @@
       </transition>
 
       <!-- Кнопка "Назад" -->
-      <button class="review-button review-button-left" @click="prevReview"><i class="pi pi-chevron-left"></i></button>
+      <button class="review-button review-button-left" @click="prevReview">
+        <i class="pi pi-chevron-left"></i>
+      </button>
       <!-- Кнопка "Вперёд" -->
-      <button class="review-button review-button-right" @click="nextReview"><i class="pi pi-chevron-right"></i></button>
+      <button class="review-button review-button-right" @click="nextReview">
+        <i class="pi pi-chevron-right"></i>
+      </button>
     </div>
   </div>
 </template>
 
 <script setup>
-// Допустим, у нас есть массив отзывов.
-// В реальности вы можете импортировать его или получить из API.
+import { ref, computed, onMounted } from 'vue'
+
+// Массив отзывов
 const reviews = [
   {
     avatar: 'https://cravatar.eu/avatar/Szarkan/50.png', // Замените на вашу ссылку
@@ -96,47 +102,46 @@ const reviews = [
   }
 ];
 
-// Текущий индекс отзыва
-import { ref, computed } from 'vue';
-
-const currentIndex = ref(0);
+/* Текущий индекс и вычисляемый отзыв */
+const currentIndex = ref(0)
+const currentReview = computed(() => reviews[currentIndex.value])
 
 function nextReview() {
-  currentIndex.value = (currentIndex.value + 1) % reviews.length;
+  currentIndex.value = (currentIndex.value + 1) % reviews.length
 }
-
 function prevReview() {
-  currentIndex.value = (currentIndex.value - 1 + reviews.length) % reviews.length;
+  currentIndex.value = (currentIndex.value - 1 + reviews.length) % reviews.length
 }
 
-const currentReview = computed(() => reviews[currentIndex.value]);
+/* 
+  Шаг 1: Предзагрузка картинок в onMounted, 
+  чтобы они были доступны в кэше, когда мы будем переключаться.
+*/
+onMounted(() => {
+  reviews.forEach(review => {
+    const img = new Image()
+    img.src = review.avatar
+  })
+})
 
-
-// Добавим простой функционал свайпа для мобильных устройств
-// (Это базовый пример. В реальности стоит более гибко обрабатывать расстояния свайпа.)
-let startX = 0;
-
+/* 
+  Базовая логика для свайпов 
+  (то, что у тебя было, плюс используем ту же логику)
+*/
+let startX = 0
 function handleTouchStart(e) {
-  startX = e.touches[0].clientX;
+  startX = e.touches[0].clientX
 }
-
 function handleTouchEnd(e) {
-  const endX = e.changedTouches[0].clientX;
-  const diff = endX - startX;
-  // Если смахнули влево больше чем на 50px — следующий отзыв
-  if (diff < -50) {
-    nextReview();
-  }
-  // Если смахнули вправо больше чем на 50px — предыдущий отзыв
-  if (diff > 50) {
-    prevReview();
-  }
+  const endX = e.changedTouches[0].clientX
+  const diff = endX - startX
+  if (diff < -50) nextReview()
+  if (diff > 50) prevReview()
 }
 </script>
 
 <style scoped>
 .reviews-container {
-  /* Центрируем по горизонтали */
   display: flex;
   justify-content: center;
   margin: 20px 0;
@@ -144,9 +149,7 @@ function handleTouchEnd(e) {
 
 .review-wrapper {
   position: relative;
-  /* На десктопе 50% ширины родителя */
   width: 70%;
-  /* background: #f9f9f9; */
   border: 3px solid #2828286d;
   border-radius: 15px;
   padding: 20px;
@@ -157,14 +160,12 @@ function handleTouchEnd(e) {
   padding: 0 20px 0 20px;
 }
 
-/* Адаптив для мобильных: при ширине экрана меньше 600px — 95% */
 @media (max-width: 600px) {
   .review-wrapper {
     width: 95%;
   }
 }
 
-/* Стили для самого отзыва */
 .review-header {
   display: flex;
   align-items: center;
@@ -173,24 +174,23 @@ function handleTouchEnd(e) {
 .review-avatar {
   width: 50px;
   height: 50px;
-  border-radius: 25% 25% 25% 25% / 25% 25% 25% 25%;
+  border-radius: 25%;
 }
 .review-name {
   font-weight: bold;
   margin-left: 10px;
 }
 
-/* Кнопки навигации */
 .review-button {
-position: absolute;
-  top: 0; /* Располагаем кнопку сверху контейнера */
-  bottom: 0; /* Растягиваем до нижнего края */
-  width: 40px; /* Задаём фиксированную ширину кнопки */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40px;
   border: none;
   font-size: 2rem;
   cursor: pointer;
   line-height: 1;
-  display: flex; /* Центрируем содержимое кнопки */
+  display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0.7;
@@ -198,7 +198,7 @@ position: absolute;
 }
 .review-button:hover {
   opacity: 1;
-  background: rgba(53, 53, 53, 0.374); /* Увеличиваем видимость при наведении */
+  background: rgba(53, 53, 53, 0.374);
 }
 .review-button-left {
   left: 0;
@@ -207,7 +207,6 @@ position: absolute;
   right: 0;
 }
 
-/* Анимация перехода между отзывами */
 .fade-enter-active, .fade-leave-active {
   transition: opacity 0.5s;
 }
@@ -216,19 +215,21 @@ position: absolute;
 }
 </style>
 
-<!-- Добавляем обработчики тач-событий на обёртку -->
+<!-- 
+  Это отдельный <script>, чтобы повесить события на обёртку.
+  Важно: убедись, что здесь у тебя корректно подхватываются handleTouchStart/End. 
+-->
 <script>
-  // Дополнительно обернём в отдельный script, чтобы повесить события на корневой элемент.
-  export default {
-    mounted() {
-      const wrapper = this.$el.querySelector('.review-wrapper');
-      wrapper.addEventListener('touchstart', this.$options.setup.handleTouchStart);
-      wrapper.addEventListener('touchend', this.$options.setup.handleTouchEnd);
-    },
-    unmounted() {
-      const wrapper = this.$el.querySelector('.review-wrapper');
-      wrapper.removeEventListener('touchstart', this.$options.setup.handleTouchStart);
-      wrapper.removeEventListener('touchend', this.$options.setup.handleTouchEnd);
-    }
+export default {
+  mounted() {
+    const wrapper = this.$el.querySelector('.review-wrapper')
+    wrapper.addEventListener('touchstart', this.$options.setup.handleTouchStart)
+    wrapper.addEventListener('touchend', this.$options.setup.handleTouchEnd)
+  },
+  unmounted() {
+    const wrapper = this.$el.querySelector('.review-wrapper')
+    wrapper.removeEventListener('touchstart', this.$options.setup.handleTouchStart)
+    wrapper.removeEventListener('touchend', this.$options.setup.handleTouchEnd)
   }
+}
 </script>

@@ -35,6 +35,8 @@ import Image from 'primevue/image';
 
 import Tag from 'primevue/tag';
 
+import { Carousel } from 'primevue';
+
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
 // MY VUE COMPONENTS
@@ -93,6 +95,7 @@ export default {
     app.component('AccordionContent', AccordionContent);
     app.component('Image', Image);
     app.component('Tag', Tag);
+    app.component('Carousel', Carousel);
     // MY VUE COMPONENTS
     app.component('Spoiler', Spoiler);
     app.component('CardGrid', CardGrid);
