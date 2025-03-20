@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "CATCRAFT"
   text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
-  tagline: "Мы на межсезонье!</u>"
+  tagline: "Мы на межсезонье!"
   actions:
     - theme: alt
       text: Начать играть
@@ -22,7 +22,9 @@ hero:
 
 ---
 
-***
+<Countdown />
+
+<br>
 
 # Кошкокрафт это...
 

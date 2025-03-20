@@ -49,6 +49,7 @@ import ClanLevelCalculator from './ClanLevelCalculator.vue';
 import Neon from './Neon.vue';
 import Reviews from './Reviews.vue';
 import InfoCard from './InfoCard.vue';
+import Countdown from './Countdown.vue';
 // 
 
 import ItemPageLayout from './ItemPageLayout.vue';
@@ -106,6 +107,7 @@ export default {
     app.component('Neon', Neon);
     app.component('Reviews', Reviews);
     app.component('InfoCard', InfoCard);
+    app.component('Countdown', Countdown);
     // 
     app.directive('tooltip', Tooltip);
   }
