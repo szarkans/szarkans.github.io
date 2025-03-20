@@ -123,12 +123,18 @@
 }
 
 /*  */
+/*  */
+/* PHONE */
+/*  */
+/*  */
+
+/*  */
 /* Бургер на телефоне */
 /*  */
 .VPNavScreen {
   position: relative !important; /* was `fixed` */
+  border-bottom: 5px solid #242424;
 }
-
 
 /*  */
 /* Картинка котика в Индексе */
@@ -178,6 +184,7 @@ h3 {
 .name {
   font-size: 5em !important;
   margin-bottom: 0.5em !important;
+  line-height: 100% !important;
 }
 
 /**

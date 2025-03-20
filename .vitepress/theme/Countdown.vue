@@ -54,5 +54,8 @@ onUnmounted(() => {
   color: #ffffff; /* Цвет Vue.js :) */
   text-align: center;
   margin: 0;
+  border-bottom: 12px dashed #602bb569;
+  border-top: 12px dashed #602bb569;
+  padding: 40px 0 40px 0;
 }
 </style>

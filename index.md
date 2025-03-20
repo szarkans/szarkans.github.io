@@ -24,7 +24,7 @@ hero:
 
 <Countdown />
 
-<br>
+<br><br>
 
 # Кошкокрафт это...
 
