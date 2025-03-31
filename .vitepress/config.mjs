@@ -74,7 +74,7 @@ export default defineConfig({
     returnToTopLabel: 'Вернуться к началу',
     langMenuLabel: 'Изменить язык',
     nav: [
-      { text: 'О сервере', link: '/info/rules/laws' },
+      { text: 'О сервере', link: '/info/faq' },
       { text: "Геймплей", link: '/gameplay/unique/qol/small_features'},
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
@@ -419,10 +419,6 @@ export default defineConfig({
                 {
                   text: "Подключение к Дискорду",
                   link: "/gameplay/unique/qol/discord_link.md"
-                },
-                {
-                  text: "Ребаланс трейдов жителей",
-                  link: "/gameplay/unique/qol/trade_rebalance.md"
                 },
                 {
                   text: "Датапаки сервера",

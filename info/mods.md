@@ -14,8 +14,6 @@ description: Готовая сборка сервера Кошкокрафт
 Мы написали гайд только для тебя! Он доступен по [этой ссылке](/guides/tech/mod_download.md)!
 :::
 
-Если тебе лень скачивать все нужные моды для сервера - у нас есть готовая сборкана **Fabric 1.21.1**! Файлик скачивания внизу.
-
 ::: tip В неё входят
 
 - Все обязательные для сервера моды
@@ -61,11 +59,11 @@ description: Готовая сборка сервера Кошкокрафт
 
 Если ты не хочешь скачивать готовую сборку, то вот список самых нужных модов для нашего сервера:
 
-- [PlasmoVoice](https://modrinth.com/plugin/plasmo-voice/versions?g=1.21.1&l=fabric) - войсчат
-- [ETF](https://modrinth.com/mod/entitytexturefeatures/versions?g=1.21.1&l=fabric) - текстуры существ
-- [EMF](https://modrinth.com/mod/entity-model-features/versions?g=1.21.1&l=fabric) - модели существ
-- [CIT Resewn](https://modrinth.com/mod/cit-resewn/versions?g=1.21.1) - ресурспак с переименованиями
-- [EmoteCraft](https://modrinth.com/plugin/emotecraft/versions?g=1.21.1&l=fabric) - эмоции внутри игры
+- [PlasmoVoice](https://modrinth.com/plugin/plasmo-voice/versions) - войсчат
+- [ETF](https://modrinth.com/mod/entitytexturefeatures/versions) - текстуры существ
+- [EMF](https://modrinth.com/mod/entity-model-features/versions) - модели существ
+- [CIT Resewn](https://modrinth.com/mod/cit-resewn/versions) - ресурспак с переименованиями
+- [EmoteCraft](https://modrinth.com/plugin/emotecraft/versions) - эмоции внутри игры
 
 ## Сборка сервера
 

@@ -8,10 +8,8 @@ title: Модели игрока
 
 На сервере есть поддержка мода на изменение модельки персонажа - он называется **Customizable Player Models**. Данный мод позволяет менять тело игрока как частично (например: добавить шляпу, лицо и анимацию, протез ноги), так и полностью на любую вами созданную!
 
-::: details Скачать
-Скачивание доступно на любой загрузчик модов!
-
-**Ссылка:** [https://modrinth.com/plugin/custom-player-models/versions](https://modrinth.com/plugin/custom-player-models/versions)
+::: tip Установка мода
+[Forge, Fabric, Quilt, NeoForge](https://modrinth.com/plugin/custom-player-models/versions)
 :::
 
 ::: details Настройка мода

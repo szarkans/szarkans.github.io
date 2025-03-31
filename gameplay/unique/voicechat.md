@@ -11,7 +11,7 @@ description: Войсчат на Кошкокрафте
 Войсчат позволяет разговаривать и слышать других внутри игры!
 
 ::: tip Установка мода
-[Forge, Fabric, Quilt, NeoForge](https://modrinth.com/plugin/plasmo-voice/versions?l=forge&l=fabric&g=1.21.1)
+[Forge, Fabric, Quilt, NeoForge](https://modrinth.com/plugin/plasmo-voice/versions)
 :::
 
 ## Управление войсчатом

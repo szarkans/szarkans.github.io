@@ -25,7 +25,7 @@
         <img alt="user header" src="/assets/info/admins/sm1lly.png" />
     </template>
     <template #title>Дизайнер и лоровед sm1lly</template>
-    <template #subtitle>Не назовайте его sm1llys...</template>
+    <template #subtitle>Не называйте его sm1llys...</template>
 </Card>
 </CardGrid>
 

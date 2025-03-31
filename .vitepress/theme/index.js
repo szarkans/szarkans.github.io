@@ -50,6 +50,7 @@ import Neon from './Neon.vue';
 import Reviews from './Reviews.vue';
 import InfoCard from './InfoCard.vue';
 import Countdown from './Countdown.vue';
+import InlineValue from './InlineValue.vue';
 // 
 
 import ItemPageLayout from './ItemPageLayout.vue';
@@ -108,6 +109,7 @@ export default {
     app.component('Reviews', Reviews);
     app.component('InfoCard', InfoCard);
     app.component('Countdown', Countdown);
+    app.component('InlineValue', InlineValue);
     // 
     app.directive('tooltip', Tooltip);
   }
