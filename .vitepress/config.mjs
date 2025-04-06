@@ -26,8 +26,15 @@ export default defineConfig({
   vite: {
     plugins: [
       imagemin({
-        filter: (id) =>
-          id.includes('/assets/') || id.includes('\\assets\\'),
+        filter: (id) => {
+          // Пропускаем файлы без расширения
+          if (!id) return false
+          // Только пути к картинкам в /assets/ и с нужным расширением
+          return (
+            /[\\/]assets[\\/]/.test(id) &&
+            /\.(png|jpe?g)$/i.test(id)
+          )
+        },
         compress: {
           jpg: {
             quality: 80
