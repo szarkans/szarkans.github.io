@@ -51,7 +51,11 @@ import Reviews from './Reviews.vue';
 import InfoCard from './InfoCard.vue';
 import Countdown from './Countdown.vue';
 import InlineValue from './InlineValue.vue';
+import SeasonAlbum from './SeasonAlbum.vue';
+import ImageBlur from './ImageBlur.vue';
 // 
+
+import VueEasyLightbox from 'vue-easy-lightbox';
 
 import ItemPageLayout from './ItemPageLayout.vue';
 
@@ -98,6 +102,7 @@ export default {
     app.component('Image', Image);
     app.component('Tag', Tag);
     app.component('Carousel', Carousel);
+    app.component('VueEasyLightbox', VueEasyLightbox);
     // MY VUE COMPONENTS
     app.component('Spoiler', Spoiler);
     app.component('CardGrid', CardGrid);
@@ -110,6 +115,8 @@ export default {
     app.component('InfoCard', InfoCard);
     app.component('Countdown', Countdown);
     app.component('InlineValue', InlineValue);
+    app.component('SeasonAlbum', SeasonAlbum);
+    app.component('ImageBlur', ImageBlur);
     // 
     app.directive('tooltip', Tooltip);
   }

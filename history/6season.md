@@ -246,7 +246,7 @@ CharaBell купила пост у Репортёров о том, что она
 
 2. **sm1lly**
 
-    ![Рисунок sm1lly для конкурса художников](/assets/server_history/season6/sm1lly_painting.jpg){ decoding="async" loading="lazy" }
+    <ImageBlur src="/assets/server_history/season6/sm1lly_painting.jpg" alt="Рисунок sm1lly для конкурса художников" />
 
 3. **GroM7IcE7**
 
