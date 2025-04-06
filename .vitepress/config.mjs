@@ -26,7 +26,8 @@ export default defineConfig({
   vite: {
     plugins: [
       imagemin({
-        filter: (id) => /[\\\/]assets[\\\/]/.test(id),
+        filter: (id) =>
+          id.includes('/assets/') || id.includes('\\assets\\'),
         compress: {
           jpg: {
             quality: 80
