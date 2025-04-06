@@ -94,7 +94,7 @@ description: История сервера Кошкокрафт - 5 сезон
 
 Видео-анонс ивента скалк-заражения <https://vk.com/wall-210306238_3868>
 
-<iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239083&hd=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239083&hd=1" width="100%" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
 
 ## 27 августа
 
@@ -130,7 +130,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Выпуск видео 360 градусов третьего сезона <https://vk.com/wall-210306238_3899>
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/tHAELr7NGvA?si=11RGwJ_BveppjZX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/tHAELr7NGvA?si=11RGwJ_BveppjZX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 22 сентября - Назад в прошлое
 
@@ -178,7 +178,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Объявление ивента аукциона контейнеров <https://vk.com/wall-210306238_3914>
 
-![Аукцион контейнеров](/assets/server_history/season5/auction.png){ width=75% decoding="async" loading="lazy" }
+![Аукцион контейнеров](/assets/server_history/season5/auction.png){ decoding="async" loading="lazy" }
 
 ## 1-2 октября
 
@@ -216,7 +216,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Новый видос от Magistr
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/3-gv-82wNmM?si=ykLv5c3gDNG3zzE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/3-gv-82wNmM?si=ykLv5c3gDNG3zzE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 22 октября
 
@@ -261,7 +261,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 
 Начались выборы нового президента! Точнее начали принимать кандидатуры.
 
-![assds](/assets/server_history/season5/выборы.png){ width=75% }
+![assds](/assets/server_history/season5/выборы.png){ }
 
 ## 8 ноября
 
@@ -272,7 +272,7 @@ Endermenn1250 покидает проект. Хоть админ был на е�
 ## 10 ноября - Дебаты кандидатов
 
 ::: warning Извините...
-    Из-за моей (Szarkan'а) лени, я забыл записать видел и написать пост о дебатах. Данный пункт написан исключительно по памяти.
+К сожалению я забыл записать видео и написать пост о дебатах. Данный раздел написан исключительно по памяти.
 :::
 
 Были проведены предвыборные дебаты, где всем кандидатам были заданы вопросы. GURZA и Magistr не смогли придти по личным причинам.
@@ -287,7 +287,7 @@ sirok_pypok: Открою правительственный магазин с �
 
 kiruwe4ka: никак
 
-Skorohodon: *не помню его ответ*
+Skorohodon: *ответ неизвестен*
 
 Papamama: *что-то про открытие платных территорий и введения налогов*
 
@@ -298,9 +298,9 @@ sirok_pypok: РП не должно быть обязательным. Нужн�
 
 kiruwe4ka: Никак
 
-Skorohodon: *не помню ответ*
+Skorohodon: *ответ неизвестен*
 
-Papamama: *не помню ответ*
+Papamama: *ответ неизвестен*
 
 ==Третий вопрос
 Игроки на сервере не задерживаются, а онлайн не повышается уже два года. По вашему мнению - почему?
@@ -392,7 +392,7 @@ Papamama: *не помню ответ*
 
     - Ими стали **sirok_pypok** и **Sibirius_**
 
-![Приглашение на свадьбу](/assets/server_history/season5/wedd_invite.png){ width=75% decoding="async" loading="lazy" }
+![Приглашение на свадьбу](/assets/server_history/season5/wedd_invite.png){ decoding="async" loading="lazy" }
 
 ### Техническое
 
@@ -458,7 +458,7 @@ Papamama: *не помню ответ*
 
 На свадьбе также раздавался лимитированный напиток - Кофе с мятным ликёром. Важный напиток из реальной жизни для молодожён.
 
-![Свадьба](/assets/server_history/season5/wedd.png){ width=75% decoding="async" loading="lazy" }
+![Свадьба](/assets/server_history/season5/wedd.png){ decoding="async" loading="lazy" }
 
 ## 29 ноября
 
@@ -486,7 +486,7 @@ Papamama: *не помню ответ*
 
     - Были удалены, слишком яркие и огромные
 
-    ![Префиксы](/assets/server_history/season5/prefixes.jpg){ width=75% decoding="async" loading="lazy" }
+    ![Префиксы](/assets/server_history/season5/prefixes.jpg){ decoding="async" loading="lazy" }
 
 ## 1 декабря
 
@@ -516,7 +516,7 @@ Papamama: *не помню ответ*
 
 Все начали думать, что закон был введён как раз из-за этих убийств.
 
-![rozysk](/assets/server_history/season5/poster_wanted.jpg){ width=75% decoding="async" loading="lazy" }
+![rozysk](/assets/server_history/season5/poster_wanted.jpg){ decoding="async" loading="lazy" }
 
 ## 9 декабря
 
@@ -580,15 +580,15 @@ Papamama: *не помню ответ*
 
 Никто ещё не знает **насколько** эта перестройка затянется...
 
-![Томми на фоне банка](/assets/server_history/season5/tommy_president.png){ width=75% decoding="async" loading="lazy" }
+![Томми на фоне банка](/assets/server_history/season5/tommy_president.png){ decoding="async" loading="lazy" }
 
 ## 31 декабря - 1 января - Новый год!
 
 Новый год! Была опубликована статистика сервера.
 
-![statistic](/assets/server_history/season5/stats1.png){ width=75% decoding="async" loading="lazy" }
+![statistic](/assets/server_history/season5/stats1.jpg){ decoding="async" loading="lazy" }
 
-![stats2](/assets/server_history/season5/stats2.png){ width=75% decoding="async" loading="lazy" }
+![stats2](/assets/server_history/season5/stats2.jpg){ decoding="async" loading="lazy" }
 
 ## 4 января 2024 
 
@@ -646,9 +646,9 @@ Papamama: *не помню ответ*
 
 - Энд был расширен!
 
-- `<wiki.catcraftmc.ru>` теперь ведёт на эту версию Вики!
+- `wiki.catcraftmc.ru` теперь ведёт на эту версию Вики!
 
-    ![Старая Вики](/assets/server_history/season5/old_wiki.png){ width=75% decoding="async" loading="lazy" }
+![Старая Вики](/assets/server_history/season5/old_wiki.png){ decoding="async" loading="lazy" }
 
 - Был возвращён закон **1.3.3 О мусорных постройках**
 
@@ -658,7 +658,7 @@ Papamama: *не помню ответ*
 
 ГКСБ - всё. **MissDomix** покинула пост по собственному желанию. Временно пост занял **Skorohodon**.
 
-![Рофлс от админов](/assets/server_history/season5/rofl.png){ width=75% decoding="async" loading="lazy" }
+![Рофлс от админов](/assets/server_history/season5/rofl.png){ decoding="async" loading="lazy" }
 
 ## 28 января
 
@@ -668,7 +668,7 @@ Papamama: *не помню ответ*
 
 В этот же день был открыт **BuildBattle** от **Endermen1250**. Цель - построить статую эндермена. Автор лучшей статуи получит ферму шалкеров.
 
-![Билд-баттл](/assets/server_history/season5/buildbattle.png){ width=75% decoding="async" loading="lazy" }
+![Билд-баттл](/assets/server_history/season5/buildbattle.png){ decoding="async" loading="lazy" }
 
 ## 29-30 января
 
@@ -733,7 +733,7 @@ Papamama: *не помню ответ*
 
 Он находился в здании совета.
 
-![Представитель, выборы президента](/assets/server_history/season5/choose.png){ width=75% decoding="async" loading="lazy" }
+![Представитель, выборы президента](/assets/server_history/season5/choose.png){ decoding="async" loading="lazy" }
 
 В этот же день репортёр **Magistr** опубликовал **эксперементальную** рубрику новостей в виде видео
 
@@ -803,7 +803,7 @@ Papamama: *не помню ответ*
 
 3. К++ на 7 дней, 100 АР - получил **Mia_Atsuna**
 
-![Гладиаторы на арене](/assets/server_history/season5/gladiators.png){ width=75% decoding="async" loading="lazy" }
+![Гладиаторы на арене](/assets/server_history/season5/gladiators.png){ decoding="async" loading="lazy" }
 
 ## 18 февраля
 
@@ -811,13 +811,13 @@ Papamama: *не помню ответ*
 
 В Арт-музее имени **CharaBell** было пополнение!
 
-![Арт-музей](/assets/server_history/season5/artmusei.png){ width=75% decoding="async" loading="lazy" }
+![Арт-музей](/assets/server_history/season5/artmusei.png){ decoding="async" loading="lazy" }
 
 В этот же день был выпущен выпуск новостей от **Magistr** - <https://youtu.be/uA3uRlmj_VM>
 
 В этот же день Президент объявил об открытии "РП" зоны, где любой желающий мог построить Не-АФК магазин. Этим постом он обнулил таймер своего АФК.
 
-![РП-зона](/assets/server_history/season5/rpzone.png){ width=75% decoding="async" loading="lazy" }
+![РП-зона](/assets/server_history/season5/rpzone.png){ decoding="async" loading="lazy" }
 
 ## 19 февраля - Ошибочка
 
@@ -827,7 +827,7 @@ Papamama: *не помню ответ*
 Доброе время суток, дорогие члены парламента, Вы все прекрасно меня знаете, а кто не знает мой никнейм MissDomix. Я хочу обжаловать свой тюремный срок в размере 90 суток. Я хочу донести Вам, что этот срок слишком большой, но Я признаю свою вину и раскаиваюсь. Если вы хотите узнать чем я займусь на воле, то я продолжу реконструкцию древнего города, также постараюсь вернуть религиозный магазин, который для меня многое значит. Мне очень не хватает моей семьи и прогулок по дождливой столице.
 :::
 
-![mistake](/assets/server_history/season5/bitch_in_jail.png){ width=75% decoding="async" loading="lazy" }
+![mistake](/assets/server_history/season5/bitch_in_jail.png){ decoding="async" loading="lazy" }
 
 ## 20-22 февраля - Накал страстей v.2
 
@@ -864,7 +864,7 @@ Papamama: *не помню ответ*
 
 - До 1 марта выпустить закон о бесхозных землях и продолжить строительство спавна
 
-![ult](/assets/server_history/season5/ultimatum.png){ width=75% decoding="async" loading="lazy" }
+![ult](/assets/server_history/season5/ultimatum.png){ decoding="async" loading="lazy" }
 
 ## 25 февраля
 
@@ -890,13 +890,13 @@ Papamama: *не помню ответ*
 
 "Вы же КСБ, вы же должны лизать жопу."
 
-![Она вам не Домикс!](/assets/server_history/season5/domix.png){ width=75% decoding="async" loading="lazy" }
+![Она вам не Домикс!](/assets/server_history/season5/domix.png){ decoding="async" loading="lazy" }
 
 ## 28 февраля
 
 Первый пост с видео от неких "Пустых"
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/ujh092k50fI?si=OCZ6BkOUtzbe6hYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/ujh092k50fI?si=OCZ6BkOUtzbe6hYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 29 февраля
 
@@ -910,7 +910,7 @@ Papamama: *не помню ответ*
 
 Репортёр **Magistr** выпустил пост с догадками о том, кто же такие Пустые.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/kOsySRQzY_w?si=fZw_7rd5zkQIlvDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/kOsySRQzY_w?si=fZw_7rd5zkQIlvDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 3-4 марта
 
@@ -924,7 +924,7 @@ Papamama: *не помню ответ*
 
 Вечером 4 марта Пустые выпускают третий ролик
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7vEIZiXm9sU?si=2fUcXjhjtLtIS1Id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/7vEIZiXm9sU?si=2fUcXjhjtLtIS1Id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 5 марта
 
@@ -980,7 +980,7 @@ Papamama: *не помню ответ*
 
 В этот же день **sm1lly** выдаёт базу, объявив Столицу - зоной без трусов. Всех игроков, носящих трусы, штрафовали.
 
-![Зона без трусов](/assets/server_history/season5/nopanties.png){ width=75% decoding="async" loading="lazy" }
+![Зона без трусов](/assets/server_history/season5/nopanties.png){ decoding="async" loading="lazy" }
 
 ## 19 марта 
 
@@ -996,11 +996,11 @@ Papamama: *не помню ответ*
 
 В этот же день был объявлен самый большой аукцион за весь сезон от игрока **Skorohodon**. В нём присутствовали 10 контейнеров, два из которых - Всекотовские.
 
-![Аукцион Скорохода](/assets/server_history/season5/auc_skoroc.png){ width=75% decoding="async" loading="lazy" }
+![Аукцион Скорохода](/assets/server_history/season5/auc_skoroc.png){ decoding="async" loading="lazy" }
 
 В этот же день некоторые Символы Власти обрели своих новых хозяев - **sm1lly** получил Символ Пути, а **Skorohodon** - Символ Цепи.
 
-![Рендер пустых-владельцов символов](/assets/server_history/season5/empty_render.png){ width=75% decoding="async" loading="lazy" }
+![Рендер пустых-владельцов символов](/assets/server_history/season5/empty_render.jpg){ decoding="async" loading="lazy" }
 
 ## 20 марта
 
@@ -1008,9 +1008,9 @@ Papamama: *не помню ответ*
 
 25 марта театр был уже полностью построен.
 
-![Построенный театр](/assets/server_history/season5/teatr.png){ width=75% decoding="async" loading="lazy" }
+![Построенный театр](/assets/server_history/season5/teatr.png){ decoding="async" loading="lazy" }
 
-![Построенный театр внутри, с игроками](/assets/server_history/season5/teatr_inside.png){ width=75% decoding="async" loading="lazy" }
+![Построенный театр внутри, с игроками](/assets/server_history/season5/teatr_inside.png){ decoding="async" loading="lazy" }
 
 ## 23 марта - неполадочка
 
@@ -1022,7 +1022,7 @@ Papamama: *не помню ответ*
 
 В совете произошла значительная перемена: бывший хранитель символа цепи **Skorohodon** уступил свой пост новому участнику, которым стал глава клана **SoleGrad** - **MakimaTyan**.
 
-![sm1lly c новым членом Совета Пяти - MakimaTyan](https://github.com/user-attachments/assets/4a6325c0-4204-4831-8af7-396a0c689545){ width=75% decoding="async" loading="lazy" }
+![sm1lly c новым членом Совета Пяти - MakimaTyan](https://github.com/user-attachments/assets/4a6325c0-4204-4831-8af7-396a0c689545){ decoding="async" loading="lazy" }
 
 ## 31 марта - пранк года
 
@@ -1030,9 +1030,9 @@ Papamama: *не помню ответ*
 
 Но зато sm1lly нарисовал крутой арт со всей компанией пранкеров!
 
-![Пранкеры в игре](/assets/server_history/season5/pranksters_real.png){ width=75% decoding="async" loading="lazy" }
+![Пранкеры в игре](/assets/server_history/season5/pranksters_real.png){ decoding="async" loading="lazy" }
 
-![Арт пранкеров](/assets/server_history/season5/pranksters_art.png){ width=75% decoding="async" loading="lazy" }
+![Арт пранкеров](/assets/server_history/season5/pranksters_art.png){ decoding="async" loading="lazy" }
 
 ## 1 апреля
 
@@ -1078,7 +1078,7 @@ Papamama: *не помню ответ*
 
 За 2 дня барьер покрыл **казну** Кошкокрафта, от чего банковская система рухнула.
 
-![Неудачный эксперимент](/assets/server_history/season5/experiment.png){ width=75% decoding="async" loading="lazy" }
+![Неудачный эксперимент](/assets/server_history/season5/experiment.png){ decoding="async" loading="lazy" }
 
 ## 3-5 апреля - начало конца
 
@@ -1090,13 +1090,13 @@ Papamama: *не помню ответ*
 
 У него была такая возможность, ведь незадолго до поглощение барьером казной, он вынес её **подчистую**.
 
-![Всадник апокалипсиса](/assets/server_history/season5/skoroh.png){ width=75% decoding="async" loading="lazy" }
+![Всадник апокалипсиса](/assets/server_history/season5/skoroh.png){ decoding="async" loading="lazy" }
 
 ## 5-7 апреля
 
 Мир начал разрушаться. Чанки вокруг котиков восстанавливались в изначальный вид, порталы перестали работать, вещи пропадали. **Совет Пяти** решил сделать последнюю вещь - построить портал **на следующий сезон**. Они попросили всех игроков собраться 7 апреля в 18:00, дабы открыть его вместе с помощью **Символов Власти**.
 
-![Портал в следующий сезон](/assets/server_history/season5/monuments.png){ width=75% decoding="async" loading="lazy" }
+![Портал в следующий сезон](/assets/server_history/season5/monuments.png){ decoding="async" loading="lazy" }
 
 В назначенный срок барьер был уже впритык к монументу, Совет Пяти вставили Символы, от чего на небе открылся портал, который привёл всех котиков в стазис.
 

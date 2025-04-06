@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 import fs from 'fs';
 import path from 'path';
+import imagemin from 'unplugin-imagemin/vite';
 
 const updatesPath = path.resolve(__dirname, '../updates/6season/');
 
@@ -22,6 +23,25 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.png'}]
   ],
 
+  vite: {
+    plugins: [
+      imagemin({
+        filter: (id) =>
+          id.includes('/assets/') || id.includes('\\assets\\'),
+        compress: {
+          jpg: {
+            quality: 80
+          },
+          jpeg: {
+            quality: 80
+          },
+          png: {
+            quality: 75
+          }
+        }
+      })
+    ]
+  },
   vue: {
     template: {
       transformAssetUrls: {

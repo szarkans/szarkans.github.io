@@ -120,6 +120,20 @@ const imagePositionClass = computed(() => {
   line-height: 1.5;
 }
 
+@media (max-width: 960px) {
+  .info-block__text {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  .info-block__text ul {
+    text-align: left !important;
+  }
+}
+
+
+
 /* 
    Вариации для картинки слева/справа
    "left" просто оставляем как есть, а "right" переставляем порядок 

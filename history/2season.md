@@ -49,7 +49,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Был снят охуенный трейлер Незер-хаба <https://vk.com/wall-210306238_187>
 
-<iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239023&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vk.com/video_ext.php?oid=-210306238&id=456239023&hd=2" width="100%" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
 
 - Было запущено его строительство - <https://vk.com/wall-210306238_240>
 

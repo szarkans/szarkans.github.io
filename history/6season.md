@@ -20,7 +20,7 @@ description: История сервера Кошкокрафт - 6 сезон
 
 Пик онлайна в день достиг **81 человек**, но на "второе" открытие зашло **76 человек**. Абсолютный рекорд сервера (прошлый рекорд - 45 человек)!
 
-<Image src="/assets/server_history/season6/wipe.png" preview />
+<Image src="/assets/server_history/season6/wipe.jpg" preview />
 
 ## 13-15 июля
 
@@ -42,11 +42,11 @@ CharaBell купила пост у Репортёров о том, что она
 
 В этот же день были подведены итоги Конкурса строителей! Победители:
 
-1. px239apen  ![Постройка px293apen на конкурсе строителей](/assets/server_history/season6/px239apen_build.png)
+1. px239apen  ![Постройка px293apen на конкурсе строителей](/assets/server_history/season6/px239apen_build.jpg)
 
-2. dark_moooon  ![Постройка dark_moooon на конкурсе строителей](/assets/server_history/season6/dark_mooon_build.png)
+2. dark_moooon  ![Постройка dark_moooon на конкурсе строителей](/assets/server_history/season6/dark_mooon_build.jpg)
 
-3. ytrbqdkflbvbhy ![Постройка ytrbqdkflbvbhy на конкурсе строителей](/assets/server_history/season6/ytrbqdkflbvbhy_build.png)
+3. ytrbqdkflbvbhy ![Постройка ytrbqdkflbvbhy на конкурсе строителей](/assets/server_history/season6/ytrbqdkflbvbhy_build.jpg)
 
 ## ~26-28 июля - panda6001 incident
 
@@ -172,7 +172,7 @@ CharaBell купила пост у Репортёров о том, что она
 
 Был создан гос. заказ - уничтожить [город клана Сакура](#26-28-июля---panda6001-incident). Оплата - всё, что игроки найдут/вскопают на территории города. К сожалению Всекотец не учёл, что не все из клана Сакуры ушли и были против Кошкокрафта...
 
-![Город клана Сакура перед уничтожением](/assets/server_history/season6/sakura_destroy.png){ width=75% decoding="async" loading="lazy" }
+![Город клана Сакура перед уничтожением](/assets/server_history/season6/sakura_destroy.jpg){ decoding="async" loading="lazy" }
 
 В этот же день было первое упоминание супергероя сервера - КЗАНЕКС-МЕНА! Этот отважный котик влетел в горящее здание (которое сам и поджёг) и спас внебрачную дочку bykkake747. Жители Кайфограда с облегчением вздохнули, радуясь, что их герой все-таки справился с этой задачей. Однако никто не забыл, что даже супергерои могут быть немного пироманами!
 
@@ -240,17 +240,17 @@ CharaBell купила пост у Репортёров о том, что она
 
 1. **px293apen** и **kizex** - оба набрали одинаковое количество баллов
 
-    ![Рисунок px293apen для конкурса художников](/assets/server_history/season6/px293apen_painting.png){ width=75% decoding="async" loading="lazy" }
+    ![Рисунок px293apen для конкурса художников](/assets/server_history/season6/px293apen_painting.jpg){ decoding="async" loading="lazy" }
 
-    ![Рисунок kizex для конкурса художников](/assets/server_history/season6/kizex_painting.png){ width=75% decoding="async" loading="lazy" }
+    ![Рисунок kizex для конкурса художников](/assets/server_history/season6/kizex_painting.jpg){ decoding="async" loading="lazy" }
 
 2. **sm1lly**
 
-    ![Рисунок sm1lly для конкурса художников](/assets/server_history/season6/sm1lly_painting.png){ width=75% decoding="async" loading="lazy" }
+    ![Рисунок sm1lly для конкурса художников](/assets/server_history/season6/sm1lly_painting.jpg){ decoding="async" loading="lazy" }
 
 3. **GroM7IcE7**
 
-    ![Рисунок GroM7IcE7](/assets/server_history/season6/gromice_painting.png){ width=75% decoding="async" loading="lazy" }
+    ![Рисунок GroM7IcE7](/assets/server_history/season6/gromice_painting.jpg){ decoding="async" loading="lazy" }
 
 В этот же день вышло изменение некоторых законов и добавление закона о залоге - заключенного под стражу котика можно выкупить за АРы, если на это согласно правительство.
 
@@ -258,25 +258,10 @@ CharaBell купила пост у Репортёров о том, что она
 
 **dark_moooon** покидает пост Строителя Совета Пяти, и его место занимает **Lofiry**, в бывшем проектировщик почти всех Незер-хабов и Энд-хаба на 2 сезоне. **Lofiry** выпустил пост, где рассказывает об окончании проектирования нового Незер-хаба для 6 сезона, и проводит голосование о высоте веток хайперлупы.
 
-<div class="carousel-container">
-  <div class="carousel">
-    <div class="carousel-item">
-      <img src="/assets/server_history/season6/lofiry_netherhub_1.png" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/server_history/season6/lofiry_netherhub_2.png" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/server_history/season6/lofiry_netherhub_3.png" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/server_history/season6/lofiry_netherhub_4.png" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async">
-    </div>
-  </div>
-  <button class="carousel-button prev-button">&#10094;</button>
-  <button class="carousel-button next-button">&#10095;</button>
-  <div class="carousel-counter">1 / 4</div>
-</div>
+<Image src="/assets/server_history/season6/lofiry_netherhub_1.jpg" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async" preview />
+<Image src="/assets/server_history/season6/lofiry_netherhub_2.jpg" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async" preview />
+<Image src="/assets/server_history/season6/lofiry_netherhub_3.jpg" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async" preview />
+<Image src="/assets/server_history/season6/lofiry_netherhub_4.jpg" class="carousel-image" alt="Незер-хаб Lofiry" decoding="lasy" loading="async" preview />
 
 ## 13 августа - 2.5 кассета
 
@@ -327,7 +312,7 @@ CharaBell купила пост у Репортёров о том, что она
 
 Репортёры и сами котики выпустили посты, где поздравляли друг друга!
 
-![Вечеринка в честь дня рождения котиков](/assets/server_history/season6/happy_bday.png){width=70% decoding="lazy" loading="async"}
+![Вечеринка в честь дня рождения котиков](/assets/server_history/season6/happy_bday.jpg){ decoding="lazy" loading="async"}
 
 В этот же день ГКСБ **JOY6OY** объяснил низкую скорость решения репортов - были массовые перестановки и обучение новых кадетов. Также он объявил дату церемонии вступления в Офицеры КСБ!
 
@@ -461,7 +446,7 @@ CharaBell купила пост у Репортёров о том, что она
 
 Объявление свадьбы **kvarikc_jaba** и **Akyla_s_siskamu**! Сама свадьба будет 1 сентября, вход свободный для всех!
 
-![image](/assets/server_history/season6/kvarikc_akyla_wedding.png)
+![image](/assets/server_history/season6/kvarikc_akyla_wedding.jpg)
 
 ## 1 сентября
 
@@ -618,17 +603,103 @@ CharaBell купила пост у Репортёров о том, что она
 
 Была объявлена свадьба котика **sm1lly** и кошечьки **DashaKit23**. Она пройдёт 29 сентября, в роли священника будет **\_\_Jeas\_\_**, а в роли тамады - **CristalRU**.
 
-![Свадьба sm1lly и DashaKit23](/assets/server_history/season6/sm1lly_wedding.png)
+![Свадьба sm1lly и DashaKit23](/assets/server_history/season6/sm1lly_wedding.jpg)
 
 В этот же день неизвестный выпустил видео, в котором говорится что "Энд в конце".
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVCEG62evPo?si=qkaK51LAABLQjPRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/WVCEG62evPo?si=qkaK51LAABLQjPRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 27 сентября
 
 Было объявлено об открытие организации **Службы сохранения Здоровых котят** - организации, созданной для поддержания благоприятной атмосферы в стране и развития позитивного взаимодействия между всеми котиками.  В программе мероприятия официальное открытие нового здания СЗК, рассказ о целях и задачах этой важной организации, прием заявок на должности медиков и ученых, которые будут заботиться о здоровье и благополучии всех обитателей Кошкокрафта.
 
-![СЗК](/assets/server_history/season6/szk.png)
+![СЗК](/assets/server_history/season6/szk.jpg)
+
+# 1 октября
+
+Был объявлен концерт новой группы "Крутые перцы", они обещали незабываемые эмоции, крутое шоу и отличное настроение. Сам концерт проходил на территории клана Saziro, а участниками группы были **\_\_Jeas\_\_**, **sm1lly**, **Hortych** и **Sy05**
+
+![Крутые Перцы](/assets//server_history/season6/krytie_perci.jpg)
+
+# 2 октября
+
+В столице появилась загадочная дыра в земле. На ней находилось сообщение "Дающий СЭКС получит", и число, обозначающее количество предметов.  
+В результате недолгих исследований, было установлено, что счётчик повышается, если в яму кидать **Кактусы**.
+
+К сожалению котики не смогли заполнить яму кактусами и не получили заветный **СЭКС**...
+
+![Яма секса](/assets/server_history/season6/sex_hole.jpg)
+
+В этот же день вышла 7 кассета - Шум и гам
+
+::: details Кассета #7 - Шум и гам
+Коро░ко и по делу. Информации много, сильно много уходить от тем не будем.
+Первая тема сегодняшней кассеты будет пред░преждением об на░вигающейся опасности. Учёные, по░имо стабил░зации портала, твердят о сбое в системе. Нет, с по░талом все нормально, они к░ичат об общих показателях нашего мира. Что-░о огромное, до безумства могу░ественное прибыло на эти земли. При░ерно такое же было, когда Все░отец при░ывал на помощь не░оторым котам, но это го░аздо сильнее. Я пре░полагаю, что оно уже давно тут. Это позволяет нам понять то, что он может прятать свое присутствие, скрывать эхо-░олны.
+Шутки в сторону, я понятия не имею об этом всём. Я не хочу вас всех пугать, но и в не░еденье не могу оставить. Сейчас наши при░оры перестали зашкаливать, по░а что.
+Возвращаясь к порталу, говорю, что он прак░ически готов, но осталось заключи░ельная часть - настройка для открытия, под░отовка ресурсов для ритуала, проверка пентаграм░ы и прочее. При░ерное время ожи░ания ░0 кошач░их суток.
+Под конец, у меня есть к вам за░ание. Как вы знаете, рабочих рук не хватает. Каждый из вас мне нужен, чтобы раскрыть финальную загадку эхо-волн и кошачьих земель. Ваша задача такова: поведуйте мне о себе, расскажите свою историю, свой путь. Многие хотят славы, поэтому некоторые из вас наверняка будут прип░сывать себе чуж░е заслуги. Будете так делать - никогда не сможете с нами сотрудничать, мне нужна подлинность и истина. Про тех, кто действительно помн░т я уже знаю. Шаблон документа будет прикреплён к этой кассете.
+Удачи.
+
+P.S. Заполнять анкету желательно, но не обязательно
+
+*Конец кассеты*
+
+**Прикрепленная анкета**
+
+Ваше имя никнейм:
+О вас:
+
+Имя:
+Фамилия:
+Дата рождения:
+Пол:
+Возраст:
+Рост:
+
+Характер:
+
+Место рождения:
+Семья:
+Мать:
+Отец:
+
+Профессии:
+Место работы:
+Образование:
+
+История вашего персонажа :
+
+Дополнительные сведения :
+:::
+
+## 4 октября
+
+**CristalRU** выпускает пост с просьбой о помощи. В посте описываюется как **нечто неизвестное хаотично перемещается по нашим угодьям**. Он призывает всех собрать оружие и дать бой неизвестному существу. Бой пройдёт 6 октября. Глава похода - CristalRU, помощники - sm1lly, kzanex-man и cantcaaat.
+
+::: details Полный пост
+Зов о помощи!
+Дорогие котята! Призываю всех вас на помощь нашей стране! Помните про мои часы из пустоты? Они просто зашкаливают! Не только они, все мои системы слежения просто сходят с ума! Нечто неизвестное хаотично перемещается по нашим угодьям. Котенок ??? уже писал про подобное, поэтому я думаю, что это оно и есть. Мы не знаем, как оно повлияет на наш мир, раз оно схоже со Всекотцом. Котята!!! Мне нужна помощь для противодействия этой неведомой сущности, нам нужна каждая лапка этих земель! Возможно, будет бой, так что приготовьте свое самое сильное вооружение. Также нам нужны будут медики, чтобы помочь пострадавшим, а также все, кто связан с экзорцизмом, так как я предполагаю, что это злой демон.
+
+Этот рейд войдёт в историю. Происходить он будет 6 октября (воскресенье) в 3-4 часа дня по МСК.
+
+ПОВТОРЯЮ! НУЖНЫ ВСЕ!  Глава похода - CristalRU , его помощники - sm1lly, kzanex-man, cantcaaat. Пожелайте удачи участникам рейда, ведь она им понадобится...
+:::
+
+![cristal](/assets/server_history/season6/cristal.jpg)
+
+## 6 октября - Бурен
+
+В этот день, CristalRU собрал многих игроков на специальной площадке, чтобы дать бой неизвестному существу. Cristal, вместе с помощниками, смогли остановить перемещение существа в одной точке, и игроки наконец смогли увидеть что это было - это был **Бурен**, неизвестное эхо существо, которое угрожало всему миру Кошачьему. После долгого и изнурительного боя с этим огромным существом, котики победили и смогли предотвратить апокалипсис...
+
+![Бурен](/assets/server_history/season6/buren.jpg)
+
+## 8 октября - закрытие
+
+Грустный день для всей России - Дискорд был заблокирован на территории РФ. Ничего, кроме паники Всекоты не чувствовали - Дискорд был основным местом общения и важной частью сервера. Только здесь работали заявки на сервер, репорты, здесь в основном общались.  
+Было принято серьезное и глобальное решение - "открыть" сервер, убрать заявки и вайтлист, чтобы все могли заходить на сервер без Дискорда. Для такого нужно было подготовиться - добавить новые системы и переписать правила, чтобы учесть новый поток игроков.
+
+Как итог - 8 ноября сервер был официально "открыт". Была добавлена защита территорий через блоки, магазины через сундуки, а правила и законы были подредактированы под новые реалии.
+
 
 ***
 
@@ -646,7 +717,7 @@ CharaBell купила пост у Репортёров о том, что она
 
 За данную анимацию огромное спасибо **JOY6OY**!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bBZg7Lf04YU?si=BZBkWzyQhlaXl_yO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/bBZg7Lf04YU?si=BZBkWzyQhlaXl_yO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Статистика сезона
 :::details Раскрой меня!
