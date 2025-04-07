@@ -83,7 +83,7 @@ CharaBell купила пост у Репортёров о том, что она
 
 А остров мы потом взорвали нахуй.
 
-<video width="75%" height="75%" controls>
+<video width="100%" height="480" controls>
   <source src="/assets/server_history/season6/panda_kaboom.mp4" type="video/mp4">
 </video>
 

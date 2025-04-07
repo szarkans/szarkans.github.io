@@ -1,0 +1,61 @@
+<template>
+  <div>
+    <div class="gallery-grid">
+      <img
+        v-for="(img, index) in images"
+        :key="index"
+        :src="img"
+        loading="lazy"
+        class="preview"
+        @click="show(index)"
+      />
+    </div>
+
+    <vue-easy-lightbox
+      :visible="visible"
+      :imgs="images"
+      :index="currentIndex"
+      @hide="visible = false"
+    />
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+import VueEasyLightbox from 'vue-easy-lightbox'
+
+defineProps({
+  images: {
+    type: Array,
+    required: true,
+  },
+})
+
+const visible = ref(false)
+const currentIndex = ref(0)
+
+function show(index) {
+  currentIndex.value = index
+  visible.value = true
+}
+</script>
+
+<style scoped>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+}
+
+.preview {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.preview:hover {
+  transform: scale(1.03);
+}
+</style>

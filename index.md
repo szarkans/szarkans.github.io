@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "CATCRAFT"
+  name: "Кошкокрафт"
   text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
   tagline: "Мы на межсезонье!"
   actions:

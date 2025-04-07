@@ -35,7 +35,7 @@ const hovered = ref(false);
 
 .blur-image-container img {
   display: block;
-  transition: filter 0.3s ease;
+  transition: filter 0.3s ease !important;
   width: 100%;
   height: auto;
 }
