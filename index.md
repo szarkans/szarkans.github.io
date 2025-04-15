@@ -57,8 +57,34 @@ hero:
 </ul>
 </InfoCard>
 
-***
+<br><br>
+
+# Частые вопросы
+
+<HomeFaq />
+
+<br><br>
 
 # Что о нас говорят игроки?
 
 <Reviews />
+
+<!-- <br><br>
+
+# Всё ещё не уверен?
+
+Глянь все наши ресурсы и углубись в атмосферу нашего сервера!
+
+<CardGrid>
+  <Card style="width: 25rem; overflow: hidden" class="m-0">
+      <template #title>
+        <div style="display: flex; align-items: center; margin-right: 10px">
+          <img src="/assets/svg/discord.svg" class="my-svg"></img>
+          <p>Discord</p>
+        </div>
+      </template>
+      <template #content>
+        <p>Основное место всех новостей и общения!</p>
+      </template>
+  </Card>
+</CardGrid> -->

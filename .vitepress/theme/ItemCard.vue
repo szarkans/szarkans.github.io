@@ -1,8 +1,16 @@
 <template>
+    <span>
+      <div class="item-card">
+        <slot />
+      </div>
+    </span>
+</template>
+
+<!-- <template>
     <div class="item-card">
       <slot />
     </div>
-  </template>
+</template> -->
 
 <script setup>
 </script>

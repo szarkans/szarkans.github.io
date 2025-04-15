@@ -359,3 +359,14 @@ font-weight: bold;
 strong {
   font-weight: 700 !important;
 }
+
+/*  */
+/* Custom SVG */
+/*  */
+.my-svg {
+  width: 10%; /* Ширина SVG */
+  height: 10%; /* Высота SVG */
+  fill: #d1d1d1 !important; /* Цвет заливки */
+  color: #fff !important;
+  margin-right: 10px;
+}

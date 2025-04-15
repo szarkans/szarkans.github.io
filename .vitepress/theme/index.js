@@ -52,6 +52,7 @@ import InfoCard from './InfoCard.vue';
 import Countdown from './Countdown.vue';
 import InlineValue from './InlineValue.vue';
 import ImageBlur from './ImageBlur.vue';
+import HomeFaq from './HomeFaq.vue';
 // 
 
 
@@ -113,6 +114,7 @@ export default {
     app.component('Countdown', Countdown);
     app.component('InlineValue', InlineValue);
     app.component('ImageBlur', ImageBlur);
+    app.component('HomeFaq', HomeFaq);
     // 
     app.directive('tooltip', Tooltip);
   }
