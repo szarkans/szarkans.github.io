@@ -56,5 +56,6 @@
 
 .neon {
   animation: lights 5s 750ms linear infinite;
+  animation-iteration-count: infinite !important;
 }
 </style>
