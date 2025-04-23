@@ -77,7 +77,7 @@ export default defineConfig({
       { text: "Геймплей", link: '/gameplay/unique/qol/small_features'},
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
-      { text: 'История сервера', link: '/history/1season.md'},
+      { text: 'История сервера', link: '/history/1season/1season.md'},
       { text: 'Обновления', link: '/updates/6season/6_3_2.md'}
     ],
 
@@ -693,27 +693,90 @@ export default defineConfig({
       '/history/': [
         {
           text: '1 сезон',
-          link: '/history/1season'
+          items: [
+            {
+              text: 'История',
+              link: '/history/1season/1season.md'
+            },
+            {
+              text: "Альбом",
+              link: '/history/1season/album.md'
+            }
+          ],
         },
         {
           text: '2 сезон',
-          link: '/history/2season'
+          items: [
+            {
+              text: 'История',
+              link: '/history/2season/2season.md'
+            },
+            {
+              text: "Альбом",
+              link: '/history/2season/album.md'
+            }
+          ],
         },
         {
           text: '3 сезон',
-          link: '/history/3season'
+          items: [
+            {
+              text: 'История',
+              link: '/history/3season/3season.md'
+            },
+            {
+              text: "Альбом",
+              link: '/history/3season/album.md'
+            }
+          ]
         },
         {
           text: '4 сезон',
-          link: '/history/4season'
+          items: [
+            {
+              text: 'История',
+              link: '/history/4season/4season.md'
+            },
+            {
+              text: "Альбом",
+              link: '/history/4season/album.md'
+            }
+          ]
         },
         {
           text: '5 сезон',
-          link: '/history/5season'
+          items: [
+            {
+              text: 'История',
+              link: '/history/5season/5season.md'
+            },
+            {
+              text: "Альбом",
+              link: '/history/5season/album.md'
+            }
+          ]
         },
         {
           text: '6 сезон',
-          link: '/history/6season'
+          items: [
+            {
+              text: 'История',
+              link: '/history/6season/6season.md'
+            },
+            {
+              text: "Альбом",
+              link: '/history/6season/album.md'
+            }
+          ]
+        },
+        {
+          text: 'Сезон NewGen',
+          items: [
+            {
+              text: 'История',
+              link: '/history/7season/7season.md'
+            }
+          ]
         }
       ]
       

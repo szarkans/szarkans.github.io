@@ -4,3 +4,4 @@
 /.vitepress/cache
 /node_modules
 /.vitepress/.temp
+/scripts
