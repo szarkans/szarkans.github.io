@@ -770,7 +770,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Сезон NewGen',
+          text: '7 сезон',
           items: [
             {
               text: 'История',
