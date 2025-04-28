@@ -7,7 +7,7 @@ aside: false
 Это альбом **3 сезона Кошкокрафта**, собранный со скринов игроков, из новостей и из разных уголков соц. сетей. Скриншоты выстроены в хронологическом порядке за редкими исключениями.
 
 ::: info Авторы скринов
-JOY6OY, Szarkan, BKKE, sm1lly, LittleGirlsLover, Gekkish, EZENMYR
+JOY6OY, Szarkan, BKKE, sm1lly, LittleGirlsLover, Gekkish, EZENMYR, dimastein
 ::: 
 
 
