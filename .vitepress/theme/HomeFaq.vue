@@ -17,7 +17,7 @@
     <!-- Блок ссылки на Discord -->
     <div class="faq-right">
       <div class="discord-box">
-        <a href="https://discord.gg/catcraftmc" target="_blank" style="color: inherit; text-decoration: none;">
+        <a href="https://discord.gg/6f3FwFRJWC" target="_blank" style="color: inherit; text-decoration: none;">
           <div class="discord-box-top">
             <!-- SVG-иконки Discord -->
             <svg class="discord-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36">

@@ -12,7 +12,7 @@ hero:
       link: /info/guide.md
     - theme: brand
       text: Наш Дискорд
-      link: https://discord.gg/catcraftmc
+      link: https://discord.gg/6f3FwFRJWC
     - theme: brand
       text: Наш ТГ
       link: https://t.me/catcraftmc_tg
