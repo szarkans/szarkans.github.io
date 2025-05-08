@@ -196,14 +196,14 @@ h3 {
   
 }
 
-span.text {
+.heading > span.text {
   font-size: 3em !important;
   margin-bottom: 0.5em !important;
   line-height: 100% !important;
 }
 
 @media (max-width: 960px) {
-  span.text {
+  .heading > span.text {
     font-size: 2em !important;
   }
   
