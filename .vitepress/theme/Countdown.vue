@@ -10,7 +10,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 const countdownText = ref('Загрузка таймера...');
 
 // Указываем целевую дату (по московскому времени UTC+3)
-const targetDate = new Date('2025-06-01T18:00:00+03:00');
+const targetDate = new Date('2025-06-10T18:00:00+03:00');
 
 // Функция обновления таймера
 function updateCountdown() {
