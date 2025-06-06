@@ -63,7 +63,7 @@ const faqItems = [
   },
   {
     title: 'Как попасть на сервер?',
-    content: 'Пока что никак - мы на межсезонье до 01.06.2025! Но обязательно зайди в наш <a href="https://discord.gg/catcraftmc">Discord</a> или <a href="https://t.me/catcraftmc_tg">Telegram</a> чтобы быть в курсе новостей!'
+    content: 'Пока что никак - мы на межсезонье до 01.06.2025! Но обязательно зайди в наш <a href="https://discord.gg/6f3FwFRJWC">Discord</a> или <a href="https://t.me/catcraftmc_tg">Telegram</a> чтобы быть в курсе новостей!'
   },
   {
     title: 'Какая валюта сервера?',
