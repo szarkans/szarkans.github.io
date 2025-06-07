@@ -31,13 +31,14 @@ description: Готовая сборка сервера Кошкокрафт
 - [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features)  
 - [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)  
 - [Entity Culling](https://modrinth.com/mod/entityculling)  
+- [Figura Mod](https://modrinth.com/mod/figura)
+- [Distant Horizons](https://modrinth.com/mod/distanthorizons)
 - [EmoteCraft](https://modrinth.com/plugin/noemotecraft)  
 - [Falling Leaves](https://modrinth.com/mod/fallingleaves)  
 - [fast-ip-ping](https://modrinth.com/mod/fast-ip-ping)  
 - [FastQuit](https://modrinth.com/mod/fastquit)  
 - [FerriteCore](https://modrinth.com/mod/ferrite-core)  
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)  
-- [Indium](https://modrinth.com/mod/indium)  
 - [Iris](https://modrinth.com/mod/iris)  
 - [Krypton](https://modrinth.com/mod/krypton)  
 - [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)  
@@ -50,7 +51,6 @@ description: Готовая сборка сервера Кошкокрафт
 - [Remove Reloading Screen](https://modrinth.com/mod/rrls)  
 - [Sodium](https://modrinth.com/mod/sodium)  
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)  
-- [ThreadTweak](https://modrinth.com/mod/threadtweak)  
 - [Very Many Players](https://modrinth.com/mod/vmp-fabric)  
 - И библиотеки для модов  
 :::
