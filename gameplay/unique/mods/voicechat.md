@@ -22,7 +22,7 @@ description: Войсчат на Кошкокрафте
 
 Разговаривать на `Left Alt`
 
-![Настройки PlasmoVoice](/assets/gameplay/unique/voicechat/settings.png)
+![Настройки PlasmoVoice](/assets/gameplay/unique/mods/voicechat/settings.png)
 
 ## Голосовые группы
 
