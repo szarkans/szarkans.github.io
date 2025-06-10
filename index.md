@@ -22,10 +22,6 @@ hero:
 
 ---
 
-<Countdown />
-
-<br><br>
-
 # Кошкокрафт это...
 
 <InfoCard 
