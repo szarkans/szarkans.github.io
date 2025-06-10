@@ -19,11 +19,11 @@ CPM на нашем сервере предназначен больше для 
 ::: details Настройка мода
 Когда скачаешь мод - нажми английскую `G`, зайди в `Safety Settings` справа снизу и выбери `Profile: Off`! Иначе ты не увидишь многие модельки игроков!
 
-![Настройка CPM](/assets/gameplay/mods/unique/cpm/settings1.png){width=700}
+![Настройка CPM](/assets/gameplay/unique/cpm/settings1.png){width=700}
 
 ***
 
-![Настройка CPM 2](/assets/gameplay/mods/unique/cpm/settings2.png){width=700}
+![Настройка CPM 2](/assets/gameplay/unique/cpm/settings2.png){width=700}
 :::
 
 ## Пример модели
