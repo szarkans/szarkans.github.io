@@ -78,11 +78,11 @@ export default defineConfig({
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season/1season.md'},
-      { text: 'Обновления', link: '/updates/6season/6_3_2.md'}
+      { text: 'Обновления', link: '/updates/7season/7_0_0.md'}
     ],
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/catcraftmc' },
+      { icon: 'discord', link: 'https://discord.gg/6f3FwFRJWC' },
       { icon: 'telegram', link: 'https://t.me/catcraftmc_tg' },
       { icon: 'youtube', link: 'https://youtube.com/@catcraftminecraft' }
     ],
@@ -90,12 +90,13 @@ export default defineConfig({
     sidebar: {
       '/updates': [
         {
-          text: "Главная",
-          link: "/updates/index.md"
-        },
-        {
           text: "7 сезон",
-          items: []
+          items: [
+            {
+              "text": "7.0.0",
+              link: "/updates/7season/7_0_0.md"
+            }
+          ]
         },
         {
           text: "Архив",
@@ -392,7 +393,7 @@ export default defineConfig({
                   link: '/gameplay/unique/qol/small_features.md'
                 },
                 {
-                  text: "Профиль игрока β",
+                  text: "Профиль игрока",
                   link: "/gameplay/unique/qol/profile.md"
                 },
                 {
@@ -430,6 +431,27 @@ export default defineConfig({
               ]
             },
             {
+              text: "Поддерживаемые моды",
+              items: [
+                {
+                  text: "Figura",
+                  link: "/gameplay/unique/mods/figura.md"
+                },
+                {
+                  text: "Distant Horizons",
+                  link: "/gameplay/unique/mods/dh.md"
+                },
+                {
+                  text: "CPM",
+                  link: "/gameplay/unique/mods/cpm.md"
+                },
+                {
+                  text: "Войсчат и диски",
+                  link: "/gameplay/unique/mods/voicechat.md"
+                },
+              ]
+            },
+            {
               text: "Команды",
               link: "/gameplay/unique/commands.md"
             },
@@ -460,14 +482,6 @@ export default defineConfig({
             {
               text: "Кланы β",
               link: "/gameplay/unique/clans.md"
-            },
-            {
-              text: "Модели игрока",
-              link: "/gameplay/unique/cpm.md"
-            },
-            {
-              text: "Войсчат и диски",
-              link: "/gameplay/unique/voicechat.md"
             }
           ]
         },

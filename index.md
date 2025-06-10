@@ -5,15 +5,15 @@ layout: home
 hero:
   name: "Кошкокрафт"
   text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
-  tagline: "Мы на межсезонье!"
+  tagline: "1.21.4 Java"
   actions:
-    - theme: alt
+    - theme: brand
       text: Начать играть
       link: /info/guide.md
-    - theme: brand
+    - theme: alt
       text: Наш Дискорд
       link: https://discord.gg/6f3FwFRJWC
-    - theme: brand
+    - theme: alt
       text: Наш ТГ
       link: https://t.me/catcraftmc_tg
   image:

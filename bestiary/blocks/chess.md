@@ -9,7 +9,7 @@ aside: false
     <template #header>
         <Image alt="user header" src="/assets/bestiary/block/white_pawn.png" width="40%"/>
     </template>
-    <template #title>Шкафы и ящики</template>
+    <template #title>Шахматы</template>
     <template #content>
       <Divider />
       <h3>Получение:</h3>

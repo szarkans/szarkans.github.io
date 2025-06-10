@@ -55,7 +55,7 @@ const faqItems = [
   },
   {
     title: 'Какая версия?',
-    content: 'Версия следующего сезона - 1.21.5 Java Edition! С Bedrock Edition зайти нельзя.'
+    content: 'Версия 7 сезона - 1.21.4 Java Edition! С Bedrock Edition зайти нельзя.'
   },
   {
     title: 'Нужна лицензия?',

@@ -2,7 +2,7 @@
 aside: false
 ---
 
-# Блок света
+# Укрепленный глубинный сланец
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">

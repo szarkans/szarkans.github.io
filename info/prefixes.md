@@ -18,7 +18,9 @@ description: Список всех префиксов и суффиксов на
 |![Префикс Модератора](/assets/general/prefixes/moder.png){ width=20 }|Префикс Всекотят - модерации.|
 |![Префикс К+++](/assets/general/prefixes/kplusplusplus.png){ width=20 }|Префикс <span class="neon">Котика+</span>. Подробнее [на этой странице](./donate.md).|
 |![Кадет КСБ](/assets/general/prefixes/kadet_police.png){ width=20 }|Префикс **кадета** КСБ.|
+|![Мл. Офицер КСБ](/assets/general/prefixes/police_junior.png){ width=20 }|Префикс **Младшего Офицера** КСБ.|
 |![Офицер КСБ](/assets/general/prefixes/police.png){ width=20 }|Префикс **Офицера** КСБ.|
+|![Ст. Офицер КСБ](/assets/general/prefixes/police_senior.png){ width=20 }|Префикс **Старшего Офицера** КСБ.|
 |![Глава КСБ](/assets/general/prefixes/glav_police.png){ width=20 }|Префикс **Главы** КСБ.|
 |![Репортёр](/assets/general/prefixes/reporter.png){ width=20 }|Префикс Репортёров.|
 |![Гид](/assets/general/prefixes/guide.png){ width=20 }|Префикс Гидов.|
