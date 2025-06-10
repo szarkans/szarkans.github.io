@@ -22,7 +22,7 @@ description: Войсчат на Кошкокрафте
 
 Разговаривать на `Left Alt`
 
-![Настройки PlasmoVoice](/assets/gameplay/unique/mods/voicechat/settings.png)
+![Настройки PlasmoVoice](/assets/gameplay/unique/voicechat/settings.png)
 
 ## Голосовые группы
 
@@ -33,6 +33,7 @@ description: Войсчат на Кошкокрафте
 Для выхода из группы вводи `/groups leave`
 
 ## Кастомные пластинки
+
 На сервере можно создать свою пластинку с любой музыкой!
 
 Для этого достаточно иметь 32 АРа и любую пластинку.
