@@ -55,7 +55,7 @@ const faqItems = [
   },
   {
     title: 'Какая версия?',
-    content: 'Версия 7 сезона - 1.21.4 Java Edition! С Bedrock Edition зайти нельзя.'
+    content: 'Версия сезона "Новое поколение" - 1.21.4 Java Edition! С Bedrock Edition зайти нельзя.'
   },
   {
     title: 'Нужна лицензия?',
@@ -63,7 +63,7 @@ const faqItems = [
   },
   {
     title: 'Как попасть на сервер?',
-    content: 'Пока что никак - мы на межсезонье до 01.06.2025! Но обязательно зайди в наш <a href="https://discord.gg/6f3FwFRJWC">Discord</a> или <a href="https://t.me/catcraftmc_tg">Telegram</a> чтобы быть в курсе новостей!'
+    content: 'Достаточно зайти на сервер и проследовать инструкциям на экране!'
   },
   {
     title: 'Какая валюта сервера?',
@@ -75,7 +75,7 @@ const faqItems = [
   },
   {
     title: 'Почему "Кошкокрафт"? Вы "няняня"?',
-    content: `У этого названия есть <a href="server-history/1season">целая история</a>!`
+    content: `У этого названия есть <a href="server-history/1season/1season">целая история</a>!`
   }
 ]
 
