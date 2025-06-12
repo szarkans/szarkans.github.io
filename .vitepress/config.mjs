@@ -93,6 +93,10 @@ export default defineConfig({
           text: "7 сезон",
           items: [
             {
+              "text": "7.0.1",
+              link: "/updates/7season/7_0_1.md"
+            },
+            {
               "text": "7.0.0",
               link: "/updates/7season/7_0_0.md"
             }
@@ -322,10 +326,10 @@ export default defineConfig({
                   text: 'Частые вопросы',
                   link: '/info/faq.md'
                 },
-                {
-                  text: 'Локации Сервера',
-                  link: '/info/map.md'
-                },
+                // {
+                //   text: 'Локации Сервера',
+                //   link: '/info/map.md'
+                // },
                 {
                   text: 'Моды для сервера',
                   link: '/info/mods.md'
@@ -416,18 +420,18 @@ export default defineConfig({
                   text: "Быстрая смена скина",
                   link: '/gameplay/unique/qol/skinswap.md'
                 },
-                {
-                  text: "Подключение к Дискорду",
-                  link: "/gameplay/unique/qol/discord_link.md"
-                },
-                {
-                  text: "Датапаки сервера",
-                  link: "/gameplay/unique/qol/datapacks.md"
-                },
-                {
-                  text: "Владелец Яйца Дракона",
-                  link: "/gameplay/unique/qol/dragon_egg.md"
-                }
+                // {
+                //   text: "Подключение к Дискорду",
+                //   link: "/gameplay/unique/qol/discord_link.md"
+                // },
+                // {
+                //   text: "Датапаки сервера",
+                //   link: "/gameplay/unique/qol/datapacks.md"
+                // },
+                // {
+                //   text: "Владелец Яйца Дракона",
+                //   link: "/gameplay/unique/qol/dragon_egg.md"
+                // }
               ]
             },
             {
@@ -437,10 +441,10 @@ export default defineConfig({
                   text: "Figura",
                   link: "/gameplay/unique/mods/figura.md"
                 },
-                {
-                  text: "Distant Horizons",
-                  link: "/gameplay/unique/mods/dh.md"
-                },
+                // {
+                //   text: "Distant Horizons",
+                //   link: "/gameplay/unique/mods/dh.md"
+                // },
                 {
                   text: "CPM",
                   link: "/gameplay/unique/mods/cpm.md"
@@ -450,6 +454,10 @@ export default defineConfig({
                   link: "/gameplay/unique/mods/voicechat.md"
                 },
               ]
+            },
+            {
+              text: "Верёвки с физикой",
+              link: "/gameplay/unique/catenary.md"
             },
             {
               text: "Команды",
