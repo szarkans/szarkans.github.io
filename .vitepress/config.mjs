@@ -82,7 +82,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/6f3FwFRJWC' },
+      { icon: 'discord', link: 'https://discord.gg/anVPzeKb' },
       { icon: 'telegram', link: 'https://t.me/catcraftmc_tg' },
       { icon: 'youtube', link: 'https://youtube.com/@catcraftminecraft' }
     ],
