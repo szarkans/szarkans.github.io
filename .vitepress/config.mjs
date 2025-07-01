@@ -307,6 +307,19 @@ export default defineConfig({
         {
           text: "О сервере",
           items: [
+            {
+              text: "Новичкам",
+              items: [
+                {
+                  text: "Гайд для новичков",
+                  link: '/info/guide.md'
+                },
+                {
+                  text: 'Частые вопросы',
+                  link: '/info/faq.md'
+                }
+              ]
+            },
             { text: 'Правила и законы',
               items: [
                 {
@@ -322,10 +335,7 @@ export default defineConfig({
             {
               text: 'О сервере',
               items: [
-                {
-                  text: 'Частые вопросы',
-                  link: '/info/faq.md'
-                },
+                
                 // {
                 //   text: 'Локации Сервера',
                 //   link: '/info/map.md'
@@ -352,17 +362,13 @@ export default defineConfig({
                   link: '/info/donate.md'
                 },
                 {
-                  text: "Гайд для новичков",
-                  link: '/info/guide.md'
-                },
-                {
                   text: "Для контент-мейкеров",
                   link: '/info/for_media.md'
                 },
-                {
-                  text: "Бан-лист",
-                  link: '/info/banlist.md'
-                },
+                // {
+                //   text: "Бан-лист",
+                //   link: '/info/banlist.md'
+                // },
                 {
                   text: "Префиксы и суффиксы",
                   link: '/info/prefixes.md'
@@ -420,10 +426,10 @@ export default defineConfig({
                   text: "Быстрая смена скина",
                   link: '/gameplay/unique/qol/skinswap.md'
                 },
-                // {
-                //   text: "Подключение к Дискорду",
-                //   link: "/gameplay/unique/qol/discord_link.md"
-                // },
+                {
+                  text: "Подключение к Дискорду",
+                  link: "/gameplay/unique/qol/discord_link.md"
+                }
                 // {
                 //   text: "Датапаки сервера",
                 //   link: "/gameplay/unique/qol/datapacks.md"

@@ -27,13 +27,10 @@ description: Готовая сборка сервера Кошкокрафт
 - Конфиги к модам, чтобы не настраивать всё по полчаса =)
 
 ::: details Список модов в сборке
-- [Customizable Player Models](https://modrinth.com/plugin/custom-player-models)  
 - [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features)  
 - [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)  
 - [Entity Culling](https://modrinth.com/mod/entityculling)  
-- [Figura Mod](https://modrinth.com/mod/figura)
 - [Distant Horizons](https://modrinth.com/mod/distanthorizons)
-- [EmoteCraft](https://modrinth.com/plugin/noemotecraft)  
 - [Falling Leaves](https://modrinth.com/mod/fallingleaves)  
 - [fast-ip-ping](https://modrinth.com/mod/fast-ip-ping)  
 - [FastQuit](https://modrinth.com/mod/fastquit)  
@@ -86,7 +83,7 @@ description: Готовая сборка сервера Кошкокрафт
 
 3. Перекидываешь все моды из архива в папку `mods`
 
-4. Запускаешь игру на версии **1.21.1 Fabric**
+4. Запускаешь игру на версии **1.21.4 Fabric**
 
 5. Готово!
 :::
