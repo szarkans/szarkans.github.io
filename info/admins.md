@@ -27,6 +27,13 @@
     <template #title>Дизайнер и лоровед sm1lly</template>
     <template #subtitle>Не называйте его sm1llys...</template>
 </Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="/assets/info/admins/shirooqwt.png" />
+    </template>
+    <template #title>Гейм-админ ShirooQWT</template>
+    <template #subtitle>Я Коля я админ</template>
+</Card>
 </CardGrid>
 
 ## Модераторы
@@ -34,9 +41,9 @@
 <CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/ABUSER/600.png" />
+        <img alt="user header" src="https://cravatar.eu/avatar/Lex_Lokk/600.png" />
     </template>
-    <template #title>ABUSER</template>
+    <template #title>Lex_Lokk</template>
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
@@ -46,8 +53,8 @@
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://cravatar.eu/avatar/ShirooQWT/600.png" />
+        <img alt="user header" src="https://cravatar.eu/avatar/nico4an/600.png" />
     </template>
-    <template #title>ShirooQWT</template>
+    <template #title>nico4an</template>
 </Card>
 </CardGrid>
