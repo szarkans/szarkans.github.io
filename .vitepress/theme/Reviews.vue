@@ -33,7 +33,7 @@ const reviews = [
   {
     avatar: 'https://cravatar.eu/avatar/Szarkan/50.png', // Замените на вашу ссылку
     name: 'Не Szarkan',
-    text: 'я НЕ основатель этого сервера и я ТОЧНО НЕ подкупал игроков АРами чтобы они написали сюда хороший отзыв.'
+    text: 'я заркан я хуйлан'
   },
   {
     avatar: 'https://cravatar.eu/avatar/sm1lly/50.png', // Замените на вашу ссылку
