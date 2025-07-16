@@ -93,6 +93,10 @@ export default defineConfig({
           text: "7 сезон",
           items: [
             {
+              "text": "7.0.2",
+              link: "/updates/7season/7_0_2.md"
+            },
+            {
               "text": "7.0.1",
               link: "/updates/7season/7_0_1.md"
             },
