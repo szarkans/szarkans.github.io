@@ -55,7 +55,7 @@ const faqItems = [
   },
   {
     title: 'Какая версия?',
-    content: 'Версия сезона "Новое поколение" - 1.21.4 Java Edition! С Bedrock Edition зайти нельзя.'
+    content: 'Версия сезона "Новое поколение" - 1.21.8 Java Edition! С Bedrock Edition зайти нельзя.'
   },
   {
     title: 'Нужна лицензия?',
