@@ -38,8 +38,8 @@
     <template #header>
         <img alt="user header" src="https://cravatar.eu/avatar/cantcaaat/600.png" />
     </template>
-    <template #title>Тех-админ cantcaaat</template>
-    <template #subtitle>эммм лоровед техадмин и тима не кенкет</template>
+    <template #title>Тех-админ Тима</template>
+    <template #subtitle>БУРЕН. ЛОРОВЕД. ТЕХ-АДМИН.</template>
 </Card>
 </CardGrid>
 
