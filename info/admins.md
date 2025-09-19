@@ -38,8 +38,8 @@
     <template #header>
         <img alt="user header" src="https://vzge.me/face/512/cantcaaat?y=-40" />
     </template>
-    <template #title>Тех-админ Тима</template>
-    <template #subtitle>БУРЕН. ЛОРОВЕД. ТЕХ-АДМИН.</template>
+    <template #title>сверху тех-админ и лоровед cantcaaat</template>
+    <template #subtitle>снизу бурен тима конь. сверху и снизу не писать если что</template>
 </Card>
 </CardGrid>
 
