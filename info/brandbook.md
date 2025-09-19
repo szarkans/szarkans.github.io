@@ -25,6 +25,11 @@ aside: false
         <Image alt="user header" src="/assets/info/brandbook/logo.png" preview />
     </template>
 </Card>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/info/brandbook/logo2.png" preview />
+    </template>
+</Card>
 </CardGrid>
 
 
@@ -65,5 +70,17 @@ aside: false
         <Image alt="user header" src="https://mineskin.eu/skin/sm1lly" preview />
     </template>
     <template #subtitle>sm1lly</template>
+</Card>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="https://mineskin.eu/skin/cantcaaat" preview />
+    </template>
+    <template #subtitle>cantcaaat</template>
+</Card>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="https://mineskin.eu/skin/ShirooQWT" preview />
+    </template>
+    <template #subtitle>ShirooQWT</template>
 </Card>
 </CardGrid>
