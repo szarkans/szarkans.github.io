@@ -25,7 +25,7 @@
         <img alt="user header" src="https://vzge.me/face/512/sm1lly?y=-40" />
     </template>
     <template #title>Дизайнер и лоровед sm1lly</template>
-    <template #subtitle>Не называйте его sm1llys...</template>
+    <template #subtitle>ваня бэстов.</template>
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
