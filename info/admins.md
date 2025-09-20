@@ -64,4 +64,10 @@
     </template>
     <template #title>Lex_Lokk</template>
 </Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://vzge.me/face/512/EHqador.png" />
+    </template>
+    <template #title>EHqador</template>
+</Card>
 </CardGrid>
