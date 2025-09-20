@@ -38,8 +38,8 @@
     <template #header>
         <img alt="user header" src="https://vzge.me/face/512/cantcaaat?y=-40" />
     </template>
-    <template #title>сверху тех-админ и лоровед cantcaaat</template>
-    <template #subtitle>снизу бурен тима конь. сверху и снизу не писать если что</template>
+    <template #title>Тех. админ и лоровед cantcaaat</template>
+    <template #subtitle>бурен. тима. конь.</template>
 </Card>
 </CardGrid>
 
@@ -58,10 +58,19 @@
     </template>
     <template #title>nico4an</template>
 </Card>
+</CardGrid>
+
+<CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
         <img alt="user header" src="https://vzge.me/face/512/Lex_Lokk?y=-40" />
     </template>
     <template #title>Lex_Lokk</template>
+</Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://vzge.me/face/512/EHqador?y=-40" />
+    </template>
+    <template #title>EHqador</template>
 </Card>
 </CardGrid>
