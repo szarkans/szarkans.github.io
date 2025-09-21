@@ -404,6 +404,19 @@ export default defineConfig({
           text: "Геймплей",
           items: [
             {
+              text: "Роллплей",
+              items: [
+                {
+                  text: "Правительство",
+                  link: "/gameplay/roleplay/goverment.md"
+                },
+                {
+                  text: "Работа КСБ",
+                  link: "/gameplay/roleplay/police.md"
+                }
+              ]
+            },
+            {
               text: "Общие фишки",
               items: [
                 {
@@ -504,19 +517,6 @@ export default defineConfig({
             {
               text: "Кланы β",
               link: "/gameplay/unique/clans.md"
-            }
-          ]
-        },
-        {
-          text: "Роллплей",
-          items: [
-            {
-              text: "Правительство",
-              link: "/gameplay/roleplay/goverment.md"
-            },
-            {
-              text: "Работа КСБ",
-              link: "/gameplay/roleplay/police.md"
             }
           ]
         }
