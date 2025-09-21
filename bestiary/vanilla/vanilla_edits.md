@@ -9,12 +9,26 @@ hide:
 
 Механики некоторых предметов были изменены на Кошкокрафте, для **упрощения** или **усложнения** геймплея.
 
+## Кристаллы Энда и Якори возрождения
+
+<ItemCard>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/items/end_crystal.webp" width="35%"/>
+        <Image alt="user header" src="/assets/bestiary/items/respawn_anchor.webp" width="35%"/>
+    </template>
+</Card>
+</ItemCard>
+
+Ни то и ни другое нельзя **взрывать** в **Обычном мире** - оно просто будет выпадать или не взрываться.
+<br><br><br><br><br>
+
 ## Тотем Бессмертия
 
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/totem.png" width="25%"/>
+        <Image alt="user header" src="/assets/bestiary/items/totem.png" width="35%"/>
     </template>
 </Card>
 </ItemCard>
@@ -43,7 +57,7 @@ hide:
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/block/carved_pumpkin.webp" width="30%"/>
+        <Image alt="user header" src="/assets/bestiary/block/carved_pumpkin.webp" width="35%"/>
     </template>
 </Card>
 </ItemCard>

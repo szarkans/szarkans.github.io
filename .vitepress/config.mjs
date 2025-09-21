@@ -459,10 +459,10 @@ export default defineConfig({
                 //   text: "Distant Horizons",
                 //   link: "/gameplay/unique/mods/dh.md"
                 // },
-                {
-                  text: "CPM",
-                  link: "/gameplay/unique/mods/cpm.md"
-                },
+                // {
+                //   text: "CPM",
+                //   link: "/gameplay/unique/mods/cpm.md"
+                // },
                 {
                   text: "Войсчат и диски",
                   link: "/gameplay/unique/mods/voicechat.md"
@@ -536,6 +536,10 @@ export default defineConfig({
           ]
         },
         {
+          "text": "Зачарования",
+          link: "/bestiary/enchantments.md"
+        },
+        {
           text: "Кошкокрафт",
           
           items: [
@@ -545,6 +549,15 @@ export default defineConfig({
                 {
                   text: "Жители Столицы",
                   link: '/bestiary/mobs/npc.md'
+                }
+              ]
+            },
+            {
+              text: "Материалы",
+              items: [
+                {
+                  text: "Драконья Чешуя",
+                  link: "/bestiary/materials/dragon_scale.md"
                 }
               ]
             },
