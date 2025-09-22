@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Кошкокрафт"
   text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
-  tagline: "1.21.4 Java"
+  tagline: "1.21.8 Java"
   actions:
     - theme: brand
       text: Начать играть

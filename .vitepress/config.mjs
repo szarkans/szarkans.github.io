@@ -78,7 +78,7 @@ export default defineConfig({
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season/1season.md'},
-      { text: 'Обновления', link: '/updates/7season/7_0_0.md'}
+      { text: 'Обновления', link: '/updates/7season/7_0_3.md'}
     ],
 
     socialLinks: [
@@ -92,6 +92,10 @@ export default defineConfig({
         {
           text: "7 сезон",
           items: [
+            {
+              "text": "7.0.3",
+              link: "/updates/7season/7_0_3.md"
+            },
             {
               "text": "7.0.2",
               link: "/updates/7season/7_0_2.md"
@@ -400,6 +404,19 @@ export default defineConfig({
           text: "Геймплей",
           items: [
             {
+              text: "Роллплей",
+              items: [
+                {
+                  text: "Правительство",
+                  link: "/gameplay/roleplay/goverment.md"
+                },
+                {
+                  text: "Работа КСБ",
+                  link: "/gameplay/roleplay/police.md"
+                }
+              ]
+            },
+            {
               text: "Общие фишки",
               items: [
                 {
@@ -455,10 +472,10 @@ export default defineConfig({
                 //   text: "Distant Horizons",
                 //   link: "/gameplay/unique/mods/dh.md"
                 // },
-                {
-                  text: "CPM",
-                  link: "/gameplay/unique/mods/cpm.md"
-                },
+                // {
+                //   text: "CPM",
+                //   link: "/gameplay/unique/mods/cpm.md"
+                // },
                 {
                   text: "Войсчат и диски",
                   link: "/gameplay/unique/mods/voicechat.md"
@@ -502,19 +519,6 @@ export default defineConfig({
               link: "/gameplay/unique/clans.md"
             }
           ]
-        },
-        {
-          text: "Роллплей",
-          items: [
-            {
-              text: "Правительство",
-              link: "/gameplay/roleplay/goverment.md"
-            },
-            {
-              text: "Работа КСБ",
-              link: "/gameplay/roleplay/police.md"
-            }
-          ]
         }
       ],
       '/bestiary': [
@@ -532,6 +536,10 @@ export default defineConfig({
           ]
         },
         {
+          "text": "Зачарования",
+          link: "/bestiary/enchantments.md"
+        },
+        {
           text: "Кошкокрафт",
           
           items: [
@@ -541,6 +549,15 @@ export default defineConfig({
                 {
                   text: "Жители Столицы",
                   link: '/bestiary/mobs/npc.md'
+                }
+              ]
+            },
+            {
+              text: "Материалы",
+              items: [
+                {
+                  text: "Драконья Чешуя",
+                  link: "/bestiary/materials/dragon_scale.md"
                 }
               ]
             },

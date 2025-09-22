@@ -55,7 +55,7 @@ const faqItems = [
   },
   {
     title: 'Какая версия?',
-    content: 'Версия сезона "Новое поколение" - 1.21.4 Java Edition! С Bedrock Edition зайти нельзя.'
+    content: 'Версия сезона "Новое поколение" - 1.21.8 Java Edition! С Bedrock Edition зайти нельзя.'
   },
   {
     title: 'Нужна лицензия?',
@@ -71,11 +71,11 @@ const faqItems = [
   },
   {
     title: 'Какие ограничения ферм?',
-    content: 'Прорисовка и симуляция - 6 чанков, дюпы сыпучих блоков, рельс и ковров включёны и разрешены.'
+    content: 'Прорисовка и симуляция - 6 чанков, дюпы сыпучих блоков, рельс и ковров включены и разрешены.'
   },
   {
     title: 'Почему "Кошкокрафт"? Вы "няняня"?',
-    content: `У этого названия есть <a href="server-history/1season/1season">целая история</a>!`
+    content: `У этого названия есть <a href="https://wiki.catcraftmc.ru/history/1season/1season" target="_blank" rel="noopener">целая история</a>!`
   }
 ]
 

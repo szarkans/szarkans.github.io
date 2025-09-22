@@ -16,7 +16,7 @@ export default {
     return {
       // Здесь храним все общие значения
       values: {
-        version: '1.21.4',
+        version: '1.21.8',
         currentYear: new Date().getFullYear()
       }
     }
