@@ -60,6 +60,7 @@ aside: false
 - Master
 - Akyla_s_siskamu
 - sm1lly
+- l_vitek_l
 
 ## Своя игрушка
 
