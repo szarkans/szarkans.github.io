@@ -17,14 +17,14 @@ aside: false
       <h3>Механики:</h3>
       <ul>
       <li>Помощь новичкам</li>
-      <li>Телепортация на 3500</li>
+      <li>Телепортация к жителям столицы</li>
       </ul>
       <p>Моделька: bykkake747</p>
     </template>
 </Card>
 </ItemCard>
 
-Первая, кого видит новоприбывший! Находится у точки спавна, отвечает на самые частые вопросы и позволяет телепортироваться в любую сторону на 3500 блоков!
+Первая, кого видит новоприбывший! Находится у точки спавна, отвечает на самые частые вопросы и позволяет телепортироваться к жителям столицы!
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -195,7 +195,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/valera.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/dresser.png" width="40%"/>
     </template>
     <template #title>Аркадий Гусев</template>
     <template #content>
@@ -205,7 +205,7 @@ aside: false
       <li>Продажа обликов</li>
       <li>Показ наборов обликов</li>
       </ul>
-      <p>Скин: sm1lly</p>
+      <p>Модель: sm1lly</p>
     </template>
 </Card>
 </ItemCard>
@@ -213,6 +213,31 @@ aside: false
 **Аркадий** предлагает к покупке более 150 обликов на оружие, инструменты и броню, а также показывает все [донатные облики](/info/donate.md#облики)!
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+***
+
+## Морячка
+
+<ItemCard>
+<Card style="overflow: hidden;" class="m-0">
+    <template #header>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/fishwoman.png" width="40%"/>
+    </template>
+    <template #title>Морячка</template>
+    <template #content>
+      <Divider />
+      <h3>Механики:</h3>
+      <ul>
+      <li>Сопровождение по морю</li>
+      </ul>
+      <p>Модель: sm1lly</p>
+    </template>
+</Card>
+</ItemCard>
+
+**Морячка** позволяет вам переплывать к ближайшей суше или, за АРы, попасть к границе мира!
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <!-- ***
 
