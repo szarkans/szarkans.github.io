@@ -4,6 +4,8 @@ aside: false
 
 # Шахматы
 
+<div style="overflow: auto;">
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -44,3 +46,5 @@ aside: false
 ## Изображения
 
 ![Шахматы на кошкокрафте](/assets/bestiary/items/chess_demo.png){ width=400 }
+
+</div>

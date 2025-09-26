@@ -27,5 +27,3 @@ aside: false
 ### Крафт
 
 ![Крафт невидимой рамки](/assets/bestiary/crafts/itemframe.png){ width=550}
-
-<br><br><br><br><br><br><br>

@@ -4,6 +4,8 @@ aside: false
 
 # Шкафы и ящики
 
+<div style="overflow: auto;">
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -42,3 +44,4 @@ aside: false
 
 ![Бамбуковый шкаф](/assets/bestiary/crafts/oak_cabinets.png){ width=400 }
 
+</div>

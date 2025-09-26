@@ -78,7 +78,7 @@ export default defineConfig({
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season/1season.md'},
-      { text: 'Обновления', link: '/updates/7season/7_0_3.md'}
+      { text: 'Обновления', link: '/updates/7season/7_0_4.md'}
     ],
 
     socialLinks: [
@@ -92,6 +92,10 @@ export default defineConfig({
         {
           text: "7 сезон",
           items: [
+            {
+              "text": "7.0.4",
+              link: "/updates/7season/7_0_4.md"
+            },
             {
               "text": "7.0.3",
               link: "/updates/7season/7_0_3.md"

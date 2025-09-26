@@ -27,5 +27,3 @@ aside: false
 ### Крафт
 
 ![Крафт блока света](/assets/bestiary/crafts/light.png){ width=400}
-
-<br><br>

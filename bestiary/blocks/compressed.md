@@ -4,6 +4,8 @@ aside: false
 
 # Скомпресированные блоки
 
+<div style="overflow: auto;">
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -24,15 +26,23 @@ aside: false
 
 Скомпресировать можно:
 
-- Булыжник
-- Камень
-- Глубинный сланец
+- Синий лёд
 - Колотый глубинный сланец
-- Песок
+- Булыжник
+- Бетон (сухой и твёрдый)
+- Глубинный сланец
+- Земля
 - Стекло
-- Снег
+- Гравий
 - Незерак
+- Обсидиан
+- Красный песок
+- Песок
+- Камень
 
 ## Крафт
 
-![Крафт скомпресированного булыжника](/assets/bestiary/crafts/compressed_cobblestone.png){ width=400 }
+<Image src="/assets/bestiary/crafts/compressed_cobblestone.png" width="400" alt="Крафт скомпресированного булыжника" preview />
+
+
+</div>
