@@ -221,7 +221,12 @@ h3 {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.vp-doc:has(.item-card) {
+  overflow: auto;
+}
+
 /* Прозрачный NavBar */
+
 
 .VPNav {
   background-color: transparent !important;

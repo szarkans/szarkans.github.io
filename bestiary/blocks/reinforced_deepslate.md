@@ -25,5 +25,3 @@ aside: false
 ### Крафт
 
 ![Крафт укреплённого глубинного сланца](/assets/bestiary/crafts/reinforced_deepslate.png){ width=400 loading="lazy" decoding="async" }
-
-<br><br>

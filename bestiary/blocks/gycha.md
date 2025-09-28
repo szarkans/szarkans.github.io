@@ -4,6 +4,7 @@ aside: false
 
 # Блок гычи
 
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -24,6 +25,4 @@ aside: false
 
 **Блок гычи** - строительный блок, который выглядит как ГЫЧА МАФОН ГНОМ ХЫЗЬМА!!!!11 СЕРВЕР В МАРТЕ1111
 
-![Крафт гычи](/assets/bestiary/crafts/gychablock.png){ width=400}
-
-<br><br><br><br><br><br><br>
+<Image src="/assets/bestiary/crafts/gychablock.png" preview width="400" />

@@ -4,6 +4,8 @@ aside: false
 
 # Стол декора
 
+<div style="overflow: auto;">
+
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -35,3 +37,5 @@ aside: false
 ## Крафт
 
 ![Крафт стола декора](/assets/bestiary/crafts/decor_table_craft.png){ width=400}
+
+</div>
