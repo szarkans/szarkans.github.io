@@ -26,3 +26,4 @@ aside: false
 **Блок гычи** - строительный блок, который выглядит как ГЫЧА МАФОН ГНОМ ХЫЗЬМА!!!!11 СЕРВЕР В МАРТЕ1111
 
 <Image src="/assets/bestiary/crafts/gychablock.png" preview width="400" />
+

@@ -54,6 +54,8 @@ import InlineValue from './InlineValue.vue';
 import ImageBlur from './ImageBlur.vue';
 import HomeFaq from './HomeFaq.vue';
 import Album from './Album.vue';
+import GalaxySim from './GalaxySim.vue';
+import Land from './Land.vue';
 // 
 
 import VueEasyLightbox from 'vue-easy-lightbox';
@@ -65,6 +67,7 @@ import googleAnalytics from 'vitepress-plugin-google-analytics';
 
 import Aura from '@primevue/themes/aura';
 import './style.css';
+import CraftingGrid from './CraftingGrid.vue';
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -120,6 +123,9 @@ export default {
     app.component('ImageBlur', ImageBlur);
     app.component('HomeFaq', HomeFaq);
     app.component('Album', Album);
+    app.component('GalaxySim', GalaxySim);
+    app.component('Land', Land);
+    app.component('CraftingGrid', CraftingGrid);
     // 
     app.directive('tooltip', Tooltip);
   }
