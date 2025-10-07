@@ -26,4 +26,55 @@ aside: false
 
 ### Крафт
 
-![Крафт блока света](/assets/bestiary/crafts/light.png){ width=400}
+<CraftingGrid
+  :ingredients="gunpowderRecipe"
+  :result="gunpowderResult"
+/>
+
+<script setup>
+
+const gunpowderRecipe = [
+  [
+    null,
+    { 
+      image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00', 
+      name: 'Алмаз',
+      link: 'https://minecraft.wiki/w/Diamond'
+    },
+    null,
+  ],
+  [
+    { 
+      image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00', 
+      name: 'Алмаз',
+      link: 'https://minecraft.wiki/w/Diamond'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Glowstone_JE4_BE2.png/150px-Glowstone_JE4_BE2.png?0d5b0', 
+      name: 'Светокамень',
+      link: 'https://minecraft.wiki/w/Glowstone'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00', 
+      name: 'Алмаз',
+      link: 'https://minecraft.wiki/w/Diamond'
+    },
+  ],
+  // Третья строка
+  [
+    null,
+    { 
+      image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00', 
+      name: 'Алмаз',
+      link: 'https://minecraft.wiki/w/Diamond'
+    },
+    null
+  ],
+]
+
+const gunpowderResult = {
+  image: '/assets/bestiary/block/light.png',
+  name: 'Блок света',
+  count: 9
+}
+</script>

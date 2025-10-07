@@ -1,74 +1,89 @@
 <template>
-  <div class="mc-crafting" :style="rootVars" role="group" aria-label="Crafting recipe">
-    <!-- Левая панель 3x3 -->
-    <div class="mc-panel mc-panel--grid">
-      <div class="mc-grid" aria-label="Ingredients grid 3x3">
-        <template v-for="(row, rIdx) in ingredientsMatrix" :key="`r-${rIdx}`">
-          <div v-for="(slot, cIdx) in row" :key="`c-${rIdx}-${cIdx}`" class="mc-slot">
-            <component
-              :is="slot?.link ? 'a' : 'div'"
-              class="mc-slot__link"
-              :href="slot?.link || undefined"
-              :title="slot?.name || undefined"
-              @click="slot?.link ? null : ($event)=>$event.preventDefault()"
-              @mouseenter="slot && showTip(`i-${rIdx}-${cIdx}`)"
-              @mouseleave="hideTip(`i-${rIdx}-${cIdx}`)"
-              @mousemove="slot && moveTip($event, `i-${rIdx}-${cIdx}`)"
-              @focus="slot && showTip(`i-${rIdx}-${cIdx}`, true)"
-              @blur="hideTip(`i-${rIdx}-${cIdx}`)"
+  <div class="crafting-container">
+    <!-- Основной контейнер крафта -->
+    <div class="crafting-grid-wrapper">
+      <!-- Сетка ингредиентов 3x3 -->
+      <div class="ingredients-section">
+        <div class="ingredients-grid">
+          <!-- Итерация по строкам матрицы -->
+          <template v-for="(row, rowIndex) in ingredientsMatrix" :key="`row-${rowIndex}`">
+            <!-- Итерация по элементам в строке -->
+            <div 
+              v-for="(slot, colIndex) in row" 
+              :key="`cell-${rowIndex}-${colIndex}`"
+              class="ingredient-slot"
             >
-              <img
-                v-if="slot?.image"
-                class="mc-item"
-                :src="slot.image"
-                :alt="slot.name || 'Item'"
-                draggable="false"
-              />
-            </component>
-
-            <!-- Tooltip -->
-            <div
-              v-if="tips[`i-${rIdx}-${cIdx}`]"
-              class="mc-tip visible"
-              :style="tipStyles[`i-${rIdx}-${cIdx}`]"
-            >
-              {{ row[cIdx]?.name }}
+              <!-- Кликабельный ингредиент с тултипом -->
+              <a 
+                v-if="slot && slot.image"
+                :href="slot.link || '#'"
+                target="_blank"
+                @click="handleIngredientClick($event, slot)"
+                class="ingredient-link"
+                @mouseenter="showTooltip($event, slot.name, `ingredient-${rowIndex}-${colIndex}`, 'ingredient')"
+                @mouseleave="hideTooltip(`ingredient-${rowIndex}-${colIndex}`)"
+              >
+                <img 
+                  :src="slot.image" 
+                  :alt="slot.name || 'Ingredient'"
+                  class="item-icon"
+                />
+              </a>
+              
+              <!-- Тултип для ингредиента -->
+              <div 
+                v-if="tooltips[`ingredient-${rowIndex}-${colIndex}`]"
+                :class="['minecraft-tooltip', 'tooltip-ingredient', { 'visible': tooltips[`ingredient-${rowIndex}-${colIndex}`] }]"
+                :style="tooltipStyles[`ingredient-${rowIndex}-${colIndex}`]"
+              >
+                {{ slot.name }}
+              </div>
             </div>
-          </div>
-        </template>
+          </template>
+        </div>
       </div>
-    </div>
-
-    <!-- Стрелка как ассет-разделитель -->
-    <img class="mc-arrow" :src="ARROW_SRC" alt="Arrow" draggable="false" />
-
-    <!-- Правая панель результата -->
-    <div class="mc-panel mc-panel--result">
-      <div class="mc-slot">
-        <component
-          :is="result.link ? 'a' : 'div'"
-          class="mc-slot__link"
-          :href="result.link || undefined"
-          :title="result.name || undefined"
-          @click="result.link ? null : ($event)=>$event.preventDefault()"
-          @mouseenter="showTip('result')"
-          @mouseleave="hideTip('result')"
-          @mousemove="moveTip($event, 'result')"
-          @focus="showTip('result', true)"
-          @blur="hideTip('result')"
-        >
-          <img
-            v-if="result?.image"
-            class="mc-item"
-            :src="result.image"
-            :alt="result.name || 'Result'"
-            draggable="false"
-          />
-          <span v-if="result.count && result.count > 1" class="mc-count">{{ result.count }}</span>
-        </component>
-
-        <div v-if="tips.result" class="mc-tip visible" :style="tipStyles.result">
-          {{ result.name }}
+      
+      <!-- Стрелка крафта -->
+      <div class="crafting-arrow">
+        <img 
+          src="/assets/arrow.png" 
+          alt="Crafting Arrow"
+          class="arrow-image"
+        />
+      </div>
+      
+      <!-- Секция результата -->
+      <div class="result-section">
+        <div class="result-slot">
+          <div 
+            v-if="result && result.image"
+            class="result-wrapper"
+            @mouseenter="showTooltip($event, result.name, 'result', 'result')"
+            @mouseleave="hideTooltip('result')"
+          >
+            <img 
+              :src="result.image" 
+              :alt="result.name || 'Result'"
+              class="item-icon result-icon"
+            />
+            
+            <!-- Количество результата (если указано) -->
+            <span v-if="result.count && result.count > 1" class="item-count">
+              {{ result.count }}
+            </span>
+          </div>
+          
+          <!-- Тултип для результата (особый стиль) -->
+          <div 
+            v-if="tooltips.result"
+            :class="['minecraft-tooltip', 'tooltip-result', { 'visible': tooltips.result }]"
+            :style="tooltipStyles.result"
+          >
+            {{ result.name }}
+            <span v-if="result.count && result.count > 1" class="tooltip-count">
+              x{{ result.count }}
+            </span>
+          </div>
         </div>
       </div>
     </div>
@@ -76,206 +91,464 @@
 </template>
 
 <script setup>
-import { computed, reactive } from 'vue'
+import { ref, computed, reactive } from 'vue'
 
-// единый ассет стрелки
-const ARROW_SRC = '/assets/arrow.png'
-
+// Пропсы компонента
 const props = defineProps({
+  // Матрица ингредиентов 3x3 (массив из 3 массивов по 3 элемента)
   ingredients: {
     type: Array,
     required: true,
-    validator: v => v.length === 3 && v.every(row => Array.isArray(row) && row.length === 3)
+    validator: (value) => {
+      // Проверяем что это матрица 3x3
+      return value.length === 3 && 
+             value.every(row => Array.isArray(row) && row.length === 3)
+    }
   },
+  // Объект результата крафта
   result: {
     type: Object,
     required: true,
-    validator: v => !!(v && v.image && v.name)
-  },
-  // масштаб в целых значениях 1, 2, 3...
-  scale: { type: Number, default: 2 }
+    validator: (value) => value.image && value.name
+  }
 })
 
-const ingredientsMatrix = computed(() =>
-  props.ingredients.map(row =>
-    row.map(item => {
+// Состояние тултипов
+const tooltips = reactive({})
+const tooltipStyles = reactive({})
+
+// Преобразование матрицы ингредиентов для удобства работы
+const ingredientsMatrix = computed(() => {
+  return props.ingredients.map(row => {
+    return row.map(item => {
       if (!item) return null
-      if (typeof item === 'string') return { image: item, name: 'Item', link: null }
-      return { image: item.image, name: item.name || 'Item', link: item.link || null }
+      // Нормализация данных ингредиента
+      if (typeof item === 'string') {
+        // Если передана только строка с путём к картинке
+        return {
+          image: item,
+          name: 'Item',
+          link: null
+        }
+      }
+      // Если передан объект
+      return {
+        image: item.image,
+        name: item.name || 'Item',
+        link: item.link || null
+      }
     })
-  )
-)
+  })
+})
 
-// Minecraft-like tooltip: следует за курсором
-const tips = reactive({})
-const tipStyles = reactive({})
-
-const showTip = (key, keyboard = false) => {
-  tips[key] = true
-  // для клавиатуры привязываем над слотом, если нет координат мыши
-  if (keyboard && !tipStyles[key]) {
-    tipStyles[key] = { left: '0px', top: '0px' }
+// Обработка клика по ингредиенту
+const handleIngredientClick = (event, slot) => {
+  // Если нет ссылки, предотвращаем переход
+  if (!slot.link) {
+    event.preventDefault()
   }
 }
-const hideTip = key => { tips[key] = false }
 
-const moveTip = (e, key) => {
-  if (!tips[key]) return
-  const offset = 14 // отступ от курсора как в игре
-  let x = e.clientX + offset
-  let y = e.clientY + offset
-
-  // простая защита от выхода за правый/нижний край экрана
-  const vw = window.innerWidth
-  const vh = window.innerHeight
-  const estW = 160
-  const estH = 34
-  if (x + estW > vw) x = vw - estW - 6
-  if (y + estH > vh) y = vh - estH - 6
-
-  tipStyles[key] = { left: `${x}px`, top: `${y}px` }
+// Показать тултип при наведении
+const showTooltip = (event, text, key, type) => {
+  if (!text) return
+  
+  // Активируем тултип
+  tooltips[key] = true
+  
+  // Вычисляем позицию тултипа относительно элемента
+  const rect = event.currentTarget.getBoundingClientRect()
+  const tooltipX = rect.left + rect.width / 2
+  // Для результата тултип показываем чуть выше
+  const tooltipY = type === 'result' ? rect.top - 15 : rect.top - 10
+  
+  // Устанавливаем стили позиционирования
+  tooltipStyles[key] = {
+    left: `${tooltipX}px`,
+    top: `${tooltipY}px`
+  }
 }
 
-const rootVars = computed(() => ({
-  '--mc-slot': '32px',
-  '--mc-gap': '4px',
-  '--mc-scale': props.scale,
-  '--mc-panel-pad': '6px',
-  '--mc-arrow-w': '48px'
-}))
+// Скрыть тултип
+const hideTooltip = (key) => {
+  tooltips[key] = false
+}
 </script>
 
 <style scoped>
+/* Локальный шрифт Minecraft */
 @font-face {
   font-family: 'Minecraft Rus';
   src: url('/assets/minecraft.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
-.mc-crafting {
-  display: inline-flex;
+/* Основной контейнер */
+.crafting-container {
+  display: flex;
+  justify-content: flex-start; /* Выравнивание по левому краю на ПК */
   align-items: center;
-  gap: calc(var(--mc-gap) * var(--mc-scale));
+  padding: 20px 0;
   font-family: 'Minecraft Rus', 'Courier New', monospace;
   user-select: none;
+}
 
-  transform: scale(var(--mc-scale));
-  transform-origin: top left;
+/* Обёртка всего крафта */
+.crafting-grid-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #C6C6C6;
+  border: 5px solid;
+  border-color: #FCFCFC #555555 #555555 #FCFCFC;
+  padding: 24px;
+  box-shadow: 
+    inset 2px 2px 0 rgba(255, 255, 255, 0.4),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.3);
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
 }
 
-/* Панели задника рисуются кодом */
-.mc-panel {
-  position: relative;
-  background: #C6C6C6;
-  border: 4px solid;
-  border-color: #FCFCFC #555555 #555555 #FCFCFC;
-  box-shadow:
-    inset 2px 2px 0 rgba(255,255,255,0.4),
-    inset -2px -2px 0 rgba(0,0,0,0.3);
-  padding: var(--mc-panel-pad);
+/* Секция ингредиентов */
+.ingredients-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.mc-panel--grid { display: inline-block; }
-.mc-panel--result { display: grid; place-items: center; }
 
-.mc-grid {
+/* Сетка ингредиентов 3x3 */
+.ingredients-grid {
   display: grid;
-  grid-template-columns: repeat(3, var(--mc-slot));
-  grid-template-rows: repeat(3, var(--mc-slot));
-  gap: var(--mc-gap);
+  grid-template-columns: repeat(3, 52px);
+  grid-template-rows: repeat(3, 52px);
+  gap: 3px;
 }
 
-/* Слоты рисуются кодом */
-.mc-slot {
+/* Слот для ингредиента */
+.ingredient-slot {
   position: relative;
-  width: var(--mc-slot);
-  height: var(--mc-slot);
+  width: 52px;
+  height: 52px;
   background: #8B8B8B;
   border: 2px solid;
   border-color: #373737 #FCFCFC #FCFCFC #373737;
-  box-shadow:
+  box-shadow: 
     inset -1px -1px 0 #555555,
     inset 1px 1px 0 #000000;
 }
 
-/* Кликабельная зона слота */
-.mc-slot__link {
-  position: relative;
-  display: block;
+/* Ссылка ингредиента */
+.ingredient-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  outline: none;
-}
-.mc-slot__link:focus-visible {
-  box-shadow: 0 0 0 2px #2D0A4E;
+  cursor: pointer;
+  transition: transform 0.1s;
 }
 
-/* Иконка предмета: убран оффсет вниз, идеальный центр */
-.mc-item {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: var(--mc-slot);
-  height: var(--mc-slot);
-  transform: translate(-50%, -50%);
-  display: block;
+.ingredient-link:hover {
+  transform: scale(1.05);
+}
+
+/* Стрелка крафта */
+.crafting-arrow {
+  width: 48px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.arrow-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
 
-/* Количество результата */
-.mc-count {
+/* Секция результата */
+.result-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Слот результата */
+.result-slot {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background: #8B8B8B;
+  border: 3px solid;
+  border-color: #373737 #FCFCFC #FCFCFC #373737;
+  box-shadow: 
+    inset -1px -1px 0 #555555,
+    inset 1px 1px 0 #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Обёртка результата */
+.result-wrapper {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  cursor: help;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Иконка предмета */
+.item-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* Иконка результата чуть больше */
+.result-icon {
+  width: 52px;
+  height: 52px;
+}
+
+/* Количество предметов на иконке */
+.item-count {
   position: absolute;
-  right: 3px;
-  bottom: 1px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1;
-  text-shadow:
+  bottom: 0;
+  right: 2px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 
     2px 2px 0 #3f3f3f,
     -1px 1px 0 #3f3f3f,
     1px -1px 0 #3f3f3f,
     -1px -1px 0 #3f3f3f,
     1px 2px 0 #3f3f3f;
   pointer-events: none;
+  z-index: 3;
 }
 
-/* Стрелка ассет */
-.mc-arrow {
-  width: var(--mc-arrow-w);
-  height: auto;
-  image-rendering: pixelated;
-  flex: 0 0 auto;
-}
-
-/* Tooltip как в Minecraft — следует за курсором */
-.mc-tip {
+/* Базовые стили для всех тултипов */
+.minecraft-tooltip {
   position: fixed;
   padding: 6px 10px;
-  background: rgba(16, 0, 16, 0.94);
-  border: 2px solid #2D0A4E;
+  border: 2px solid;
   border-radius: 3px;
-  box-shadow:
-    inset 0 0 0 1px #28284E,
-    0 0 0 1px #000;
-  color: #fff;
-  font-size: 13px;
+  font-size: 14px;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
   z-index: 1000;
-  transition: opacity 0.12s;
-  text-shadow: 1px 1px 0 #3f3f3f;
+  transform: translateX(-50%) translateY(-100%);
+  transition: opacity 0.15s;
 }
-.mc-tip.visible { opacity: 1; }
-.mc-tip::before {
+
+/* Тултип для обычных ингредиентов (фиолетовый) */
+.tooltip-ingredient {
+  background: #100010;
+  background: rgba(16, 0, 16, 0.94);
+  border-color: #2D0A4E;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #3f3f3f;
+  box-shadow:
+    inset 0 0 0 1px #28284E,
+    0 0 0 1px #000000;
+}
+
+/* Тултип для результата (зелёный/необычный предмет) */
+.tooltip-result {
+  background: #100010;
+  background: rgba(16, 0, 16, 0.94);
+  border-color: #55FF55;
+  color: #55FF55;
+  text-shadow: 1px 1px 0 #153F15;
+  box-shadow:
+    inset 0 0 0 1px #2A552A,
+    0 0 0 1px #000000;
+}
+
+/* Альтернативный стиль для эпических предметов (фиолетовый результат) */
+.tooltip-result.epic {
+  border-color: #AA55FF;
+  color: #AA55FF;
+  text-shadow: 1px 1px 0 #3F153F;
+  box-shadow:
+    inset 0 0 0 1px #552A55,
+    0 0 0 1px #000000;
+}
+
+/* Количество в тултипе результата */
+.tooltip-count {
+  color: #AAAAAA;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.minecraft-tooltip.visible {
+  opacity: 1;
+}
+
+/* Стрелочка под тултипом */
+.minecraft-tooltip::before {
   content: '';
   position: absolute;
-  top: -8px;
-  left: 8px;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
   border: 4px solid transparent;
-  border-bottom-color: #2D0A4E;
+  border-top-color: inherit;
+}
+
+/* Адаптивность для планшетов */
+@media (max-width: 768px) {
+  .crafting-container {
+    justify-content: center; /* На планшетах по центру */
+    padding: 15px;
+  }
+  
+  .crafting-grid-wrapper {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .minecraft-tooltip {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 480px) {
+  .crafting-container {
+    padding: 0; /* Убираем отступы контейнера */
+    justify-content: stretch;
+  }
+  
+  .crafting-grid-wrapper {
+    width: 100%; /* На всю ширину */
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 16px 12px;
+    gap: 10px;
+    justify-content: space-between; /* Распределяем элементы равномерно */
+  }
+  
+  .ingredients-grid {
+    grid-template-columns: repeat(3, 34px);
+    grid-template-rows: repeat(3, 34px);
+    gap: 2px;
+  }
+  
+  .ingredient-slot {
+    width: 34px;
+    height: 34px;
+    border-width: 1px;
+  }
+  
+  .item-icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .result-slot {
+    width: 44px;
+    height: 44px;
+    border-width: 2px;
+  }
+  
+  .result-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .result-wrapper {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .crafting-arrow {
+    width: 30px;
+    height: 24px;
+  }
+  
+  .item-count {
+    font-size: 13px;
+    bottom: -2px;
+    right: 0;
+  }
+  
+  .minecraft-tooltip {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+}
+
+/* Адаптивность для маленьких экранов */
+@media (max-width: 360px) {
+  .crafting-grid-wrapper {
+    padding: 12px 8px;
+    gap: 8px;
+    border-width: 3px;
+  }
+  
+  .ingredients-grid {
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    gap: 1px;
+  }
+  
+  .ingredient-slot {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .item-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .result-slot {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .result-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .result-wrapper {
+    width: 34px;
+    height: 34px;
+  }
+  
+  .crafting-arrow {
+    width: 26px;
+    height: 20px;
+  }
+  
+  .item-count {
+    font-size: 12px;
+  }
+  
+  .minecraft-tooltip {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
 }
 </style>

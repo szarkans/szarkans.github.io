@@ -26,7 +26,46 @@ aside: false
 
 ## Крафт
 
-![Крафт игральных костей](/assets/bestiary/crafts/dice_craft.png){ width=400 }
+<CraftingGrid
+  :ingredients="gunpowderRecipe"
+  :result="gunpowderResult"
+/>
+
+<script setup>
+
+const gunpowderRecipe = [
+  [
+    {
+      image: "https://minecraft.wiki/images/Invicon_Bone.png?d8310",
+      name: "Кость",
+      link: "https://minecraft.wiki/w/Bone"
+    },
+    {
+      image: "https://minecraft.wiki/images/Invicon_Black_Dye.png?3cc1a",
+      name: "Чёрный краситель",
+      link: "https://minecraft.wiki/w/Dye"
+    },
+    null,
+  ],
+  [
+    null,
+    null,
+    null,
+  ],
+  // Третья строка
+  [
+    null,
+    null,
+    null,
+  ],
+]
+
+const gunpowderResult = {
+  image: '/assets/bestiary/items/dice.png',
+  name: 'Игральная кость',
+  count: 1
+}
+</script>
 
 ## Демонстрация
 

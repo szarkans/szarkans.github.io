@@ -4,8 +4,6 @@ aside: false
 
 # Скомпресированные блоки
 
-<div style="overflow: auto;">
-
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -42,7 +40,73 @@ aside: false
 
 ## Крафт
 
-<Image src="/assets/bestiary/crafts/compressed_cobblestone.png" width="400" alt="Крафт скомпресированного булыжника" preview />
+Пример крафта Сжатого булыжника
 
+<CraftingGrid
+  :ingredients="gunpowderRecipe"
+  :result="gunpowderResult"
+/>
 
-</div>
+<script setup>
+
+const gunpowderRecipe = [
+  [
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+  ],
+  [
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+  ],
+  // Третья строка
+  [
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+    {
+      image: "https://minecraft.wiki/images/thumb/Cobblestone_JE5_BE3.png/150px-Cobblestone_JE5_BE3.png?29624",
+      name: "Булыжник",
+      link: "https://minecraft.wiki/w/Cobblestone"
+    },
+  ],
+]
+
+const gunpowderResult = {
+  image: '/assets/bestiary/block/enchanted_cobblestone.png',
+  name: 'Сжатый булыжник 1х',
+  count: 1
+}
+</script>

@@ -24,5 +24,71 @@ aside: false
 
 ### Крафт
 
-![Крафт укреплённого глубинного сланца](/assets/bestiary/crafts/reinforced_deepslate.png){ width=400 loading="lazy" decoding="async" }
+<CraftingGrid
+  :ingredients="gunpowderRecipe"
+  :result="gunpowderResult"
+/>
 
+<script setup>
+
+const gunpowderRecipe = [
+  [
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    }
+  ],
+  [
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Ancient_Debris_JE1_BE1.png/150px-Ancient_Debris_JE1_BE1.png?571c1', 
+      name: 'Древний обломок',
+      link: 'https://minecraft.wiki/w/Ancient_Debris'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    }
+  ],
+  // Третья строка
+  [
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/150px-Deepslate_%28UD%29_JE3.png?7635f', 
+      name: 'Глубинный сланец',
+      link: 'https://minecraft.wiki/w/Deepslate'
+    }
+  ],
+]
+
+const gunpowderResult = {
+  image: '/assets/bestiary/block/reinforced_deepslate.png',
+  name: 'Укреплённый глубинный сланец',
+  count: 8
+}
+</script>

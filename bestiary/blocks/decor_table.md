@@ -4,8 +4,6 @@ aside: false
 
 # Стол декора
 
-<div style="overflow: auto;">
-
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
@@ -36,6 +34,59 @@ aside: false
 
 ## Крафт
 
-![Крафт стола декора](/assets/bestiary/crafts/decor_table_craft.png){ width=400}
+<CraftingGrid
+  :ingredients="gunpowderRecipe"
+  :result="gunpowderResult"
+/>
 
-</div>
+<script setup>
+
+const gunpowderRecipe = [
+  [
+    {
+      image: "https://minecraft.wiki/images/Blue_Dye_JE2_BE2.png?d8f99",
+      name: "Синий краситель",
+      link: "https://minecraft.wiki/w/Dye#Blue"
+    },
+    { 
+      image: 'https://minecraft.wiki/images/Paper_JE2_BE2.png?9c3be', 
+      name: 'Бумага',
+      link: 'https://minecraft.wiki/w/Paper'
+    },
+    null,
+  ],
+  [
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Mangrove_Planks_JE1_BE1.png/150px-Mangrove_Planks_JE1_BE1.png?7e1aa', 
+      name: 'Мангровые доски',
+      link: 'https://minecraft.wiki/w/Planks#Mangrove'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Mangrove_Planks_JE1_BE1.png/150px-Mangrove_Planks_JE1_BE1.png?7e1aa', 
+      name: 'Мангровые доски',
+      link: 'https://minecraft.wiki/w/Planks#Mangrove'
+    },
+    null
+  ],
+  // Третья строка
+  [
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Mangrove_Planks_JE1_BE1.png/150px-Mangrove_Planks_JE1_BE1.png?7e1aa', 
+      name: 'Мангровые доски',
+      link: 'https://minecraft.wiki/w/Planks#Mangrove'
+    },
+    { 
+      image: 'https://minecraft.wiki/images/thumb/Mangrove_Planks_JE1_BE1.png/150px-Mangrove_Planks_JE1_BE1.png?7e1aa', 
+      name: 'Мангровые доски',
+      link: 'https://minecraft.wiki/w/Planks#Mangrove'
+    },
+    null
+  ],
+]
+
+const gunpowderResult = {
+  image: '/assets/bestiary/block/decor_table.png',
+  name: 'Стол декора',
+  count: 1
+}
+</script>

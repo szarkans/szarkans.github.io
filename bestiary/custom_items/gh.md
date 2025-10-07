@@ -28,4 +28,55 @@ aside: false
 
 ## Крафт
 
-![Крафт крюка-кошки](/assets/bestiary/crafts/gh_craft.png){width=50%}
+<CraftingGrid
+  :ingredients="gunpowderRecipe"
+  :result="gunpowderResult"
+/>
+
+<script setup>
+
+const gunpowderRecipe = [
+  [
+    null,
+    {
+      image: "https://minecraft.wiki/images/Copper_Ingot_JE2_BE1.png?0d410",
+      name: "Медный слиток",
+      link: "https://minecraft.wiki/w/Copper_Ingot"
+    },
+    {
+      image: "https://minecraft.wiki/images/Breeze_Rod_JE1_BE1.png?28670",
+      name: "Стержень вихря",
+      link: "https://ru.minecraft.wiki/w/Стержень_вихря"
+    },
+  ],
+  [
+    null,
+    {
+      image: "https://minecraft.wiki/images/Invicon_Iron_Chain.png?5d1e7",
+      name: "Железная цепь",
+      link: "https://ru.minecraft.wiki/w/Железная_цепь"
+    },
+    {
+      image: "https://minecraft.wiki/images/Copper_Ingot_JE2_BE1.png?0d410",
+      name: "Медный слиток",
+      link: "https://minecraft.wiki/w/Copper_Ingot"
+    },
+  ],
+  // Третья строка
+  [
+    {
+      image: "https://minecraft.wiki/images/Invicon_Iron_Chain.png?5d1e7",
+      name: "Железная цепь",
+      link: "https://ru.minecraft.wiki/w/Железная_цепь"
+    },
+    null,
+    null,
+  ],
+]
+
+const gunpowderResult = {
+  image: '/assets/bestiary/items/gh.png',
+  name: 'Крюк Кошка',
+  count: 1
+}
+</script>
