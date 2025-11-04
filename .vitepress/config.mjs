@@ -834,6 +834,10 @@ export default defineConfig({
             {
               text: 'История',
               link: '/history/7season/7season.md'
+            },
+            {
+              text: "Альбом",
+              link: '/history/7season/album.md'
             }
           ]
         }
