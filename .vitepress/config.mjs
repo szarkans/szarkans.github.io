@@ -78,13 +78,15 @@ export default defineConfig({
       { text: "Бестиарий", link: "/bestiary/main.md"},
       { text: "Гайды", link: '/guides/gameplay/create_event.md'},
       { text: 'История сервера', link: '/history/1season/1season.md'},
-      { text: 'Обновления', link: '/updates/7season/7_0_4.md'}
+      { text: 'Обновления', link: '/updates/7season/7_0_4.md'},
+      { text: "Онлайн-карта", link: "https://map.catcraftmc.ru"}
     ],
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/6f3FwFRJWC' },
       { icon: 'telegram', link: 'https://t.me/catcraftmc_tg' },
-      { icon: 'youtube', link: 'https://youtube.com/@catcraftminecraft' }
+      { icon: 'youtube', link: 'https://youtube.com/@catcraftminecraft' },
+      { icon: 'googlemaps', link: "https://map.catcraftmc.ru"}
     ],
 
     sidebar: {
