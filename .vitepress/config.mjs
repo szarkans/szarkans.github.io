@@ -392,15 +392,6 @@ export default defineConfig({
                   link: '/info/brandbook.md'
                 }
               ]
-            },
-            {
-              text: "Бюрократия",
-              items: [
-                {
-                  text: "Оферта",
-                  link: '/info/oferta.md'
-                }
-              ]
             }
           ]
         }
