@@ -5,12 +5,35 @@ import path from 'path';
 
 const updatesPath = path.resolve(__dirname, '../updates/6season/');
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Кошкокрафт",
   lang: 'ru',
   description: "Вики самого Кошачьего сервера - Кошкокрафт!",
   base: '/',
+
+  transformHead: ({ pageData }) => {
+    const head = [];
+    const siteUrl = 'https://wiki.catcraftmc.ru';
+
+    const pageTitle = pageData.title || 'Кошкокрафт';
+    const pageDescription = pageData.description || pageData.frontmatter?.description || 'Вики самого Кошачьего сервера - Кошкокрафт!';
+    const pageUrl = `${siteUrl}/${pageData.relativePath.replace(/\.md$/, '')}`;
+
+    const fullTitle = pageTitle === 'Кошкокрафт' ? pageTitle : `${pageTitle} | Кошкокрафт`;
+
+    head.push(['meta', { property: 'og:title', content: fullTitle }]);
+    head.push(['meta', { property: 'og:description', content: pageDescription }]);
+    head.push(['meta', { property: 'og:url', content: pageUrl }]);
+
+    head.push(['meta', { name: 'twitter:title', content: fullTitle }]);
+    head.push(['meta', { name: 'twitter:description', content: pageDescription }]);
+
+    head.push(['link', { rel: 'canonical', href: pageUrl }]);
+
+    head.push(['meta', { name: 'description', content: pageDescription }]);
+
+    return head;
+  },
 
   lastUpdated: true,
   cleanUrls: true,
@@ -18,8 +41,62 @@ export default defineConfig({
 
   appearance: 'force-dark',
 
+  sitemap: {
+    hostname: 'https://wiki.catcraftmc.ru',
+    transformItems: (items) => {
+      return items.map((item) => {
+        if (item.url === '') {
+          return { ...item, priority: 1.0, changefreq: 'daily' };
+        }
+
+        if (item.url.includes('/updates/7season/')) {
+          return { ...item, priority: 0.9, changefreq: 'weekly' };
+        }
+
+        if (item.url.includes('/info/faq') || item.url.includes('/guides/')) {
+          return { ...item, priority: 0.8, changefreq: 'monthly' };
+        }
+
+        if (item.url.includes('/gameplay/') || item.url.includes('/bestiary/')) {
+          return { ...item, priority: 0.7, changefreq: 'monthly' };
+        }
+
+        if (item.url.includes('/updates/')) {
+          return { ...item, priority: 0.5, changefreq: 'monthly' };
+        }
+
+        // История
+        if (item.url.includes('/history/')) {
+          return { ...item, priority: 0.6, changefreq: 'monthly' };
+        }
+
+        return { ...item, priority: 0.5, changefreq: 'monthly' };
+      });
+    }
+  },
+
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png'}]
+    ['link', { rel: 'icon', href: '/favicon.png'}],
+
+    // SEO: Open Graph Meta Tags
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'ru_RU' }],
+    ['meta', { property: 'og:site_name', content: 'Кошкокрафт Вики' }],
+    ['meta', { property: 'og:image', content: 'https://wiki.catcraftmc.ru/og-image.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:image:alt', content: 'Вики самого Кошачьего сервера - Кошкокрафт!' }],
+
+    // SEO: Twitter Card Meta Tags
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://wiki.catcraftmc.ru/og-image.png' }],
+    ['meta', { name: 'twitter:image:alt', content: 'Вики самого Кошачьего сервера - Кошкокрафт!' }],
+
+    // SEO: Additional Meta Tags
+    ['meta', { name: 'theme-color', content: '#9333ea' }],
+    ['meta', { name: 'keywords', content: 'Minecraft, сервер, Кошкокрафт, Catcraft, Vanilla+, RolePlay, майнкрафт' }],
+    ['meta', { name: 'author', content: 'Кошкокрафт' }],
+    ['meta', { name: 'robots', content: 'index, follow' }]
   ],
   vue: {
     template: {

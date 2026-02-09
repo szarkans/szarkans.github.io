@@ -1,0 +1,12 @@
+# Robots.txt for Кошкокрафт Wiki
+# https://wiki.catcraftmc.ru
+
+User-agent: *
+Allow: /
+
+# Запрещаем индексацию служебных директорий
+Disallow: /assets/
+Disallow: /.vitepress/
+
+# Sitemap
+Sitemap: https://wiki.catcraftmc.ru/sitemap.xml
