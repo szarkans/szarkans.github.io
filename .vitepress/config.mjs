@@ -453,10 +453,10 @@ export default defineConfig({
                   text: "Донатик",
                   link: '/info/donate.md'
                 },
-                {
-                  text: "Для контент-мейкеров",
-                  link: '/info/for_media.md'
-                },
+                // {
+                //   text: "Для контент-мейкеров",
+                //   link: '/info/for_media.md'
+                // },
                 // {
                 //   text: "Бан-лист",
                 //   link: '/info/banlist.md'
@@ -496,12 +496,8 @@ export default defineConfig({
               ]
             },
             {
-              text: "Общие фишки",
+              text: "Общие механики",
               items: [
-                {
-                  text: "Маленькие фишки",
-                  link: '/gameplay/unique/qol/small_features.md'
-                },
                 {
                   text: "Профиль игрока",
                   link: "/gameplay/unique/qol/profile.md"
@@ -529,7 +525,11 @@ export default defineConfig({
                 {
                   text: "Подключение к Дискорду",
                   link: "/gameplay/unique/qol/discord_link.md"
-                }
+                },
+                {
+                  text: "Маленькие механики",
+                  link: '/gameplay/unique/qol/small_features.md'
+                },
                 // {
                 //   text: "Датапаки сервера",
                 //   link: "/gameplay/unique/qol/datapacks.md"
@@ -562,7 +562,7 @@ export default defineConfig({
               ]
             },
             {
-              text: "Верёвки с физикой",
+              text: "Реалистичные верёвки",
               link: "/gameplay/unique/catenary.md"
             },
             {
@@ -708,7 +708,7 @@ export default defineConfig({
               items: [
                 {
                   text: "Крюк-кошка",
-                  link: '/bestiary/custom_items/gh.md'
+                  link: '/bestiary/custom_items/grappling_hook.md'
                 },
                 {
                   text: "Эхо-колокол",
