@@ -77,7 +77,8 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png'}],
-
+    ['meta', { property: 'google-site-verification', content: 'r54JPpg5sYhuUs5E00v4XJ-BweKdustH7r9E2w_QpnQ' }],
+    ['meta', { property: 'yandex-verification', content: '05c0f61adb08e8a2' }],
     // SEO: Open Graph Meta Tags
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'ru_RU' }],
