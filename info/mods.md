@@ -10,9 +10,21 @@ description: Готовая сборка сервера Кошкокрафт
 
 Для самого комфортного геймплея тебе нужно скачать **обязательные моды**. Они позволят полностью насладиться фишками нашего сервера!
 
-::: warning Как скачивать моды?
+## Нужные моды
+
+Если ты не хочешь скачивать готовую сборку, то вот список самых нужных модов для нашего сервера:
+
+- [PlasmoVoice](https://modrinth.com/plugin/plasmo-voice/versions) - войсчат
+- [ETF](https://modrinth.com/mod/entitytexturefeatures/versions) - текстуры существ
+- [EMF](https://modrinth.com/mod/entity-model-features/versions) - модели существ
+- [CIT Resewn](https://modrinth.com/mod/cit-resewn/versions) - ресурспак с переименованиями
+- [EmoteCraft](https://modrinth.com/plugin/emotecraft/versions) - эмоции внутри игры
+
+::: warning Не знаешь как скачивать моды?
 Мы написали гайд только для тебя! Он доступен по [этой ссылке](/guides/tech/mod_download.md)!
 :::
+
+## Готовая сборка сервера {#modpack}
 
 ::: tip В неё входят
 
@@ -51,18 +63,6 @@ description: Готовая сборка сервера Кошкокрафт
 - [Very Many Players](https://modrinth.com/mod/vmp-fabric)  
 - И библиотеки для модов  
 :::
-
-## Нужные моды
-
-Если ты не хочешь скачивать готовую сборку, то вот список самых нужных модов для нашего сервера:
-
-- [PlasmoVoice](https://modrinth.com/plugin/plasmo-voice/versions) - войсчат
-- [ETF](https://modrinth.com/mod/entitytexturefeatures/versions) - текстуры существ
-- [EMF](https://modrinth.com/mod/entity-model-features/versions) - модели существ
-- [CIT Resewn](https://modrinth.com/mod/cit-resewn/versions) - ресурспак с переименованиями
-- [EmoteCraft](https://modrinth.com/plugin/emotecraft/versions) - эмоции внутри игры
-
-## Сборка сервера
 
 ::: tip Установка для ванильного лаунчера, TL, TLegacy и прочих
 1. Скачиваешь архив
