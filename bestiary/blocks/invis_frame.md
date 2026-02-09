@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/invisible_item_frame.webp" width="40%"/>
+        <Image alt="user header" src="/assets/crafts/invisible_item_frame.webp" width="40%"/>
     </template>
     <template #title>Невидимая рамка</template>
     <template #content>
@@ -89,7 +89,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/bestiary/items/invisible_item_frame.webp',
+  image: '/assets/crafts/invisible_item_frame.webp',
   name: 'Невидимая рамка',
   count: 9
 }

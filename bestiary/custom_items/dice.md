@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/dice.png" width="40%"/>
+        <Image alt="user header" src="/assets/crafts/dice.png" width="40%"/>
     </template>
     <template #title>Игральные кости</template>
     <template #content>
@@ -61,7 +61,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/bestiary/items/dice.png',
+  image: '/assets/crafts/dice.png',
   name: 'Игральная кость',
   count: 1
 }

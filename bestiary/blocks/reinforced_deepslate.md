@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/block/reinforced_deepslate.png" width="40%"/>
+        <Image alt="user header" src="/assets/crafts/reinforced_deepslate.png" width="40%"/>
     </template>
     <template #title>Укреплённый глубинный сланец</template>
     <template #content>
@@ -87,7 +87,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/bestiary/block/reinforced_deepslate.png',
+  image: '/assets/crafts/reinforced_deepslate.png',
   name: 'Укреплённый глубинный сланец',
   count: 8
 }
