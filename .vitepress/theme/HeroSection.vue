@@ -65,7 +65,7 @@
 import { ref, computed, onMounted } from 'vue'
 
 // Server mode: 'offseason' | 'maintenance' | 'online'
-const SERVER_MODE = 'offseason'
+const SERVER_MODE = 'online'
 
 const playerCount = ref(null)
 const tps = ref(null)
