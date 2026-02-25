@@ -56,7 +56,8 @@ import HomeFaq from './HomeFaq.vue';
 import Album from './Album.vue';
 import GalaxySim from './GalaxySim.vue';
 import Land from './Land.vue';
-// 
+import HeroSection from './HeroSection.vue';
+//
 
 import VueEasyLightbox from 'vue-easy-lightbox';
 
@@ -126,7 +127,8 @@ export default {
     app.component('GalaxySim', GalaxySim);
     app.component('Land', Land);
     app.component('CraftingGrid', CraftingGrid);
-    // 
+    app.component('HeroSection', HeroSection);
+    //
     app.directive('tooltip', Tooltip);
   }
 };

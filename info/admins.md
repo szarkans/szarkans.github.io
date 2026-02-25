@@ -1,21 +1,22 @@
 
-# Всекоты | Админы
+
+
+# Главнейшие
 
 <CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://vzge.me/face/512/Szarkan?y=-40" />
+        <img alt="user header" src="https://vzge.me/face/512/bykkake747?y=-40" />
     </template>
-    <template #title>Всекотец Szarkan</template>
-    <template #subtitle>прив я серёжа. называйте меня серёжа. я тут типа основатель.</template>
+    <template #title>Главный разработчик bykkake747</template>
+    <template #subtitle>твою мать.</template>
 </Card>
-
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://vzge.me/face/512/CharaBell?y=-40" />
+        <img alt="user header" src="https://vzge.me/face/512/Skorohodon?y=-40" />
     </template>
-    <template #title>Всекотесса CharaBell</template>
-    <template #subtitle>Иногда ворует у Серёжи компьютер и отвечает от его лица.</template>
+    <template #title>Менеджер проекта Skorohodon</template>
+    <template #subtitle>Неубиваемый.</template>
 </Card>
 </CardGrid>
 
@@ -58,6 +59,25 @@
     </template>
     <template #title>Lex_Lokk</template>
 </Card>
+</CardGrid>
+
+## Основатель
+
+<CardGrid>
+    <Card style="width: 25rem; overflow: hidden" class="m-0">
+        <template #header>
+            <img alt="user header" src="https://vzge.me/face/512/Szarkan?y=-40" />
+        </template>
+        <template #title>Серёжа Szarkan</template>
+        <template #subtitle>я основал кошкокрафт.</template>
+    </Card>
+    <Card style="width: 25rem; overflow: hidden" class="m-0">
+        <template #header>
+            <img alt="user header" src="https://vzge.me/face/512/CharaBell?y=-40" />
+        </template>
+        <template #title>CharaBell</template>
+        <template #subtitle>это моя жена.</template>
+    </Card>
 </CardGrid>
 
 <!-- нащёт него посмотрим -->

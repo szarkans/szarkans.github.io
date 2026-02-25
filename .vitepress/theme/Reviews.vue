@@ -150,10 +150,16 @@ function handleTouchEnd(e) {
 .review-wrapper {
   position: relative;
   width: 70%;
-  border: 3px solid #2828286d;
+  border: 1px solid rgba(79, 45, 190, 0.25);
   border-radius: 15px;
   padding: 20px;
   box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-wrapper:hover {
+  border-color: rgba(79, 45, 190, 0.4);
+  box-shadow: 0 4px 20px rgba(79, 45, 190, 0.1);
 }
 
 .review {
@@ -194,11 +200,13 @@ function handleTouchEnd(e) {
   justify-content: center;
   align-items: center;
   opacity: 0.7;
-  transition: opacity 0.3s, background 0.3s;
+  transition: opacity 0.3s, background 0.3s, color 0.3s;
+  color: #a0a0b0;
 }
 .review-button:hover {
   opacity: 1;
-  background: rgba(53, 53, 53, 0.374);
+  background: rgba(79, 45, 190, 0.12);
+  color: #a67cf5;
 }
 .review-button-left {
   left: 0;

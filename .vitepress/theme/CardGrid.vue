@@ -14,7 +14,8 @@
   gap: 0.5em;
   justify-content: space-around;
   align-items: stretch; /* Растягивает элементы по высоте */
-  margin-bottom: 10px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .card-grid .p-card {

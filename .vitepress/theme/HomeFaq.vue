@@ -112,9 +112,15 @@ function toggle(index) {
 /* Стили для дропдауна */
 .dropdown {
   width: 100%;
-  border: solid #2828286d;
+  border: 1px solid #2828286d;
   border-radius: 15px;
   margin-top: 5px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dropdown:has(.dropdown-content[style*="200px"]) {
+  border-color: rgba(79, 45, 190, 0.4);
+  box-shadow: 0 0 12px rgba(79, 45, 190, 0.1);
 }
 
 .dropdown-title {
@@ -154,19 +160,21 @@ function toggle(index) {
 /* Стили для Discord Link Box */
 .discord-box {
   width: 100%;
-  background-color: #7289da;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   text-align: center;
   flex: 0 0 35%;
   background: transparent;
-  border: 0.2rem solid #2828286d;
+  border: 1px solid rgba(88, 101, 242, 0.3);
   padding: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .discord-box:hover {
-  background-color: hsla(var(--md-hue),15%,18%,1);
+  background-color: rgba(88, 101, 242, 0.06);
+  border-color: rgba(88, 101, 242, 0.5);
+  box-shadow: 0 0 20px rgba(88, 101, 242, 0.12);
 }
 
 .discord-box-top {

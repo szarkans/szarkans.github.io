@@ -1,27 +1,9 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 description: "Кошкокрафт - это лучший майнкрафт-сервер песочница с обилием новых механик и широким уклоном в жанр MMORPG со всеми его вытекающими!"
-
-hero:
-  name: "Кошкокрафт"
-  text: 'Лучший. Кошачий. <span class="neon">Навсегда!</span>'
-  tagline: "1.21.8 Java"
-  actions:
-    - theme: brand
-      text: Начать играть
-      link: /info/guide.md
-    - theme: alt
-      text: Наш Дискорд
-      link: https://discord.gg/6f3FwFRJWC
-    - theme: alt
-      text: Наш ТГ
-      link: https://t.me/catcraftmc_tg
-  image:
-    src: "/catcraft_cat.png"
-    alt: "Котик-маскот нашего сервера"
-
 ---
+
+<HeroSection />
 
 # Кошкокрафт это...
 

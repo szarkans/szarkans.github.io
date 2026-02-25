@@ -1,6 +1,12 @@
-
 /assets/old_assets
 /.vitepress/dist
 /.vitepress/cache
 /node_modules
 /.vitepress/.temp
+
+
+# =)
+
+CLAUDE.md
+/.claude
+/vibecode

@@ -74,11 +74,17 @@ const imagePositionClass = computed(() => {
   justify-content: space-between;
   box-sizing: border-box;
   width: 100%;
-  /* padding: 1rem; */
   margin: 1.5rem 0;
-  background-color: var(--vp-c-bg, #1e1e1e); /* Можно заменить, если нужны свои цвета */
-  border-radius: 0.5rem;
-  border: 3px solid #2828286d;
+  background-color: var(--vp-c-bg, #1e1e1e);
+  border-radius: 12px;
+  border: 1px solid rgba(40, 40, 40, 0.43);
+  border-left: 4px solid rgba(79, 45, 190, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-block:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(79, 45, 190, 0.12);
 }
 
 /* Обёртка для картинки */
