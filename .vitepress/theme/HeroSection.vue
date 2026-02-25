@@ -65,7 +65,7 @@
 import { ref, computed, onMounted } from 'vue'
 
 // Server mode: 'offseason' | 'maintenance' | 'online'
-const SERVER_MODE = 'online'
+const SERVER_MODE = 'offseason'
 
 const playerCount = ref(null)
 const tps = ref(null)
@@ -84,7 +84,7 @@ const statusText = computed(() => {
   if (SERVER_MODE === 'online') {
     if (fetchError.value) return 'Сервер на тех. работах!'
     if (!loaded.value) return 'Загрузка...'
-    const fakeTps = (18.9 + Math.random() * 1.1).toFixed(1)
+    const fakeTps = (18.0 + Math.random() * 1.1).toFixed(1)
     return `${playerCount.value} игроков | ${fakeTps} ТПС`
   }
   return ''
@@ -111,7 +111,7 @@ onMounted(async () => {
   try {
     const controller = new AbortController()
     const timeout = setTimeout(() => controller.abort(), 5000)
-    const res = await fetch('https://api.mcsrvstat.us/2/donutsmp.net', {
+    const res = await fetch('https://api.mcsrvstat.us/2/play.catcraftmc.ru', {
       signal: controller.signal
     })
     clearTimeout(timeout)
