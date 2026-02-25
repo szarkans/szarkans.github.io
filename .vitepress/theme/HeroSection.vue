@@ -111,7 +111,7 @@ onMounted(async () => {
   try {
     const controller = new AbortController()
     const timeout = setTimeout(() => controller.abort(), 5000)
-    const res = await fetch('https://api.mcsrvstat.us/2/play.catcraftmc.ru', {
+    const res = await fetch('https://api.mcsrvstat.us/2/donutsmp.net', {
       signal: controller.signal
     })
     clearTimeout(timeout)
