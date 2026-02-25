@@ -203,11 +203,25 @@ h3 {
 
 .VPNav {
   background-color: transparent !important;
+  /* backdrop-filter intentionally NOT here — it would make VPNavScreen (position:fixed)
+     treat VPNav as its containing block, giving the mobile menu zero height */
+}
+
+.VPNavBar {
+  background-color: transparent !important;
   backdrop-filter: blur(8px) !important;
 }
 
+/* Sticky navbar on mobile */
+@media (max-width: 959px) {
+  .VPNav {
+    position: sticky !important;
+    top: 0;
+  }
+}
+
 @media (min-width: 960px) {
-  .VPNavBar, .content-body {
+  .content-body {
     background-color: transparent !important;
     backdrop-filter: blur(8px);
   }
@@ -347,4 +361,20 @@ strong {
   fill: #d1d1d1 !important; /* Цвет заливки */
   color: #fff !important;
   margin-right: 10px;
+}
+
+/* =============================================
+   Глобальный фон: тихие статичные блобы для доков
+   :has(.VPDoc) — срабатывает только на страницах
+   документации, главная страница не затрагивается.
+   Градиент на VPContent покрывает всю ширину
+   включая aside (DocAside), без обрезов.
+   ============================================= */
+
+.VPContent:has(.VPDoc) {
+  background-image:
+    radial-gradient(ellipse 700px 600px at 87% 5%,  rgba(79, 45, 190, 0.13) 0%, transparent 70%),
+    radial-gradient(ellipse 600px 500px at 3%  76%,  rgba(45, 82, 190, 0.09) 0%, transparent 70%),
+    radial-gradient(ellipse 500px 450px at 93% 94%,  rgba(110, 61, 206, 0.07) 0%, transparent 70%);
+  background-attachment: fixed;
 }

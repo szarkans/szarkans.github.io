@@ -145,7 +145,6 @@ onMounted(async () => {
   height: 100%;
   pointer-events: none;
   z-index: -1;
-  overflow: hidden;
 }
 
 .blob {
