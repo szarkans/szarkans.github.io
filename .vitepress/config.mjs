@@ -5,6 +5,155 @@ import path from 'path';
 
 const updatesPath = path.resolve(__dirname, '../updates/6season/');
 
+const startPlayingSidebar = [
+  {
+    text: 'Для новичков',
+    items: [
+      { text: 'Гайд для новичков', link: '/info/guide.md' },
+      { text: 'Частые вопросы', link: '/info/faq.md' },
+    ]
+  },
+  {
+    text: 'Правила и законы',
+    items: [
+      { text: 'Правила', link: '/info/rules/rules' },
+      { text: 'Законы', link: '/info/rules/laws' },
+    ]
+  },
+  {
+    text: 'Подключение к серверу',
+    items: [
+      { text: 'Моды для сервера', link: '/info/mods.md' },
+      { text: 'Как скачивать моды?', link: '/guides/tech/mod_download.md' },
+      { text: 'Ошибки с модами на Fabric', link: '/guides/tech/mod_errors.md' },
+      { text: 'Фикс скинов на ТЛаунчере', link: '/guides/tech/skins_tlauncher.md' },
+      { text: 'Какой лаунчер выбрать?', link: '/guides/other/launcher.md' },
+      { text: 'Фермы, ядро сервера', link: '/info/farm.md' },
+    ]
+  },
+  {
+    text: 'О сервере',
+    items: [
+      { text: 'Администрация', link: '/info/admins' },
+      { text: 'Донатик', link: '/info/donate.md' },
+      { text: 'Префиксы и суффиксы', link: '/info/prefixes.md' },
+      { text: 'Словарик', link: '/info/dict.md' },
+      { text: 'Брендбук', link: '/info/brandbook.md' },
+    ]
+  },
+  {
+    text: 'Прочее',
+    items: [
+      { text: 'Как редактировать Вики?', link: '/guides/other/edit_wiki.md' },
+    ]
+  }
+];
+
+const mechanicsSidebar = [
+  // ── КАК ИГРАТЬ ───────────────────────────────────────
+  {
+    text: 'Роллплей',
+    items: [
+      { text: 'Правительство', link: '/gameplay/roleplay/goverment.md' },
+      { text: 'РП роли', link: '/gameplay/roleplay/other_roles.md' },
+      { text: 'Работа КСБ', link: '/gameplay/roleplay/police.md' },
+    ]
+  },
+  {
+    text: 'Общие механики',
+    items: [
+      { text: 'Профиль игрока', link: '/gameplay/unique/qol/profile.md' },
+      { text: 'Бартер β', link: '/gameplay/unique/qol/barter.md' },
+      { text: 'Система наград', link: '/gameplay/unique/qol/rewards.md' },
+      { text: 'Котячьи заслуги', link: '/gameplay/unique/qol/catpass.md' },
+      { text: 'Авторизация для лицензий', link: '/gameplay/unique/qol/premium_auth.md' },
+      { text: 'Быстрая смена скина', link: '/gameplay/unique/qol/skinswap.md' },
+      { text: 'Подключение к Дискорду', link: '/gameplay/unique/qol/discord_link.md' },
+      { text: 'Маленькие механики', link: '/gameplay/unique/qol/small_features.md' },
+    ]
+  },
+  {
+    text: 'Активности',
+    items: [
+      { text: 'Варка напитков', link: '/gameplay/unique/brewery.md' },
+      { text: 'Рыбалка', link: '/gameplay/unique/fishing.md' },
+      { text: 'Рисование', link: '/gameplay/unique/artmap.md' },
+      { text: 'Мебель и декорации', link: '/gameplay/unique/decor.md' },
+      { text: 'Реалистичные верёвки', link: '/gameplay/unique/catenary.md' },
+    ]
+  },
+  {
+    text: 'Прочее',
+    items: [
+      { text: 'Кланы β', link: '/gameplay/unique/clans.md' },
+      { text: 'Гардеробная обликов', link: '/gameplay/unique/wardrobe.md' },
+      { text: 'Команды', link: '/gameplay/unique/commands.md' },
+      { text: 'Figura', link: '/gameplay/unique/mods/figura.md' },
+      { text: 'Войсчат и диски', link: '/gameplay/unique/mods/voicechat.md' },
+    ]
+  },
+  {
+    text: 'Геймплейные гайды',
+    items: [
+      { text: 'Как провести ивент?', link: '/guides/gameplay/create_event.md' },
+      { text: 'Как сделать разноцветный ник?', link: '/guides/gameplay/rgb_nick.md' },
+      { text: 'Как поставить другой скин?', link: '/guides/gameplay/set_skin.md' },
+    ]
+  },
+  // ── ЧТО СУЩЕСТВУЕТ ───────────────────────────────────
+  {
+    text: 'Ванилла (изменения)',
+    items: [
+      { text: 'Изменения крафтов', link: '/bestiary/vanilla/vanilla_crafts.md' },
+      { text: 'Изменения механик', link: '/bestiary/vanilla/vanilla_edits.md' },
+    ]
+  },
+  {
+    text: 'Зачарования',
+    link: '/bestiary/enchantments.md'
+  },
+  {
+    text: 'Предметы',
+    collapsed: true,
+    items: [
+      { text: 'Котик+', link: '/bestiary/usable/kplus.md' },
+      { text: 'Модуль CatTrack', link: '/bestiary/usable/cattrack.md' },
+      { text: 'Свиток облика', link: '/bestiary/usable/scroll.md' },
+      { text: 'UltraDragonblood', link: '/bestiary/usable/ultradragonblood.md' },
+      { text: 'Пустотное зелье', link: '/bestiary/usable/void_potion.md' },
+      { text: 'Крюк-кошка', link: '/bestiary/custom_items/grappling_hook.md' },
+      { text: 'Эхо-колокол', link: '/bestiary/custom_items/echo_bell.md' },
+      { text: 'Малярная кисть', link: '/bestiary/custom_items/paint_brush.md' },
+      { text: 'Детектор аномальной активности', link: '/bestiary/custom_items/anomaly_detector.md' },
+      { text: 'Рация', link: '/bestiary/custom_items/transmitter.md' },
+      { text: 'Старый автомат', link: '/bestiary/custom_items/kalak.md' },
+      { text: 'Котопедии', link: '/bestiary/custom_items/cotopedia.md' },
+      { text: 'Плюшевые игрушки', link: '/bestiary/custom_items/plushie.md' },
+      { text: 'Котомат', link: '/bestiary/custom_items/kotomat.md' },
+      { text: 'Священные писания', link: '/bestiary/custom_items/holy_books.md' },
+      { text: 'Тренировочный манекен', link: '/bestiary/custom_items/dummy.md' },
+      { text: 'Игральные карты', link: '/bestiary/custom_items/cards.md' },
+      { text: 'Игральные кости', link: '/bestiary/custom_items/dice.md' },
+    ]
+  },
+  {
+    text: 'Блоки и сущности',
+    collapsed: true,
+    items: [
+      { text: 'Жители Столицы', link: '/bestiary/mobs/npc.md' },
+      { text: 'Драконья Чешуя', link: '/bestiary/materials/dragon_scale.md' },
+      { text: 'Блок Гычи', link: '/bestiary/blocks/gycha.md' },
+      { text: 'Сжатые блоки', link: '/bestiary/blocks/compressed.md' },
+      { text: 'Укреплённый глубинный сланец', link: '/bestiary/blocks/reinforced_deepslate.md' },
+      { text: 'Блок света', link: '/bestiary/blocks/light.md' },
+      { text: 'Невидимые рамки', link: '/bestiary/blocks/invis_frame.md' },
+      { text: 'Стол декора', link: '/bestiary/blocks/decor_table.md' },
+      { text: 'Шкафы и ящики', link: '/bestiary/blocks/cabinets.md' },
+      { text: 'Шахматы', link: '/bestiary/blocks/chess.md' },
+    ]
+  }
+];
+
 export default defineConfig({
   title: "Кошкокрафт",
   lang: 'ru',
@@ -151,13 +300,11 @@ export default defineConfig({
     returnToTopLabel: 'Вернуться к началу',
     langMenuLabel: 'Изменить язык',
     nav: [
-      { text: 'О сервере', link: '/info/faq' },
-      { text: "Геймплей", link: '/gameplay/unique/qol/small_features'},
-      { text: "Бестиарий", link: "/bestiary/main.md"},
-      { text: "Гайды", link: '/guides/gameplay/create_event.md'},
-      { text: 'История сервера', link: '/history/1season/1season.md'},
-      { text: 'Обновления', link: '/updates/7season/7_0_4.md'},
-      { text: "Онлайн-карта", link: "https://map.catcraftmc.ru"}
+      { text: 'Начать играть', link: '/info/faq' },
+      { text: 'Механики', link: '/gameplay/unique/qol/small_features' },
+      { text: 'История', link: '/history/7season/7season.md' },
+      { text: 'Обновления', link: '/updates/7season/7_0_4.md' },
+      { text: 'Онлайн-карта', link: 'https://map.catcraftmc.ru' }
     ],
 
     socialLinks: [
@@ -395,429 +542,10 @@ export default defineConfig({
         ]
         }
       ],
-      '/info/': [
-        {
-          text: "О сервере",
-          items: [
-            {
-              text: "Новичкам",
-              items: [
-                {
-                  text: "Гайд для новичков",
-                  link: '/info/guide.md'
-                },
-                {
-                  text: 'Частые вопросы',
-                  link: '/info/faq.md'
-                }
-              ]
-            },
-            { text: 'Правила и законы',
-              items: [
-                {
-                  text: 'Правила',
-                  link: '/info/rules/rules'
-                },
-                {
-                  text: "Законы",
-                  link: '/info/rules/laws'
-                }
-              ]
-            },
-            {
-              text: 'О сервере',
-              items: [
-                
-                // {
-                //   text: 'Локации Сервера',
-                //   link: '/info/map.md'
-                // },
-                {
-                  text: 'Моды для сервера',
-                  link: '/info/mods.md'
-                },
-                {
-                  text: "Фермы, ядро сервера",
-                  link: '/info/farm.md'
-                }
-              ]
-            },
-            {
-              text: 'Информация',
-              items: [
-                {
-                  text: 'Администрация',
-                  link: "/info/admins"
-                },
-                {
-                  text: "Донатик",
-                  link: '/info/donate.md'
-                },
-                // {
-                //   text: "Для контент-мейкеров",
-                //   link: '/info/for_media.md'
-                // },
-                // {
-                //   text: "Бан-лист",
-                //   link: '/info/banlist.md'
-                // },
-                {
-                  text: "Префиксы и суффиксы",
-                  link: '/info/prefixes.md'
-                },
-                {
-                  text: "Брендбук",
-                  link: '/info/brandbook.md'
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      '/gameplay/': [
-        {
-          text: "Геймплей",
-          items: [
-            {
-              text: "Роллплей",
-              items: [
-                {
-                  text: "Правительство",
-                  link: "/gameplay/roleplay/goverment.md"
-                },
-                {
-                  text: "РП роли",
-                  link: "/gameplay/roleplay/other_roles.md"
-                },
-                {
-                  text: "Работа КСБ",
-                  link: "/gameplay/roleplay/police.md"
-                }
-              ]
-            },
-            {
-              text: "Общие механики",
-              items: [
-                {
-                  text: "Профиль игрока",
-                  link: "/gameplay/unique/qol/profile.md"
-                },
-                {
-                  text: "Бартер β",
-                  link: '/gameplay/unique/qol/barter.md'
-                },
-                {
-                  text: "Система наград",
-                  link: '/gameplay/unique/qol/rewards.md'
-                },
-                {
-                  text: "Котячьи заслуги",
-                  link: '/gameplay/unique/qol/catpass.md'
-                },
-                {
-                  text: "Авторизация для лицензий",
-                  link: '/gameplay/unique/qol/premium_auth.md'
-                },
-                {
-                  text: "Быстрая смена скина",
-                  link: '/gameplay/unique/qol/skinswap.md'
-                },
-                {
-                  text: "Подключение к Дискорду",
-                  link: "/gameplay/unique/qol/discord_link.md"
-                },
-                {
-                  text: "Маленькие механики",
-                  link: '/gameplay/unique/qol/small_features.md'
-                },
-                // {
-                //   text: "Датапаки сервера",
-                //   link: "/gameplay/unique/qol/datapacks.md"
-                // },
-                // {
-                //   text: "Владелец Яйца Дракона",
-                //   link: "/gameplay/unique/qol/dragon_egg.md"
-                // }
-              ]
-            },
-            {
-              text: "Поддерживаемые моды",
-              items: [
-                {
-                  text: "Figura",
-                  link: "/gameplay/unique/mods/figura.md"
-                },
-                // {
-                //   text: "Distant Horizons",
-                //   link: "/gameplay/unique/mods/dh.md"
-                // },
-                // {
-                //   text: "CPM",
-                //   link: "/gameplay/unique/mods/cpm.md"
-                // },
-                {
-                  text: "Войсчат и диски",
-                  link: "/gameplay/unique/mods/voicechat.md"
-                },
-              ]
-            },
-            {
-              text: "Реалистичные верёвки",
-              link: "/gameplay/unique/catenary.md"
-            },
-            {
-              text: "Команды",
-              link: "/gameplay/unique/commands.md"
-            },
-            {
-              text: "Гардеробная обликов",
-              link: "/gameplay/unique/wardrobe.md"
-            },
-            // {
-            //   text: "Защита территорий β",
-            //   link: "/gameplay/unique/land_protection.md"
-            // },
-            {
-              text: "Мебель и декорации",
-              link: "/gameplay/unique/decor.md"
-            },
-            {
-              text: "Рисование",
-              link: "/gameplay/unique/artmap.md"
-            },
-            {
-              text: "Варка напитков",
-              link: "/gameplay/unique/brewery.md"
-            },
-            {
-              text: "Рыбалка",
-              link: "/gameplay/unique/fishing.md"
-            },
-            {
-              text: "Кланы β",
-              link: "/gameplay/unique/clans.md"
-            }
-          ]
-        }
-      ],
-      '/bestiary': [
-        {
-          text: "Ванилла",
-          items: [
-            {
-              text: 'Изменения крафтов',
-              link: '/bestiary/vanilla/vanilla_crafts.md'
-            },
-            {
-              text: 'Изменения механик',
-              link: '/bestiary/vanilla/vanilla_edits.md'
-            }
-          ]
-        },
-        {
-          "text": "Зачарования",
-          link: "/bestiary/enchantments.md"
-        },
-        {
-          text: "Кошкокрафт",
-          
-          items: [
-            {
-              text: "Сущности",
-              items: [
-                {
-                  text: "Жители Столицы",
-                  link: '/bestiary/mobs/npc.md'
-                }
-              ]
-            },
-            {
-              text: "Материалы",
-              items: [
-                {
-                  text: "Драконья Чешуя",
-                  link: "/bestiary/materials/dragon_scale.md"
-                }
-              ]
-            },
-            {
-              // Блоки
-              text: "Блоки",
-              items: [
-                {
-                  text: "Блок Гычи",
-                  link: "/bestiary/blocks/gycha.md"
-                },
-                {
-                  text: "Скомпресированные блоки",
-                  link: "/bestiary/blocks/compressed.md"
-                },
-                {
-                  text: "Укреплённый глубинный сланец",
-                  link: "/bestiary/blocks/reinforced_deepslate.md"
-                },
-                {
-                  text: "Блок света",
-                  link: "/bestiary/blocks/light.md"
-                },
-                {
-                  text: "Невидимые рамки",
-                  link: "/bestiary/blocks/invis_frame.md"
-                },
-                {
-                  text: "Стол декора",
-                  link: "/bestiary/blocks/decor_table.md"
-                },
-                {
-                  text: "Шкафы и ящики",
-                  link: "/bestiary/blocks/cabinets.md"
-                },
-                {
-                  text: "Шахматы",
-                  link: "/bestiary/blocks/chess.md"
-                }
-              ]
-            },
-            {
-              text: "Используемое",
-              items: [
-                {
-                  text: "Котик+",
-                  link: '/bestiary/usable/kplus.md'
-                },
-                {
-                  text: "Модуль CatTrack",
-                  link: '/bestiary/usable/cattrack.md'
-                },
-                {
-                  text: "Свиток облика",
-                  link: "/bestiary/usable/scroll.md"
-                },
-                {
-                  text: "UltraDragonblood",
-                  link: "/bestiary/usable/ultradragonblood.md"
-                },
-                {
-                  text: "Пустотное зелье",
-                  link: "/bestiary/usable/void_potion.md"
-                }
-              ]
-            },
-            {
-              text: "Инструменты",
-              items: [
-                {
-                  text: "Крюк-кошка",
-                  link: '/bestiary/custom_items/grappling_hook.md'
-                },
-                {
-                  text: "Эхо-колокол",
-                  link: "/bestiary/custom_items/echo_bell.md"
-                },
-                {
-                  text: "Малярная кисть",
-                  link: "/bestiary/custom_items/paint_brush.md"
-                },
-                {
-                  text: "Детектор аномальной активности",
-                  link: "/bestiary/custom_items/anomaly_detector.md"
-                },
-                {
-                  text: "Рация",
-                  link: "/bestiary/custom_items/transmitter.md"
-                },
-                {
-                  text: "Старый автомат",
-                  link: "/bestiary/custom_items/kalak.md"
-                }
-              ]
-            },
-            {
-              text: "Прочее",
-              items: [
-                {
-                  text: "Котопедии",
-                  link: '/bestiary/custom_items/cotopedia.md'
-                },
-                {
-                  text: "Плюшевые игрушки",
-                  link: "/bestiary/custom_items/plushie.md"
-                },
-                {
-                  text: "Котомат",
-                  link: "/bestiary/custom_items/kotomat.md"
-                },
-                {
-                  text: "Священные писания",
-                  link: "/bestiary/custom_items/holy_books.md"
-                },
-                {
-                  text: "Тренировочный манекен",
-                  link: "/bestiary/custom_items/dummy.md"
-                },
-                {
-                  text: "Игральные карты",
-                  link: '/bestiary/custom_items/cards.md'
-                },
-                {
-                  text: "Игральные кости",
-                  link: "/bestiary/custom_items/dice.md"
-                }
-              ]
-            }
-          ],
-
-        }
-      ],
-      '/guides/': [
-        {
-          text: "Технические",
-          items: [
-            {
-              text: "Ошибки с модами на Fabric",
-              link: '/guides/tech/mod_errors.md'
-            },
-            {
-              text: "Как скачивать моды?",
-              link: '/guides/tech/mod_download.md'
-            },
-            {
-              text: "Фикс скинов на ТЛаунчере",
-              link: '/guides/tech/skins_tlauncher.md'
-            }
-          ]
-        },
-        {
-          text: "Геймплейные",
-          items: [
-            {
-              text: "Как провести ивент?",
-              link: '/guides/gameplay/create_event.md'
-            },
-            {
-              text: "Как сделать разноцветный ник?",
-              link: '/guides/gameplay/rgb_nick.md'
-            },
-            {
-              text: "Как поставить другой скин?",
-              link: '/guides/gameplay/set_skin.md'
-            }
-          ]
-        },
-        {
-          text: "Прочие",
-          items: [
-            {
-              text: "Как редактировать Вики?",
-              link: '/guides/other/edit_wiki.md'
-            },
-            {
-              text: "Какой лаунчер выбрать для игры?",
-              link: '/guides/other/launcher.md'
-            }
-          ]
-        }
-      ],
+      '/info/': startPlayingSidebar,
+      '/guides/': startPlayingSidebar,
+      '/gameplay/': mechanicsSidebar,
+      '/bestiary': mechanicsSidebar,
       '/history/': [
         {
           text: '1 сезон',
