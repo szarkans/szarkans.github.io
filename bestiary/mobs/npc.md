@@ -11,7 +11,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/guide.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/guide.webp" width="40%"/>
     </template>
     <template #title>Путеводитель</template>
     <template #content>
@@ -38,7 +38,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/bartender.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/bartender.webp" width="40%"/>
     </template>
     <template #title>Бармен</template>
     <template #content>
@@ -65,7 +65,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/bankir.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/bankir.webp" width="40%"/>
     </template>
     <template #title>Банкир</template>
     <template #content>
@@ -91,7 +91,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/admin.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/admin.webp" width="40%"/>
     </template>
     <template #title>Админка</template>
     <template #content>
@@ -121,7 +121,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/monk.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/monk.webp" width="40%"/>
     </template>
     <template #title>Священница</template>
     <template #content>
@@ -147,7 +147,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/fishman.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/fishman.webp" width="40%"/>
     </template>
     <template #title>Рыбак</template>
     <template #content>
@@ -174,7 +174,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/music.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/music.webp" width="40%"/>
     </template>
     <template #title>Музыкантка</template>
     <template #content>
@@ -204,7 +204,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/dresser.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/dresser.webp" width="40%"/>
     </template>
     <template #title>Аркадий Гусев</template>
     <template #content>
@@ -231,7 +231,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/fishwoman.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/fishwoman.webp" width="40%"/>
     </template>
     <template #title>Морячка</template>
     <template #content>
@@ -255,7 +255,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/timur.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/timur.webp" width="40%"/>
     </template>
     <template #title>Тимурчик</template>
     <template #content>
@@ -282,7 +282,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/npc/bm.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/npc/bm.webp" width="40%"/>
     </template>
     <template #title>???</template>
     <template #content>

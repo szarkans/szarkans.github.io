@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/transmitter.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/transmitter.webp" width="40%"/>
     </template>
     <template #title>Рация</template>
     <template #content>

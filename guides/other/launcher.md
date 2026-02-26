@@ -39,7 +39,7 @@ description: Какой лаунчер выбрать для Майнкрафт�
 
 - Закрытый код, они могут напихать туда что-угодно.
 
-![tlauncher_kall](/assets/guides/launcher/tlauncher.jpg){ width=50% decoding="async" loading="lazy" }
+![tlauncher_kall](/assets/guides/launcher/tlauncher.webp){ width=50% decoding="async" loading="lazy" }
 
 ==KLauncher
 Новый, красивый лаунчер, "убийца" Tlauncher. 
@@ -68,7 +68,7 @@ description: Какой лаунчер выбрать для Майнкрафт�
 
 - Закрытый код
 
-![klauncher_kall](/assets/guides/launcher/klauncher.jpg){ width=50% decoding="async" loading="lazy" }
+![klauncher_kall](/assets/guides/launcher/klauncher.webp){ width=50% decoding="async" loading="lazy" }
 
 ==Legacy Launcher (бывший TL)
 Оригинальный TLauncher, ранее назывался просто TL. Объективно - **лучший вариант**.
@@ -93,7 +93,7 @@ description: Какой лаунчер выбрать для Майнкрафт�
 
 - Закрытый код
 
-![legacy launcher good](/assets/guides/launcher/legacy.jpg){ width=50% decoding="async" loading="lazy" }
+![legacy launcher good](/assets/guides/launcher/legacy.webp){ width=50% decoding="async" loading="lazy" }
 :::
 
 ## Если у тебя - лицензия

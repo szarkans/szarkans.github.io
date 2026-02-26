@@ -9,7 +9,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/block/drawer.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/block/drawer.webp" width="40%"/>
     </template>
     <template #title>Шкафы и ящики</template>
     <template #content>
@@ -40,8 +40,8 @@ aside: false
 
 ## Примеры крафта
 
-![Дубовые шкафы](/assets/bestiary/crafts/bamboo_cabinets.png){ width=400 }
+![Дубовые шкафы](/assets/bestiary/crafts/bamboo_cabinets.webp){ width=400 }
 
-![Бамбуковый шкаф](/assets/bestiary/crafts/oak_cabinets.png){ width=400 }
+![Бамбуковый шкаф](/assets/bestiary/crafts/oak_cabinets.webp){ width=400 }
 
 </div>

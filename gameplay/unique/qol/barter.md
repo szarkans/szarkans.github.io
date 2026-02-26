@@ -2,4 +2,4 @@
 
 Некоторые Жители Столицы предлагают Бартеры - обмен предметов/АРов на другие, ценные предметы!
 
-![Пример бартера](/assets/gameplay/unique/qol/barter.png)
+![Пример бартера](/assets/gameplay/unique/qol/barter.webp)

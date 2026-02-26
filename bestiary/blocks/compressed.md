@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/crafts/enchanted_cobblestone.png" width="40%"/>
+        <Image alt="user header" src="/assets/crafts/enchanted_cobblestone.webp" width="40%"/>
     </template>
     <template #title>Скомпресированные блоки</template>
     <template #content>

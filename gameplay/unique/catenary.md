@@ -2,13 +2,13 @@
 
 Украсьте вашу базу с красивейшими **верёвками с физикой**!
 
-![Catenary](/assets/updates/7season/7_0_0/catenary.png)
+![Catenary](/assets/updates/7season/7_0_0/catenary.webp)
 
 ## Верёвочный стол
 
 Для создания верёвок, нужно создать **Верёвочный стол**!
 
-![Крафт верёвочного стола](/assets/gameplay/unique/catenary/catenaring_table.png)
+![Крафт верёвочного стола](/assets/gameplay/unique/catenary/catenaring_table.webp)
 
 ## Создание верёвок
 
@@ -16,10 +16,10 @@
 - Материал верёвки (верхний слот)  
 - Декорация верёвки (нижний слот)  
 
-![Крафт верёвки](/assets/gameplay/unique/catenary/catenaring_table_normal.png)
+![Крафт верёвки](/assets/gameplay/unique/catenary/catenaring_table_normal.webp)
 
 ## Верёвки с текстом
 
 Также можно создать верёвку, на которой расположен текст - для этого достаточно одной из декораций поставить **Табличку**
 
-![Крафт верёвки с текстом](/assets/gameplay/unique/catenary/catenaring_table_spelling.png)
+![Крафт верёвки с текстом](/assets/gameplay/unique/catenary/catenaring_table_spelling.webp)

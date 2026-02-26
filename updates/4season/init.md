@@ -39,9 +39,9 @@
 
 Спавн запривачен, отключены взрывы и прочее, что может сломать спавн.
 
-![alt](/assets/updates/4season/init/new_spawn.jpg)
+![alt](/assets/updates/4season/init/new_spawn.webp)
 
-![alt](/assets/updates/4season/init/new_spawn2.jpg)
+![alt](/assets/updates/4season/init/new_spawn2.webp)
 
 ### Новый ресурспак
 
@@ -58,7 +58,7 @@
 Их больше нет XD
 Теперь над вашей головой будет только ваши сообщения из чата. «А как узнать ник игрока передо мной?» - спросите вы, «Нажми Шифт + ПКМ по игроку, ёпта» - отвечу я.
 
-![alt](/assets/updates/4season/init/no_nick.jpg)
+![alt](/assets/updates/4season/init/no_nick.webp)
 
 ***
 
@@ -68,7 +68,7 @@
 
 - Заполнение карточки полностью добровольное, вы можете оставить её как есть!
 
-![alt](/assets/updates/4season/init/profile.jpg)
+![alt](/assets/updates/4season/init/profile.webp)
 
 Новые команды
 
@@ -90,9 +90,9 @@
 - /journal - журнал с принятыми квестами
 :::
 
-![alt](/assets/updates/4season/init/itemlore.jpg)
+![alt](/assets/updates/4season/init/itemlore.webp)
 
-![alt](/assets/updates/4season/init/itemlore2.jpg)
+![alt](/assets/updates/4season/init/itemlore2.webp)
 
 ### Новые напитки
 
@@ -100,7 +100,7 @@
 
 Квас, молочный коктейль, кока-кола, огненный виски и так далее!
 
-![alt](/assets/updates/4season/init/new_drinks.jpg)
+![alt](/assets/updates/4season/init/new_drinks.webp)
 
 ### Рыбы
 
@@ -112,7 +112,7 @@
 
 В своем клане вы можете указывать описание клана, название, ЗамГлавы, приглашать и удалять участников.
 
-![alt](/assets/updates/4season/init/clan.jpg)
+![alt](/assets/updates/4season/init/clan.webp)
 
 ### Новая система сна
 
@@ -122,7 +122,7 @@
 
 На сервер были добавлены НПС и квесты. Первый квест вы можете взять у бармена, он находится справа от спавна и от Путеводителя! После выполнения первого квеста вы сможете покупать у него алкоголь или взять следующий квест! Также на спавне есть секретный персонаж, недалеко от всех других. Он даст вам **радикальные задания**…
 
-![alt](/assets/updates/4season/init/bartender.jpg)
+![alt](/assets/updates/4season/init/bartender.webp)
 
 ## И это всё?
 

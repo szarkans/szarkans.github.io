@@ -40,7 +40,7 @@ aside: false
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/deck_of_spades_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/crafts/deck_of_spades_craft.webp" preview />
     </template>
     <template #subtitle>Колода пик</template>
 </Card>
@@ -49,13 +49,13 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/deck_of_hearts_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/crafts/deck_of_hearts_craft.webp" preview />
     </template>
     <template #subtitle>Колода черви</template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/deck_of_diamonds_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/crafts/deck_of_diamonds_craft.webp" preview />
     </template>
     <template #subtitle>Колода бубны</template>
 </Card>

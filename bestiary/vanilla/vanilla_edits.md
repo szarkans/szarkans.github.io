@@ -28,7 +28,7 @@ hide:
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/totem.png" width="35%"/>
+        <Image alt="user header" src="/assets/bestiary/items/totem.webp" width="35%"/>
     </template>
 </Card>
 </ItemCard>
@@ -42,7 +42,7 @@ hide:
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/pickaxe_and_hoe.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/pickaxe_and_hoe.webp" width="40%"/>
     </template>
 </Card>
 </ItemCard>

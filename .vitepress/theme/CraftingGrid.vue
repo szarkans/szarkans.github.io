@@ -46,7 +46,7 @@
       <!-- Стрелка крафта -->
       <div class="crafting-arrow">
         <img 
-          src="/assets/arrow.png" 
+          src="/assets/arrow.webp" 
           alt="Crafting Arrow"
           class="arrow-image"
         />

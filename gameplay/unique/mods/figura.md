@@ -8,4 +8,4 @@
 
 Установить этот мод себе и узнать как поставить свою модельку можно [на странице мода](https://modrinth.com/mod/figura)!
 
-![Figura](/assets/updates/7season/7_0_0/figura.jpg)
+![Figura](/assets/updates/7season/7_0_0/figura.webp)

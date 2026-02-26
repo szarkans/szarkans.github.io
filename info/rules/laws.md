@@ -236,7 +236,7 @@ lastUpdated: true
 
 `Я, (имя), подписываю эту петицию (дата). Я выступаю за (описание петиции).`
 
-![Пример петиции](/assets/info/laws/petition.png){ width=350 }
+![Пример петиции](/assets/info/laws/petition.webp){ width=350 }
 :::
 
 ***

@@ -12,7 +12,7 @@ description: Гайд по редактированию нашей Вики
 
 3. После этого нажми зелёную кнопку **Fork this repository**
 
-    ![repo](/assets/guides/fork_repo.png)
+    ![repo](/assets/guides/fork_repo.webp)
 
 4. Далее у тебя откроется файлик - именно его тебе и нужно изменить!
 
@@ -20,7 +20,7 @@ description: Гайд по редактированию нашей Вики
 
     - Укажи в **Commit message** краткую информацию о том, что именно ты изменил
 
-    ![commit](/assets/guides/commit.png)
+    ![commit](/assets/guides/commit.webp)
 
 6. Сообщи **Всекотцу** об изменениях или создай Pull Request - так я смогу принять твои изменения в один клик!
 

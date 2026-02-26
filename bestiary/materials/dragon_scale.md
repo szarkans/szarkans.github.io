@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/materials/dragon_scale.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/materials/dragon_scale.webp" width="40%"/>
     </template>
     <template #title>Драконья чешуя</template>
     <template #content>

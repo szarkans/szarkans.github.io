@@ -9,7 +9,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/block/white_pawn.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/block/white_pawn.webp" width="40%"/>
     </template>
     <template #title>Шахматы</template>
     <template #content>
@@ -31,13 +31,13 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/white_chess_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/crafts/white_chess_craft.webp" preview />
     </template>
     <template #subtitle>Белые фигуры - из кварца</template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/crafts/black_chess_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/crafts/black_chess_craft.webp" preview />
     </template>
     <template #subtitle>Черные фигуры - из глубинного сланца</template>
 </Card>
@@ -45,6 +45,6 @@ aside: false
 
 ## Изображения
 
-![Шахматы на кошкокрафте](/assets/bestiary/items/chess_demo.png){ width=400 }
+![Шахматы на кошкокрафте](/assets/bestiary/items/chess_demo.webp){ width=400 }
 
 </div>

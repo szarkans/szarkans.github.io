@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/crafts/grappling_hook.png" width="40%"/>
+        <Image alt="user header" src="/assets/crafts/grappling_hook.webp" width="40%"/>
     </template>
     <template #title>Крюк-кошка</template>
     <template #content>

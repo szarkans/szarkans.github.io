@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/dummy.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/dummy.webp" width="40%"/>
     </template>
     <template #title>Манякен</template>
     <template #content>
@@ -30,7 +30,7 @@ aside: false
 
 Чтобы заспавнить манекен, нужно нажать `ПКМ` по земле, держа его в руках. А чтобы сломать - `Shift ` + `ПКМ` по нему-же.
 
-![Крафт манекена](/assets/bestiary/crafts/dummy_craft.png){ width=400 }
+![Крафт манекена](/assets/bestiary/crafts/dummy_craft.webp){ width=400 }
 
 ## Демонстрация
 

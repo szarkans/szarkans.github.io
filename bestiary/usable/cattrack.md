@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/usable/cattrack.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/usable/cattrack.webp" width="40%"/>
     </template>
     <template #title>CatTrack</template>
     <template #content>
@@ -39,12 +39,12 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/cattrack_demo_1.png" preview />
+        <Image alt="user header" src="/assets/bestiary/items/cattrack_demo_1.webp" preview />
     </template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/cattrack_demo_2.png" preview />
+        <Image alt="user header" src="/assets/bestiary/items/cattrack_demo_2.webp" preview />
     </template>
 </Card>
 </CardGrid>

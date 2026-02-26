@@ -39,13 +39,13 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/plushie/template_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/items/plushie/template_craft.webp" preview />
     </template>
     <template #title>Крафт шаблона плюшевой игрушки</template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/plushie/plushie_craft.png" preview />
+        <Image alt="user header" src="/assets/bestiary/items/plushie/plushie_craft.webp" preview />
     </template>
     <template #title>Крафт плюшевой игрушки из головы игрока</template>
 </Card>

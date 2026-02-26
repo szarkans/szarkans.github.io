@@ -75,7 +75,7 @@ description: Готовая сборка сервера Кошкокрафт
     
     - Открыть папку игры можно нажав `Win` + `R`, написав `%appdata%` и перейдя в папку `.minecraft`
     
-    - Или нажав в лаунчере иконку **папки**, она есть почти везде <Image src="/assets/guides/folder.png" alt="Mods Folder" width="100%" preview />
+    - Или нажав в лаунчере иконку **папки**, она есть почти везде <Image src="/assets/guides/folder.webp" alt="Mods Folder" width="100%" preview />
 
 2. Открываешь архив 
 
@@ -97,7 +97,7 @@ description: Готовая сборка сервера Кошкокрафт
 
 1. Создаёшь новую сборку
 
-2. В настройках сборки выбираешь пункт "Импортировать из файла" или что-то похожее <Image src="/assets/guides/mrpack.png" alt="Via .mrpack" width="100%" preview />
+2. В настройках сборки выбираешь пункт "Импортировать из файла" или что-то похожее <Image src="/assets/guides/mrpack.webp" alt="Via .mrpack" width="100%" preview />
 
 `.mrpack` это файл всей сборки - все моды, все конфиги, иконка и всё-всё-всё!
 :::

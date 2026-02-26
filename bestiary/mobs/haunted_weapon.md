@@ -9,7 +9,7 @@ hide:
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/mobs/red.jpg" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/mobs/red.webp" width="40%"/>
     </template>
     <template #title>Одержимые доспехи</template>
     <template #content>

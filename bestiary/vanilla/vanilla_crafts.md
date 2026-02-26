@@ -9,7 +9,7 @@
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/black_dye.png" width="25%"/>
+        <Image alt="user header" src="/assets/bestiary/items/black_dye.webp" width="25%"/>
     </template>
     <template #title>Чёрный краситель</template>
 </Card>
@@ -28,7 +28,7 @@
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/calcite.png" width="25%"/>
+        <Image alt="user header" src="/assets/bestiary/items/calcite.webp" width="25%"/>
     </template>
     <template #title>Кальцит</template>
 </Card>
@@ -44,5 +44,5 @@
 
 - 2 Кварцевых блока
 
-![Крафт кальцита](/assets/bestiary/crafts/calcite_craft.png){ width=400 loading="lazy" decoding="async" }
+![Крафт кальцита](/assets/bestiary/crafts/calcite_craft.webp){ width=400 loading="lazy" decoding="async" }
 

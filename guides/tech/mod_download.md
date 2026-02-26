@@ -22,7 +22,7 @@ description: Гайд по установке модов на Майнкрафт
 
 3. Закидываешь туда все нужные моды
 
-4. Заходишь в лаунчер, выбираешь `Fabric + версию нашего сервера` ![version](/assets/guides/mods/tlauncher_version.jpg)
+4. Заходишь в лаунчер, выбираешь `Fabric + версию нашего сервера` ![version](/assets/guides/mods/tlauncher_version.webp)
 
 5. Запускаешь и играешь!
 
@@ -34,11 +34,11 @@ description: Гайд по установке модов на Майнкрафт
 
 1. Переходишь на <https://fabricmc.net/> и кликаешь огромную синую кнопку `download here`
 
-2. Запускаешь скачанный файлик. В нём выбираешь свою версию и правильный путь установки (туда, где находится майнкрафт, обычно он находится в `C:\Users\ТвоёИмя(антон)\AppData\Roaming\minecraft`) ![fabric](/assets/guides/mods/fabric_installer.png)
+2. Запускаешь скачанный файлик. В нём выбираешь свою версию и правильный путь установки (туда, где находится майнкрафт, обычно он находится в `C:\Users\ТвоёИмя(антон)\AppData\Roaming\minecraft`) ![fabric](/assets/guides/mods/fabric_installer.webp)
 
 3. Перезагружаешь лаунчер, в версиях замечаешь новый пункт с названием примерно `fabric-mc-1.3.37-<версия сервера>`
 
-    ![of_ver](/assets/guides/mods/of_launcher_version.jpg)
+    ![of_ver](/assets/guides/mods/of_launcher_version.webp)
 
 4. Заходишь в папку игры (тот же путь, что и в пункте 2), создаёшь в ней папку с названием `mods` (или просто запускаешь Майнкрафт и закрываешь)
 
@@ -58,7 +58,7 @@ description: Гайд по установке модов на Майнкрафт
 
 5. Запускаешь и играешь!
 
-![legacy](/assets/guides/mods/legacy_launcher.png)
+![legacy](/assets/guides/mods/legacy_launcher.webp)
 
 
 

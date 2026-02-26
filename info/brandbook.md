@@ -9,12 +9,12 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/brandbook/icon.png" preview />
+        <Image alt="user header" src="/assets/info/brandbook/icon.webp" preview />
     </template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/brandbook/icon_purple.png" preview />
+        <Image alt="user header" src="/assets/info/brandbook/icon_purple.webp" preview />
     </template>
 </Card>
 </CardGrid>
@@ -22,12 +22,12 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/brandbook/logo.png" preview />
+        <Image alt="user header" src="/assets/info/brandbook/logo.webp" preview />
     </template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/brandbook/logo2.png" preview />
+        <Image alt="user header" src="/assets/info/brandbook/logo2.webp" preview />
     </template>
 </Card>
 </CardGrid>
@@ -38,13 +38,13 @@ aside: false
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/brandbook/background.png" preview />
+        <Image alt="user header" src="/assets/info/brandbook/background.webp" preview />
     </template>
     <template #subtitle>Наш дефолтный фон</template>
 </Card>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/brandbook/donate_background.png" preview />
+        <Image alt="user header" src="/assets/info/brandbook/donate_background.webp" preview />
     </template>
     <template #subtitle>Фон плашек донатов</template>
 </Card>

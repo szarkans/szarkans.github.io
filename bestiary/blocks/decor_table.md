@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/crafts/decor_table.png" width="40%"/>
+        <Image alt="user header" src="/assets/crafts/decor_table.webp" width="40%"/>
     </template>
     <template #title>Стол декора</template>
     <template #content>
@@ -28,7 +28,7 @@ aside: false
 
 При взаимодействии открывает меню с рассортированными по категориям рецептами.
 
-<Image src="/assets/bestiary/items/decor_table_menu.png" width="600" preview />
+<Image src="/assets/bestiary/items/decor_table_menu.webp" width="600" preview />
 
 Рецепты не требуют сетки крафта, а только необходимые ресурсы чертежа.
 

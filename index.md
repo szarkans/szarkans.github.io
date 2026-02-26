@@ -8,7 +8,7 @@ description: "Кошкокрафт - это лучший майнкрафт-се
 # Кошкокрафт это...
 
 <InfoCard 
-  imageSrc="/vanilla.jpg"
+  imageSrc="/vanilla.webp"
   title="Vanilla+"
   imagePosition="left"
 >
@@ -16,7 +16,7 @@ description: "Кошкокрафт - это лучший майнкрафт-се
 </InfoCard>
 
 <InfoCard 
-  imageSrc="/rp.jpg"
+  imageSrc="/rp.webp"
   title="RolePlay"
   imagePosition="right"
 >
@@ -24,7 +24,7 @@ description: "Кошкокрафт - это лучший майнкрафт-се
 </InfoCard>
 
 <InfoCard 
-  imageSrc="/else.jpg"
+  imageSrc="/else.webp"
   title="А также..."
   content="Награды за постройки, идеи, баги  Партнёрство с Ютуберами и стримерами  И просто лучшее коммьюнити во всём мире!"
   imagePosition="left"

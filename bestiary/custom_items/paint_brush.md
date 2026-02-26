@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/paint_brush.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/paint_brush.webp" width="40%"/>
     </template>
     <template #title>Малярная кисть</template>
     <template #content>
@@ -30,4 +30,4 @@ aside: false
 ***
 ## Крафт
 
-![Крафт малярной кисти](/assets/bestiary/crafts/paint_brush_craft.png){ width=50% }
+![Крафт малярной кисти](/assets/bestiary/crafts/paint_brush_craft.webp){ width=50% }

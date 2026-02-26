@@ -13,7 +13,7 @@ description: Brewery на Кошкокрафте
 
 Список всех рецептов можно узнать в [Алкопедии](/bestiary/custom_items/cotopedia.md). Для её получения обратись к [Бармену](/bestiary/mobs/npc.md)!
 
-![Алкопедия](/assets/gameplay/brewery/alkopedia.png)
+![Алкопедия](/assets/gameplay/brewery/alkopedia.webp)
 
 ## **Как варить?**
 
@@ -41,7 +41,7 @@ description: Brewery на Кошкокрафте
 А вот если звёзд мало, то напитки дадут плохие эффекты или даже **убьют**...
 :::
 
-![brew](/assets/gameplay/unique/brewery/brew.png){ width=600 }
+![brew](/assets/gameplay/unique/brewery/brew.webp){ width=600 }
 
 ## Как бродить напиток?
 
@@ -51,7 +51,7 @@ description: Brewery на Кошкокрафте
 
 **Бочка** - многоблочная структура из деревянных или медных блоков. Бочки бывают двух видов: маленькая, размером **2х2** и большая, размером **3х3х4** с ножками. Для того, чтобы бочка работала, нужно на её лицевой части поставить табличку с надписью "barrel" или "бочка".
 
-![barrel_big](/assets/gameplay/unique/brewery/barrel_big.png){ width=600 }
+![barrel_big](/assets/gameplay/unique/brewery/barrel_big.webp){ width=600 }
 
 ***
 
@@ -59,4 +59,4 @@ description: Brewery на Кошкокрафте
 
 Для дистилляции нужна зельеварочная стойка и светопыль. Просто кладёшь светопыль в верхний отсек, а напитки в нижний, и всё! Напиток дистиллируется!
 
-![distillation](/assets/gameplay/unique/brewery//distillation.png){ width=600 }
+![distillation](/assets/gameplay/unique/brewery//distillation.webp){ width=600 }

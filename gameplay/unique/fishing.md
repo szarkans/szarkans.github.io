@@ -114,7 +114,7 @@ description: Кастомная рыбалка на Кошкокрафте
 <CardGrid>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/gameplay/unique/fishing/void_fishing.png" preview />
+        <Image alt="user header" src="/assets/gameplay/unique/fishing/void_fishing.webp" preview />
     </template>
     <template #subtitle>Также есть пустотная рыбалка! Нужно кинуть поплавок в любую пустоту</template>
 </Card>

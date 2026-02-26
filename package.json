@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@lando/vitepress-theme-default-plus": "^1.1.1",
+    "sharp": "^0.33.5",
     "stylus": "^0.64.0",
     "vitepress": "^1.6.4",
     "vitepress-plugin-google-analytics": "^1.0.2",
@@ -11,7 +12,8 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "generate-manifest": "node scripts/manifest.js",
-    "check-descriptions": "node scripts/check-descriptions.js"
+    "check-descriptions": "node scripts/check-descriptions.js",
+    "optimize-images": "node scripts/optimize-images.js"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.11",

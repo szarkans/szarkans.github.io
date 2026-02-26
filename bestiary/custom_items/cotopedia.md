@@ -29,4 +29,4 @@ aside: false
 
 - Рыбопедия - в неё записываются твои знания [рыбок](/gameplay/unique/fishing.md), которых ты выловил. С каждой рыбкой способы получения будут точнее. Её можно получить или забартерить у [Рыбака](../mobs/npc.md).
 
-![Пример котопедии](/assets/gameplay/brewery/alkopedia.png){width=55%}
+![Пример котопедии](/assets/gameplay/brewery/alkopedia.webp){width=55%}

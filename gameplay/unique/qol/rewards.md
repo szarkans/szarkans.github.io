@@ -12,7 +12,7 @@
 
 <Button as="a" href="./catpass" label="Котячьи заслуги" />
 
-![Награды за Котячьи Заслуги](/assets/gameplay/rewards/rewards.png)
+![Награды за Котячьи Заслуги](/assets/gameplay/rewards/rewards.webp)
 
 ## Баг-Баунти
 
@@ -40,11 +40,3 @@
 Подробнее о партнёрстве можно прочитать на этой странице:
 
 <Button as="a" href="/info/for_media" label="Для Ютуберов и Стримеров" icon="pi pi-external-link" />
-
-## Голосование на мониторингах
-
-Ты можешь голосовать за наш сервер на мониторингах, и получать по 5 АР каждый день!
-
-Список мониторингов:
-
-- [HotMC](https://hotmc.ru/minecraft-server-254824) - 5 АР, голосование раз в сутки

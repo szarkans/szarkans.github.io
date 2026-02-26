@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_small.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_small.webp" width="40%"/>
     </template>
     <template #title>Петарда "Хлопушка"</template>
     <template #content>
@@ -24,7 +24,7 @@ aside: false
 
 Неотъемлемый аттрибут уличной шпаны
 
-![Крафт маленькой петарды](/assets/bestiary/items/firecrackers/firecracker_small_craft.png){width=40%}
+![Крафт маленькой петарды](/assets/bestiary/items/firecrackers/firecracker_small_craft.webp){width=40%}
 
 <br><br><br><br><br><br><br><br><br><br>
 
@@ -33,7 +33,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_medium.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_medium.webp" width="40%"/>
     </template>
     <template #title>Петарда "Кирдык"</template>
     <template #content>
@@ -50,7 +50,7 @@ aside: false
 
 Хлопает громче - значит круче
 
-![Крафт средней петарды](/assets/bestiary/items/firecrackers/firecracker_medium_craft.png){width=40%}
+![Крафт средней петарды](/assets/bestiary/items/firecrackers/firecracker_medium_craft.webp){width=40%}
 
 <br><br><br><br><br><br><br><br><br><br>
 
@@ -59,7 +59,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_bunch.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_bunch.webp" width="40%"/>
     </template>
     <template #title>Петарда "Стая котят"</template>
     <template #content>
@@ -76,7 +76,7 @@ aside: false
 
 Те самые китайские петарды-погремушки
 
-![Крафт связки петард](/assets/bestiary/items/firecrackers/firecracker_bunch_craft.png){width=40%}
+![Крафт связки петард](/assets/bestiary/items/firecrackers/firecracker_bunch_craft.webp){width=40%}
 
 <br><br><br><br><br><br><br><br><br><br>
 
@@ -85,7 +85,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_big.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/firecrackers/firecracker_big.webp" width="40%"/>
     </template>
     <template #title>Петарда "П*здец"</template>
     <template #content>
@@ -102,7 +102,7 @@ aside: false
 
 От настоящего динамита её разделяет только название
 
-![Крафт маленькой петарды](/assets/bestiary/items/firecrackers/firecracker_big_craft.png){width=40%}
+![Крафт маленькой петарды](/assets/bestiary/items/firecrackers/firecracker_big_craft.webp){width=40%}
 
 <br><br><br><br><br><br><br><br><br><br>
 
@@ -125,4 +125,4 @@ aside: false
 
 Хлопушки могут крафтиться из любого красителя, их нужно расположить линией сверху. Главное убери за собой!
 
-![Крафт маленькой петарды](/assets/bestiary/items/firecrackers/hlopushka_craft.png){width=40%}
+![Крафт маленькой петарды](/assets/bestiary/items/firecrackers/hlopushka_craft.webp){width=40%}

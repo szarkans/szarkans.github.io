@@ -17,7 +17,7 @@ description: Мебель и декорации на Кошкокрафте
     <p class="m-0">
         Это декор, который излучает свет, подобно обычным лампам или факелам.
     </p>
-    <img src="/assets/gameplay/unique/decor/decor_light.png">
+    <img src="/assets/gameplay/unique/decor/decor_light.webp">
 </Fieldset>
 
 <Fieldset legend="Интерактивное">
@@ -31,14 +31,14 @@ description: Мебель и декорации на Кошкокрафте
     <p class="m-0">
         Это декор, который можно покрасить с помощью <a href="../../../items/custom_items/paint_brush">Малярной кисти</a>
     </p>
-    <img src="/assets/gameplay/unique/decor/decor_color.png">
+    <img src="/assets/gameplay/unique/decor/decor_color.webp">
 </Fieldset>
 
 <Fieldset legend="Можно сесть">
     <p class="m-0">
         Это декор, на котором можно сидеть!
     </p>
-    <img src="/assets/gameplay/unique/decor/decor_sit.png">
+    <img src="/assets/gameplay/unique/decor/decor_sit.webp">
 </Fieldset>
 
 

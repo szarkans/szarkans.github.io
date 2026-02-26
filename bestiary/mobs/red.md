@@ -6,7 +6,7 @@ toc_depth: 1
 
 !!! tip inline end "Моб"
     <figure markdown="span">
-        ![red](/assets/bestiary/mobs/red.jpg){ width=150 }
+        ![red](/assets/bestiary/mobs/red.webp){ width=150 }
     </figure>
     ***
     **Здоровье:** 64

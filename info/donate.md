@@ -67,7 +67,7 @@ description: Донатик
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/donate/aot.jpg" preview />
+        <Image alt="user header" src="/assets/info/donate/aot.webp" preview />
     </template>
     <template #title>Набор Атака титанов</template>
     <template #content>
@@ -83,7 +83,7 @@ description: Донатик
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/donate/chainsawman.png" preview />
+        <Image alt="user header" src="/assets/info/donate/chainsawman.webp" preview />
     </template>
     <template #title>Набор ChainsawMan</template>
     <template #content>
@@ -103,7 +103,7 @@ description: Донатик
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/donate/jojo.png" preview />
+        <Image alt="user header" src="/assets/info/donate/jojo.webp" preview />
     </template>
     <template #title>Набор JoJo</template>
     <template #content>
@@ -114,7 +114,7 @@ description: Донатик
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/donate/berserk.png" preview />
+        <Image alt="user header" src="/assets/info/donate/berserk.webp" preview />
     </template>
     <template #title>Набор BERSERK</template>
     <template #content>
@@ -134,7 +134,7 @@ description: Донатик
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/donate/neon.png" preview />
+        <Image alt="user header" src="/assets/info/donate/neon.webp" preview />
     </template>
     <template #title>Набор Неоновое Творение</template>
     <template #content>
@@ -148,7 +148,7 @@ description: Донатик
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/donate/cherry.png" preview />
+        <Image alt="user header" src="/assets/info/donate/cherry.webp" preview />
     </template>
     <template #title>Набор Цветущая Вишня</template>
     <template #content>
@@ -162,7 +162,7 @@ description: Донатик
 
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/info/donate/steampunk.png" preview />
+        <Image alt="user header" src="/assets/info/donate/steampunk.webp" preview />
     </template>
     <template #title>Набор Стимпанковское Безумие</template>
     <template #content>

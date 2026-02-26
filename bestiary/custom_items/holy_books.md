@@ -7,7 +7,7 @@ aside: false
 <ItemCard>
 <Card style="overflow: hidden;" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/bestiary/items/holy_book.png" width="40%"/>
+        <Image alt="user header" src="/assets/bestiary/items/holy_book.webp" width="40%"/>
     </template>
     <template #title>Священные писания</template>
     <template #content>

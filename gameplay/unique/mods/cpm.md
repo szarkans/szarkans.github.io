@@ -19,11 +19,11 @@ CPM на нашем сервере предназначен больше для 
 ::: details Настройка мода
 Когда скачаешь мод - нажми английскую `G`, зайди в `Safety Settings` справа снизу и выбери `Profile: Off`! Иначе ты не увидишь многие модельки игроков!
 
-![Настройка CPM](/assets/gameplay/unique/cpm/settings1.png){width=700}
+![Настройка CPM](/assets/gameplay/unique/cpm/settings1.webp){width=700}
 
 ***
 
-![Настройка CPM 2](/assets/gameplay/unique/cpm/settings2.png){width=700}
+![Настройка CPM 2](/assets/gameplay/unique/cpm/settings2.webp){width=700}
 :::
 
 ## Пример модели
@@ -33,17 +33,17 @@ CPM на нашем сервере предназначен больше для 
 <CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase1.png" preview />
+        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase1.webp" preview />
     </template>
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase2.png" preview />
+        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase2.webp" preview />
     </template>
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase3.png" preview />
+        <Image alt="user header" src="/assets/gameplay/unique/cpm/showcase3.webp" preview />
     </template>
 </Card>
 </CardGrid>
@@ -57,7 +57,7 @@ CPM на нашем сервере предназначен больше для 
 
 3. Создаёшь `gist`, вставляешь туда скопированный текст
 
-    ![Что такое gist](/assets/gameplay/unique/cpm/guide/gist.png){ width=450 }
+    ![Что такое gist](/assets/gameplay/unique/cpm/guide/gist.webp){ width=450 }
 
 4. Копируешь ссылку на этот `gist`
 

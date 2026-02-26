@@ -29,7 +29,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Примерно в это же время игроки StCrouse и Liberaha получили ОПки, т.к. были игроками с большим доверием к ним и в целом помогали серверу развиваться.
 
-![spawn](/assets/server_history/season2/spawn.png)
+![spawn](/assets/server_history/season2/spawn.webp)
 
 ## 18 марта
 
@@ -98,7 +98,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Как минимум у 5 игроков на тот момент была ОПка - у самых старых и заслуживающих уважения игроков
 
-![stcrouse](/assets/server_history/season2/stcrouse.png)
+![stcrouse](/assets/server_history/season2/stcrouse.webp)
 
 ## 12-30 мая
 
@@ -108,7 +108,7 @@ description: История сервера Кошкокрафт - 2 сезон
 
 - Был построен охуенный гигант на спавне игроком God_of_hentai. Эту постройку вы тоже могли часто видеть <https://vk.com/wall-210306238_441>
 
-![gigant](/assets/server_history/season2/gigant.png)
+![gigant](/assets/server_history/season2/gigant.webp)
 
 - Серверу исполнилось полгода <https://vk.com/wall-210306238_491>
 
