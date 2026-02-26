@@ -104,15 +104,20 @@ const mechanicsSidebar = [
 
 const bestiarySidebar = [
   {
-    text: 'Ванилла (изменения)',
+    text: 'Изменения Ваниллы',
     items: [
       { text: 'Изменения крафтов', link: '/bestiary/vanilla/vanilla_crafts.md' },
       { text: 'Изменения механик', link: '/bestiary/vanilla/vanilla_edits.md' },
     ]
   },
   {
-    text: 'Зачарования',
-    link: '/bestiary/enchantments.md'
+    text: 'Разное',
+    items: [
+      { text: 'Жители Столицы', link: '/bestiary/mobs/npc.md' },
+      { text: 'Зачарования', link: '/bestiary/enchantments.md' },
+      
+    ]
+
   },
   {
     text: 'Предметы',
@@ -135,13 +140,12 @@ const bestiarySidebar = [
       { text: 'Тренировочный манекен', link: '/bestiary/custom_items/dummy.md' },
       { text: 'Игральные карты', link: '/bestiary/custom_items/cards.md' },
       { text: 'Игральные кости', link: '/bestiary/custom_items/dice.md' },
+      { text: 'Драконья Чешуя', link: '/bestiary/materials/dragon_scale.md' },
     ]
   },
   {
-    text: 'Блоки и сущности',
+    text: 'Блоки',
     items: [
-      { text: 'Жители Столицы', link: '/bestiary/mobs/npc.md' },
-      { text: 'Драконья Чешуя', link: '/bestiary/materials/dragon_scale.md' },
       { text: 'Блок Гычи', link: '/bestiary/blocks/gycha.md' },
       { text: 'Сжатые блоки', link: '/bestiary/blocks/compressed.md' },
       { text: 'Укреплённый глубинный сланец', link: '/bestiary/blocks/reinforced_deepslate.md' },
@@ -304,8 +308,7 @@ export default defineConfig({
       { text: 'Механики', link: '/gameplay/unique/qol/small_features' },
       { text: 'Бестиарий', link: '/bestiary/main.md' },
       { text: 'История', link: '/history/7season/7season.md' },
-      { text: 'Обновления', link: '/updates/7season/7_0_4.md' },
-      { text: 'Онлайн-карта', link: 'https://map.catcraftmc.ru' }
+      { text: 'Обновления', link: '/updates/7season/7_0_4.md' }
     ],
 
     socialLinks: [

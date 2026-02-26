@@ -32,6 +32,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Бармен
 
 <ItemCard>
@@ -58,6 +59,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Банкир
 
 <ItemCard>
@@ -83,6 +85,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Админка
 
 <ItemCard>
@@ -112,6 +115,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Священница
 
 <ItemCard>
@@ -137,6 +141,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Рыбак
 
 <ItemCard>
@@ -163,6 +168,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Музыкантка
 
 <ItemCard>
@@ -192,6 +198,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Костюмер
 
 <ItemCard>
@@ -218,6 +225,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Морячка
 
 <ItemCard>
@@ -268,6 +276,7 @@ aside: false
 ***
 
 <div style="overflow: auto;">
+
 ## Загадочная кошка
 
 <ItemCard>
