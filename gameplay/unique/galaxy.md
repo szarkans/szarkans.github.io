@@ -1,7 +1,0 @@
----
-aside: false
----
-
-# Галактика
-
-<GalaxySim />

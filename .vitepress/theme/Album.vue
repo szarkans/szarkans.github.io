@@ -12,7 +12,7 @@
           :src="src"
           loading="lazy"
           decoding="async"
-          @load="loaded[i] = true"
+          @load="onLoad(i)"
         />
 
         <!-- скелетон-заглушка поверх картинки -->
@@ -46,6 +46,8 @@ const loaded  = ref([])
 // при первой загрузке и при смене сезона — сбрасываем loaded
 watchEffect(() => { loaded.value = photos.value.map(() => false) })
 
+function onLoad(i) { loaded.value[i] = true }
+
 const visible = ref(false)
 const index   = ref(0)
 function open(i) { index.value = i; visible.value = true }
@@ -64,9 +66,7 @@ function open(i) { index.value = i; visible.value = true }
 .placeholder {
   position:absolute; inset:0;
   background:#8c8c8c;
-  animation:pulse 1.2s infinite ease-in-out;
-  animation-duration: 2s !important;
-  animation-iteration-count: infinite !important;
+  animation:pulse 2s infinite ease-in-out;
 }
 @keyframes pulse {
   0%{opacity:1;} 

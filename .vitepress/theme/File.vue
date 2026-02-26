@@ -53,8 +53,10 @@ export default {
     downloadFile() {
       const link = document.createElement("a");
       link.href = this.filePath;
-      link.download = this.filePath.split("/").pop(); // Настоящее название файла
+      link.download = this.filePath.split("/").pop();
+      document.body.appendChild(link);
       link.click();
+      link.remove();
     },
     // Запрос размера файла
     async fetchFileSize() {

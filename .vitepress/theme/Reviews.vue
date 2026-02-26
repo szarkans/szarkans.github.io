@@ -1,6 +1,6 @@
 <template>
   <div class="reviews-container">
-    <div class="review-wrapper">
+    <div class="review-wrapper" @touchstart="handleTouchStart" @touchend="handleTouchEnd">
       <transition name="fade">
         <div class="review" v-if="currentReview">
           <div class="review-header">
@@ -223,21 +223,3 @@ function handleTouchEnd(e) {
 }
 </style>
 
-<!-- 
-  Это отдельный <script>, чтобы повесить события на обёртку.
-  Важно: убедись, что здесь у тебя корректно подхватываются handleTouchStart/End. 
--->
-<script>
-export default {
-  mounted() {
-    const wrapper = this.$el.querySelector('.review-wrapper')
-    wrapper.addEventListener('touchstart', this.$options.setup.handleTouchStart)
-    wrapper.addEventListener('touchend', this.$options.setup.handleTouchEnd)
-  },
-  unmounted() {
-    const wrapper = this.$el.querySelector('.review-wrapper')
-    wrapper.removeEventListener('touchstart', this.$options.setup.handleTouchStart)
-    wrapper.removeEventListener('touchend', this.$options.setup.handleTouchEnd)
-  }
-}
-</script>

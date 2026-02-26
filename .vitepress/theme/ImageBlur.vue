@@ -5,12 +5,13 @@
       :alt="alt"
       @mouseenter="hovered = true"
       @mouseleave="hovered = false"
+      @click="hovered = !hovered"
       :class="{ 'blurred': !hovered }"
     />
     <div v-if="!hovered" class="blur-image-overlay">
       <div class="blur-image-text">
-        <div class="nsfw-title">NSFW</div>
-        <div class="nsfw-subtitle">Наведись, чтобы посмотреть</div>
+        <div class="nsfw-title">18+</div>
+        <div class="nsfw-subtitle">Наведись / нажми, чтобы посмотреть</div>
       </div>
     </div>
   </div>

@@ -251,7 +251,7 @@ CharaBell купила пост у Репортёров о том, что она
 
 2. **sm1lly**
 
-    <ImageBlur src="/assets/server_history/season6/sm1lly_painting.jpg" alt="Рисунок sm1lly для конкурса художников" />
+    <ImageBlur src="/assets/sm1lly_painting.jpg" alt="Рисунок sm1lly для конкурса художников" />
 
 3. **GroM7IcE7**
 
@@ -879,7 +879,14 @@ P.S. Заполнять анкету желательно, но не обяза�
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/bBZg7Lf04YU?si=BZBkWzyQhlaXl_yO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Карта сезона
+
+<File
+  filePath="/downloads/torrents/catcraft-map-season6.torrent"
+/>
+
 ### Статистика сезона
+
 :::details Раскрой меня!
 - Всего игроков прошло через серер: 1851
 - Самый первый игрок сезона: sm1lly
@@ -999,8 +1006,3 @@ P.S. Заполнять анкету желательно, но не обяза�
     - Самый большой обжора - sm1lly, 512 кусочков!
 :::
 
-### Карта сезона
-
-<File
-  filePath="/downloads/torrents/catcraft-map-season6.torrent"
-/>

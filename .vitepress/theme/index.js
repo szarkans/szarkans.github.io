@@ -42,7 +42,6 @@ import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 // MY VUE COMPONENTS
 import CardGrid from './CardGrid.vue';
 import Spoiler from './Spoiler.vue';
-import BanList from './BanList.vue';
 import ItemCard from './ItemCard.vue';
 import File from './File.vue';
 import ClanLevelCalculator from './ClanLevelCalculator.vue';
@@ -54,8 +53,6 @@ import InlineValue from './InlineValue.vue';
 import ImageBlur from './ImageBlur.vue';
 import HomeFaq from './HomeFaq.vue';
 import Album from './Album.vue';
-import GalaxySim from './GalaxySim.vue';
-import Land from './Land.vue';
 import HeroSection from './HeroSection.vue';
 //
 
@@ -83,11 +80,8 @@ export default {
       theme: {
         preset: Aura
       }
-    },
-    googleAnalytics({
-      id: 'G-X3KCR2ZW65'
-    })
-  ); // Инициализируем PrimeVue
+    }); // Инициализируем PrimeVue
+    app.use(googleAnalytics({ id: 'G-X3KCR2ZW65' }));
     enhanceAppWithTabs(app);
     app.component('Button', Button); // Регистрируем компонент Button глобально
     app.component('Card', Card);
@@ -112,7 +106,6 @@ export default {
     // MY VUE COMPONENTS
     app.component('Spoiler', Spoiler);
     app.component('CardGrid', CardGrid);
-    app.component('BanList', BanList);
     app.component('ItemCard', ItemCard);
     app.component('File', File);
     app.component('ClanLevelCalculator', ClanLevelCalculator);
@@ -124,8 +117,6 @@ export default {
     app.component('ImageBlur', ImageBlur);
     app.component('HomeFaq', HomeFaq);
     app.component('Album', Album);
-    app.component('GalaxySim', GalaxySim);
-    app.component('Land', Land);
     app.component('CraftingGrid', CraftingGrid);
     app.component('HeroSection', HeroSection);
     //
