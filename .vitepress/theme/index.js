@@ -54,6 +54,7 @@ import ImageBlur from './ImageBlur.vue';
 import HomeFaq from './HomeFaq.vue';
 import Album from './Album.vue';
 import HeroSection from './HeroSection.vue';
+import NotFound from './NotFound.vue';
 //
 
 import VueEasyLightbox from 'vue-easy-lightbox';
@@ -73,6 +74,7 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'not-found': () => h(NotFound),
     });
   },
   enhanceApp({ app, router, siteData }) {
