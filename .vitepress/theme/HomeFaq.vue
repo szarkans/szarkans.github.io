@@ -112,28 +112,42 @@ function toggle(index) {
 /* Стили для дропдауна */
 .dropdown {
   width: 100%;
-  border: 1px solid #2828286d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 15px;
-  margin-top: 5px;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.dropdown:hover {
+  background: rgba(0, 0, 0, 0.32);
+  border-color: rgba(255, 255, 255, 0.13);
 }
 
 .dropdown:has(.dropdown-content[style*="200px"]) {
-  border-color: rgba(79, 45, 190, 0.4);
-  box-shadow: 0 0 12px rgba(79, 45, 190, 0.1);
+  border-color: rgba(79, 45, 190, 0.5);
+  background: rgba(79, 45, 190, 0.07);
+  box-shadow: 0 0 16px rgba(79, 45, 190, 0.12);
+}
+
+.dropdown:has(.dropdown-content[style*="200px"]) .dropdown-title {
+  color: #c8b8ff;
+  background-image: url("data:image/svg+xml;utf8,<svg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 7L7 1L13 7' stroke='%239b7dff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path></svg>");
 }
 
 .dropdown-title {
-  color: #d5d5d5;
-  padding: 22px;
-  padding-right: 30px;
+  color: #e0e0e8;
+  padding: 18px 44px 18px 20px;
   width: 100%;
   border: none;
   outline: none;
   background: transparent;
   cursor: pointer;
   text-align: left;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
   position: relative;
   background-image: url("data:image/svg+xml;utf8,<svg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L7 7L13 1' stroke='%2379797A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'></path></svg>");
   background-repeat: no-repeat;
@@ -153,8 +167,11 @@ function toggle(index) {
 }
 
 .dropdown-content p {
-  padding: 15px;
+  padding: 0 20px 18px 20px;
   margin: 0;
+  color: #a8a8b8;
+  font-size: 15px;
+  line-height: 1.65;
 }
 
 /* Стили для Discord Link Box */
@@ -164,17 +181,17 @@ function toggle(index) {
   overflow: hidden;
   text-align: center;
   flex: 0 0 35%;
-  background: transparent;
-  border: 1px solid rgba(88, 101, 242, 0.3);
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(88, 101, 242, 0.25);
   padding: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .discord-box:hover {
-  background-color: rgba(88, 101, 242, 0.06);
+  background-color: rgba(0, 0, 0, 0.35);
   border-color: rgba(88, 101, 242, 0.5);
-  box-shadow: 0 0 20px rgba(88, 101, 242, 0.12);
+  box-shadow: 0 0 24px rgba(88, 101, 242, 0.18);
 }
 
 .discord-box-top {
@@ -194,13 +211,17 @@ function toggle(index) {
 }
 
 .discord-text h4 {
-  margin: 10px 0 5px 0;
-  font-size: 20px;
+  margin: 8px 0 6px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e8e8f0;
+  letter-spacing: 0.01em;
 }
 
 .discord-text p {
-  margin: 0 0 15px 0;
-  font-size: 16px;
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 /* Адаптивность для мобильных устройств */

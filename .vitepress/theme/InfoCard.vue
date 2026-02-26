@@ -75,16 +75,19 @@ const imagePositionClass = computed(() => {
   box-sizing: border-box;
   width: 100%;
   margin: 1.5rem 0;
-  background-color: var(--vp-c-bg, #1e1e1e);
+  background: rgba(0, 0, 0, 0.25);
   border-radius: 12px;
-  border: 1px solid rgba(40, 40, 40, 0.43);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-left: 4px solid rgba(79, 45, 190, 0.6);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, border-color 0.3s ease;
 }
 
 .info-block:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(79, 45, 190, 0.12);
+  background: rgba(0, 0, 0, 0.32);
+  border-color: rgba(255, 255, 255, 0.13);
+  border-left-color: rgba(79, 45, 190, 0.8);
+  box-shadow: 0 8px 24px rgba(79, 45, 190, 0.14);
 }
 
 /* Обёртка для картинки */
@@ -105,25 +108,30 @@ const imagePositionClass = computed(() => {
 .info-block__content {
   flex: 1;
   margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: 1.25rem;
+  padding: 1.25rem 0;
 }
 
 .info-block__title {
   margin: 0;
   font-size: 2.25rem;
-  color: var(--vp-c-text, #fff);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--vp-c-text-1, #fff);
 }
 
 .info-block__separator {
-  margin: 0.75rem 0;
+  margin: 0.75rem 0 1rem 0;
   border: none;
-  border-bottom: 1px solid var(--vp-c-divider, #666);
+  border-bottom: 1px solid rgba(79, 45, 190, 0.3);
 }
 
 .info-block__text {
   margin: 0;
-  color: var(--vp-c-text, #ccc);
-  line-height: 1.5;
+  color: var(--vp-c-text-2, #aaaabc);
+  line-height: 1.7;
+  font-size: 0.975rem;
 }
 
 @media (max-width: 960px) {

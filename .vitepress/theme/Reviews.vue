@@ -150,16 +150,18 @@ function handleTouchEnd(e) {
 .review-wrapper {
   position: relative;
   width: 70%;
-  border: 1px solid rgba(79, 45, 190, 0.25);
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 15px;
   padding: 20px;
   box-sizing: border-box;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .review-wrapper:hover {
-  border-color: rgba(79, 45, 190, 0.4);
-  box-shadow: 0 4px 20px rgba(79, 45, 190, 0.1);
+  background: rgba(0, 0, 0, 0.32);
+  border-color: rgba(79, 45, 190, 0.45);
+  box-shadow: 0 4px 24px rgba(79, 45, 190, 0.13);
 }
 
 .review {
@@ -175,44 +177,58 @@ function handleTouchEnd(e) {
 .review-header {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 .review-avatar {
   width: 50px;
   height: 50px;
-  border-radius: 25%;
+  border-radius: 8px;
+  image-rendering: pixelated;
 }
 .review-name {
-  font-weight: bold;
-  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #d8d0ff;
+  margin-left: 12px;
 }
 
 .review-button {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 40px;
+  width: 44px;
   border: none;
-  font-size: 2rem;
+  background: transparent;
+  font-size: 1.1rem;
   cursor: pointer;
   line-height: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.7;
-  transition: opacity 0.3s, background 0.3s, color 0.3s;
+  opacity: 0.5;
+  transition: opacity 0.25s ease, background 0.25s ease, color 0.25s ease;
   color: #a0a0b0;
 }
 .review-button:hover {
   opacity: 1;
-  background: rgba(79, 45, 190, 0.12);
-  color: #a67cf5;
+  background: rgba(79, 45, 190, 0.14);
+  color: #b898ff;
 }
 .review-button-left {
   left: 0;
+  border-radius: 14px 0 0 14px;
 }
 .review-button-right {
   right: 0;
+  border-radius: 0 14px 14px 0;
+}
+
+.review-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #b0b0c4;
+  padding: 4px 0 8px 0;
 }
 
 .fade-enter-active, .fade-leave-active {
