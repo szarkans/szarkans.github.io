@@ -26,7 +26,6 @@ const startPlayingSidebar = [
       { text: 'Администрация', link: '/info/admins' },
       { text: 'Донатик', link: '/info/donate.md' },
       { text: 'Префиксы и суффиксы', link: '/info/prefixes.md' },
-      { text: 'Словарик', link: '/info/dict.md' },
       { text: 'Брендбук', link: '/info/brandbook.md' },
     ]
   },
@@ -62,12 +61,11 @@ const mechanicsSidebar = [
   {
     text: 'Общие механики',
     items: [
+      { text: 'Команды', link: '/gameplay/unique/commands.md' },
       { text: 'Профиль игрока', link: '/gameplay/unique/qol/profile.md' },
-      { text: 'Бартер β', link: '/gameplay/unique/qol/barter.md' },
+      { text: 'Бартер', link: '/gameplay/unique/qol/barter.md' },
       { text: 'Система наград', link: '/gameplay/unique/qol/rewards.md' },
       { text: 'Котячьи заслуги', link: '/gameplay/unique/qol/catpass.md' },
-      { text: 'Авторизация для лицензий', link: '/gameplay/unique/qol/premium_auth.md' },
-      { text: 'Быстрая смена скина', link: '/gameplay/unique/qol/skinswap.md' },
       { text: 'Подключение к Дискорду', link: '/gameplay/unique/qol/discord_link.md' },
       { text: 'Маленькие механики', link: '/gameplay/unique/qol/small_features.md' },
     ]
@@ -87,7 +85,6 @@ const mechanicsSidebar = [
     items: [
       { text: 'Кланы β', link: '/gameplay/unique/clans.md' },
       { text: 'Гардеробная обликов', link: '/gameplay/unique/wardrobe.md' },
-      { text: 'Команды', link: '/gameplay/unique/commands.md' },
       { text: 'Figura', link: '/gameplay/unique/mods/figura.md' },
       { text: 'Войсчат и диски', link: '/gameplay/unique/mods/voicechat.md' },
     ]
