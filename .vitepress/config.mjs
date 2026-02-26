@@ -21,17 +21,6 @@ const startPlayingSidebar = [
     ]
   },
   {
-    text: 'Подключение к серверу',
-    items: [
-      { text: 'Моды для сервера', link: '/info/mods.md' },
-      { text: 'Как скачивать моды?', link: '/guides/tech/mod_download.md' },
-      { text: 'Ошибки с модами на Fabric', link: '/guides/tech/mod_errors.md' },
-      { text: 'Фикс скинов на ТЛаунчере', link: '/guides/tech/skins_tlauncher.md' },
-      { text: 'Какой лаунчер выбрать?', link: '/guides/other/launcher.md' },
-      { text: 'Фермы, ядро сервера', link: '/info/farm.md' },
-    ]
-  },
-  {
     text: 'О сервере',
     items: [
       { text: 'Администрация', link: '/info/admins' },
@@ -39,6 +28,17 @@ const startPlayingSidebar = [
       { text: 'Префиксы и суффиксы', link: '/info/prefixes.md' },
       { text: 'Словарик', link: '/info/dict.md' },
       { text: 'Брендбук', link: '/info/brandbook.md' },
+    ]
+  },
+  {
+    text: 'Подключение к серверу',
+    items: [
+      { text: 'Моды для сервера', link: '/info/mods.md' },
+      { text: 'Фермы, ядро сервера', link: '/info/farm.md' },
+      { text: 'Как скачивать моды?', link: '/guides/tech/mod_download.md' },
+      { text: 'Ошибки с модами на Fabric', link: '/guides/tech/mod_errors.md' },
+      { text: 'Фикс скинов на ТЛаунчере', link: '/guides/tech/skins_tlauncher.md' },
+      { text: 'Какой лаунчер выбрать?', link: '/guides/other/launcher.md' },
     ]
   },
   {
@@ -100,7 +100,9 @@ const mechanicsSidebar = [
       { text: 'Как поставить другой скин?', link: '/guides/gameplay/set_skin.md' },
     ]
   },
-  // ── ЧТО СУЩЕСТВУЕТ ───────────────────────────────────
+];
+
+const bestiarySidebar = [
   {
     text: 'Ванилла (изменения)',
     items: [
@@ -114,7 +116,6 @@ const mechanicsSidebar = [
   },
   {
     text: 'Предметы',
-    collapsed: true,
     items: [
       { text: 'Котик+', link: '/bestiary/usable/kplus.md' },
       { text: 'Модуль CatTrack', link: '/bestiary/usable/cattrack.md' },
@@ -138,7 +139,6 @@ const mechanicsSidebar = [
   },
   {
     text: 'Блоки и сущности',
-    collapsed: true,
     items: [
       { text: 'Жители Столицы', link: '/bestiary/mobs/npc.md' },
       { text: 'Драконья Чешуя', link: '/bestiary/materials/dragon_scale.md' },
@@ -302,6 +302,7 @@ export default defineConfig({
     nav: [
       { text: 'Начать играть', link: '/info/faq' },
       { text: 'Механики', link: '/gameplay/unique/qol/small_features' },
+      { text: 'Бестиарий', link: '/bestiary/main.md' },
       { text: 'История', link: '/history/7season/7season.md' },
       { text: 'Обновления', link: '/updates/7season/7_0_4.md' },
       { text: 'Онлайн-карта', link: 'https://map.catcraftmc.ru' }
@@ -545,7 +546,7 @@ export default defineConfig({
       '/info/': startPlayingSidebar,
       '/guides/': startPlayingSidebar,
       '/gameplay/': mechanicsSidebar,
-      '/bestiary': mechanicsSidebar,
+      '/bestiary': bestiarySidebar,
       '/history/': [
         {
           text: '1 сезон',
