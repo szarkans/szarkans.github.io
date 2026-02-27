@@ -272,7 +272,34 @@ export default defineConfig({
   },
   themeConfig: {
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonAriaLabel: "Поиск",
+                buttonText: "Поиск"
+              },
+              modal: {
+                displayDetails: 'Показать детально',
+                resetButtonTitle: 'Сбросить поиск',
+                backButtonTitle: 'Назад',
+                noResultsText: 'Ничего не найдено для',
+                footer: {
+                  selectText: 'выбор',
+                  selectKeyAriaLabel: '输入',
+                  navigateText: 'навигация',
+                  navigateUpKeyAriaLabel: 'Наверх',
+                  navigateDownKeyAriaLabel: 'Вниз',
+                  closeText: 'выйти',
+                  closeKeyAriaLabel: 'ESC'
+                }
+              }
+            }
+          }
+        }
+      }
     },
 
     logo: '/favicon.png',
@@ -293,7 +320,6 @@ export default defineConfig({
     lastUpdated: {
       text: 'Обновлено'
     },
-  
     darkModeSwitchLabel: 'Оформление',
     lightModeSwitchTitle: 'Переключить на светлую тему',
     darkModeSwitchTitle: 'Переключить на тёмную тему',
