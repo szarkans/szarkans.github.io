@@ -223,6 +223,12 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png'}],
     ['meta', { name: 'google-site-verification', content: 'r54JPpg5sYhuUs5E00v4XJ-BweKdustH7r9E2w_QpnQ' }],
+    // Google Analytics
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-ZP5H997C51' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZP5H997C51');`],
     ['meta', { name: 'yandex-verification', content: '05c0f61adb08e8a2' }],
     // SEO: Open Graph Meta Tags
     ['meta', { property: 'og:type', content: 'website' }],
