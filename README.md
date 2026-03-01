@@ -2,7 +2,7 @@
 
 Привет! Это репозиторий Вики сервера [Кошкокрафт](https://discord.gg/6f3FwFRJWC).
 
-Вики доступна по ссылке <https://wiki.catcraftmc.ru>
+Вики доступна по ссылке <https://wiki.catcraft.ru>
 
 ## Лицензия
 
