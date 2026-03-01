@@ -229,7 +229,7 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-ZP5H997C51');`],
-    ['meta', { name: 'yandex-verification', content: '05c0f61adb08e8a2' }],
+    ['meta', { name: 'yandex-verification', content: '8361658880757eb9' }],
     // SEO: Open Graph Meta Tags
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'ru_RU' }],
