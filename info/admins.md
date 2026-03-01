@@ -44,6 +44,30 @@
 </Card>
 </CardGrid>
 
+<CardGrid>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://vzge.me/face/512/jeas?y=-40" />
+    </template>
+    <template #title>Менеджер кайфа jeas</template>
+    <template #subtitle>кзанакс мать его мен</template>
+</Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://vzge.me/face/512/JOY6OY?y=-40" />
+    </template>
+    <template #title>СММ JOY6OY</template>
+    <template #subtitle>лысость</template>
+</Card>
+<Card style="width: 25rem; overflow: hidden" class="m-0">
+    <template #header>
+        <img alt="user header" src="https://vzge.me/face/512/ascett?y=-40" />
+    </template>
+    <template #title>Тех. админ ascett</template>
+    <template #subtitle>аскетичненько</template>
+</Card>
+</CardGrid>
+
 ## Всекотята | Модераторы
 
 <CardGrid>

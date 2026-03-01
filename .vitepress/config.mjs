@@ -38,12 +38,7 @@ const startPlayingSidebar = [
       { text: 'Ошибки с модами на Fabric', link: '/guides/tech/mod_errors.md' },
       { text: 'Фикс скинов на ТЛаунчере', link: '/guides/tech/skins_tlauncher.md' },
       { text: 'Какой лаунчер выбрать?', link: '/guides/other/launcher.md' },
-    ]
-  },
-  {
-    text: 'Прочее',
-    items: [
-      { text: 'Как редактировать Вики?', link: '/guides/other/edit_wiki.md' },
+      { text: 'Как редактировать Вики?', link: '/guides/other/edit_wiki.md' }
     ]
   }
 ];
@@ -64,7 +59,7 @@ const mechanicsSidebar = [
       { text: 'Команды', link: '/gameplay/unique/commands.md' },
       { text: 'Профиль игрока', link: '/gameplay/unique/qol/profile.md' },
       { text: 'Бартер', link: '/gameplay/unique/qol/barter.md' },
-      { text: 'Система наград', link: '/gameplay/unique/qol/rewards.md' },
+      { text: 'Награды игрокам', link: '/gameplay/unique/qol/rewards.md' },
       { text: 'Котячьи заслуги', link: '/gameplay/unique/qol/catpass.md' },
       { text: 'Подключение к Дискорду', link: '/gameplay/unique/qol/discord_link.md' },
       { text: 'Маленькие механики', link: '/gameplay/unique/qol/small_features.md' },
@@ -330,7 +325,7 @@ export default defineConfig({
       { text: 'Начать играть', link: '/info/faq' },
       { text: 'Механики', link: '/gameplay/unique/qol/small_features' },
       { text: 'Бестиарий', link: '/bestiary/main.md' },
-      { text: 'История', link: '/history/7season/7season.md' },
+      { text: 'История', link: '/history/1season/1season.md' },
       { text: 'Обновления', link: '/updates/7season/7_0_4.md' }
     ],
 
@@ -653,7 +648,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '7 сезон',
+          text: '??? сезон',
           items: [
             {
               text: 'История',
@@ -662,6 +657,15 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/7season/album.md'
+            }
+          ]
+        },
+        {
+          text: '8 сезон',
+          items: [
+            {
+              text: 'История',
+              link: '/history/8season/8season.md'
             }
           ]
         }
