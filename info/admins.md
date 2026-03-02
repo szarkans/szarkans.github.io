@@ -47,9 +47,9 @@
 <CardGrid>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
     <template #header>
-        <img alt="user header" src="https://vzge.me/face/512/jeas?y=-40" />
+        <img alt="user header" src="https://vzge.me/face/512/jeaas?y=-40" />
     </template>
-    <template #title>Менеджер кайфа jeas</template>
+    <template #title>Менеджер кайфа jeaas</template>
     <template #subtitle>кзанакс мать его мен</template>
 </Card>
 <Card style="width: 25rem; overflow: hidden" class="m-0">
