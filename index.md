@@ -5,66 +5,141 @@ description: "Кошкокрафт - это лучший майнкрафт-се
 
 <HeroSection />
 
-# Кошкокрафт это...
+<BentoFeatures />
 
-<InfoCard 
-  imageSrc="/vanilla.webp"
-  title="Vanilla+"
-  imagePosition="left"
->
-Уникальные самописные механики, свой собственный ресурспак, крутейшие NPC, 1200+ достижений, ребалансы и изменение ванильных механик!
-</InfoCard>
+<ReviewWall />
 
-<InfoCard 
-  imageSrc="/rp.webp"
-  title="RolePlay"
-  imagePosition="right"
->
-Система правительства, которая следит за преступниками, экономикой, ивентами, состоящая из обычных игроков сервера!
-</InfoCard>
+<div class="home-faq-section">
+  <div class="home-section-head">
+    <span class="home-section-tag">FAQ</span>
+    <h2 class="home-section-title">Частые вопросы</h2>
+  </div>
+  <HomeFaq />
+</div>
 
-<InfoCard 
-  imageSrc="/else.webp"
-  title="А также..."
-  content="Награды за постройки, идеи, баги  Партнёрство с Ютуберами и стримерами  И просто лучшее коммьюнити во всём мире!"
-  imagePosition="left"
->
-✦ Награды за постройки, идеи, баги!  
+<div class="home-cta-section">
+  <h2 class="home-cta__title">Готов присоединиться?</h2>
+  <p class="home-cta__desc">Подай заявку в Discord и начни своё приключение</p>
+  <div class="home-cta__btns">
+    <a href="/info/guide" class="home-cta__btn home-cta__btn--primary">
+      Начать играть
+    </a>
+    <a href="https://discord.gg/6f3FwFRJWC" target="_blank" rel="noopener" class="home-cta__btn home-cta__btn--ghost">
+      Discord
+    </a>
+  </div>
+</div>
 
-✦ Партнёрство с Ютуберами и стримерами!  
+<style>
+.home-faq-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px 40px;
+}
 
-✦ И просто лучшее коммьюнити во всём мире!
+.home-section-head {
+  text-align: center;
+  margin-bottom: 36px;
+}
 
-</InfoCard>
+.home-section-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #7c3aed;
+  margin-bottom: 12px;
+}
 
-<br><br>
+.home-section-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: #e8e7f0;
+  margin: 0;
+  letter-spacing: -0.02em;
+  border: none !important;
+}
 
-# Частые вопросы
+/* ===== Footer CTA ===== */
+.home-cta-section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px 24px 100px;
+  text-align: center;
+}
 
-<HomeFaq />
+.home-cta__title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: #e8e7f0;
+  margin: 0 0 12px;
+  letter-spacing: -0.02em;
+  border: none !important;
+}
 
-<br><br>
+.home-cta__desc {
+  font-size: 1.05rem;
+  color: #8b8a96;
+  margin: 0 0 32px;
+  line-height: 1.6;
+}
 
-# Что о нас говорят игроки?
+.home-cta__btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-<Reviews />
+.home-cta__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  border-radius: 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+}
 
-<!-- <br><br>
+.home-cta__btn--primary {
+  background: linear-gradient(135deg, #7c3aed, #5b21b6);
+  color: #fff;
+  box-shadow: 0 0 24px rgba(124, 58, 237, 0.35), 0 4px 16px rgba(124, 58, 237, 0.25);
+}
+.home-cta__btn--primary:hover {
+  box-shadow: 0 0 48px rgba(124, 58, 237, 0.5), 0 8px 32px rgba(124, 58, 237, 0.35);
+  transform: translateY(-3px);
+  color: #fff;
+}
 
-# Всё ещё не уверен?
+.home-cta__btn--ghost {
+  background: rgba(255, 255, 255, 0.05);
+  color: #c8c7d4;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.home-cta__btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-3px);
+  color: #fff;
+}
 
-Глянь все наши ресурсы и углубись в атмосферу нашего сервера!
-
-<CardGrid>
-  <Card style="width: 25rem; overflow: hidden" class="m-0">
-      <template #title>
-        <div style="display: flex; align-items: center; margin-right: 10px">
-          <img src="/assets/svg/discord.svg" class="my-svg"></img>
-          <p>Discord</p>
-        </div>
-      </template>
-      <template #content>
-        <p>Основное место всех новостей и общения!</p>
-      </template>
-  </Card>
-</CardGrid> -->
+@media (max-width: 640px) {
+  .home-cta__btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-cta__btn {
+    width: 100%;
+    max-width: 260px;
+    justify-content: center;
+  }
+  .home-cta-section {
+    padding: 50px 16px 70px;
+  }
+}
+</style>
