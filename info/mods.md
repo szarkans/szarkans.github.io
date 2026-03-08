@@ -1,7 +1,5 @@
 ---
-icon: material/order-alphabetical-descending
-title: Моды для сервера
-description: Готовая сборка сервера Кошкокрафт
+aside: false
 ---
 
 # Моды для сервера

@@ -29,7 +29,7 @@
         @mousemove="tilt" @mouseleave="untilt"
       >
         <div class="bento__card-accent bento__card-accent--ember"></div>
-        <span class="bento__num" data-target="10000" data-suffix="+">0</span>
+        <span class="bento__num" data-target="5000" data-suffix="+">0</span>
         <span class="bento__label">игроков прошло через нас</span>
       </div>
 
@@ -168,19 +168,20 @@ onUnmounted(() => {
 
 .bento-head__tag {
   display: inline-block;
+  font-family: var(--font-body);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: #F5A623;
+  color: var(--ember);
   margin-bottom: 12px;
 }
 
 .bento-head__title {
-  font-family: 'Unbounded', sans-serif;
+  font-family: var(--font-display);
   font-size: clamp(1.8rem, 4vw, 2.8rem);
   font-weight: 800;
-  color: #e8e7f0;
+  color: var(--paper);
   margin: 0;
   letter-spacing: -0.03em;
   border: none !important;
@@ -188,7 +189,7 @@ onUnmounted(() => {
 
 .bento-head__title em {
   font-style: normal;
-  background: linear-gradient(135deg, #F5A623 0%, #E8A0BF 100%);
+  background: linear-gradient(135deg, var(--ember) 0%, var(--blush) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -245,11 +246,11 @@ onUnmounted(() => {
 }
 
 .bento__card-accent--ember {
-  background: linear-gradient(90deg, transparent 0%, #F5A623 50%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, var(--ember) 50%, transparent 100%);
 }
 
 .bento__card-accent--blush {
-  background: linear-gradient(90deg, transparent 0%, #E8A0BF 50%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, var(--blush) 50%, transparent 100%);
 }
 
 .bento__card:hover .bento__card-accent {
@@ -322,11 +323,12 @@ onUnmounted(() => {
 
 .bento__card-label {
   display: inline-block;
+  font-family: var(--font-body);
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #F5A623;
+  color: var(--ember);
   margin-bottom: 8px;
   opacity: 0.8;
 }
@@ -356,27 +358,28 @@ onUnmounted(() => {
 }
 
 .bento__num {
-  font-family: 'Unbounded', sans-serif;
-  font-size: clamp(2.8rem, 5vw, 3.4rem);
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 5vw, 3.8rem);
   font-weight: 900;
   line-height: 1;
   letter-spacing: -0.04em;
-  background: linear-gradient(135deg, #C4B5FD 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, var(--whisker) 0%, var(--arcane) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .bento__num--warm {
-  background: linear-gradient(135deg, #E8A0BF 0%, #F5A623 100%);
+  background: linear-gradient(135deg, var(--blush) 0%, var(--ember) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .bento__label {
+  font-family: var(--font-body);
   font-size: 0.85rem;
-  color: #6b6a78;
+  color: var(--mist);
   margin-top: 8px;
   font-weight: 500;
 }
@@ -406,14 +409,14 @@ onUnmounted(() => {
   border-radius: 14px;
   background: rgba(124, 58, 237, 0.1);
   border: 1px solid rgba(124, 58, 237, 0.15);
-  color: #a78bfa;
+  color: var(--arcane-bright);
   transition: all 0.35s ease;
 }
 
 .bento__card-icon--warm {
   background: rgba(232, 160, 191, 0.1);
   border-color: rgba(232, 160, 191, 0.15);
-  color: #E8A0BF;
+  color: var(--blush);
 }
 
 .bento__card--feature:hover .bento__card-icon {
@@ -435,18 +438,19 @@ onUnmounted(() => {
 
 /* Card text */
 .bento__card-title {
-  font-family: 'Unbounded', sans-serif;
+  font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 700;
-  color: #e8e7f0;
+  color: var(--paper);
   margin: 0 0 8px;
   letter-spacing: -0.02em;
 }
 
 .bento__card-desc {
+  font-family: var(--font-body);
   font-size: 0.88rem;
   line-height: 1.7;
-  color: #8b8a96;
+  color: var(--dust);
   margin: 0;
 }
 

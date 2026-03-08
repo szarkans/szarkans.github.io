@@ -1,7 +1,5 @@
 ---
-icon: fontawesome/solid/money-bill
-toc_depth: 2
-description: Донатик
+aside: false
 ---
 
 # Донатик

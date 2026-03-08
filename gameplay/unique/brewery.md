@@ -1,6 +1,5 @@
 ---
-icon: fontawesome/solid/wine-bottle
-description: Brewery на Кошкокрафте
+aside: false
 ---
 
 # Brewery

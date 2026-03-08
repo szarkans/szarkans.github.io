@@ -1,5 +1,5 @@
 ---
-description: Как исправить скины на TLauncher?
+aside: false
 ---
 
 # Пофиксить скины на TLauncher

@@ -1,4 +1,10 @@
 <template>
+  <section class="bento-section">
+    <div class="bento-head">
+      <span class="bento-head__tag">faq</span>
+      <h2 class="bento-head__title">Частые вопросы</h2>
+    </div>
+  </section>
   <div class="faq-container">
     <!-- Левая колонка с дропдаунами -->
     <div class="faq-left">
@@ -89,6 +95,37 @@ function toggle(index) {
 </script>
 
 <style scoped>
+.bento-section  {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px 40px;
+}
+
+/* Section header */
+.bento-head {
+  text-align: center;
+}
+
+.bento-head__tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #7c3aed;
+  margin-bottom: 12px;
+}
+
+.bento-head__title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 800;
+  color: #e8e7f0;
+  margin: 0;
+  letter-spacing: -0.02em;
+  border: none !important;
+}
+
 /* Стили для контейнера FAQ */
 .faq-container {
   display: flex;
@@ -112,16 +149,16 @@ function toggle(index) {
 /* Стили для дропдауна */
 .dropdown {
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 15px;
   margin-top: 8px;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.02);
   transition: border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .dropdown:hover {
-  background: rgba(0, 0, 0, 0.32);
-  border-color: rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(124, 58, 237, 0.2);
 }
 
 .dropdown:has(.dropdown-content[style*="200px"]) {
@@ -177,21 +214,21 @@ function toggle(index) {
 /* Стили для Discord Link Box */
 .discord-box {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 20px;
   overflow: hidden;
   text-align: center;
   flex: 0 0 35%;
-  background: rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(88, 101, 242, 0.25);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   padding: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .discord-box:hover {
-  background-color: rgba(0, 0, 0, 0.35);
-  border-color: rgba(88, 101, 242, 0.5);
-  box-shadow: 0 0 24px rgba(88, 101, 242, 0.18);
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(88, 101, 242, 0.3);
+  box-shadow: 0 8px 40px rgba(88, 101, 242, 0.1);
 }
 
 .discord-box-top {

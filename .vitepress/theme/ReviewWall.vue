@@ -92,6 +92,7 @@ const columns = [
 
 .rv-head__title {
   font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-family: 'Unbounded', sans-serif;
   font-weight: 800;
   color: #e8e7f0;
   margin: 0;

@@ -1,6 +1,5 @@
 ---
-title: Законы сервера
-lastUpdated: true
+aside: false
 ---
 
 # Законы сервера

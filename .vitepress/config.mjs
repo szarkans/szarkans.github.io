@@ -58,7 +58,6 @@ const mechanicsSidebar = [
     items: [
       { text: 'Команды', link: '/gameplay/unique/commands.md' },
       { text: 'Профиль игрока', link: '/gameplay/unique/qol/profile.md' },
-      { text: 'Бартер', link: '/gameplay/unique/qol/barter.md' },
       { text: 'Награды игрокам', link: '/gameplay/unique/qol/rewards.md' },
       { text: 'Котячьи заслуги', link: '/gameplay/unique/qol/catpass.md' },
       { text: 'Подключение к Дискорду', link: '/gameplay/unique/qol/discord_link.md' },

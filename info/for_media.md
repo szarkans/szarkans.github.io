@@ -1,7 +1,5 @@
 ---
-icon: simple/youtube
-toc_depth: 2
-description: Партнёрство с ютуберами и стримерами на Кошкокрафте
+aside: false
 ---
 
 # Для Контент-мейкеров

@@ -1,6 +1,5 @@
 ---
-icon: fontawesome/solid/arrow-up-from-ground-water
-description: Ограничения фарма и ферм на Кошкокрафте
+aside: false
 ---
 
 # Фермы, ядро сервера

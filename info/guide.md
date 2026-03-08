@@ -1,6 +1,5 @@
 ---
-icon: material/heart-plus
-description: Гайд для новичков на нашем сервере
+aside: false
 ---
 
 # Как попасть на сервер?

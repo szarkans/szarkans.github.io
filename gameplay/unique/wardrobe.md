@@ -1,3 +1,6 @@
+---
+aside: false
+---
 
 # Гардеробная <Badge type="warning" text="В Бете" />
 

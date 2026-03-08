@@ -1,7 +1,5 @@
 ---
-icon: material/account-voice
-title: Войсчат и аддоны
-description: Войсчат на Кошкокрафте
+aside: false
 ---
 
 # Войсчат и кастомные пластинки

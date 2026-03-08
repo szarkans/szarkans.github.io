@@ -1,11 +1,5 @@
 ---
-hide:
-  - navigation
-  - toc
-  - footer
-  - path
-search:
-  exclude: true
+aside: false
 ---
 
 # Ультимативный гайд по ГКСБ

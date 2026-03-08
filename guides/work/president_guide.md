@@ -1,11 +1,5 @@
 ---
-hide:
-  - navigation
-  - footer
-  - path
-search:
-  exclude: true
-description: Гайд по работе Президента
+aside: false
 ---
 
 # Ультимативный гайд по Президенству

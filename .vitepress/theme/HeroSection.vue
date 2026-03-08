@@ -257,6 +257,7 @@ onMounted(async () => {
 /* Title */
 .hero-title {
   font-size: 4.5rem;
+  font-family: 'Unbounded', sans-serif;
   font-weight: 800;
   line-height: 1.1;
   margin: 0 0 16px;
@@ -430,8 +431,9 @@ onMounted(async () => {
   }
   .hero-btn {
     width: 100%;
-    max-width: 280px;
     justify-content: center;
+    padding: 16px 28px;
+    font-size: 1.1rem;
   }
 }
 

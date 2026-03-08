@@ -1,6 +1,5 @@
 ---
-icon: octicons/question-16
-description: Ответы на частые вопросы по Кошкокрафту
+aside: false
 ---
 
 # Частые Вопросы

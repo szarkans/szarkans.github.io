@@ -1,6 +1,5 @@
 ---
-icon: material/draw
-description: Рисование
+aside: false
 ---
 
 # Рисование

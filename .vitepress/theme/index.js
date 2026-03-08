@@ -54,6 +54,7 @@ import ImageBlur from './ImageBlur.vue';
 import HomeFaq from './HomeFaq.vue';
 import Album from './Album.vue';
 import HeroSection from './HeroSection.vue';
+import HomeCta from './HomeCta.vue';
 import MarqueeStrip from './MarqueeStrip.vue';
 import BentoFeatures from './BentoFeatures.vue';
 import ReviewWall from './ReviewWall.vue';
@@ -124,6 +125,7 @@ export default {
     app.component('Album', Album);
     app.component('CraftingGrid', CraftingGrid);
     app.component('HeroSection', HeroSection);
+    app.component('HomeCta', HomeCta);
     app.component('MarqueeStrip', MarqueeStrip);
     app.component('BentoFeatures', BentoFeatures);
     app.component('ReviewWall', ReviewWall);

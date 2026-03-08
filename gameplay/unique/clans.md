@@ -1,6 +1,5 @@
 ---
-icon: octicons/people-16
-description: Система кланов
+aside: false
 ---
 
 # Кланы <Badge type="warning" text="В Бете" />

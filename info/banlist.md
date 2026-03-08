@@ -1,6 +1,5 @@
 ---
-icon: fontawesome/solid/hammer
-description: Бан-лист Кошкокрафта
+aside: false
 ---
 
 <style>

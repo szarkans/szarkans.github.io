@@ -1,6 +1,5 @@
 ---
-icon: octicons/book-16
-title: Заповеди сервера
+aside: false
 ---
 
 # Заповеди сервера

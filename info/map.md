@@ -1,6 +1,5 @@
 ---
-icon: material/map
-description: Карты основных мест нашего сервера
+aside: false
 ---
 
 # Локации Кошкокрафта

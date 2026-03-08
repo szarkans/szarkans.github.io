@@ -1,6 +1,5 @@
 ---
-icon: material/table-furniture
-description: Мебель и декорации на Кошкокрафте
+aside: false
 ---
 
 # Мебель и декорации

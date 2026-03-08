@@ -1,10 +1,5 @@
 ---
-hide:
-  - navigation
-  - footer
-  - path
-search:
-  exclude: true
+aside: false
 ---
 
 # Ультимативный гайд по работе Модератором
