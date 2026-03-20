@@ -1140,3 +1140,4 @@ Papamama: *ответ неизвестен*
 <File
   filePath="/downloads/torrents/catcraft-map-season5.torrent"
 />
+<AdhdMode />

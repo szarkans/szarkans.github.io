@@ -149,6 +149,20 @@ const bestiarySidebar = [
   }
 ];
 
+const adhdVideosPlugin = {
+  name: 'adhd-videos',
+  resolveId(id) {
+    if (id === 'virtual:adhd-videos') return '\0virtual:adhd-videos'
+  },
+  load(id) {
+    if (id === '\0virtual:adhd-videos') {
+      const videosDir = path.resolve(__dirname, '../public/videos')
+      const files = fs.readdirSync(videosDir).filter(f => f.endsWith('.webm')).sort()
+      return `export default ${JSON.stringify(files.map(f => `/videos/${f}`))}`
+    }
+  }
+}
+
 export default defineConfig({
   title: "Кошкокрафт",
   lang: 'ru',
@@ -249,6 +263,10 @@ export default defineConfig({
     ['meta', { name: 'author', content: 'Кошкокрафт' }],
     ['meta', { name: 'robots', content: 'index, follow' }]
   ],
+  vite: {
+    plugins: [adhdVideosPlugin]
+  },
+
   vue: {
     template: {
       transformAssetUrls: {

@@ -154,3 +154,5 @@ StCrouse (r.i.p.), DmitrySmirnov, zioninside, imbuedennui, Liberaha, EZENMYR, va
 ## Альбом 1 сезона
 
 <Button as="a" href="https://vk.com/album-210306238_282348213" label="Альбом 1 сезона" icon="pi pi-external-link" />
+
+<AdhdMode />

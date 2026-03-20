@@ -126,3 +126,5 @@ description: История сервера Кошкокрафт - 2 сезон
 
 <Button as="a" href="https://vk.com/album-210306238_283207236" label="Альбом 2 сезона" icon="pi pi-external-link" />
 
+
+<AdhdMode />

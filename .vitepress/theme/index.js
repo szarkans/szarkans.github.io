@@ -59,6 +59,7 @@ import MarqueeStrip from './MarqueeStrip.vue';
 import BentoFeatures from './BentoFeatures.vue';
 import ReviewWall from './ReviewWall.vue';
 import NotFound from './NotFound.vue';
+import AdhdMode from './AdhdMode.vue';
 //
 
 import VueEasyLightbox from 'vue-easy-lightbox';
@@ -129,6 +130,7 @@ export default {
     app.component('MarqueeStrip', MarqueeStrip);
     app.component('BentoFeatures', BentoFeatures);
     app.component('ReviewWall', ReviewWall);
+    app.component('AdhdMode', AdhdMode);
     //
     app.directive('tooltip', Tooltip);
   }
