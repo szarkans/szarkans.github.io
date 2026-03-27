@@ -87,7 +87,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/crafts/reinforced_deepslate.png',
+  image: '/assets/crafts/reinforced_deepslate.webp',
   name: 'Укреплённый глубинный сланец',
   count: 8
 }

@@ -61,7 +61,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/crafts/dice.png',
+  image: '/assets/crafts/dice.webp',
   name: 'Игральная кость',
   count: 1
 }

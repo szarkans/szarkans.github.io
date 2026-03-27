@@ -105,7 +105,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/crafts/enchanted_cobblestone.png',
+  image: '/assets/crafts/enchanted_cobblestone.webp',
   name: 'Сжатый булыжник 1х',
   count: 1
 }

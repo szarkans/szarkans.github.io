@@ -85,7 +85,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/crafts/decor_table.png',
+  image: '/assets/crafts/decor_table.webp',
   name: 'Стол декора',
   count: 1
 }

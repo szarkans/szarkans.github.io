@@ -91,7 +91,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/crafts/echo_bell.png',
+  image: '/assets/crafts/echo_bell.webp',
   name: 'Эхо-колокол',
   count: 1
 }

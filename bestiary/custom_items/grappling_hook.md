@@ -75,7 +75,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/crafts/grappling_hook.png',
+  image: '/assets/crafts/grappling_hook.webp',
   name: 'Крюк Кошка',
   count: 1
 }

@@ -73,7 +73,7 @@ const gunpowderRecipe = [
 ]
 
 const gunpowderResult = {
-  image: '/assets/crafts/light.png',
+  image: '/assets/crafts/light.webp',
   name: 'Блок света',
   count: 9
 }
