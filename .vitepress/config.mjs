@@ -170,7 +170,7 @@ export default defineConfig({
   base: '/',
 
   transformHead: ({ pageData }) => {
-    const head = head: [
+    const head = [
       [
         'script',
         { type: 'text/javascript' },
