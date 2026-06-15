@@ -196,6 +196,15 @@ export default defineConfig({
 
     const fullTitle = pageTitle === 'Кошкокрафт' ? pageTitle : `${pageTitle} | Кошкокрафт`;
 
+    // Патчноуты и история — это статьи, остальное — обычные страницы
+    const topSegment = pageData.relativePath.split('/')[0];
+    const isArticle = topSegment === 'updates' || topSegment === 'history';
+
+    head.push(['meta', { property: 'og:type', content: isArticle ? 'article' : 'website' }]);
+    if (isArticle && pageData.lastUpdated) {
+      head.push(['meta', { property: 'article:modified_time', content: new Date(pageData.lastUpdated).toISOString() }]);
+    }
+
     head.push(['meta', { property: 'og:title', content: fullTitle }]);
     head.push(['meta', { property: 'og:description', content: pageDescription }]);
     head.push(['meta', { property: 'og:url', content: pageUrl }]);
@@ -206,6 +215,33 @@ export default defineConfig({
     head.push(['link', { rel: 'canonical', href: pageUrl }]);
 
     head.push(['meta', { name: 'description', content: pageDescription }]);
+
+    // SEO: Schema.org — хлебные крошки (Главная › Раздел › Страница)
+    const sections = {
+      info:     { name: 'Информация', url: '/info/faq' },
+      guides:   { name: 'Информация', url: '/info/faq' },
+      gameplay: { name: 'Механики',   url: '/gameplay/unique/qol/small_features' },
+      bestiary: { name: 'Бестиарий',  url: '/bestiary/main' },
+      updates:  { name: 'Обновления', url: '/updates/7season/7_0_4' },
+      history:  { name: 'История',    url: '/history/1season/1season' },
+    };
+
+    const section = sections[pageData.relativePath.split('/')[0]];
+    if (section) {
+      const sectionUrl = `${siteUrl}/${section.url.replace(/^\//, '')}`;
+      const crumbs = [
+        { '@type': 'ListItem', position: 1, name: 'Кошкокрафт', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: section.name, item: sectionUrl },
+      ];
+      if (pageUrl !== sectionUrl) {
+        crumbs.push({ '@type': 'ListItem', position: 3, name: pageTitle, item: pageUrl });
+      }
+      head.push(['script', { type: 'application/ld+json' }, JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: crumbs,
+      })]);
+    }
 
     return head;
   },
@@ -261,7 +297,7 @@ export default defineConfig({
       gtag('config', 'G-ZP5H997C51');`],
     ['meta', { name: 'yandex-verification', content: '8361658880757eb9' }],
     // SEO: Open Graph Meta Tags
-    ['meta', { property: 'og:type', content: 'website' }],
+    // og:type задаётся динамически в transformHead (website / article)
     ['meta', { property: 'og:locale', content: 'ru_RU' }],
     ['meta', { property: 'og:site_name', content: 'Кошкокрафт Вики' }],
     ['meta', { property: 'og:image', content: 'https://wiki.catcraftmc.ru/og-image.png' }],
@@ -278,7 +314,22 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#9333ea' }],
     ['meta', { name: 'keywords', content: 'Minecraft, сервер, Кошкокрафт, Catcraft, Vanilla+, RolePlay, майнкрафт' }],
     ['meta', { name: 'author', content: 'Кошкокрафт' }],
-    ['meta', { name: 'robots', content: 'index, follow' }]
+    ['meta', { name: 'robots', content: 'index, follow' }],
+
+    // SEO: Schema.org — организация (для карточки бренда в выдаче)
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Кошкокрафт',
+      alternateName: 'CatCraft',
+      url: 'https://wiki.catcraftmc.ru',
+      logo: 'https://wiki.catcraftmc.ru/icon_purple.png',
+      sameAs: [
+        'https://discord.gg/6f3FwFRJWC',
+        'https://t.me/catcraftmc_tg',
+        'https://youtube.com/@catcraftminecraft'
+      ]
+    })]
   ],
   vite: {
     plugins: [adhdVideosPlugin]
@@ -286,6 +337,12 @@ export default defineConfig({
 
   vue: {
     template: {
+      // Отключаем строковую склейку статики: иначе инлайн-компоненты
+      // (напр. <Obfuscated>) внутри больших статичных абзацев «застывают»
+      // как обычный текст и не оживают. См. Obfuscated.vue.
+      compilerOptions: {
+        hoistStatic: false
+      },
       transformAssetUrls: {
         video: ['src', 'poster'],
         source: ['src'],
@@ -379,33 +436,39 @@ export default defineConfig({
     sidebar: {
       '/updates': [
         {
-          text: "7 сезон",
-          items: [
-            {
-              "text": "7.0.4",
-              link: "/updates/7season/7_0_4.md"
-            },
-            {
-              "text": "7.0.3",
-              link: "/updates/7season/7_0_3.md"
-            },
-            {
-              "text": "7.0.2",
-              link: "/updates/7season/7_0_2.md"
-            },
-            {
-              "text": "7.0.1",
-              link: "/updates/7season/7_0_1.md"
-            },
-            {
-              "text": "7.0.0",
-              link: "/updates/7season/7_0_0.md"
-            }
-          ]
+          text: "8 сезон",
+          items: []
         },
         {
           text: "Архив",
+              "collapsed": true,
           items: [
+            {
+              text: "? сезон",
+              "collapsed": true,
+              items: [
+                {
+                  "text": "?.0.4",
+                  link: "/updates/7season/7_0_4.md"
+                },
+                {
+                  "text": "?.0.3",
+                  link: "/updates/7season/7_0_3.md"
+                },
+                {
+                  "text": "?.0.2",
+                  link: "/updates/7season/7_0_2.md"
+                },
+                {
+                  "text": "?.0.1",
+                  link: "/updates/7season/7_0_1.md"
+                },
+                {
+                  "text": "?.0.0",
+                  link: "/updates/7season/7_0_0.md"
+                }
+              ]
+            },
             {
               "text": "6 сезон",
               "collapsed": true,

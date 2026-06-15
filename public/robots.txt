@@ -4,9 +4,5 @@
 User-agent: *
 Allow: /
 
-# Запрещаем индексацию служебных директорий
-Disallow: /assets/
-Disallow: /.vitepress/
-
 # Sitemap
 Sitemap: https://wiki.catcraftmc.ru/sitemap.xml

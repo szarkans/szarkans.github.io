@@ -60,6 +60,8 @@ import BentoFeatures from './BentoFeatures.vue';
 import ReviewWall from './ReviewWall.vue';
 import NotFound from './NotFound.vue';
 import AdhdMode from './AdhdMode.vue';
+import Obfuscated from './Obfuscated.vue';
+import GlitchBlock from './GlitchBlock.vue';
 //
 
 import VueEasyLightbox from 'vue-easy-lightbox';
@@ -131,6 +133,8 @@ export default {
     app.component('BentoFeatures', BentoFeatures);
     app.component('ReviewWall', ReviewWall);
     app.component('AdhdMode', AdhdMode);
+    app.component('Obfuscated', Obfuscated);
+    app.component('GlitchBlock', GlitchBlock);
     //
     app.directive('tooltip', Tooltip);
   }
