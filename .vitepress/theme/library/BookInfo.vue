@@ -1,8 +1,6 @@
 <template>
   <div class="bi">
     <p class="bi__title" :class="{ 'bi__title--q': !book.signed }">{{ book.title }}</p>
-    <p v-if="book.signed" class="bi__gray">от {{ book.author || 'неизвестного' }}</p>
-    <p v-else class="bi__gray">без подписи</p>
     <p class="bi__gray">
       {{ book.pages.length }} {{ plural(book.pages.length, 'страница', 'страницы', 'страниц') }}<template v-if="book.copies > 1"> · {{ book.copies }} {{ plural(book.copies, 'экземпляр', 'экземпляра', 'экземпляров') }}</template>
     </p>
