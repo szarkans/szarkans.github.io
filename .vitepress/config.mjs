@@ -698,6 +698,10 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/1season/album.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/1season/library.md'
             }
           ],
         },
@@ -724,6 +728,14 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/3season/album.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/3season/library.md'
+            },
+            {
+              text: "Города",
+              link: '/history/3season/towns.md'
             }
           ]
         },
@@ -737,6 +749,14 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/4season/album.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/4season/library.md'
+            },
+            {
+              text: "Города",
+              link: '/history/4season/towns.md'
             }
           ]
         },
@@ -750,6 +770,14 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/5season/album.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/5season/library.md'
+            },
+            {
+              text: "Города",
+              link: '/history/5season/towns.md'
             }
           ]
         },
@@ -763,6 +791,14 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/6season/album.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/6season/library.md'
+            },
+            {
+              text: "Города",
+              link: '/history/6season/towns.md'
             }
           ]
         },
@@ -776,6 +812,14 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/7season/album.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/7season/library.md'
+            },
+            {
+              text: "Города",
+              link: '/history/7season/towns.md'
             }
           ]
         },
