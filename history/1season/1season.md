@@ -157,6 +157,8 @@ StCrouse (r.i.p.), DmitrySmirnov, zioninside, imbuedennui, Liberaha, EZENMYR, va
 
 <Button as="a" href="https://drive.google.com/file/d/1Ce1TIK3mA50TrPyfboMPDgClDgw85EgZ/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 1 сезона" icon="pi pi-download" />
 
+<Button as="a" href="/history/1season/library" label="Библиотека: книги игроков" icon="pi pi-book" />
+
 ## Альбом 1 сезона
 
 <Button as="a" href="https://vk.com/album-210306238_282348213" label="Альбом 1 сезона" icon="pi pi-external-link" />

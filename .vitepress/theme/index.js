@@ -64,6 +64,7 @@ import HistoryTimeline from './HistoryTimeline.vue';
 import WikiHub from './WikiHub.vue';
 import WhatsNew from './WhatsNew.vue';
 import HistoryTowns from './towns/HistoryTowns.vue';
+import HistoryLibrary from './HistoryLibrary.vue';
 //
 
 import VueEasyLightbox from 'vue-easy-lightbox';
@@ -179,6 +180,7 @@ export default {
     app.component('WikiHub', WikiHub);
     app.component('WhatsNew', WhatsNew);
     app.component('HistoryTowns', HistoryTowns);
+    app.component('HistoryLibrary', HistoryLibrary);
     //
     app.directive('tooltip', Tooltip);
   }

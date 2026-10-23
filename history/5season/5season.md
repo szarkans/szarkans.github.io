@@ -1139,5 +1139,7 @@ Papamama: *ответ неизвестен*
 
 <Button as="a" href="https://drive.google.com/file/d/1ecwt-NOlNkdIV4ZkEYUX9OooK3ST94ru/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 5 сезона" icon="pi pi-download" />
 
+<Button as="a" href="/history/5season/library" label="Библиотека: книги игроков" icon="pi pi-book" />
+
 <Button as="a" href="/history/5season/towns" label="Города 5 сезона" icon="pi pi-map-marker" />
 <AdhdMode />
