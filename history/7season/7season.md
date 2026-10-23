@@ -115,6 +115,10 @@
 
 <Button as="a" href="https://drive.google.com/file/d/1I8C4bkn5F1dU0nfyRTL2jjtcaXH23f_e/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 7 сезона" icon="pi pi-download" />
 
+<Button as="a" href="/history/7season/library" label="Библиотека 7 сезона" icon="pi pi-book" />
+
+<Button as="a" href="/history/7season/towns" label="Города 7 сезона" icon="pi pi-map-marker" />
+
 ## Статистика сезона
 
 ::: tip Статистика сезона

@@ -145,13 +145,13 @@ CharaBell (на момент 3 сезона - ClaraBell) - напомнила о
 
 - Благодаря **CharaBell** были добавлены несколько новых шляп, которые есть до сих пор!
 
-- Был создан официальный город ФырCUMск под предводительством **dimastein**. 
+- Был создан официальный город [ФырCUMск](./towns.md#fyrkamsk) под предводительством **dimastein**. 
 
     - Список жителей: dimastein, Minifrost2, Ociket, pasterTime, den4ik2009da, God_of_hentai, BTR_MAGISTR, lofiry, ClaraBell, Victor_Morgan, HelsyMine
 
     - Это был РП город, населенный лисами.
 
-- Был создан официальный город **POSO-CITY** под предводительством **whiterr_** и **riiiba**. 
+- Был создан официальный город **[POSO-CITY](./towns.md#poso-city)** под предводительством **whiterr_** и **riiiba**. 
 
     - Список жителей: Ra1DeR_, riiiba, Ogresty, Lighttree, JakeLookley, whiterr_, rami_malook, jOSef2551
 
@@ -165,7 +165,7 @@ CharaBell (на момент 3 сезона - ClaraBell) - напомнила о
 
 - Началась эскалация конфликта ВСЕГО СЕРВЕРА и гномов El_Ragan'а. Причиной конфликта было ужасно токсичное поведение и монополия на элитры гномов.
 
-    - Админу были переданы вручную написанные 15 жалоб на один клан от игроков трёх городов (ПОСО-СИТИ, Фыркамск и Ебенград).
+    - Админу были переданы вручную написанные 15 жалоб на один клан от игроков трёх городов ([ПОСО-СИТИ](./towns.md#poso-city), [Фыркамск](./towns.md#fyrkamsk) и [Ебенград](./towns.md#ebengrad)).
 
 ## 26-28 июля - Мидланд
 
@@ -229,7 +229,7 @@ CharaBell (на момент 3 сезона - ClaraBell) - напомнила о
 
 ## 21 августа - Ебенград
 
-- Был основан Ебенград под предводительством LittleGirlsLover, Pumcheese, Ghekkish и \_RAT_GEL\_
+- Был основан [Ебенград](./towns.md#ebengrad) под предводительством LittleGirlsLover, Pumcheese, Ghekkish и \_RAT_GEL\_
 
     - Список жителей: Pumcheese, Ghekkish, LittleGirlsLover, \_RAT_GEL\_, \_\_Jeas\_\_, Blackdragon261, KeniRaym, LiteTuchka, Poogalos, Razond, SM1LLYS, cantcaaat, \_bukkake747_\, Pomador, tokasssabtw, shamanishka, zioninside, ZureM и kainet.
 
@@ -255,7 +255,7 @@ CharaBell (на момент 3 сезона - ClaraBell) - напомнила о
 
 ## 1 сентября - Мон-триедж
 
-- Был основан город Мон-Триедж игроком **Makakas**. Скриншоты города и его реклама - <https://vk.com/wall-210306238_2723>
+- Был основан город [Мон-Триедж](./towns.md#mon-triedzh) игроком **Makakas**. Скриншоты города и его реклама - <https://vk.com/wall-210306238_2723>
 
 ## 2 сентября - Форкок
 
@@ -499,6 +499,10 @@ SM1LLYS легально соорудил Гигакирку из 64 незер�
 ## Данные
 
 <Button as="a" href="https://drive.google.com/file/d/1IiqDiLKvKCXVdI3V2DAcyB2_paZdklQQ/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 3 сезона" icon="pi pi-download" />
+
+<Button as="a" href="/history/3season/library" label="Библиотека 3 сезона" icon="pi pi-book" />
+
+<Button as="a" href="/history/3season/towns" label="Города 3 сезона" icon="pi pi-map-marker" />
 
 <Button as="a" href="https://vk.com/album-210306238_284869427" label="Альбом 3 сезона" icon="pi pi-external-link" />
 <AdhdMode />
