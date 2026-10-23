@@ -6,7 +6,7 @@
     </p>
     <ul class="bi__where">
       <li v-for="(w, i) in places" :key="i">
-        <span class="bi__place">{{ w.place }}<template v-if="w.note"> ({{ w.note }})</template></span>
+        <span class="bi__place">{{ w.place }}</span>
         <span v-if="w.xyz" class="bi__xyz">{{ w.xyz }}</span>
       </li>
       <li v-if="rest" class="bi__more">и ещё {{ rest }} {{ plural(rest, 'место', 'места', 'мест') }}</li>

@@ -25,7 +25,7 @@
           </h2>
           <ul class="rd__facts">
             <li v-for="(w, i) in book.where" :key="i">
-              {{ w.place }}<i v-if="w.note">{{ ` (${w.note})` }}</i><code v-if="w.xyz">{{ w.xyz }}</code>
+              {{ w.place }}<code v-if="w.xyz">{{ w.xyz }}</code>
             </li>
             <li v-if="book.more">и ещё {{ book.more }} {{ plural(book.more, 'место', 'места', 'мест') }}</li>
             <li v-if="book.copies > 1">{{ book.copies }} {{ plural(book.copies, 'экземпляр', 'экземпляра', 'экземпляров') }}</li>

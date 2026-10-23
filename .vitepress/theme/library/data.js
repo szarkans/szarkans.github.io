@@ -80,15 +80,13 @@ function placeName(id) {
 }
 
 // «chest → brown_shulker_box · 81 51 -290» → { place: 'Сундук → коричневый шалкер', xyz: '81 51 -290' }
-// «у игрока (эндер-сундук)» → { place: 'у игрока', xyz: '', note: 'эндер-сундук' }
+// «chest · ? ? ?» → { place: 'Сундук', xyz: '? ? ?' } — книга была у игрока, где именно, не говорим
 function placeLabel(w) {
-  const at = w.match(/^(.+?) · (-?\d+ -?\d+ -?\d+)$/)
+  const at = w.match(/^(.+?) · ((?:-?\d+|\?) (?:-?\d+|\?) (?:-?\d+|\?))$/)
   if (at) {
     const place = at[1].split(' → ').map(placeName).join(' → ')
     return { place: place[0].toUpperCase() + place.slice(1), xyz: at[2] }
   }
-  const pl = w.match(/^у игрока \((.+)\)$/)
-  if (pl) return { place: 'у игрока', note: pl[1], xyz: '' }
   return { place: w, xyz: '' }
 }
 
