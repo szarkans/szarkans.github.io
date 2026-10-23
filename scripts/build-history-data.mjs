@@ -52,11 +52,16 @@ const seasons = JSON.parse(fs.readFileSync(path.join(root, 'site/data_public.jso
 fs.mkdirSync(OUT_DIR, { recursive: true })
 for (const season of seasons) {
   const usedIds = new Set()
-  const towns = season.cities.map(c => {
-    let id = c.g[0] ? slug(c.g[0]) : `x${c.x}z${c.z}`
-    if (usedIds.has(id)) id += `-${c.x}`
-    usedIds.add(id)
-    return { id, g: c.g[0] ?? null, ok: c.ok, x: c.x, z: c.z, n: c.n, p: c.p, b: c.b, s: c.s }
+  // Догадка по табличкам часто повторяет имя настоящего города по соседству —
+  // тогда на карте два «Фыркамска», и ссылка из статьи попадает не туда.
+  const confirmed = new Set(season.cities.filter(c => c.ok).map(c => c.g[0]))
+  const towns = season.cities.map(c => ({ ...c, g: !c.ok && confirmed.has(c.g[0]) ? [] : c.g }))
+    .sort((a, b) => b.ok - a.ok)
+    .map(c => {
+      let id = c.g[0] ? slug(c.g[0]) : `x${c.x}z${c.z}`
+      if (usedIds.has(id)) id += `-${c.x}`
+      usedIds.add(id)
+      return { id, g: c.g[0] ?? null, ok: c.ok, x: c.x, z: c.z, n: c.n, p: c.p, b: c.b, s: c.s }
   })
   const players = readPlayers(season.id).sort((a, b) => a.n.localeCompare(b.n))
   const out = { season: Number(season.id.slice(1)), books: season.books, towns, players }
