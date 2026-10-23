@@ -115,6 +115,8 @@
 
 <Button as="a" href="https://drive.google.com/file/d/1I8C4bkn5F1dU0nfyRTL2jjtcaXH23f_e/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 7 сезона" icon="pi pi-download" />
 
+<Button as="a" href="/history/7season/library" label="Библиотека: книги игроков" icon="pi pi-book" />
+
 ## Статистика сезона
 
 ::: tip Статистика сезона
