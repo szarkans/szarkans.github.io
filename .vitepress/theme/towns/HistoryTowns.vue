@@ -53,7 +53,6 @@
               <span class="row__xz">{{ fmt(t.x) }}, {{ fmt(t.z) }}</span>
             </button>
             <div v-if="t.id === selectedId" class="row__body">
-              <p v-if="t.g && !t.ok" class="row__guess">Название — догадка по табличкам рядом</p>
               <CopyCmd :cmd="tpTown(t)" />
               <p class="row__people">
                 <span class="row__count">{{ t.n }} {{ plural(t.n, 'житель', 'жителя', 'жителей') }}</span>
@@ -80,6 +79,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import TownMap from './TownMap.vue'
 import CopyCmd from './CopyCmd.vue'
 import { loadSeason, isSmall, townOfPlayer, tpTown, tpBed, fmt } from './towns.js'
+import { plural } from '../library/data.js'
 
 const props = defineProps({ season: { type: Number, required: true } })
 const inputId = `finder-${props.season}`
@@ -119,11 +119,6 @@ const suggestions = computed(() => {
   }
   return [...starts, ...has].slice(0, 6)
 })
-
-const plural = (n, one, few, many) => {
-  const m10 = n % 10, m100 = n % 100
-  return m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20) ? few : many
-}
 
 function setUrl(mut) {
   const u = new URL(location.href)
@@ -266,14 +261,13 @@ onBeforeUnmount(() => window.removeEventListener('hashchange', onHash))
 .row.open .row__name.none { color: #c9c5d6; }
 
 .row__body { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding: 2px 6px 18px 26px; }
-.row__guess { color: #8f87a3; font-size: 13px; }
 .row__people { color: #9a94ab; font-size: 13.5px; line-height: 1.6; overflow-wrap: anywhere; }
 .row__count { display: block; color: #c9c5d6; font-weight: 500; }
 .row__people b { color: #fff; font-weight: 600; }
 .more { padding: 14px 6px 0 26px !important; font-size: 14px; }
 
 @media (max-width: 900px) {
-  .layout { grid-template-columns: 1fr; }
+  .layout { grid-template-columns: minmax(0, 1fr); }
   .layout__map { position: static; }
 }
 @media (prefers-reduced-motion: reduce) {

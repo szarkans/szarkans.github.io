@@ -31,13 +31,14 @@ function prepare(data) {
     const k = p.n.toLowerCase()
     if (!playerByNick.has(k) || (!playerByNick.get(k).bed && p.bed)) playerByNick.set(k, p)
   }
-  return { season: data.season, towns, players: [...playerByNick.values()], byNick, playerByNick }
+  return { towns, players: [...playerByNick.values()], byNick, playerByNick }
 }
 
 export const fmt = v => String(v).replace('-', '−')
 
-// Без высоты: ~ оставляет текущую. Подходит для ванильного мира с читами.
-export const tpTown = t => `/tp @s ${t.x} ~ ${t.z}`
+// Высоты города в данных нет, а `~` оставляет текущую и может закопать под землю.
+// spreadplayers сам ставит на верхний блок.
+export const tpTown = t => `/spreadplayers ${t.x} ${t.z} 0 1 false @s`
 export const tpBed = ([x, y, z]) => `/tp @s ${x} ${y + 1} ${z}`
 
 // Город, где жил игрок: тот, в чьём списке жителей он есть; при нескольких — ближайший к кровати.

@@ -46,7 +46,6 @@ function normalize(b) {
   const pages = b.p.map(cleanPage)
   // Хвост из пустых страниц — это недописанная книга, листать его незачем.
   while (pages.length > 1 && !pages[pages.length - 1].trim()) pages.pop()
-  const chars = pages.reduce((n, p) => n + p.length, 0)
   const signed = b.k === 'w'
   const author = signed ? (b.a || '') : ''
   const where = []
@@ -63,7 +62,6 @@ function normalize(b) {
     author,
     signed,
     pages: pages.length ? pages : [''],
-    chars,
     copies: b.c || 1,
     where,
     more,
@@ -102,14 +100,14 @@ function placeName(id) {
 
 // «chest → brown_shulker_box · 81 51 -290» → { place: 'Сундук → коричневый шалкер', xyz: '81 51 -290' }
 // «у игрока Ник (эндер-сундук)» → { place: 'у игрока Ник', xyz: '', note: 'эндер-сундук' }
-export function placeLabel(w) {
+function placeLabel(w) {
   const at = w.match(/^(.+?) · (-?\d+ -?\d+ -?\d+)$/)
   if (at) {
     const place = at[1].split(' → ').map(placeName).join(' → ')
     return { place: place[0].toUpperCase() + place.slice(1), xyz: at[2] }
   }
   const pl = w.match(/^у игрока (.+?) \((.+)\)$/)
-  if (pl) return { place: `у игрока ${pl[1]}`, player: pl[1], note: pl[2], xyz: '' }
+  if (pl) return { place: `у игрока ${pl[1]}`, note: pl[2], xyz: '' }
   return { place: w, xyz: '' }
 }
 

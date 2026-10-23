@@ -33,8 +33,8 @@
       Не получилось достать книги: {{ error }}.
       <button type="button" class="mcbtn lib__retry" @click="load">Ещё раз</button>
     </div>
-    <div v-else-if="!books" class="lib__msg lib__msg--wait">Снимаем книги с полок…</div>
-    <div v-else-if="!shown.length" class="lib__msg">Таких книг в этом мире не нашлось.</div>
+    <div v-else-if="!books" class="lib__msg lib__msg--wait">Загружаем книги…</div>
+    <div v-else-if="!shown.length" class="lib__msg">Ничего не нашлось.</div>
 
     <div
       v-else
@@ -352,13 +352,9 @@ watch([view, query], () => clearActive())
 
 .lib__disclaimer {
   margin: 0 0 20px;
-  padding: 10px 14px;
   font-size: 14px;
   line-height: 1.5;
   color: var(--vp-c-text-2);
-  border-left: 3px solid #c4121a;
-  background: rgba(196, 18, 26, 0.08);
-  border-radius: 0 6px 6px 0;
 }
 
 .lib__bar {

@@ -500,7 +500,7 @@ SM1LLYS легально соорудил Гигакирку из 64 незер�
 
 <Button as="a" href="https://drive.google.com/file/d/1IiqDiLKvKCXVdI3V2DAcyB2_paZdklQQ/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 3 сезона" icon="pi pi-download" />
 
-<Button as="a" href="/history/3season/library" label="Библиотека: книги игроков" icon="pi pi-book" />
+<Button as="a" href="/history/3season/library" label="Библиотека 3 сезона" icon="pi pi-book" />
 
 <Button as="a" href="/history/3season/towns" label="Города 3 сезона" icon="pi pi-map-marker" />
 

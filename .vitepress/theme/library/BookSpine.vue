@@ -128,7 +128,6 @@ const label = computed(() => {
   text-overflow: ellipsis;
   pointer-events: none;
 }
-.sp--p5 .sp__title { color: #e9dcbb; }
 
 @media (prefers-reduced-motion: reduce) {
   .sp { transition: none; }

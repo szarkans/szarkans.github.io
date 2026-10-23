@@ -193,7 +193,7 @@ description: История сервера Кошкокрафт - 4 сезон
 
 <Button as="a" href="https://drive.google.com/file/d/1pIYVSLM4Ep2LaIiAbzDwuiQIwga4yt7a/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 4 сезона" icon="pi pi-download" />
 
-<Button as="a" href="/history/4season/library" label="Библиотека: книги игроков" icon="pi pi-book" />
+<Button as="a" href="/history/4season/library" label="Библиотека 4 сезона" icon="pi pi-book" />
 
 <Button as="a" href="/history/4season/towns" label="Города 4 сезона" icon="pi pi-map-marker" />
 

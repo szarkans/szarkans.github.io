@@ -30,13 +30,13 @@ async function copy() {
 <style scoped>
 .copy-cmd {
   display: inline-flex; align-items: center; gap: 12px; max-width: 100%; min-height: 44px;
-  padding: 0 12px 0 14px; border: 1px solid rgba(255,255,255,.12); border-radius: 10px;
+  padding: 8px 12px 8px 14px; border: 1px solid rgba(255,255,255,.12); border-radius: 10px;
   background: #0f0d14; color: #e8e7f0; cursor: pointer; text-align: left;
   font: inherit; transition: border-color .15s, background .15s;
 }
 .copy-cmd code {
-  overflow: hidden; min-width: 0; padding: 0; background: none; color: #e8e7f0;
-  font-size: 14px; text-overflow: ellipsis; white-space: nowrap; font-variant-numeric: tabular-nums;
+  min-width: 0; padding: 0; background: none; color: #e8e7f0;
+  font-size: 14px; line-height: 1.5; font-variant-numeric: tabular-nums;
 }
 .copy-cmd__icon { flex: none; width: 18px; height: 18px; fill: none; stroke: #a67cf5; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .copy-cmd:hover { border-color: #8b5ee8; background: #15121d; }

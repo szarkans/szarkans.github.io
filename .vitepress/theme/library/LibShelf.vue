@@ -8,7 +8,7 @@
       @click.capture="swipe.click"
     >
       <div class="case__top">
-        <span class="case__plate">{{ plate }}</span>
+        <span v-if="plate" class="case__plate">{{ plate }}</span>
       </div>
       <div ref="rowsEl" class="case__rows">
         <div v-for="(row, i) in cabinet" :key="i" class="case__row">
@@ -72,13 +72,15 @@ const cabinet = computed(() => cabinets.value[Math.min(page.value, cabinets.valu
 watch(() => props.books, () => { page.value = 0 })
 watch(cabinets, (c) => { if (page.value >= c.length) page.value = c.length - 1 })
 
-// Табличка на шкафу — какие буквы на нём стоят.
+// Табличка на шкафу — какие буквы на нём стоят. Названия вроде «-» или «+»
+// букв не дают, их пропускаем.
 const plate = computed(() => {
   const all = cabinet.value.flat()
-  const signed = all.filter((b) => b.signed)
-  if (!signed.length) return all.length ? 'Без подписи' : 'Пусто'
-  const a = initial(signed[0].title) || '#'
-  const z = signed.length < all.length ? 'без подписи' : initial(signed.at(-1).title) || '#'
+  const ini = all.filter((b) => b.signed).map((b) => initial(b.title)).filter(Boolean)
+  const unsigned = all.some((b) => !b.signed)
+  const a = ini[0]
+  const z = unsigned ? 'без подписи' : ini.at(-1)
+  if (!a) return unsigned ? 'Без подписи' : ''
   return a === z ? a : `${a} — ${z}`
 })
 
@@ -86,8 +88,6 @@ const swipe = useSwipe((d) => {
   const n = page.value + d
   if (n >= 0 && n < cabinets.value.length) page.value = n
 })
-
-defineExpose({ page })
 </script>
 
 <style scoped>

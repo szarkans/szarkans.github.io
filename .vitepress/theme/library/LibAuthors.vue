@@ -10,7 +10,6 @@
         <header class="sign">
           <span class="sign__chain" aria-hidden="true"></span>
           <h3 class="sign__name">{{ g.author || 'Без подписи' }}</h3>
-          <p class="sign__meta">{{ g.books.length }} {{ plural(g.books.length, 'книга', 'книги', 'книг') }} · {{ g.pages }} стр.</p>
         </header>
         <div class="nook__rows">
           <BookSpine v-for="b in g.books" :key="b.id" :book="b" :mode="mode" :active="b.id === activeId" />
@@ -25,7 +24,7 @@
 import { computed, ref, watch } from 'vue'
 import BookSpine from './BookSpine.vue'
 import LibPager from './LibPager.vue'
-import { byTitle, compareAuthors, initial, plural, spineMaxH } from './data.js'
+import { byTitle, compareAuthors, initial, spineMaxH } from './data.js'
 
 const props = defineProps({
   books: { type: Array, required: true },
@@ -40,10 +39,8 @@ const rowH = computed(() => spineMaxH(mode.value) + 18)
 const groups = computed(() => {
   const map = new Map()
   for (const b of props.books) {
-    if (!map.has(b.author)) map.set(b.author, { author: b.author, hue: b.hue, books: [], pages: 0 })
-    const g = map.get(b.author)
-    g.books.push(b)
-    g.pages += b.pages.length
+    if (!map.has(b.author)) map.set(b.author, { author: b.author, hue: b.hue, books: [] })
+    map.get(b.author).books.push(b)
   }
   const arr = [...map.values()].sort((a, b) => compareAuthors(a.author, b.author))
   for (const g of arr) g.books.sort(byTitle)
@@ -78,8 +75,6 @@ const label = computed(() => {
   const z = ini(s.at(-1))
   return a === z ? a : `${a} — ${z}`
 })
-
-defineExpose({ page })
 </script>
 
 <style scoped>
@@ -135,11 +130,6 @@ defineExpose({ page })
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-.sign__meta {
-  margin: 2px 0 0;
-  font: 10px/1.2 'Minecraft Rus', monospace;
-  color: #5b3d1c;
 }
 
 .nook__rows {
