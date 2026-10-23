@@ -732,8 +732,8 @@ export default defineConfig({
             {
               text: "Библиотека",
               link: '/history/3season/library.md'
-              },
-              {
+            },
+            {
               text: "Города",
               link: '/history/3season/towns.md'
             }
@@ -753,8 +753,8 @@ export default defineConfig({
             {
               text: "Библиотека",
               link: '/history/4season/library.md'
-              },
-              {
+            },
+            {
               text: "Города",
               link: '/history/4season/towns.md'
             }
@@ -774,8 +774,8 @@ export default defineConfig({
             {
               text: "Библиотека",
               link: '/history/5season/library.md'
-              },
-              {
+            },
+            {
               text: "Города",
               link: '/history/5season/towns.md'
             }
@@ -795,8 +795,8 @@ export default defineConfig({
             {
               text: "Библиотека",
               link: '/history/6season/library.md'
-              },
-              {
+            },
+            {
               text: "Города",
               link: '/history/6season/towns.md'
             }
@@ -816,8 +816,8 @@ export default defineConfig({
             {
               text: "Библиотека",
               link: '/history/7season/library.md'
-              },
-              {
+            },
+            {
               text: "Города",
               link: '/history/7season/towns.md'
             }
