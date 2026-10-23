@@ -18,7 +18,7 @@
         </div>
         <div class="server-card__status">
           <span class="server-card__dot"></span>
-          <span>межсезонье</span>
+          <span>на паузе</span>
         </div>
       </div>
       <a class="ip-copy" href="/history/">
