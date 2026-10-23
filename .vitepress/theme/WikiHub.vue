@@ -11,7 +11,7 @@
 
     <div class="wiki-hub__body">
       <div class="hub-start">
-        <h2>Начать играть</h2>
+        <h2>С чего начать</h2>
         <a v-for="item in startItems" :key="item.link" :href="hrefOf(item.link)">{{ item.text }}</a>
       </div>
 
@@ -79,10 +79,9 @@ const expandedGroups = ref({})
 const hrefOf = link => withBase(String(link).replace(/\.md$/, ''))
 
 const startItems = [
-  { text:'Гайд для новичков', link:'/info/guide.md' }, { text:'Частые вопросы', link:'/info/faq.md' },
+  { text:'Частые вопросы', link:'/info/faq.md' },
   { text:'Правила', link:'/info/rules/rules' }, { text:'Законы', link:'/info/rules/laws' },
   { text:'Моды для сервера', link:'/info/mods.md' }, { text:'Администрация', link:'/info/admins' },
-  { text:'Донатик', link:'/info/donate.md' },
 ]
 
 const groupsOf = section => (sidebarsBySection[section] ?? []).filter(group => group.items?.length)

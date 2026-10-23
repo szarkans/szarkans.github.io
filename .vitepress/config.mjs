@@ -25,13 +25,12 @@ const startPlayingSidebar = [
     text: 'О сервере',
     items: [
       { text: 'Администрация', link: '/info/admins' },
-      { text: 'Донатик', link: '/info/donate.md' },
       { text: 'Префиксы и суффиксы', link: '/info/prefixes.md' },
       { text: 'Брендбук', link: '/info/brandbook.md' },
     ]
   },
   {
-    text: 'Подключение к серверу',
+    text: 'Моды и техническое',
     items: [
       { text: 'Моды для сервера', link: '/info/mods.md' },
       { text: 'Фермы, ядро сервера', link: '/info/farm.md' },
@@ -404,7 +403,6 @@ export default defineConfig({
     nav: [
       { text: 'История', link: '/history/', activeMatch: '^/history/' },
       { text: 'Обновления', link: '/updates/8season/8_0_5_1', activeMatch: '^/updates/' },
-      { text: 'Карта мира', link: 'https://map.catcraft.ru' },
       { text: 'Discord', link: 'https://discord.gg/6f3FwFRJWC' },
       { text: 'Telegram', link: 'https://t.me/catcraftmc_tg' }
     ],
@@ -412,8 +410,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/6f3FwFRJWC' },
       { icon: 'telegram', link: 'https://t.me/catcraftmc_tg' },
-      { icon: 'youtube', link: 'https://youtube.com/@catcraftminecraft' },
-      { icon: 'googlemaps', link: "https://map.catcraft.ru"}
+      { icon: 'youtube', link: 'https://youtube.com/@catcraftminecraft' }
     ],
 
     sidebar: {

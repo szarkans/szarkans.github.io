@@ -881,9 +881,7 @@ P.S. Заполнять анкету желательно, но не обяза�
 
 ### Карта сезона
 
-<File
-  filePath="/downloads/torrents/catcraft-map-season6.torrent"
-/>
+<Button as="a" href="https://drive.google.com/file/d/1SjRoPXovcesLGUwc6nfdYvgRR4q3veC7/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 6 сезона" icon="pi pi-download" />
 
 ### Статистика сезона
 

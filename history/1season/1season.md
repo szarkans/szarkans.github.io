@@ -151,6 +151,12 @@ StCrouse (r.i.p.), DmitrySmirnov, zioninside, imbuedennui, Liberaha, EZENMYR, va
 
 ![mpemerson](https://sun9-53.userapi.com/impg/FkACxksbal5-KJb0fIDGWb1bEo9oT4kdkvvyfw/EMEwR_F5sUk.jpg?size=1148x1004&quality=96&sign=2ffd423b7db1f987c4518c889f1a129b&type=album)
 
+## Карта сезона
+
+Карту 1 сезона долго считали утерянной, но в октябре 2026 она нашлась! Это снимок мира от 11 декабря 2021 года, через две недели после старта.
+
+<Button as="a" href="https://drive.google.com/file/d/1Ce1TIK3mA50TrPyfboMPDgClDgw85EgZ/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 1 сезона" icon="pi pi-download" />
+
 ## Альбом 1 сезона
 
 <Button as="a" href="https://vk.com/album-210306238_282348213" label="Альбом 1 сезона" icon="pi pi-external-link" />
