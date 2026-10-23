@@ -27,7 +27,7 @@
 
         <div v-if="player" class="finder__result" aria-live="polite">
           <template v-if="player.bed">
-            <CopyCmd :cmd="tpBed(player.bed)" />
+            <CopyCmd :cmd="tpBed(player.bed)" :label="player.bed.map(fmt).join(', ')" />
             <p v-if="home" class="finder__muted">
               Жил в <a :href="`#${home.id}`" @click.prevent="goTo(home.id)">{{ home.title || `поселении у ${fmt(home.x)}, ${fmt(home.z)}` }}</a>
             </p>
@@ -38,14 +38,20 @@
 
       <TownMap :towns="data.towns" :season="season" :selected="selectedId" :bed="player?.bed" @select="pick" />
 
-      <div class="signs">
+      <div class="sort" role="group" aria-label="Сортировка">
+        <button
+          v-for="o in SORTS" :key="o.k" type="button" :aria-pressed="sort === o.k" @click="sort = o.k"
+        >{{ o.t }}</button>
+      </div>
+
+      <div class="cards">
         <TownCard
           v-for="t in shownTowns" :key="t.id" :town="t" :selected="t.id === selectedId" :highlight="player?.n ?? ''"
           @select="pick"
         />
       </div>
-      <button v-if="!showSmall && smallCount" type="button" class="link more" @click="showSmall = true">
-        Ещё {{ smallCount }} {{ plural(smallCount, 'маленькое', 'маленьких', 'маленьких') }}
+      <button v-if="!showAll && restCount" type="button" class="link more" @click="showAll = true">
+        Ещё {{ restCount }}
       </button>
     </template>
   </section>
@@ -56,8 +62,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import TownMap from './TownMap.vue'
 import CopyCmd from './CopyCmd.vue'
 import TownCard from './TownCard.vue'
-import { loadSeason, isSmall, townOfPlayer, tpTown, tpBed, fmt } from './towns.js'
-import { plural } from '../library/data.js'
+import { loadSeason, townOfPlayer, tpBed, fmt } from './towns.js'
 
 const props = defineProps({ season: { type: Number, required: true } })
 const inputId = `finder-${props.season}`
@@ -67,12 +72,22 @@ const error = ref('')
 const query = ref('')
 const player = ref(null)
 const selectedId = ref(null)
-const showSmall = ref(false)
+const showAll = ref(false)
+const sort = ref('b')
 const input = ref(null)
 const sugList = ref(null)
 
-const smallCount = computed(() => data.value?.towns.filter(isSmall).length ?? 0)
-const shownTowns = computed(() => data.value?.towns.filter(t => showSmall.value || !isSmall(t)) ?? [])
+const SORTS = [{ k: 'b', t: 'Размер' }, { k: 'n', t: 'Жители' }, { k: 'name', t: 'Название' }]
+const FIRST = 12
+const byName = new Intl.Collator('ru', { sensitivity: 'base', numeric: true })
+const sorted = computed(() => {
+  const list = [...(data.value?.towns ?? [])]
+  if (sort.value === 'b') return list.sort((a, b) => b.b - a.b || b.n - a.n)
+  if (sort.value === 'n') return list.sort((a, b) => b.n - a.n || b.b - a.b)
+  return list.sort((a, b) => !a.title - !b.title || (a.title && byName.compare(a.title, b.title)) || b.b - a.b)
+})
+const shownTowns = computed(() => showAll.value ? sorted.value : sorted.value.slice(0, FIRST))
+const restCount = computed(() => sorted.value.length - shownTowns.value.length)
 const home = computed(() => player.value && townOfPlayer(data.value, player.value))
 
 const suggestions = computed(() => {
@@ -113,7 +128,7 @@ const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches
 function open(id) {
   const t = data.value.towns.find(x => x.id === id)
   if (!t) { console.warn('Нет такого поселения в сезоне', props.season, id); return null }
-  if (isSmall(t)) showSmall.value = true
+  if (!shownTowns.value.includes(t)) showAll.value = true
   selectedId.value = id
   return t
 }
@@ -200,7 +215,15 @@ onBeforeUnmount(() => window.removeEventListener('hashchange', onHash))
 .finder__muted a { color: #d5bcff; font-weight: 500; }
 .finder__result { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
 
-.signs { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.sort { display: inline-flex; align-self: flex-start; padding: 3px; border: 1px solid rgba(255,255,255,.08); border-radius: 10px; background: #15121d; }
+.sort button {
+  min-height: 34px; padding: 0 14px; border: 0; border-radius: 7px; background: none;
+  color: #9a94ab; font: 14px 'Rubik', sans-serif; cursor: pointer; transition: color .15s, background .15s;
+}
+.sort button:hover { color: #e8e7f0; }
+.sort button[aria-pressed="true"] { background: rgba(124,58,237,.22); color: #e8e7f0; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
 .more { align-self: flex-start; min-height: 32px; font-size: 14px; }
 
 @media (prefers-reduced-motion: reduce) {
