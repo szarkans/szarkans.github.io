@@ -16,9 +16,9 @@ aside: false
 |![Префикс Модератора](/assets/general/prefixes/moder.webp){ width=20 }|Префикс Всекотят - модерации.|
 |![Префикс К+](/assets/general/prefixes/kplusplusplus.webp){ width=20 }|Префикс <span class="neon">Котика+</span>. Подробнее [на этой странице](./donate.md).|
 |![Репортёр](/assets/general/prefixes/reporter.webp){ width=20 }|Префикс Репортёров.|
-|![Ютубер](/assets/general/prefixes/youtube.webp){ width=20 }|Префикс Ютубера. Можно получить, став [нашим партнёром](./for_media.md).|
-|![Стример](/assets/general/prefixes/twitch.webp){ width=20 }|Префикс Стримера. Можно получить, став [нашим партнёром](./for_media.md).|
-|![Тиктокер](/assets/general/prefixes/tiktok.webp){ width=20 }|Префикс Тиктокера. Можно получить, став [нашим партнёром](./for_media.md).|
+|![Ютубер](/assets/general/prefixes/youtube.webp){ width=20 }|Префикс Ютубера. Выдавался [нашим партнёрам](./for_media.md).|
+|![Стример](/assets/general/prefixes/twitch.webp){ width=20 }|Префикс Стримера. Выдавался [нашим партнёрам](./for_media.md).|
+|![Тиктокер](/assets/general/prefixes/tiktok.webp){ width=20 }|Префикс Тиктокера. Выдавался [нашим партнёрам](./for_media.md).|
 
 
 <!-- Скрыто: префиксы КСБ, гидов и тюрьмы

@@ -1137,7 +1137,5 @@ Papamama: *ответ неизвестен*
 
 ## Данные
 
-<File
-  filePath="/downloads/torrents/catcraft-map-season5.torrent"
-/>
+<Button as="a" href="https://drive.google.com/file/d/1ecwt-NOlNkdIV4ZkEYUX9OooK3ST94ru/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 5 сезона" icon="pi pi-download" />
 <AdhdMode />

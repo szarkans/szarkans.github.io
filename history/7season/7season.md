@@ -113,9 +113,7 @@
 
 ### Карта сезона
 
-<File
-  filePath="/downloads/torrents/catcraft-map-season7.torrent"
-/>
+<Button as="a" href="https://drive.google.com/file/d/1I8C4bkn5F1dU0nfyRTL2jjtcaXH23f_e/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 7 сезона" icon="pi pi-download" />
 
 ## Статистика сезона
 

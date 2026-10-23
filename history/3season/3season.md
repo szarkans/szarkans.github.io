@@ -498,9 +498,7 @@ SM1LLYS легально соорудил Гигакирку из 64 незер�
 
 ## Данные
 
-<File
-  filePath="/downloads/torrents/catcraft-map-season3.torrent"
-/>
+<Button as="a" href="https://drive.google.com/file/d/1IiqDiLKvKCXVdI3V2DAcyB2_paZdklQQ/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 3 сезона" icon="pi pi-download" />
 
 <Button as="a" href="https://vk.com/album-210306238_284869427" label="Альбом 3 сезона" icon="pi pi-external-link" />
 <AdhdMode />
