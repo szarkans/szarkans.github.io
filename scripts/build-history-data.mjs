@@ -62,7 +62,7 @@ for (const season of seasons) {
       if (usedIds.has(id)) id += `-${c.x}`
       usedIds.add(id)
       return { id, g: c.g[0] ?? null, ok: c.ok, x: c.x, z: c.z, n: c.n, p: c.p, b: c.b, s: c.s }
-  })
+    })
   const players = readPlayers(season.id).sort((a, b) => a.n.localeCompare(b.n))
   const out = { season: Number(season.id.slice(1)), books: season.books, towns, players }
   fs.writeFileSync(path.join(OUT_DIR, `${season.id}.json`), JSON.stringify(out))
