@@ -883,6 +883,8 @@ P.S. Заполнять анкету желательно, но не обяза�
 
 <Button as="a" href="https://drive.google.com/file/d/1SjRoPXovcesLGUwc6nfdYvgRR4q3veC7/view?usp=sharing" target="_blank" rel="noopener" label="Скачать мир 6 сезона" icon="pi pi-download" />
 
+<Button as="a" href="/history/6season/towns" label="Города 6 сезона" icon="pi pi-map-marker" />
+
 ### Статистика сезона
 
 :::details Раскрой меня!
