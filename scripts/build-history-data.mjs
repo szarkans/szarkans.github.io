@@ -64,7 +64,13 @@ for (const season of seasons) {
       return { id, g: c.g[0] ?? null, ok: c.ok, x: c.x, z: c.z, n: c.n, p: c.p, b: c.b, s: c.s }
     })
   const players = readPlayers(season.id).sort((a, b) => a.n.localeCompare(b.n))
-  const out = { season: Number(season.id.slice(1)), books: season.books, towns, players }
+  // Цветовые теги плагина вида <#F0F119> в названиях и тексте — мусор для читателя.
+  const untag = s => s.replace(/<#[0-9a-f]{6}>/gi, '')
+  // Книги с пером в одну-две буквы («j», «у») — случайные клики, не книги.
+  const books = season.books
+    .map(b => ({ ...b, t: untag(b.t), p: b.p.map(untag) }))
+    .filter(b => b.k === 'w' || b.p.join('').replace(/\s/g, '').length > 2)
+  const out = { season: Number(season.id.slice(1)), books, towns, players }
   fs.writeFileSync(path.join(OUT_DIR, `${season.id}.json`), JSON.stringify(out))
-  console.log(season.id, `книг ${season.books.length}, поселений ${towns.length}, игроков ${players.length}, с кроватью ${players.filter(p => p.bed).length}`)
+  console.log(season.id, `книг ${books.length}, поселений ${towns.length}, игроков ${players.length}, с кроватью ${players.filter(p => p.bed).length}`)
 }
