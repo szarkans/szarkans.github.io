@@ -1,16 +1,17 @@
 // Общая логика страниц «Города N сезона»: загрузка данных, подписи, команды телепорта.
 // Данные собирает scripts/build-history-data.mjs, формат описан в его шапке.
 
-const cache = new Map()
+import { fetchJson } from '../fetchJson.js'
+
+const prepared = new Map()
 
 export function loadSeason(n) {
-  if (!cache.has(n)) {
-    cache.set(n, fetch(`/data/history/s${n}.json`).then(r => {
-      if (!r.ok) throw new Error(`s${n}.json: HTTP ${r.status}`)
-      return r.json()
-    }).then(prepare).catch(e => { cache.delete(n); throw e }))
+  if (!prepared.has(n)) {
+    const p = fetchJson(`/data/history/s${n}-towns.json`).then(prepare)
+    p.catch(() => prepared.delete(n))
+    prepared.set(n, p)
   }
-  return cache.get(n)
+  return prepared.get(n)
 }
 
 // 3–4 жителя без названия — чаще всего база компании друзей, а не город.

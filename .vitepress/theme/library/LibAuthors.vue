@@ -66,6 +66,8 @@ const pages = computed(() => {
 const page = ref(0)
 const slice = computed(() => pages.value[Math.min(page.value, pages.value.length - 1)])
 watch(() => props.books, () => { page.value = 0 })
+// Узкий и широкий экран режут стеллажи по-разному: номер страницы не должен выйти за край.
+watch(pages, (p) => { if (page.value >= p.length) page.value = p.length - 1 })
 
 const label = computed(() => {
   const s = slice.value

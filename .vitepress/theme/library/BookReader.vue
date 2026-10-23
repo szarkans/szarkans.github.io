@@ -1,6 +1,6 @@
 <template>
   <Teleport to="body">
-    <div class="rd" role="dialog" aria-modal="true" :aria-label="book.title" @click.self="$emit('close')" @keydown="onKey">
+    <div ref="root" class="rd" role="dialog" aria-modal="true" :aria-label="book.title" tabindex="-1" @click.capture="swipe.click" @click.self="$emit('close')">
       <button ref="closeBtn" type="button" class="mcbtn rd__close" aria-label="Закрыть книгу" @click="$emit('close')">✕</button>
 
       <div class="rd__wrap" @click.self="$emit('close')">
@@ -52,12 +52,17 @@ const page = ref(0)
 const total = computed(() => props.book.pages.length)
 const text = computed(() => props.book.pages[page.value] || '')
 
+const root = ref(null)
 const closeBtn = ref(null)
 const textEl = ref(null)
 
 function go(d) {
   const n = Math.min(total.value - 1, Math.max(0, page.value + d))
-  if (n !== page.value) page.value = n
+  if (n === page.value) return
+  // Стрелка на краю книги станет disabled, и фокус с неё упадёт на body — уводим его заранее.
+  const edge = n === 0 || n === total.value - 1
+  if (edge && document.activeElement?.classList.contains('arrow')) root.value?.focus({ preventScroll: true })
+  page.value = n
 }
 const swipe = useSwipe(go)
 watch(page, () => {
@@ -72,25 +77,28 @@ function onKey(e) {
   else if (e.key === 'Tab') trapTab(e)
 }
 
-// Фокус не уходит из книги на страницу под ней.
+// Фокус не уходит из книги на страницу под ней. Клавиши слушает документ, пока книга открыта:
+// клик по тексту страницы уводит фокус на body, и на самой читалке их бы уже никто не услышал.
 function trapTab(e) {
-  const root = e.currentTarget
-  const items = [...root.querySelectorAll('button:not([disabled])')]
+  const items = [...root.value.querySelectorAll('button:not([disabled])')]
   if (!items.length) return
   const first = items[0]
   const last = items[items.length - 1]
-  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus() }
-  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus() }
+  const inside = root.value.contains(document.activeElement)
+  if (e.shiftKey && (!inside || document.activeElement === first || document.activeElement === root.value)) { e.preventDefault(); last.focus() }
+  else if (!e.shiftKey && (!inside || document.activeElement === last)) { e.preventDefault(); first.focus() }
 }
 
 let prevOverflow = ''
 onMounted(async () => {
   prevOverflow = document.documentElement.style.overflow
   document.documentElement.style.overflow = 'hidden'
+  document.addEventListener('keydown', onKey)
   await nextTick()
   closeBtn.value?.focus({ preventScroll: true })
 })
 onBeforeUnmount(() => {
+  document.removeEventListener('keydown', onKey)
   document.documentElement.style.overflow = prevOverflow
 })
 </script>
@@ -107,6 +115,7 @@ onBeforeUnmount(() => {
   animation: rd-fade 0.18s ease-out;
 }
 @keyframes rd-fade { from { opacity: 0; } }
+.rd:focus { outline: none; }
 
 /* Книга — по центру экрана; когда не влезает по высоте, окно прокручивается. */
 .rd__wrap {

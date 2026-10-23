@@ -11,8 +11,8 @@
           <input
             :id="inputId" ref="input" v-model="query" type="search" autocomplete="off" spellcheck="false"
             placeholder="Где жил игрок"
-            @keydown.enter.prevent="choose(suggestions[0])" @keydown.down.prevent="focusSuggestion(0)"
-            @input="player = null"
+            @keydown.enter.prevent="player || choose(suggestions[0])" @keydown.down.prevent="focusSuggestion(0)"
+            @input="onInput"
           >
         </div>
         <ul v-if="query && !player && suggestions.length" ref="sugList" class="finder__sugs">
@@ -26,13 +26,11 @@
         <p v-else-if="query.trim() && !player" class="finder__muted">В {{ season }} сезоне такого ника нет.</p>
 
         <div v-if="player" class="finder__result" aria-live="polite">
-          <template v-if="player.bed">
-            <CopyCmd :cmd="tpBed(player.bed)" :label="player.bed.map(fmt).join(', ')" />
-            <p v-if="home" class="finder__muted">
-              Жил в <a :href="`#${home.id}`" @click.prevent="goTo(home.id)">{{ home.title || `поселении у ${fmt(home.x)}, ${fmt(home.z)}` }}</a>
-            </p>
-          </template>
+          <CopyCmd v-if="player.bed" :cmd="tpBed(player.bed)" :label="player.bed.map(fmt).join(', ')" />
           <p v-else class="finder__muted">Кровати не осталось.</p>
+          <p v-if="home" class="finder__muted">
+            Жил в <a :href="`#${home.id}`" @click.prevent="goTo(home.id)">{{ home.title || `поселении у ${fmt(home.x)}, ${fmt(home.z)}` }}</a>
+          </p>
         </div>
       </div>
 
@@ -109,13 +107,22 @@ function setUrl(mut) {
   history.replaceState(history.state, '', u)
 }
 
+// Выбор игрока задаёт и выделенный город: старый #город из адреса его бы потом перебил.
 function choose(p) {
   if (!p) return
   player.value = p
   query.value = p.n
-  setUrl(u => u.searchParams.set('player', p.n))
+  setUrl(u => { u.searchParams.set('player', p.n); u.hash = '' })
   const t = townOfPlayer(data.value, p)
   if (t) open(t.id)
+  else selectedId.value = null
+}
+
+// Ник правят — прежний игрок и его город больше не выбраны.
+function onInput() {
+  if (player.value && selectedId.value === home.value?.id) selectedId.value = null
+  player.value = null
+  setUrl(u => u.searchParams.delete('player'))
 }
 
 function focusSuggestion(i) {
@@ -151,7 +158,8 @@ async function goTo(id) {
 }
 
 function onHash() {
-  const id = decodeURIComponent(location.hash.slice(1))
+  // id — латиница из scripts/build-history-data.mjs, раскодировать нечего.
+  const id = location.hash.slice(1)
   if (id && data.value?.towns.some(t => t.id === id)) goTo(id)
 }
 
@@ -164,12 +172,15 @@ onMounted(async () => {
     error.value = e.message
     return
   }
+  // Город из адреса выбран после игрока (так его и сохраняет pick), поэтому он важнее.
+  const hash = location.hash
   const nick = new URLSearchParams(location.search).get('player')
   if (nick) {
     query.value = nick
     const p = data.value.playerByNick.get(nick.toLowerCase())
     if (p) choose(p)
   }
+  if (hash) setUrl(u => { u.hash = hash })
   await nextTick()
   onHash()
 })

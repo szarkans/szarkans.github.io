@@ -1,36 +1,20 @@
 // Данные Библиотеки: загрузка книг сезона, приведение к удобному виду,
 // подписи мест, сортировка. Формат файла — в начале scripts/build-history-data.mjs.
 //
-// Файл сезона грузится в браузере, а не при сборке: s6.json весит 1.4 МБ,
+// Файл сезона грузится в браузере, а не при сборке: s6-books.json весит 1.2 МБ,
 // и в бандл страницы ему не место.
 
-import { withBase } from 'vitepress'
+import { fetchJson } from '../fetchJson.js'
 
-const cache = new Map()
+const normalized = new Map()
 
 export function loadSeasonBooks(season) {
-  if (!cache.has(season)) {
-    const p = fetch(withBase(`/data/history/s${season}.json`))
-      .then((r) => {
-        if (!r.ok) throw new Error(`s${season}.json: HTTP ${r.status}`)
-        return r.json()
-      })
-      .then((d) => d.books.map(normalize))
-    // Упавшую загрузку не кэшируем, иначе повторить её можно только перезагрузкой.
-    p.catch(() => cache.delete(season))
-    cache.set(season, p)
+  if (!normalized.has(season)) {
+    const p = fetchJson(`/data/history/s${season}-books.json`).then((d) => d.books.map(normalize))
+    p.catch(() => normalized.delete(season))
+    normalized.set(season, p)
   }
-  return cache.get(season)
-}
-
-// Страница в мире хранится как JSON-строка текстового компонента. Чаще всего
-// её уже развернули, но часть страниц осталась в кавычках: `""` — пустая,
-// `"Глава 1…"` — обычный текст.
-function cleanPage(p) {
-  if (p.length >= 2 && p[0] === '"' && p[p.length - 1] === '"') {
-    try { return JSON.parse(p) } catch { return p.slice(1, -1) }
-  }
-  return p
+  return normalized.get(season)
 }
 
 function hashStr(s) {
@@ -43,7 +27,7 @@ function hashStr(s) {
 }
 
 function normalize(b) {
-  const pages = b.p.map(cleanPage)
+  const pages = [...b.p]
   // Хвост из пустых страниц — это недописанная книга, листать его незачем.
   while (pages.length > 1 && !pages[pages.length - 1].trim()) pages.pop()
   const signed = b.k === 'w'

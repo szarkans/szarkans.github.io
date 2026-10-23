@@ -19,6 +19,7 @@ export function useWidth(elRef) {
 export function useSwipe(onSwipe) {
   let start = null
   let swallow = false
+  let timer
   return {
     down(e) {
       start = e.pointerType === 'mouse' ? null : { x: e.clientX, y: e.clientY }
@@ -30,7 +31,8 @@ export function useSwipe(onSwipe) {
       start = null
       if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
         swallow = true
-        setTimeout(() => { swallow = false }, 350)
+        clearTimeout(timer)
+        timer = setTimeout(() => { swallow = false }, 350)
         onSwipe(dx < 0 ? 1 : -1)
       }
     },

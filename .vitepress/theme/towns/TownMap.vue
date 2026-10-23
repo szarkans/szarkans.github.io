@@ -92,7 +92,9 @@ const T = 20
 const L = computed(() => w.value < 500 ? 34 : 40)
 
 const bounds = computed(() => {
-  const xs = props.towns.map(t => f(t.x)).concat(0), zs = props.towns.map(t => f(t.z)).concat(0)
+  // Кровать выбранного игрока бывает далеко от всех городов — она тоже должна влезть.
+  const pts = props.bed ? [...props.towns, { x: props.bed[0], z: props.bed[2] }] : props.towns
+  const xs = pts.map(t => f(t.x)).concat(0), zs = pts.map(t => f(t.z)).concat(0)
   const x0 = Math.min(...xs), x1 = Math.max(...xs), z0 = Math.min(...zs), z1 = Math.max(...zs)
   const px = (x1 - x0) * .05 + 6, pz = (z1 - z0) * .05 + 6
   return { x0: x0 - px, x1: x1 + px, z0: z0 - pz, z1: z1 + pz }
