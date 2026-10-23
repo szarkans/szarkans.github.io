@@ -5,27 +5,14 @@
     </p>
 
     <div class="lib__bar">
-      <div class="lib__views" role="radiogroup" aria-label="Как расставить книги">
-        <button
-          v-for="v in VIEWS"
-          :key="v.id"
-          type="button"
-          role="radio"
-          class="seg"
-          :aria-checked="view === v.id"
-          @click="setView(v.id)"
-        >{{ v.label }}</button>
-      </div>
-
       <label class="lib__search">
-        <span class="sr">Поиск по названию и автору</span>
+        <span class="sr">Поиск по названию</span>
         <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" /><path d="m11 11 3.5 3.5" /></svg>
-        <input v-model="query" type="search" placeholder="Название или автор" autocomplete="off" />
+        <input v-model="query" type="search" placeholder="Название" autocomplete="off" />
       </label>
 
       <p v-if="books" class="lib__stats">
         {{ shown.length }} {{ plural(shown.length, 'книга', 'книги', 'книг') }}<template v-if="shown.length !== books.length"> из {{ books.length }}</template>
-        · {{ authors }} {{ plural(authors, 'автор', 'автора', 'авторов') }}
       </p>
     </div>
 
@@ -46,8 +33,7 @@
       @focusout="onFocusOut"
       @click="onClick"
     >
-      <LibShelf v-if="view === 'shelf'" :books="shown" :active-id="activeId" :narrow="narrow" />
-      <LibAuthors v-else :books="shown" :active-id="activeId" :narrow="narrow" />
+      <LibShelf :books="shown" :active-id="activeId" :narrow="narrow" />
     </div>
 
     <!-- Одна подсказка на всю библиотеку: 600 подсказок в DOM — это тормоза. -->
@@ -82,34 +68,24 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, onMounted, reactive, ref, shallowRef, watch } from 'vue'
 import LibShelf from './library/LibShelf.vue'
-import LibAuthors from './library/LibAuthors.vue'
 import BookReader from './library/BookReader.vue'
 import BookInfo from './library/BookInfo.vue'
 import { byTitle, loadSeasonBooks, plural, searchBooks } from './library/data.js'
 
 const props = defineProps({ season: { type: [Number, String], required: true } })
 
-// Полка — все книги по алфавиту названий, «По авторам» — стеллаж на автора.
-const VIEWS = [
-  { id: 'shelf', label: 'Полка' },
-  { id: 'authors', label: 'По авторам' },
-]
-
 const books = shallowRef(null)
 const error = ref('')
-const view = ref('shelf')
 const query = ref('')
 const narrow = ref(false)
 
 const byId = computed(() => new Map((books.value || []).map((b) => [b.id, b])))
 const sorted = computed(() => (books.value ? books.value.slice().sort(byTitle) : []))
 const shown = computed(() => searchBooks(sorted.value, query.value))
-const authors = computed(() => new Set(shown.value.filter((b) => b.author).map((b) => b.author)).size)
 
-// ── Адрес: ?v=authors и ?book=<id> ───────────────────────────────────────
+// ── Адрес: ?book=<id> ───────────────────────────────────────
 function readUrl() {
   const q = new URLSearchParams(location.search)
-  if (q.get('v') === 'authors') view.value = 'authors'
   return q.get('book')
 }
 function writeUrl(patch) {
@@ -119,11 +95,6 @@ function writeUrl(patch) {
     else url.searchParams.set(k, v)
   }
   history.replaceState(history.state, '', url)
-}
-function setView(id) {
-  view.value = id
-  clearActive()
-  writeUrl({ v: id === 'shelf' ? null : id })
 }
 
 // ── Загрузка ─────────────────────────────────────────────────────────────
@@ -272,7 +243,7 @@ function closeBook() {
   returnFocus = null
 }
 
-watch([view, query], () => clearActive())
+watch(query, () => clearActive())
 </script>
 
 <style>
