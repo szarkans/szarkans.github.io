@@ -95,7 +95,7 @@ const label = computed(() => {
   max-width: 100%;
 }
 
-/* Табличка — дубовая, как висячая табличка в игре, на двух цепочках. */
+/* Табличка автора на двух цепочках. */
 .sign {
   position: relative;
   align-self: center;
@@ -104,10 +104,9 @@ const label = computed(() => {
   padding: 7px 14px 6px;
   text-align: center;
   background:
-    repeating-linear-gradient(180deg, transparent 0 5px, rgba(80, 50, 20, 0.22) 5px 6px),
-    linear-gradient(180deg, #c9a46a, #b38a54);
-  border: 2px solid #4a2f14;
-  box-shadow: inset 0 2px 0 #e0c08a, inset 0 -2px 0 #8a6434, 0 4px 0 rgba(0, 0, 0, 0.35);
+    linear-gradient(180deg, #2a2337, #221c2e);
+  border: 2px solid #120e18;
+  box-shadow: inset 0 2px 0 #3a3049, 0 4px 0 rgba(0, 0, 0, 0.35);
   z-index: 1;
 }
 .sign__chain {
@@ -117,8 +116,8 @@ const label = computed(() => {
   right: 12px;
   height: 14px;
   background:
-    repeating-linear-gradient(180deg, #5c5c66 0 3px, transparent 3px 5px) left / 3px 100% no-repeat,
-    repeating-linear-gradient(180deg, #5c5c66 0 3px, transparent 3px 5px) right / 3px 100% no-repeat;
+    repeating-linear-gradient(180deg, #3d3650 0 3px, transparent 3px 5px) left / 3px 100% no-repeat,
+    repeating-linear-gradient(180deg, #3d3650 0 3px, transparent 3px 5px) right / 3px 100% no-repeat;
 }
 .sign__name {
   margin: 0;
@@ -126,7 +125,7 @@ const label = computed(() => {
   border: 0;
   font: 14px/1.2 'Minecraft Rus', monospace;
   letter-spacing: 0;
-  color: #1d1208;
+  color: #c9c0dc;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -140,7 +139,7 @@ const label = computed(() => {
   align-content: flex-start;
   min-height: var(--row-h);
   padding: 0 8px;
-  border: 8px solid #8f6a3c;
+  border: 8px solid #2b2439;
   border-top-width: 0;
   border-bottom: 0;
   background:
@@ -148,10 +147,10 @@ const label = computed(() => {
       rgba(0, 0, 0, 0.55) 0 5px,
       rgba(0, 0, 0, 0.18) 5px 12px,
       transparent 12px calc(var(--row-h) - var(--plank)),
-      #c99c5e calc(var(--row-h) - var(--plank)) calc(var(--row-h) - var(--plank) + 2px),
-      #a27845 calc(var(--row-h) - var(--plank) + 2px) calc(var(--row-h) - 3px),
-      #5e3f1c calc(var(--row-h) - 3px) var(--row-h)),
-    linear-gradient(180deg, hsl(var(--h) 30% 14%), #24180c 70%);
+      #4a3f5c calc(var(--row-h) - var(--plank)) calc(var(--row-h) - var(--plank) + 2px),
+      #382f47 calc(var(--row-h) - var(--plank) + 2px) calc(var(--row-h) - 3px),
+      #1d1826 calc(var(--row-h) - 3px) var(--row-h)),
+    linear-gradient(180deg, hsl(var(--h) 10% 13%), #15111c 70%);
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.6), 0 14px 26px -14px rgba(0, 0, 0, 0.8);
 }
 .nook__rows > :deep(.sp) {

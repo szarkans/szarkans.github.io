@@ -35,9 +35,9 @@ const label = computed(() => {
 
 <style scoped>
 .sp {
-  --leather: hsl(var(--h) 42% 34%);
-  --leather-hi: hsl(var(--h) 46% 46%);
-  --leather-lo: hsl(var(--h) 48% 20%);
+  --leather: hsl(var(--h) 20% 30%);
+  --leather-hi: hsl(var(--h) 20% 39%);
+  --leather-lo: hsl(var(--h) 22% 18%);
   position: relative;
   flex: none;
   width: var(--w);
@@ -63,7 +63,7 @@ const label = computed(() => {
 .sp:focus-visible,
 .sp--active {
   transform: translateY(-14px);
-  filter: brightness(1.18);
+  filter: brightness(1.15);
   z-index: 2;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.55), 2px 0 0 rgba(0, 0, 0, 0.35), 0 10px 14px -4px rgba(0, 0, 0, 0.7);
 }
@@ -78,39 +78,39 @@ const label = computed(() => {
 
 .sp--p0 .sp__deco {
   background:
-    linear-gradient(#e2b23c, #e2b23c) 0 9px / 100% 2px no-repeat,
-    linear-gradient(#e2b23c, #e2b23c) 0 13px / 100% 1px no-repeat,
-    linear-gradient(#e2b23c, #e2b23c) 0 calc(100% - 13px) / 100% 1px no-repeat,
-    linear-gradient(#e2b23c, #e2b23c) 0 calc(100% - 9px) / 100% 2px no-repeat;
+    linear-gradient(#a8946a, #a8946a) 0 9px / 100% 2px no-repeat,
+    linear-gradient(#a8946a, #a8946a) 0 13px / 100% 1px no-repeat,
+    linear-gradient(#a8946a, #a8946a) 0 calc(100% - 13px) / 100% 1px no-repeat,
+    linear-gradient(#a8946a, #a8946a) 0 calc(100% - 9px) / 100% 2px no-repeat;
 }
 .sp--p1 .sp__deco {
   background:
-    linear-gradient(#f0e4c0, #f0e4c0) 50% 12px / calc(100% - 6px) 14px no-repeat,
+    linear-gradient(#d2c9b4, #d2c9b4) 50% 12px / calc(100% - 6px) 14px no-repeat,
     linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)) 50% 11px / calc(100% - 4px) 16px no-repeat;
 }
 .sp--p2 .sp__deco {
   background:
-    linear-gradient(90deg, transparent 0 calc(50% - 2px), hsl(var(--h) 60% 62%) calc(50% - 2px) calc(50% - 1px), transparent calc(50% - 1px) calc(50% + 1px), hsl(var(--h) 60% 62%) calc(50% + 1px) calc(50% + 2px), transparent 0)
+    linear-gradient(90deg, transparent 0 calc(50% - 2px), hsl(var(--h) 22% 58%) calc(50% - 2px) calc(50% - 1px), transparent calc(50% - 1px) calc(50% + 1px), hsl(var(--h) 22% 58%) calc(50% + 1px) calc(50% + 2px), transparent 0)
       0 6px / 100% calc(100% - 12px) no-repeat;
 }
 .sp--p3 .sp__deco {
   background:
-    repeating-linear-gradient(90deg, #e2b23c 0 2px, transparent 2px 4px) 0 8px / 100% 2px no-repeat,
-    repeating-linear-gradient(90deg, transparent 0 2px, #e2b23c 2px 4px) 0 10px / 100% 2px no-repeat,
-    linear-gradient(hsl(var(--h) 50% 14%), hsl(var(--h) 50% 14%)) 0 calc(100% - 14px) / 100% 6px no-repeat;
+    repeating-linear-gradient(90deg, #a8946a 0 2px, transparent 2px 4px) 0 8px / 100% 2px no-repeat,
+    repeating-linear-gradient(90deg, transparent 0 2px, #a8946a 2px 4px) 0 10px / 100% 2px no-repeat,
+    linear-gradient(hsl(var(--h) 20% 14%), hsl(var(--h) 20% 14%)) 0 calc(100% - 14px) / 100% 6px no-repeat;
 }
 .sp--p4 .sp__deco {
   background:
-    linear-gradient(hsl(var(--h) 45% 16%), hsl(var(--h) 45% 16%)) 0 0 / 100% 16px no-repeat,
-    linear-gradient(#e2b23c, #e2b23c) 50% 6px / 4px 4px no-repeat,
-    linear-gradient(hsl(var(--h) 45% 16%), hsl(var(--h) 45% 16%)) 0 100% / 100% 10px no-repeat;
+    linear-gradient(hsl(var(--h) 20% 15%), hsl(var(--h) 20% 15%)) 0 0 / 100% 16px no-repeat,
+    linear-gradient(#a8946a, #a8946a) 50% 6px / 4px 4px no-repeat,
+    linear-gradient(hsl(var(--h) 20% 15%), hsl(var(--h) 20% 15%)) 0 100% / 100% 10px no-repeat;
 }
 /* Книга с пером: потёртая кожа и чернильная клякса. */
-.sp--p5 { --leather: #6e4a2a; --leather-hi: #8d6238; --leather-lo: #432b16; }
+.sp--p5 { --leather: #4f4640; --leather-hi: #625750; --leather-lo: #2f2a26; }
 .sp--p5 .sp__deco {
   background:
     radial-gradient(circle at 50% 50%, #15110d 0 2px, transparent 3px) 50% 14px / 100% 8px no-repeat,
-    linear-gradient(#cfc3a3, #cfc3a3) 50% calc(100% - 8px) / calc(100% - 6px) 2px no-repeat;
+    linear-gradient(#b3aa98, #b3aa98) 50% calc(100% - 8px) / calc(100% - 6px) 2px no-repeat;
 }
 
 .sp__title {
@@ -121,7 +121,7 @@ const label = computed(() => {
   transform: translateX(-50%);
   writing-mode: vertical-rl;
   font: var(--fs)/1 'Minecraft Rus', monospace;
-  color: #f6edd2;
+  color: #e4ddcc;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
   white-space: nowrap;
   overflow: hidden;

@@ -96,10 +96,10 @@ const swipe = useSwipe((d) => {
   position: relative;
   padding: 0 14px 14px;
   background:
-    repeating-linear-gradient(90deg, transparent 0 63px, rgba(0, 0, 0, 0.22) 63px 64px),
-    linear-gradient(180deg, #b48a52, #9b7342);
-  border: 2px solid #3b2510;
-  box-shadow: inset 0 2px 0 #d1a96b, inset 0 -3px 0 #6b4a24, 0 18px 40px -16px rgba(0, 0, 0, 0.8);
+    repeating-linear-gradient(90deg, transparent 0 63px, rgba(0, 0, 0, 0.18) 63px 64px),
+    linear-gradient(180deg, #2f2740, #262035);
+  border: 2px solid #120e18;
+  box-shadow: inset 0 2px 0 #3d3350, inset 0 -3px 0 #1a1524, 0 18px 40px -16px rgba(0, 0, 0, 0.8);
   image-rendering: pixelated;
   touch-action: pan-y;
 }
@@ -111,18 +111,18 @@ const swipe = useSwipe((d) => {
 }
 .case__plate {
   font: 14px/1 'Minecraft Rus', monospace;
-  color: #3a2410;
-  background: #d9c08a;
+  color: #c9c0dc;
+  background: #1a1522;
   padding: 6px 14px 5px;
-  border: 2px solid #5a3a18;
-  box-shadow: inset 0 -2px 0 #b89a62;
+  border: 2px solid #120e18;
+  box-shadow: inset 0 -2px 0 #120e18;
 }
 
 .case__rows {
   padding: 0 8px;
   background:
-    repeating-linear-gradient(90deg, #2c1d10 0 30px, #261809 30px 31px, #2f2012 31px 47px, #261809 47px 48px),
-    #2a1c0f;
+    repeating-linear-gradient(90deg, #17131f 0 30px, #131019 30px 31px, #19151f 31px 47px, #131019 47px 48px),
+    #16121d;
   box-shadow: inset 6px 0 8px -4px rgba(0, 0, 0, 0.7), inset -6px 0 8px -4px rgba(0, 0, 0, 0.7);
   min-height: var(--row-h);
 }
@@ -136,7 +136,7 @@ const swipe = useSwipe((d) => {
   padding: 0 8px var(--plank);
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0 6px, rgba(0, 0, 0, 0.2) 6px 14px, transparent 14px) top / 100% 14px no-repeat,
-    linear-gradient(180deg, #c99c5e 0 2px, #a27845 2px calc(100% - 3px), #5e3f1c calc(100% - 3px)) bottom / 100% var(--plank) no-repeat;
+    linear-gradient(180deg, #4a3f5c 0 2px, #382f47 2px calc(100% - 3px), #1d1826 calc(100% - 3px)) bottom / 100% var(--plank) no-repeat;
 }
 
 @media (max-width: 640px) {
