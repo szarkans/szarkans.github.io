@@ -29,7 +29,7 @@ const style = computed(() => {
 
 const label = computed(() => {
   const b = props.book
-  return b.signed ? `«${b.title}», ${b.author || 'без автора'}` : 'Книга с пером, без подписи'
+  return b.signed ? `«${b.title}»` : 'Книга с пером'
 })
 </script>
 

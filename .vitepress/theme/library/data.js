@@ -31,7 +31,6 @@ function normalize(b) {
   // Хвост из пустых страниц — это недописанная книга, листать его незачем.
   while (pages.length > 1 && !pages[pages.length - 1].trim()) pages.pop()
   const signed = b.k === 'w'
-  const author = signed ? (b.a || '') : ''
   const where = []
   let more = 0
   for (const w of b.w || []) {
@@ -39,17 +38,15 @@ function normalize(b) {
     if (m) more = Number(m[1])
     else where.push(placeLabel(w))
   }
-  const h = hashStr(author || '∅')
+  const h = hashStr(b.id)
   return {
     id: b.id,
     title: signed ? (b.t || 'Без названия') : 'Книга с пером',
-    author,
     signed,
     pages: pages.length ? pages : [''],
     copies: b.c || 1,
     where,
     more,
-    sigs: (b.v || []).filter(Boolean),
     hue: signed ? h % 360 : 28,
     pattern: signed ? (h >>> 9) % 5 : 5,
     // Высота корешка — от названия, чтобы книги одного автора не стояли строем.
@@ -83,15 +80,15 @@ function placeName(id) {
 }
 
 // «chest → brown_shulker_box · 81 51 -290» → { place: 'Сундук → коричневый шалкер', xyz: '81 51 -290' }
-// «у игрока Ник (эндер-сундук)» → { place: 'у игрока Ник', xyz: '', note: 'эндер-сундук' }
+// «у игрока (эндер-сундук)» → { place: 'у игрока', xyz: '', note: 'эндер-сундук' }
 function placeLabel(w) {
   const at = w.match(/^(.+?) · (-?\d+ -?\d+ -?\d+)$/)
   if (at) {
     const place = at[1].split(' → ').map(placeName).join(' → ')
     return { place: place[0].toUpperCase() + place.slice(1), xyz: at[2] }
   }
-  const pl = w.match(/^у игрока (.+?) \((.+)\)$/)
-  if (pl) return { place: `у игрока ${pl[1]}`, note: pl[2], xyz: '' }
+  const pl = w.match(/^у игрока \((.+)\)$/)
+  if (pl) return { place: 'у игрока', note: pl[1], xyz: '' }
   return { place: w, xyz: '' }
 }
 
@@ -127,7 +124,7 @@ export const byTitle = (a, b) => (b.signed - a.signed) || coll.compare(bare(a.ti
 export function searchBooks(books, query) {
   const q = query.trim().toLowerCase()
   if (!q) return books
-  return books.filter((b) => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q))
+  return books.filter((b) => b.title.toLowerCase().includes(q))
 }
 
 // Первая буква или цифра: ники вроде «_RAT_GEL_» начинаются с подчёркивания.

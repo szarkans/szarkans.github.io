@@ -19,6 +19,7 @@
 
 import fs from 'node:fs'
 import path from 'node:path'
+import { HIDDEN_BOOKS } from './history-hidden.mjs'
 import { fileURLToPath } from 'node:url'
 
 const root = process.argv[2]
@@ -88,7 +89,12 @@ for (const season of seasons) {
   const players = readPlayers(season.id).sort((a, b) => a.n.localeCompare(b.n))
   // Книги с пером в одну-две буквы («j», «у») — случайные клики, не книги.
   const books = season.books
-    .map(b => ({ ...b, t: untag(b.t), p: b.p.map(p => unquote(untag(p))) }))
+    // Авторов не показываем: ни подписи, ни переподписей, ни ника в «у игрока Ник (…)».
+    .map(({ a, v, ...b }) => ({
+      ...b, t: untag(b.t), p: b.p.map(p => unquote(untag(p))),
+      w: b.w.map(w => w.replace(/^у игрока .+? \(/, 'у игрока (')),
+    }))
+    .filter(b => !(b.id in HIDDEN_BOOKS))
     .filter(b => b.k === 'w' || b.p.join('').replace(/\s/g, '').length > 2)
   const n = Number(season.id.slice(1))
   fs.writeFileSync(path.join(OUT_DIR, `${season.id}-books.json`), JSON.stringify({ season: n, books }))
