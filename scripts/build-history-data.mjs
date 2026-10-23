@@ -89,10 +89,12 @@ for (const season of seasons) {
   const players = readPlayers(season.id).sort((a, b) => a.n.localeCompare(b.n))
   // Книги с пером в одну-две буквы («j», «у») — случайные клики, не книги.
   const books = season.books
-    // Авторов не показываем: ни подписи, ни переподписей, ни ника в «у игрока Ник (…)».
+    // Авторов не показываем: ни подписи, ни переподписей. Книга из инвентаря или
+    // эндер-сундука игрока выдала бы владельца, поэтому для читателя это просто
+    // сундук, где — неизвестно.
     .map(({ a, v, ...b }) => ({
       ...b, t: untag(b.t), p: b.p.map(p => unquote(untag(p))),
-      w: b.w.map(w => w.replace(/^у игрока .+? \(/, 'у игрока (')),
+      w: [...new Set(b.w.map(w => w.startsWith('у игрока ') ? 'chest · ? ? ?' : w))],
     }))
     .filter(b => !(b.id in HIDDEN_BOOKS))
     .filter(b => b.k === 'w' || b.p.join('').replace(/\s/g, '').length > 2)
