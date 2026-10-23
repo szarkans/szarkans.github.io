@@ -33,7 +33,7 @@ function cleanPage(p) {
   return p
 }
 
-export function hashStr(s) {
+function hashStr(s) {
   let h = 2166136261
   for (let i = 0; i < s.length; i++) {
     h ^= s.charCodeAt(i)
@@ -68,7 +68,6 @@ function normalize(b) {
     where,
     more,
     sigs: (b.v || []).filter(Boolean),
-    censor: b.r || null,
     hue: signed ? h % 360 : 28,
     pattern: signed ? (h >>> 9) % 5 : 5,
     // Высота корешка — от названия, чтобы книги одного автора не стояли строем.
@@ -114,66 +113,43 @@ export function placeLabel(w) {
   return { place: w, xyz: '' }
 }
 
-// ── Цензура ──────────────────────────────────────────────────────────────────
+// ── Корешки ──────────────────────────────────────────────────────────────────
 
-// Режем текст на куски: обычный текст и плашки. Замазанные слова подряд,
-// разделённые пробелами, — одна плашка, как будто прошлись маркером по строке.
-export function censorSegments(text) {
-  const out = []
-  const re = /█+(?:[ \t]+█+)*/g
-  let last = 0
-  let m
-  while ((m = re.exec(text))) {
-    if (m.index > last) out.push({ t: text.slice(last, m.index) })
-    out.push({ t: m[0], bar: true })
-    last = m.index + m[0].length
-  }
-  if (last < text.length) out.push({ t: text.slice(last) })
-  return out
+// Размер корешка. Толщина — от числа страниц: записка и роман на полке должны
+// отличаться с первого взгляда. Высота — от id, чтобы ряд не стоял строем.
+// Полка раскладывает книги по рядам сама, поэтому размеры считаются здесь, а не в CSS.
+// На телефоне самая тонкая книга — 32 px: в неё попадает палец.
+const SPINE = {
+  wide: { w: 30, wk: 0.5, h: 132, hk: 5, font: 12 },
+  small: { w: 24, wk: 0.32, h: 104, hk: 4, font: 10 },
+  narrow: { w: 32, wk: 0.3, h: 112, hk: 4, font: 12 },
 }
+export const SPINE_GAP = 2
 
-// ── Сортировка и отбор ───────────────────────────────────────────────────────
+export function spineSize(book, mode) {
+  const k = SPINE[mode]
+  const n = Math.min(book.pages.length, 50)
+  return { w: Math.round(k.w + n * k.wk), h: k.h + book.tall * k.hk, font: k.font }
+}
+export const spineMaxH = (mode) => SPINE[mode].h + 6 * SPINE[mode].hk
+
+// ── Порядок и поиск ──────────────────────────────────────────────────────────
 
 const coll = new Intl.Collator('ru', { sensitivity: 'base', numeric: true })
 
-export const SORTS = [
-  { id: 'author', label: 'По автору' },
-  { id: 'size', label: 'По объёму' },
-  { id: 'title', label: 'По названию' },
-]
+// Ведущие «_» и точки не участвуют в сортировке: «__Jeas__» стоит на J.
+const bare = (s) => s.replace(/^[^\p{L}\p{N}]+/u, '')
+export const compareAuthors = (a, b) => (!a - !b) || coll.compare(bare(a), bare(b))
+export const byTitle = (a, b) => (b.signed - a.signed) || coll.compare(bare(a.title), bare(b.title))
 
-// Ведущие «_» и точки в нике в сортировке не участвуют: «__Jeas__» стоит на J.
-export const authorKey = (a) => a.replace(/^[^\p{L}\p{N}]+/u, '')
-
-export function sortBooks(books, sort) {
-  const arr = books.slice()
-  const byTitle = (a, b) => coll.compare(a.title, b.title)
-  if (sort === 'size') arr.sort((a, b) => b.chars - a.chars || byTitle(a, b))
-  else if (sort === 'title') arr.sort((a, b) => (b.signed - a.signed) || byTitle(a, b))
-  else arr.sort((a, b) => (!a.author - !b.author) || coll.compare(authorKey(a.author), authorKey(b.author)) || byTitle(a, b))
-  return arr
-}
-
-export function filterBooks(books, { signedOnly, query }) {
+export function searchBooks(books, query) {
   const q = query.trim().toLowerCase()
-  return books.filter((b) =>
-    (!signedOnly || b.signed) &&
-    (!q || b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q)))
+  if (!q) return books
+  return books.filter((b) => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q))
 }
 
-// Подпись к странице полки: какие книги на ней стоят — «А — Г», «12 — 5 стр.».
-export function rangeOf(slice, sort) {
-  if (!slice.length) return ''
-  const first = slice[0]
-  const last = slice[slice.length - 1]
-  if (sort === 'size') return `${first.pages.length} — ${last.pages.length} стр.`
-  const key = (b) => (sort === 'title' ? (b.signed ? b.title : '') : b.author)
-  // Первая буква или цифра: ники вроде «_RAT_GEL_» начинаются с подчёркивания.
-  const ini = (b) => key(b).match(/[\p{L}\p{N}]/u)?.[0].toUpperCase() || 'без подписи'
-  const a = ini(first)
-  const z = ini(last)
-  return a === z ? a : `${a} — ${z}`
-}
+// Первая буква или цифра: ники вроде «_RAT_GEL_» начинаются с подчёркивания.
+export const initial = (s) => s.match(/[\p{L}\p{N}]/u)?.[0].toUpperCase() || ''
 
 export function plural(n, one, few, many) {
   const a = Math.abs(n) % 100

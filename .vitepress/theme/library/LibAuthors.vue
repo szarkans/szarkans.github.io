@@ -1,6 +1,6 @@
 <template>
   <div class="au">
-    <div class="au__grid">
+    <div class="au__grid" :style="{ '--row-h': `${rowH}px` }">
       <section
         v-for="g in slice"
         :key="g.author || '∅'"
@@ -13,11 +13,11 @@
           <p class="sign__meta">{{ g.books.length }} {{ plural(g.books.length, 'книга', 'книги', 'книг') }} · {{ g.pages }} стр.</p>
         </header>
         <div class="nook__rows">
-          <BookSpine v-for="b in g.books" :key="b.id" :book="b" small :active="b.id === activeId" />
+          <BookSpine v-for="b in g.books" :key="b.id" :book="b" :mode="mode" :active="b.id === activeId" />
         </div>
       </section>
     </div>
-    <LibPager v-model:page="page" :pages="pages" :label="label" noun="Стеллаж" />
+    <LibPager v-model:page="page" :pages="pages.length" :label="label" noun="Стеллаж" />
   </div>
 </template>
 
@@ -25,50 +25,61 @@
 import { computed, ref, watch } from 'vue'
 import BookSpine from './BookSpine.vue'
 import LibPager from './LibPager.vue'
-import { authorKey, plural } from './data.js'
+import { byTitle, compareAuthors, initial, plural, spineMaxH } from './data.js'
 
 const props = defineProps({
   books: { type: Array, required: true },
-  sort: { type: String, required: true },
   activeId: { type: String, default: null },
   narrow: Boolean,
 })
 
-const coll = new Intl.Collator('ru', { sensitivity: 'base' })
+const mode = computed(() => (props.narrow ? 'narrow' : 'small'))
+const rowH = computed(() => spineMaxH(mode.value) + 18)
 
+// Книги с пером — без автора, их стеллаж всегда последний.
 const groups = computed(() => {
   const map = new Map()
   for (const b of props.books) {
-    if (!map.has(b.author)) map.set(b.author, { author: b.author, hue: b.hue, books: [], pages: 0, chars: 0 })
+    if (!map.has(b.author)) map.set(b.author, { author: b.author, hue: b.hue, books: [], pages: 0 })
     const g = map.get(b.author)
     g.books.push(b)
     g.pages += b.pages.length
-    g.chars += b.chars
   }
-  const arr = [...map.values()]
-  // Книги с пером — без автора, их стеллаж всегда последний.
-  arr.sort((a, b) => (!a.author - !b.author) ||
-    (props.sort === 'size' ? b.chars - a.chars : props.sort === 'title' ? b.books.length - a.books.length : 0) ||
-    coll.compare(authorKey(a.author), authorKey(b.author)))
+  const arr = [...map.values()].sort((a, b) => compareAuthors(a.author, b.author))
+  for (const g of arr) g.books.sort(byTitle)
   return arr
 })
 
-const per = computed(() => (props.narrow ? 14 : 36))
+// Стеллаж набирается авторами, пока на нём не наберётся сколько-то книг:
+// по числу авторов страницы выходили то пустые, то на три экрана.
+const pages = computed(() => {
+  const budget = props.narrow ? 36 : 110
+  const out = [[]]
+  let n = 0
+  for (const g of groups.value) {
+    if (n && n + g.books.length > budget) {
+      out.push([])
+      n = 0
+    }
+    out.at(-1).push(g)
+    n += g.books.length
+  }
+  return out
+})
 const page = ref(0)
-const pages = computed(() => Math.max(1, Math.ceil(groups.value.length / per.value)))
-const slice = computed(() => groups.value.slice(page.value * per.value, (page.value + 1) * per.value))
-watch(() => [props.books, per.value], () => { page.value = 0 })
+const slice = computed(() => pages.value[Math.min(page.value, pages.value.length - 1)])
+watch(() => props.books, () => { page.value = 0 })
 
 const label = computed(() => {
   const s = slice.value
   if (!s.length) return ''
-  const ini = (g) => g.author.match(/[\p{L}\p{N}]/u)?.[0].toUpperCase() || 'без подписи'
+  const ini = (g) => initial(g.author) || 'без подписи'
   const a = ini(s[0])
-  const z = ini(s[s.length - 1])
-  return props.sort === 'author' ? (a === z ? a : `${a} — ${z}`) : `${s.length} ${plural(s.length, 'автор', 'автора', 'авторов')}`
+  const z = ini(s.at(-1))
+  return a === z ? a : `${a} — ${z}`
 })
 
-defineExpose({ page, per, groups })
+defineExpose({ page })
 </script>
 
 <style scoped>
@@ -79,7 +90,6 @@ defineExpose({ page, per, groups })
 }
 
 .nook {
-  --row-h: 92px;
   --plank: 10px;
   display: flex;
   flex-direction: column;
@@ -161,7 +171,8 @@ defineExpose({ page, per, groups })
 
 @media (max-width: 520px) {
   .au__grid { gap: 22px 10px; }
-  .nook { min-width: 130px; }
+  .nook { min-width: 140px; }
+  .nook__rows { padding: 0 4px; border-width: 0 5px; }
   .sign { padding: 6px 8px 5px; }
   .sign__name { font-size: 12px; }
 }

@@ -1,12 +1,11 @@
 <template>
-  <div class="lib">
+  <div ref="root" class="lib">
     <p class="lib__disclaimer">
       Тексты книг перенесены из миров как есть, без правок, только чтобы показать архив. За их содержание администрация не отвечает.
     </p>
 
     <div class="lib__bar">
-      <div class="lib__views" role="radiogroup" aria-label="Как показать книги">
-        <span class="lib__views-label">Вид</span>
+      <div class="lib__views" role="radiogroup" aria-label="Как расставить книги">
         <button
           v-for="v in VIEWS"
           :key="v.id"
@@ -20,33 +19,15 @@
 
       <label class="lib__search">
         <span class="sr">Поиск по названию и автору</span>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" /><path d="m11 11 3.5 3.5" /></svg>
         <input v-model="query" type="search" placeholder="Название или автор" autocomplete="off" />
       </label>
 
-      <div class="lib__sort" role="radiogroup" aria-label="Сортировка">
-        <button
-          v-for="s in SORTS"
-          :key="s.id"
-          type="button"
-          role="radio"
-          class="seg seg--small"
-          :aria-checked="sort === s.id"
-          @click="sort = s.id"
-        >{{ s.label }}</button>
-      </div>
-
-      <label class="lib__check">
-        <input v-model="signedOnly" type="checkbox" />
-        <span>Только подписанные</span>
-      </label>
+      <p v-if="books" class="lib__stats">
+        {{ shown.length }} {{ plural(shown.length, 'книга', 'книги', 'книг') }}<template v-if="shown.length !== books.length"> из {{ books.length }}</template>
+        · {{ authors }} {{ plural(authors, 'автор', 'автора', 'авторов') }}
+      </p>
     </div>
-
-    <p v-if="books" class="lib__stats">
-      {{ shown.length }} {{ plural(shown.length, 'книга', 'книги', 'книг') }}
-      <template v-if="shown.length !== books.length"> из {{ books.length }}</template>
-      · {{ authors }} {{ plural(authors, 'автор', 'автора', 'авторов') }}
-      <template v-if="censored"> · <span class="lib__red">{{ censored }} под цензурой</span></template>
-    </p>
 
     <div v-if="error" class="lib__msg">
       Не получилось достать книги: {{ error }}.
@@ -65,9 +46,8 @@
       @focusout="onFocusOut"
       @click="onClick"
     >
-      <LibShelf v-if="view === '1'" :books="shown" :sort="sort" :active-id="activeId" :narrow="narrow" />
-      <LibChest v-else-if="view === '2'" :books="shown" :sort="sort" :active-id="activeId" />
-      <LibAuthors v-else :books="shown" :sort="sort" :active-id="activeId" :narrow="narrow" />
+      <LibShelf v-if="view === 'shelf'" :books="shown" :active-id="activeId" :narrow="narrow" />
+      <LibAuthors v-else :books="shown" :active-id="activeId" :narrow="narrow" />
     </div>
 
     <!-- Одна подсказка на всю библиотеку: 600 подсказок в DOM — это тормоза. -->
@@ -84,7 +64,7 @@
     </Teleport>
 
     <Teleport to="body">
-      <div v-if="sheet" class="mcsheet" role="dialog" aria-label="О книге">
+      <div v-if="sheet" ref="sheetEl" class="mcsheet" role="dialog" aria-label="О книге">
         <div class="mctip mctip--sheet">
           <BookInfo :book="sheet" />
           <div class="mcsheet__btns">
@@ -102,38 +82,34 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, onMounted, reactive, ref, shallowRef, watch } from 'vue'
 import LibShelf from './library/LibShelf.vue'
-import LibChest from './library/LibChest.vue'
 import LibAuthors from './library/LibAuthors.vue'
 import BookReader from './library/BookReader.vue'
 import BookInfo from './library/BookInfo.vue'
-import { SORTS, filterBooks, loadSeasonBooks, plural, sortBooks } from './library/data.js'
+import { byTitle, loadSeasonBooks, plural, searchBooks } from './library/data.js'
 
 const props = defineProps({ season: { type: [Number, String], required: true } })
 
+// Полка — все книги по алфавиту названий, «По авторам» — стеллаж на автора.
 const VIEWS = [
-  { id: '1', label: 'Полка' },
-  { id: '2', label: 'Сундук' },
-  { id: '3', label: 'По авторам' },
+  { id: 'shelf', label: 'Полка' },
+  { id: 'authors', label: 'По авторам' },
 ]
 
 const books = shallowRef(null)
 const error = ref('')
-const view = ref('1')
-const sort = ref('author')
+const view = ref('shelf')
 const query = ref('')
-const signedOnly = ref(false)
 const narrow = ref(false)
 
 const byId = computed(() => new Map((books.value || []).map((b) => [b.id, b])))
-const shown = computed(() =>
-  books.value ? sortBooks(filterBooks(books.value, { signedOnly: signedOnly.value, query: query.value }), sort.value) : [])
+const sorted = computed(() => (books.value ? books.value.slice().sort(byTitle) : []))
+const shown = computed(() => searchBooks(sorted.value, query.value))
 const authors = computed(() => new Set(shown.value.filter((b) => b.author).map((b) => b.author)).size)
-const censored = computed(() => shown.value.filter((b) => b.censor).length)
 
-// ── Адрес: ?v=1|2|3 и ?book=<id> ─────────────────────────────────────────
+// ── Адрес: ?v=authors и ?book=<id> ───────────────────────────────────────
 function readUrl() {
   const q = new URLSearchParams(location.search)
-  if (VIEWS.some((v) => v.id === q.get('v'))) view.value = q.get('v')
+  if (q.get('v') === 'authors') view.value = 'authors'
   return q.get('book')
 }
 function writeUrl(patch) {
@@ -147,7 +123,7 @@ function writeUrl(patch) {
 function setView(id) {
   view.value = id
   clearActive()
-  writeUrl({ v: id })
+  writeUrl({ v: id === 'shelf' ? null : id })
 }
 
 // ── Загрузка ─────────────────────────────────────────────────────────────
@@ -189,6 +165,8 @@ const tip = shallowRef(null)
 const sheet = shallowRef(null)
 const activeId = ref(null)
 const tipEl = ref(null)
+const root = ref(null)
+const sheetEl = ref(null)
 const tipPos = reactive({ x: 0, y: 0, ready: false })
 let anchor = null
 let lastPointer = 'mouse'
@@ -205,12 +183,15 @@ function showTip(el) {
   nextTick(placeTip)
 }
 function placeTip() {
-  if (!anchor || !tipEl.value) return
+  if (!anchor || !tipEl.value || !root.value) return
   const r = anchor.getBoundingClientRect()
   const t = tipEl.value.getBoundingClientRect()
-  const vw = document.documentElement.clientWidth
-  let x = r.left + r.width / 2 - t.width / 2
-  x = Math.max(8, Math.min(vw - t.width - 8, x))
+  // Над книгой, по центру, но не дальше краёв библиотеки: у крайних книг
+  // подсказка иначе уезжала на боковое меню.
+  const box = root.value.getBoundingClientRect()
+  const lo = Math.max(8, box.left)
+  const hi = Math.min(document.documentElement.clientWidth - 8, box.right) - t.width
+  const x = Math.max(lo, Math.min(hi, r.left + r.width / 2 - t.width / 2))
   // Над книгой; не влезает — под ней. Книга при наведении выезжает на 14px.
   let y = r.top - t.height - 22
   if (y < 64) y = r.bottom + 10
@@ -260,10 +241,19 @@ function onClick(e) {
       tip.value = null
       sheet.value = b
       activeId.value = b.id
+      nextTick(() => revealAbove(el))
     }
     return
   }
   openBook(b)
+}
+
+// Карточка встаёт снизу экрана; книгу под ней прокручиваем повыше.
+function revealAbove(el) {
+  const sheetTop = sheetEl.value?.getBoundingClientRect().top ?? innerHeight
+  const r = el.getBoundingClientRect()
+  const over = r.bottom - (sheetTop - 24)
+  if (over > 0) window.scrollBy({ top: over, behavior: 'smooth' })
 }
 
 // ── Читалка ──────────────────────────────────────────────────────────────
@@ -282,7 +272,7 @@ function closeBook() {
   returnFocus = null
 }
 
-watch([view, sort, query, signedOnly], () => clearActive())
+watch([view, query], () => clearActive())
 </script>
 
 <style>
@@ -376,41 +366,44 @@ watch([view, sort, query, signedOnly], () => clearActive())
   flex-wrap: wrap;
   align-items: center;
   gap: 10px 14px;
-  margin-bottom: 10px;
+  margin-bottom: 22px;
 }
-.lib__views,
-.lib__sort {
+.lib__views {
   display: flex;
-  align-items: center;
   gap: 4px;
   padding: 3px;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
   border-radius: 10px;
 }
-.lib__views-label {
-  padding: 0 6px 0 8px;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
 .seg {
-  padding: 6px 12px;
+  padding: 7px 14px;
   font: 500 14px/1.2 'Rubik', sans-serif;
   color: var(--vp-c-text-2);
   border-radius: 7px;
   transition: background 0.15s, color 0.15s;
 }
-.seg--small { padding: 5px 10px; font-size: 13px; }
 .seg:hover { color: var(--vp-c-text-1); }
 .seg[aria-checked='true'] { color: #fff; background: var(--vp-c-brand-3); }
 .seg:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 1px; }
 
-.lib__search { flex: 1 1 200px; min-width: 0; }
+.lib__search { position: relative; flex: 0 1 300px; min-width: 0; }
+.lib__search svg {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  fill: none;
+  stroke: var(--vp-c-text-3);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  pointer-events: none;
+}
 .lib__search input {
   width: 100%;
-  padding: 8px 12px;
+  padding: 8px 12px 8px 34px;
   font-size: 14px;
   color: var(--vp-c-text-1);
   background: var(--vp-c-bg-soft);
@@ -419,11 +412,7 @@ watch([view, sort, query, signedOnly], () => clearActive())
 }
 .lib__search input:focus { outline: none; border-color: var(--vp-c-brand-1); }
 
-.lib__check { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--vp-c-text-2); cursor: pointer; }
-.lib__check input { accent-color: var(--vp-c-brand-1); width: 16px; height: 16px; }
-
-.lib__stats { margin: 0 0 22px; font-size: 13px; color: var(--vp-c-text-3); }
-.lib__red { color: #f0646b; }
+.lib__stats { margin: 0 0 0 auto; font-size: 13px; color: var(--vp-c-text-3); white-space: nowrap; }
 
 .lib__msg {
   padding: 48px 16px;
@@ -440,9 +429,11 @@ watch([view, sort, query, signedOnly], () => clearActive())
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 @media (max-width: 640px) {
-  .lib__views, .lib__sort { width: 100%; }
-  .lib__views .seg, .lib__sort .seg { flex: 1; padding-left: 4px; padding-right: 4px; }
-  .lib__views-label { display: none; }
+  .lib__bar { gap: 8px; }
+  .lib__views { flex: 1 1 100%; }
+  .lib__views .seg { flex: 1; }
+  .lib__search { flex: 1 1 auto; }
+  .lib__stats { margin: 0; font-size: 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

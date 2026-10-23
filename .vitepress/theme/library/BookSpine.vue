@@ -2,40 +2,30 @@
   <button
     type="button"
     class="sp"
-    :class="[`sp--p${book.pattern}`, { 'sp--active': active, 'sp--cens': book.censor, 'sp--black': book.censor === 'all', 'sp--small': small }]"
+    :class="[`sp--p${book.pattern}`, { 'sp--active': active }]"
     :style="style"
     :data-book="book.id"
     :aria-label="label"
   >
     <span class="sp__deco" aria-hidden="true"></span>
-    <span v-if="showTitle" class="sp__title" aria-hidden="true">{{ book.title }}</span>
-    <span v-if="book.censor" class="sp__tape" aria-hidden="true"></span>
+    <span v-if="book.signed" class="sp__title" aria-hidden="true">{{ book.title }}</span>
   </button>
 </template>
 
 <script setup>
 import { computed } from 'vue'
+import { spineSize } from './data.js'
 
 const props = defineProps({
   book: { type: Object, required: true },
   active: Boolean,
-  small: Boolean,
+  mode: { type: String, default: 'wide' },
 })
 
-// Толщина — от числа страниц: тонкая записка и стопятидесятистраничный роман
-// на полке должны отличаться с первого взгляда.
-const width = computed(() => {
-  const n = Math.min(props.book.pages.length, 50)
-  return props.small ? Math.round(9 + n * 0.28) : Math.round(12 + n * 0.42)
+const style = computed(() => {
+  const s = spineSize(props.book, props.mode)
+  return { '--h': props.book.hue, '--w': `${s.w}px`, '--ht': `${s.h}px`, '--fs': `${s.font}px` }
 })
-const height = computed(() => (props.small ? 54 + props.book.tall * 4 : 72 + props.book.tall * 5))
-const showTitle = computed(() => width.value >= (props.small ? 18 : 19))
-
-const style = computed(() => ({
-  '--h': props.book.hue,
-  '--w': `${width.value}px`,
-  '--ht': `${height.value}px`,
-}))
 
 const label = computed(() => {
   const b = props.book
@@ -54,11 +44,13 @@ const label = computed(() => {
   height: var(--ht);
   margin: 0 1px;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
   border: 0;
   border-radius: 1px 1px 0 0;
   cursor: pointer;
   background:
     linear-gradient(90deg, var(--leather-hi) 0 2px, transparent 2px calc(100% - 3px), var(--leather-lo) calc(100% - 3px)),
+    linear-gradient(90deg, transparent 0 2px, rgba(255, 255, 255, 0.1) 2px 6px, transparent 6px 55%, rgba(0, 0, 0, 0.16) 55% calc(100% - 3px), transparent 0),
     linear-gradient(180deg, var(--leather-lo) 0 3px, var(--leather) 3px calc(100% - 3px), var(--leather-lo) calc(100% - 3px));
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.55), 2px 0 0 rgba(0, 0, 0, 0.35);
   transform: translateY(0);
@@ -75,9 +67,6 @@ const label = computed(() => {
   z-index: 2;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.55), 2px 0 0 rgba(0, 0, 0, 0.35), 0 10px 14px -4px rgba(0, 0, 0, 0.7);
 }
-.sp--small:hover,
-.sp--small:focus-visible,
-.sp--small.sp--active { transform: translateY(-10px); }
 
 .sp:focus-visible {
   outline: 2px solid #fff;
@@ -127,41 +116,19 @@ const label = computed(() => {
 .sp__title {
   position: absolute;
   left: 50%;
-  top: 26px;
-  bottom: 18px;
+  top: 28px;
+  bottom: 22px;
   transform: translateX(-50%);
   writing-mode: vertical-rl;
-  font: 8px/1 'Minecraft Rus', monospace;
-  color: #f4ead0;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+  font: var(--fs)/1 'Minecraft Rus', monospace;
+  color: #f6edd2;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: clip;
-  max-height: calc(100% - 44px);
+  text-overflow: ellipsis;
   pointer-events: none;
 }
-.sp--small .sp__title { top: 18px; max-height: calc(100% - 32px); }
 .sp--p5 .sp__title { color: #e9dcbb; }
-
-/* Цензура: красная лента поперёк, замазанная целиком — чёрная обложка. */
-.sp--black {
-  --leather: #121212;
-  --leather-hi: #2a2a2a;
-  --leather-lo: #050505;
-}
-.sp--black .sp__deco, .sp--black .sp__title { display: none; }
-.sp__tape {
-  position: absolute;
-  left: -4px;
-  right: -4px;
-  top: 46%;
-  height: 9px;
-  background: repeating-linear-gradient(135deg, #d42020 0 4px, #a51010 4px 6px);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
-  transform: rotate(-18deg);
-  pointer-events: none;
-}
-.sp--black .sp__tape { top: 40%; height: 12px; }
 
 @media (prefers-reduced-motion: reduce) {
   .sp { transition: none; }
