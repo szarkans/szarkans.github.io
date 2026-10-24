@@ -1,7 +1,7 @@
 <template>
   <section class="home-hero">
     <div class="home-hero__copy">
-      <h1>Лучший. Кошачий. Навсегда!</h1>
+      <h1>Лучший. Кошачий. <span class="glitch" ref="glitch"><span v-for="(ch, i) in 'Навсегда!'" :key="i">{{ ch }}</span></span></h1>
       <p>Сервер-песочница с обилием новых механик и уклоном в сторону РПГ со всеми его вытекающими!</p>
       <div class="home-hero__actions">
         <a class="home-button cc-primary-button" href="/history/">Читать историю</a>
@@ -29,10 +29,36 @@
   </section>
 </template>
 
+<script setup>
+import { onMounted, onBeforeUnmount, ref } from 'vue'
+
+// Омаж закрытию сервера: «Навсегда!» изредка едва заметно сбоит.
+const glitch = ref(null)
+let timer
+
+function tick() {
+  const letters = [...glitch.value.children]
+  const picked = letters.filter(() => Math.random() < 0.3)
+  for (const el of picked) {
+    el.style.top = `${Math.round(Math.random() * 6 - 3)}px`
+    el.style.left = `${Math.round(Math.random() * 4 - 2)}px`
+  }
+  setTimeout(() => picked.forEach(el => { el.style.top = el.style.left = '' }), 60 + Math.random() * 90)
+  timer = setTimeout(tick, 1800 + Math.random() * 4500)
+}
+
+onMounted(() => {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  timer = setTimeout(tick, 2500)
+})
+onBeforeUnmount(() => clearTimeout(timer))
+</script>
+
 <style scoped>
 .home-hero { display:grid; grid-template-columns:1fr 420px; gap:56px; align-items:center; }
 .home-hero__copy { display:flex; flex-direction:column; gap:20px; }
 .home-hero h1 { margin:0; max-width:650px; border:0; background:linear-gradient(100deg,#fff 20%,#c299e5 90%); background-clip:text; color:transparent; font:900 58px/1.04 'Unbounded',sans-serif; letter-spacing:-1px; text-shadow:none; }
+.glitch span { position:relative; }
 .home-hero__copy > p { max-width:520px; margin:0; color:#9a94ab; font-size:18px; line-height:1.6; }
 .home-hero__actions { display:flex; gap:12px; }
 .home-button { display:inline-flex; align-items:center; justify-content:center; padding:13px 28px; border-radius:12px; color:#fff; font-size:16px; font-weight:600; text-decoration:none; transition:.2s ease; }
