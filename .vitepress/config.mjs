@@ -829,6 +829,14 @@ export default defineConfig({
             {
               text: 'История',
               link: '/history/8season/8season.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/8season/library.md'
+            },
+            {
+              text: "Города",
+              link: '/history/8season/towns.md'
             }
           ]
         }
