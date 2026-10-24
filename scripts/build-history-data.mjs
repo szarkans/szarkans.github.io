@@ -5,6 +5,7 @@
 // Источник лежит вне репозитория — это выгрузка из миров сезонов:
 //   site/data_public.json  — книги (уже отцензурированные) и поселения;
 //   out/<сезон>/players.jsonl, out/s1/players_s1.tsv — игроки и их кровати.
+// У 2 сезона мира нет, только книги из записей ReplayMod, поэтому и Городов у него нет.
 // Берётся ТОЛЬКО data_public.json. В data.json рядом лежат книги без цензуры,
 // и если взять его, они окажутся на сайте.
 //
@@ -26,6 +27,8 @@ const root = process.argv[2]
 if (!root) throw new Error('укажи папку выгрузки: node scripts/build-history-data.mjs <путь>')
 
 const PLAYER_SOURCES = { s1: null, s3: 's3-map', s4: 's4', s5: 's5-4', s6: 's6', s7: 's7', s8: 's8' }
+// Сезоны без мира: у них только книги из записей ReplayMod, Городов нет.
+const NO_WORLD = new Set(['s2'])
 const OUT_DIR = path.resolve(fileURLToPath(new URL('.', import.meta.url)), '../public/data/history')
 
 const TRANSLIT = Object.fromEntries([...'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'].map((c, i) =>
@@ -68,9 +71,34 @@ function unquote(p) {
   }
 }
 
+// Книги с пером в одну-две буквы («j», «у») — случайные клики, не книги.
+function cleanBooks(list) {
+  return list
+    // Книга из инвентаря или эндер-сундука игрока выдала бы владельца, поэтому для
+    // читателя это просто сундук, где — неизвестно. У книг из HIDDEN_AUTHORS нет ни
+    // подписи, ни переподписей, вместо них ha: 1.
+    .map(({ a, v, ...b }) => ({
+      ...b, t: untag(b.t), p: b.p.map(p => unquote(untag(p))),
+      ...(b.id in HIDDEN_AUTHORS ? { ha: 1 } : { a, v: (v || []).map(untag) }),
+      w: [...new Set(b.w.map(w => w.startsWith('у игрока ') ? 'chest · ? ? ?' : w))],
+    }))
+    .filter(b => !(b.id in HIDDEN_BOOKS))
+    .filter(b => b.k === 'w' || b.p.join('').replace(/\s/g, '').length > 2)
+    // Книги с пером, в которых лежит картинка мода строкой base64 («TUNQUEYx…»), — не текст.
+    .filter(b => b.k === 'w' || !/^[A-Za-z0-9+/=\s]{200,}$/.test(b.p.join('')))
+}
+
 const seasons = JSON.parse(fs.readFileSync(path.join(root, 'site/data_public.json'), 'utf8'))
 fs.mkdirSync(OUT_DIR, { recursive: true })
 for (const season of seasons) {
+  const n = Number(season.id.slice(1))
+  if (NO_WORLD.has(season.id)) {
+    const books = cleanBooks(season.books)
+    fs.writeFileSync(path.join(OUT_DIR, `${season.id}-books.json`), JSON.stringify({ season: n, books }))
+    console.log(season.id, `книг ${books.length}, мира нет`)
+    continue
+  }
+  if (!(season.id in PLAYER_SOURCES)) throw new Error(`${season.id}: нет ни в PLAYER_SOURCES, ни в NO_WORLD`)
   const usedIds = new Set()
   // Догадка по табличкам часто повторяет имя настоящего города по соседству —
   // тогда на карте два «Фыркамска», и ссылка из статьи попадает не туда.
@@ -87,23 +115,14 @@ for (const season of seasons) {
       return { id, g: c.g[0] ?? null, ok: c.ok, x: c.x, z: c.z, n: c.n, p: c.p, b: c.b, s: c.s }
     })
   const players = readPlayers(season.id).sort((a, b) => a.n.localeCompare(b.n))
-  // Книги с пером в одну-две буквы («j», «у») — случайные клики, не книги.
-  const books = season.books
-    // Книга из инвентаря или эндер-сундука игрока выдала бы владельца, поэтому для
-    // читателя это просто сундук, где — неизвестно. У книг из HIDDEN_AUTHORS нет ни
-    // подписи, ни переподписей, вместо них ha: 1.
-    .map(({ a, v, ...b }) => ({
-      ...b, t: untag(b.t), p: b.p.map(p => unquote(untag(p))),
-      ...(b.id in HIDDEN_AUTHORS ? { ha: 1 } : { a, v: (v || []).map(untag) }),
-      w: [...new Set(b.w.map(w => w.startsWith('у игрока ') ? 'chest · ? ? ?' : w))],
-    }))
-    .filter(b => !(b.id in HIDDEN_BOOKS))
-    .filter(b => b.k === 'w' || b.p.join('').replace(/\s/g, '').length > 2)
-    // Книги с пером, в которых лежит картинка мода строкой base64 («TUNQUEYx…»), — не текст.
-    .filter(b => b.k === 'w' || !/^[A-Za-z0-9+/=\s]{200,}$/.test(b.p.join('')))
-  const n = Number(season.id.slice(1))
+  const books = cleanBooks(season.books)
   fs.writeFileSync(path.join(OUT_DIR, `${season.id}-books.json`), JSON.stringify({ season: n, books }))
   fs.writeFileSync(path.join(OUT_DIR, `${season.id}-towns.json`), JSON.stringify({ season: n, towns, players }))
   fs.rmSync(path.join(OUT_DIR, `${season.id}.json`), { force: true })
   console.log(season.id, `книг ${books.length}, поселений ${towns.length}, игроков ${players.length}, с кроватью ${players.filter(p => p.bed).length}`)
 }
+
+// id книги — хэш текста. Если текст в выгрузке поменялся, скрытая книга вернётся на полку под новым id.
+const allIds = new Set(seasons.flatMap(s => s.books.map(b => b.id)))
+for (const id of [...Object.keys(HIDDEN_BOOKS), ...Object.keys(HIDDEN_AUTHORS)])
+  if (!allIds.has(id)) console.warn(`ВНИМАНИЕ: ${id} из history-hidden.mjs нет в выгрузке — проверь, не сменился ли id`)
