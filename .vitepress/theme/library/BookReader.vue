@@ -201,9 +201,11 @@ onBeforeUnmount(() => {
 .rd:focus { outline: none; }
 
 /* Книга — по центру экрана; когда не влезает по высоте, окно прокручивается. */
+/* Отступ сверху постоянный, а не центровка: иначе книга и стрелки под ней прыгали бы
+   от книги к книге вместе с высотой подписи. 680 — книга с подписью в одну строку. */
 .rd__wrap {
-  margin: auto;
-  padding: 40px 16px 32px;
+  margin: 0 auto auto;
+  padding: max(40px, calc((100dvh - 680px) / 2)) 16px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -301,15 +303,19 @@ onBeforeUnmount(() => {
 
 /* ── Подпись под книгой: тихая, книге не соперник ──────────────────── */
 .rd__meta {
-  max-width: 560px;
+  /* Ширина — как у книги: стрелки к соседним книгам стоят под её краями
+     и не сдвигаются, какой бы длины ни было название. width: 0 — чтобы длинная
+     подпись не расширяла окно шире книги. */
+  width: 0;
+  min-width: 100%;
   margin-top: 18px;
   text-align: center;
   color: #b9b3cc;
 }
 .rd__books {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: start;
   gap: 14px;
 }
 .rd__book-btn {
@@ -324,7 +330,9 @@ onBeforeUnmount(() => {
 .rd__book-btn:first-child svg { transform: scaleX(-1); }
 .rd__book-btn--off { visibility: hidden; }
 .rd__title {
-  margin: 0;
+  /* 8px сверху — одна строка названия по центру кнопок; длинное растёт вниз, кнопки стоят.
+     Отступ — margin: у h2 в теме padding-top: 0 !important. */
+  margin: 8px 0 0;
   padding: 0;
   border: 0;
   font: 18px/1.35 'Minecraft Rus', monospace;
