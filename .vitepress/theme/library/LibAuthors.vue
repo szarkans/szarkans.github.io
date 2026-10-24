@@ -24,7 +24,7 @@
 import { computed, ref, watch } from 'vue'
 import BookSpine from './BookSpine.vue'
 import LibPager from './LibPager.vue'
-import { byTitle, compareAuthors, initial, spineMaxH } from './data.js'
+import { groupByAuthor, initial, spineMaxH } from './data.js'
 
 const props = defineProps({
   books: { type: Array, required: true },
@@ -35,20 +35,7 @@ const props = defineProps({
 const mode = computed(() => (props.narrow ? 'narrow' : 'small'))
 const rowH = computed(() => spineMaxH(mode.value) + 18)
 
-// Стеллажи «Автор скрыт» и «Без подписи» (книги с пером) — всегда последние.
-const HIDDEN = { key: '∅?', name: 'Автор скрыт', rank: 1 }
-const UNSIGNED = { key: '∅', name: 'Без подписи', rank: 2 }
-const groups = computed(() => {
-  const map = new Map()
-  for (const b of props.books) {
-    const g = b.hiddenAuthor ? HIDDEN : b.signed ? { key: b.author, name: b.author || 'Без подписи', rank: 0 } : UNSIGNED
-    if (!map.has(g.key)) map.set(g.key, { ...g, hue: b.hue, books: [] })
-    map.get(g.key).books.push(b)
-  }
-  const arr = [...map.values()].sort((a, b) => (a.rank - b.rank) || compareAuthors(a.key, b.key))
-  for (const g of arr) g.books.sort(byTitle)
-  return arr
-})
+const groups = computed(() => groupByAuthor(props.books))
 
 // Стеллаж набирается авторами, пока на нём не наберётся сколько-то книг:
 // по числу авторов страницы выходили то пустые, то на три экрана.

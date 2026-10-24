@@ -6,7 +6,23 @@
       <div class="rd__wrap" @click.self="$emit('close')">
         <div class="rd__book">
           <div class="rd__page" @pointerdown="swipe.down" @pointerup="swipe.up">
-            <p class="rd__counter">Страница {{ page + 1 }} из {{ total }}</p>
+            <p class="rd__counter">
+              Страница
+              <input
+                ref="pageInput"
+                v-model="pageDraft"
+                class="rd__pagein"
+                :style="{ width: `${String(total).length + 0.6}ch` }"
+                inputmode="numeric"
+                enterkeyhint="go"
+                aria-label="Номер страницы"
+                @focus="$event.target.select()"
+                @keydown.enter.prevent="$event.target.blur()"
+                @keydown.esc.stop.prevent="resetDraft(true)"
+                @blur="jump"
+              >
+              из {{ total }}
+            </p>
             <div ref="textEl" class="rd__text">{{ text }}<span v-if="!text.trim()" class="rd__empty">Страница пуста</span></div>
             <div class="rd__nav">
               <button type="button" class="arrow" :class="{ 'arrow--hidden': page <= 0 }" :disabled="page <= 0" aria-label="Предыдущая страница" @click="go(-1)">
@@ -20,9 +36,13 @@
         </div>
 
         <footer class="rd__meta">
+          <div class="rd__books">
+            <button type="button" class="mcbtn rd__book-btn" :class="{ 'rd__book-btn--off': !prev }" :disabled="!prev" :aria-label="prev ? `Предыдущая книга: ${prev.title}` : 'Предыдущей книги нет'" @click="$emit('open', prev)"><svg viewBox="0 0 18 10" shape-rendering="crispEdges" aria-hidden="true"><path :d="ARROW" /></svg></button>
           <h2 class="rd__title">
             {{ book.title }}<span class="rd__by">{{ book.hiddenAuthor ? ' · автор скрыт' : book.signed ? ` от ${book.author || 'неизвестного автора'}` : ' без подписи' }}</span>
           </h2>
+            <button type="button" class="mcbtn rd__book-btn" :class="{ 'rd__book-btn--off': !next }" :disabled="!next" :aria-label="next ? `Следующая книга: ${next.title}` : 'Следующей книги нет'" @click="$emit('open', next)"><svg viewBox="0 0 18 10" shape-rendering="crispEdges" aria-hidden="true"><path :d="ARROW" /></svg></button>
+          </div>
           <ul class="rd__facts">
             <li v-for="(w, i) in book.where" :key="i">
               {{ w.place }}<code v-if="w.xyz">{{ w.xyz }}</code>
@@ -42,8 +62,12 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { plural } from './data.js'
 import { useSwipe } from './gestures.js'
 
-const props = defineProps({ book: { type: Object, required: true } })
-const emit = defineEmits(['close'])
+const props = defineProps({
+  book: { type: Object, required: true },
+  prev: { type: Object, default: null },
+  next: { type: Object, default: null },
+})
+const emit = defineEmits(['close', 'open'])
 
 // Стрелка листания: пиксельная, 18×10, остриём вправо.
 const ARROW = 'M0 4h12v-4h2v1h1v1h1v1h1v1h1v2h-1v1h-1v1h-1v1h-1v1h-2v-4h-12z'
@@ -67,10 +91,37 @@ function go(d) {
 const swipe = useSwipe(go)
 watch(page, () => {
   if (textEl.value) textEl.value.scrollTop = 0
+  resetDraft()
 })
-watch(() => props.book.id, () => { page.value = 0 })
+
+// Номер страницы в счётчике — поле: набрал число, Enter — и ты там.
+const pageInput = ref(null)
+const pageDraft = ref('1')
+function resetDraft(blur) {
+  pageDraft.value = String(page.value + 1)
+  if (blur) pageInput.value?.blur()
+}
+function jump() {
+  const n = parseInt(pageDraft.value, 10)
+  if (Number.isFinite(n)) go(Math.min(total.value, Math.max(1, n)) - 1 - page.value)
+  resetDraft()
+}
+watch(() => props.book.id, () => { page.value = 0; resetDraft() })
 
 function onKey(e) {
+  if (e.target === pageInput.value && e.key !== 'Tab') return
+  if (/^[0-9]$/.test(e.key) && !e.ctrlKey && !e.metaKey && !e.altKey) {
+    e.preventDefault()
+    pageInput.value?.focus({ preventScroll: true })
+    pageDraft.value = e.key
+    return
+  }
+  if (e.shiftKey && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
+    e.preventDefault()
+    const b = e.key === 'ArrowLeft' ? props.prev : props.next
+    if (b) emit('open', b)
+    return
+  }
   if (e.key === 'Escape') { e.preventDefault(); emit('close') }
   else if (e.key === 'ArrowLeft') { e.preventDefault(); go(-1) }
   else if (e.key === 'ArrowRight') { e.preventDefault(); go(1) }
@@ -80,7 +131,7 @@ function onKey(e) {
 // Фокус не уходит из книги на страницу под ней. Клавиши слушает документ, пока книга открыта:
 // клик по тексту страницы уводит фокус на body, и на самой читалке их бы уже никто не услышал.
 function trapTab(e) {
-  const items = [...root.value.querySelectorAll('button:not([disabled])')]
+  const items = [...root.value.querySelectorAll('button:not([disabled]), input')]
   if (!items.length) return
   const first = items[0]
   const last = items[items.length - 1]
@@ -182,6 +233,17 @@ onBeforeUnmount(() => {
   scrollbar-color: #b49a62 transparent;
 }
 .rd__empty { color: #8a7a58; }
+.rd__pagein {
+  min-width: 2ch;
+  padding: 0;
+  border: 0;
+  border-bottom: 2px dotted #8a7a58;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: center;
+}
+.rd__pagein:focus { outline: none; border-bottom-style: solid; border-bottom-color: #a3281c; }
 
 .rd__nav {
   display: flex;
@@ -212,6 +274,23 @@ onBeforeUnmount(() => {
   text-align: center;
   color: #b9b3cc;
 }
+.rd__books {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.rd__book-btn {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+.rd__book-btn svg { width: 18px; height: 10px; fill: currentColor; }
+.rd__book-btn:first-child svg { transform: scaleX(-1); }
+.rd__book-btn--off { visibility: hidden; }
 .rd__title {
   margin: 0;
   padding: 0;
