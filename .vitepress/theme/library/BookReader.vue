@@ -23,7 +23,7 @@
               >
               из {{ total }}
             </p>
-            <div ref="textEl" class="rd__text">{{ text }}<span v-if="!text.trim()" class="rd__empty">Страница пуста</span></div>
+            <div ref="textEl" class="rd__text" :style="{ fontSize: `${fontPx}px`, lineHeight: `${lineOf(fontPx)}px` }">{{ text }}<span v-if="!text.trim()" class="rd__empty">Страница пуста</span></div>
             <div class="rd__nav">
               <button type="button" class="arrow" :class="{ 'arrow--hidden': page <= 0 }" :disabled="page <= 0" aria-label="Предыдущая страница" @click="go(-1)">
                 <svg viewBox="0 0 18 10" shape-rendering="crispEdges" aria-hidden="true"><path :d="ARROW" /></svg>
@@ -106,7 +106,35 @@ function jump() {
   if (Number.isFinite(n)) go(Math.min(total.value, Math.max(1, n)) - 1 - page.value)
   resetDraft()
 }
-watch(() => props.book.id, () => { page.value = 0; resetDraft() })
+watch(() => props.book.id, () => { page.value = 0; resetDraft(); nextTick(fit) })
+
+// В игре страница вмещает строк четырнадцать, и текст занимает весь лист. Здесь лист больше,
+// поэтому шрифт подбирается под книгу: самая длинная её страница заполняет лист без прокрутки.
+// Один размер на всю книгу, чтобы буквы не прыгали при листании. Шаг 2 px, чтобы пиксельный
+// шрифт оставался чётким.
+const FONT_MIN = 16
+const FONT_MAX = 32
+const fontPx = ref(FONT_MIN)
+const lineOf = (px) => Math.round(px * 1.25)
+function fit() {
+  const el = textEl.value
+  if (!el) return
+  const probe = el.cloneNode(false)
+  probe.style.cssText = `position:absolute;visibility:hidden;height:auto;overflow:visible;flex:none;width:${el.clientWidth}px`
+  el.parentNode.appendChild(probe)
+  const fits = (px) => {
+    probe.style.fontSize = `${px}px`
+    probe.style.lineHeight = `${lineOf(px)}px`
+    return props.book.pages.every((p) => { probe.textContent = p; return probe.scrollHeight <= el.clientHeight })
+  }
+  let lo = FONT_MIN / 2, hi = FONT_MAX / 2, best = FONT_MIN
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1
+    if (fits(mid * 2)) { best = mid * 2; lo = mid + 1 } else hi = mid - 1
+  }
+  probe.remove()
+  fontPx.value = best
+}
 
 function onKey(e) {
   if (e.target === pageInput.value && e.key !== 'Tab') return
@@ -145,11 +173,15 @@ onMounted(async () => {
   prevOverflow = document.documentElement.style.overflow
   document.documentElement.style.overflow = 'hidden'
   document.addEventListener('keydown', onKey)
+  window.addEventListener('resize', fit)
   await nextTick()
+  fit()
+  document.fonts?.ready.then(fit)
   closeBtn.value?.focus({ preventScroll: true })
 })
 onBeforeUnmount(() => {
   document.removeEventListener('keydown', onKey)
+  window.removeEventListener('resize', fit)
   document.documentElement.style.overflow = prevOverflow
 })
 </script>
