@@ -19,4 +19,10 @@ description: История сервера Кошкокрафт - 8 сезон
 
 - 8 сезон Кошкокрафта открыт!
 
+### Карта сезона
+
+<Button as="a" href="/history/8season/library" label="Библиотека 8 сезона" icon="pi pi-book" />
+
+<Button as="a" href="/history/8season/towns" label="Города 8 сезона" icon="pi pi-map-marker" />
+
 <AdhdMode />

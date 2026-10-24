@@ -25,7 +25,7 @@ import { fileURLToPath } from 'node:url'
 const root = process.argv[2]
 if (!root) throw new Error('укажи папку выгрузки: node scripts/build-history-data.mjs <путь>')
 
-const PLAYER_SOURCES = { s1: null, s3: 's3-map', s4: 's4', s5: 's5-4', s6: 's6', s7: 's7' }
+const PLAYER_SOURCES = { s1: null, s3: 's3-map', s4: 's4', s5: 's5-4', s6: 's6', s7: 's7', s8: 's8' }
 const OUT_DIR = path.resolve(fileURLToPath(new URL('.', import.meta.url)), '../public/data/history')
 
 const TRANSLIT = Object.fromEntries([...'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'].map((c, i) =>
@@ -99,6 +99,8 @@ for (const season of seasons) {
     }))
     .filter(b => !(b.id in HIDDEN_BOOKS))
     .filter(b => b.k === 'w' || b.p.join('').replace(/\s/g, '').length > 2)
+    // Книги с пером, в которых лежит картинка мода строкой base64 («TUNQUEYx…»), — не текст.
+    .filter(b => b.k === 'w' || !/^[A-Za-z0-9+/=\s]{200,}$/.test(b.p.join('')))
   const n = Number(season.id.slice(1))
   fs.writeFileSync(path.join(OUT_DIR, `${season.id}-books.json`), JSON.stringify({ season: n, books }))
   fs.writeFileSync(path.join(OUT_DIR, `${season.id}-towns.json`), JSON.stringify({ season: n, towns, players }))
