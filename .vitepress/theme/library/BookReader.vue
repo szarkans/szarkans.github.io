@@ -21,7 +21,7 @@
 
         <footer class="rd__meta">
           <h2 class="rd__title">
-            {{ book.title }}
+            {{ book.title }}<span class="rd__by">{{ book.hiddenAuthor ? ' · автор скрыт' : book.signed ? ` от ${book.author || 'неизвестного автора'}` : ' без подписи' }}</span>
           </h2>
           <ul class="rd__facts">
             <li v-for="(w, i) in book.where" :key="i">
@@ -29,6 +29,7 @@
             </li>
             <li v-if="book.more">и ещё {{ book.more }} {{ plural(book.more, 'место', 'места', 'мест') }}</li>
             <li v-if="book.copies > 1">{{ book.copies }} {{ plural(book.copies, 'экземпляр', 'экземпляра', 'экземпляров') }}</li>
+            <li v-if="book.sigs.length">Ещё подписывали: {{ book.sigs.join(', ') }}</li>
           </ul>
         </footer>
       </div>
