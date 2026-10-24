@@ -75,7 +75,14 @@
       </div>
     </Teleport>
 
-    <BookReader v-if="reading" :book="reading" @close="closeBook" />
+    <BookReader
+      v-if="reading"
+      :book="reading"
+      :prev="neighbour(-1)"
+      :next="neighbour(1)"
+      @open="switchBook"
+      @close="closeBook"
+    />
   </div>
 </template>
 
@@ -85,7 +92,7 @@ import LibShelf from './library/LibShelf.vue'
 import LibAuthors from './library/LibAuthors.vue'
 import BookReader from './library/BookReader.vue'
 import BookInfo from './library/BookInfo.vue'
-import { byTitle, loadSeasonBooks, plural, searchBooks } from './library/data.js'
+import { byTitle, groupByAuthor, loadSeasonBooks, plural, searchBooks } from './library/data.js'
 
 const props = defineProps({ season: { type: [Number, String], required: true } })
 
@@ -264,6 +271,17 @@ function openBook(b) {
   clearActive()
   reading.value = b
   writeUrl({ book: b.id })
+}
+// Соседние книги — в том порядке, в каком они стоят в текущем виде.
+const order = computed(() => (view.value === 'shelf' ? shown.value : groupByAuthor(shown.value).flatMap((g) => g.books)))
+function neighbour(d) {
+  const i = order.value.indexOf(reading.value)
+  return i < 0 ? null : order.value[i + d] || null
+}
+function switchBook(b) {
+  reading.value = b
+  writeUrl({ book: b.id })
+  returnFocus = document.querySelector(`[data-book="${CSS.escape(b.id)}"]`)
 }
 function closeBook() {
   reading.value = null

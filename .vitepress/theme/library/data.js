@@ -125,6 +125,22 @@ const bare = (s) => s.replace(/^[^\p{L}\p{N}]+/u, '')
 export const compareAuthors = (a, b) => (!a - !b) || coll.compare(bare(a), bare(b))
 export const byTitle = (a, b) => (b.signed - a.signed) || coll.compare(bare(a.title), bare(b.title))
 
+// Стеллажи вида «По авторам». «Автор скрыт» и «Без подписи» (книги с пером) — всегда последние.
+// Тот же порядок листает читалка, когда открыта из этого вида.
+const HIDDEN = { key: '∅?', name: 'Автор скрыт', rank: 1 }
+const UNSIGNED = { key: '∅', name: 'Без подписи', rank: 2 }
+export function groupByAuthor(books) {
+  const map = new Map()
+  for (const b of books) {
+    const g = b.hiddenAuthor ? HIDDEN : b.signed ? { key: b.author, name: b.author || 'Без подписи', rank: 0 } : UNSIGNED
+    if (!map.has(g.key)) map.set(g.key, { ...g, hue: b.hue, books: [] })
+    map.get(g.key).books.push(b)
+  }
+  const arr = [...map.values()].sort((a, b) => (a.rank - b.rank) || compareAuthors(a.key, b.key))
+  for (const g of arr) g.books.sort(byTitle)
+  return arr
+}
+
 export function searchBooks(books, query) {
   const q = query.trim().toLowerCase()
   if (!q) return books
