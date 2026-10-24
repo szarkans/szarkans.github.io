@@ -19,7 +19,7 @@
 
 import fs from 'node:fs'
 import path from 'node:path'
-import { HIDDEN_BOOKS } from './history-hidden.mjs'
+import { HIDDEN_AUTHORS, HIDDEN_BOOKS } from './history-hidden.mjs'
 import { fileURLToPath } from 'node:url'
 
 const root = process.argv[2]
@@ -89,11 +89,12 @@ for (const season of seasons) {
   const players = readPlayers(season.id).sort((a, b) => a.n.localeCompare(b.n))
   // Книги с пером в одну-две буквы («j», «у») — случайные клики, не книги.
   const books = season.books
-    // Авторов не показываем: ни подписи, ни переподписей. Книга из инвентаря или
-    // эндер-сундука игрока выдала бы владельца, поэтому для читателя это просто
-    // сундук, где — неизвестно.
+    // Книга из инвентаря или эндер-сундука игрока выдала бы владельца, поэтому для
+    // читателя это просто сундук, где — неизвестно. У книг из HIDDEN_AUTHORS нет ни
+    // подписи, ни переподписей, вместо них ha: 1.
     .map(({ a, v, ...b }) => ({
       ...b, t: untag(b.t), p: b.p.map(p => unquote(untag(p))),
+      ...(b.id in HIDDEN_AUTHORS ? { ha: 1 } : { a, v: (v || []).map(untag) }),
       w: [...new Set(b.w.map(w => w.startsWith('у игрока ') ? 'chest · ? ? ?' : w))],
     }))
     .filter(b => !(b.id in HIDDEN_BOOKS))

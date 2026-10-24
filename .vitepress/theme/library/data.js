@@ -31,6 +31,9 @@ function normalize(b) {
   // Хвост из пустых страниц — это недописанная книга, листать его незачем.
   while (pages.length > 1 && !pages[pages.length - 1].trim()) pages.pop()
   const signed = b.k === 'w'
+  // Автор скрыт по просьбе: подписанная книга, но ника нет — у неё свой стеллаж «Автор скрыт».
+  const hiddenAuthor = signed && b.ha === 1
+  const author = signed && !hiddenAuthor ? (b.a || '') : ''
   const where = []
   let more = 0
   for (const w of b.w || []) {
@@ -38,15 +41,18 @@ function normalize(b) {
     if (m) more = Number(m[1])
     else where.push(placeLabel(w))
   }
-  const h = hashStr(b.id)
+  const h = hashStr(hiddenAuthor ? '∅?' : author || '∅')
   return {
     id: b.id,
     title: signed ? (b.t || 'Без названия') : 'Книга с пером',
+    author,
+    hiddenAuthor,
     signed,
     pages: pages.length ? pages : [''],
     copies: b.c || 1,
     where,
     more,
+    sigs: (b.v || []).filter(Boolean),
     hue: signed ? h % 360 : 28,
     pattern: signed ? (h >>> 9) % 5 : 5,
     // Высота корешка — от названия, чтобы книги одного автора не стояли строем.
@@ -122,7 +128,7 @@ export const byTitle = (a, b) => (b.signed - a.signed) || coll.compare(bare(a.ti
 export function searchBooks(books, query) {
   const q = query.trim().toLowerCase()
   if (!q) return books
-  return books.filter((b) => b.title.toLowerCase().includes(q))
+  return books.filter((b) => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q))
 }
 
 // Первая буква или цифра: ники вроде «_RAT_GEL_» начинаются с подчёркивания.
