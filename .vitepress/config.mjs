@@ -715,6 +715,10 @@ export default defineConfig({
             {
               text: "Альбом",
               link: '/history/2season/album.md'
+            },
+            {
+              text: "Библиотека",
+              link: '/history/2season/library.md'
             }
           ],
         },
